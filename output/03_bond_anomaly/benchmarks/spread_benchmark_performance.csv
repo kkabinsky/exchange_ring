@@ -1,0 +1,2 @@
+benchmark,n_train_normal,n_test,n_test_crash,threshold_q,threshold,auc,precision,recall,f1,n_flagged
+10Y-3M spread (= probit on the spread),897,200,52,0.95,-0.115118,0.897089,0.5,0.115385,0.1875,12

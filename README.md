@@ -48,6 +48,8 @@ Table and figure numbers refer to the revised manuscript.
 | Tables 8–9 | `code/03_bond_anomaly/run_bond_5maturities_compare.py` | `output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/` |
 | Supplementary Table S3 (US30Y) | `code/03_bond_anomaly/run_bond_1m_30y_compare.py` | `output/03_bond_anomaly/bond_1m_30y_compare_e20_daily/` |
 | US30Y at 100 epochs | `code/03_bond_anomaly/rerun_us30y.py` | `output/03_bond_anomaly/bond_30y_rerun_e100/` |
+| benchmark: f-AnoGAN (exp) vs CNN autoencoder, DM test | `code/03_bond_anomaly/benchmark_cnn_vs_fanogan_dm.py` | `output/03_bond_anomaly/benchmarks/dm_fanogan_exp_vs_cnn_ae.csv` |
+| benchmark: 10Y−3M spread (= probit on the spread) | `code/03_bond_anomaly/benchmark_spread_probit.py` | `output/03_bond_anomaly/benchmarks/spread_benchmark_*.csv` |
 | Tables 5–6, eq. (81) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
 | Table 7 | `code/04_cross_market/hybrid_gaf_tadgan_fanogan.py`, `compute_hybrid_dm_matrix.py` | `output/04_cross_market/hybrid/USOIL_daily/` |
 | TadGAN anomaly scores per asset | `code/04_cross_market/run_tadgan_assets.py` | `output/04_cross_market/tadgan/<asset>/` |
