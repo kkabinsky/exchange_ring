@@ -53,6 +53,7 @@ Table and figure numbers refer to the revised manuscript.
 | Tables 5–6, eq. (81) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
 | Table 7 | `code/04_cross_market/hybrid_gaf_tadgan_fanogan.py`, `compute_hybrid_dm_matrix.py` | `output/04_cross_market/hybrid/USOIL_daily/` |
 | TadGAN anomaly scores per asset | `code/04_cross_market/run_tadgan_assets.py` | `output/04_cross_market/tadgan/<asset>/` |
+| DM tests corrected for overlapping windows (HAC/HLN) and multiple testing (Benjamini–Hochberg), Tables 5, 7, 8, 9 and benchmarks | `code/05_leadtime_dm/dm_hac_hln_bh.py` | `output/05_leadtime_dm/dm_corrected/dm_hac_hln_bh.csv` |
 | Table 10, eq. (82) | `code/05_leadtime_dm/lead_time_economic.py`, `fill_tables.py`, `lead_all_methods.py` | `output/05_leadtime_dm/` |
 
 ## Running each part

@@ -1,0 +1,68 @@
+family,test,T,side,mean_loss_diff,dm_plain,p_plain,dm_hac_hln,p_hac_hln,note,p_bh,sig_plain_5pct,sig_hac_hln_5pct,sig_bh_5pct
+Table 8 (CNN autoencoder),US3M exp vs cosine,200,one,0.015771,1.889462,0.029415,1.163526,0.123005,,0.369014,True,False,False
+Table 8 (CNN autoencoder),US3M exp vs arctan,200,one,-0.00796,-0.933494,0.824718,-0.36919,0.643811,,0.795516,False,False,False
+Table 8 (CNN autoencoder),US3M exp vs arccosh,200,one,0.082736,5.310301,0.0,1.756722,0.040252,,0.215814,True,True,False
+Table 8 (CNN autoencoder),US1Y exp vs cosine,200,one,0.029403,3.106475,0.000947,1.803046,0.036447,,0.215814,True,True,False
+Table 8 (CNN autoencoder),US1Y exp vs arctan,200,one,0.008358,0.909948,0.181425,0.30358,0.380883,,0.734041,False,False,False
+Table 8 (CNN autoencoder),US1Y exp vs arccosh,200,one,0.06204,4.646634,2e-06,1.723641,0.043163,,0.215814,True,True,False
+Table 8 (CNN autoencoder),US5Y exp vs cosine,200,one,0.006667,0.678606,0.248694,0.275815,0.391488,,0.734041,False,False,False
+Table 8 (CNN autoencoder),US5Y exp vs arctan,200,one,0.014925,1.647312,0.049747,0.644781,0.259906,,0.649765,True,False,False
+Table 8 (CNN autoencoder),US5Y exp vs arccosh,200,one,-0.025423,-1.694893,0.954952,-0.652181,0.742482,,0.795516,False,False,False
+Table 8 (CNN autoencoder),US10Y exp vs cosine,200,one,-0.028507,-2.424855,0.992343,-1.08924,0.861317,,0.861317,False,False,False
+Table 8 (CNN autoencoder),US10Y exp vs arctan,200,one,0.027313,2.759189,0.002897,1.329863,0.092543,,0.347035,True,False,False
+Table 8 (CNN autoencoder),US10Y exp vs arccosh,200,one,0.0001,0.006844,0.49727,0.002025,0.499193,,0.795516,False,False,False
+Table 8 (CNN autoencoder),US20Y exp vs cosine,200,one,-0.020199,-1.503882,0.933694,-0.602141,0.726117,,0.795516,False,False,False
+Table 8 (CNN autoencoder),US20Y exp vs arctan,200,one,-0.007413,-0.835102,0.79817,-0.237496,0.593742,,0.795516,False,False,False
+Table 8 (CNN autoencoder),US20Y exp vs arccosh,200,one,-0.008507,-0.484526,0.685994,-0.167342,0.566365,,0.795516,False,False,False
+Table 9 (f-AnoGAN),US3M exp vs cosine,200,one,0.032687,2.198887,0.013943,0.839283,0.201159,,0.455392,True,False,False
+Table 9 (f-AnoGAN),US3M exp vs arctan,200,one,0.019055,1.552823,0.060233,0.537544,0.295746,,0.455392,False,False,False
+Table 9 (f-AnoGAN),US3M exp vs arccosh,200,one,0.085075,5.678548,0.0,1.823085,0.034895,,0.261716,True,True,False
+Table 9 (f-AnoGAN),US1Y exp vs cosine,200,one,0.059701,3.799403,7.3e-05,2.448693,0.007602,,0.114025,True,True,False
+Table 9 (f-AnoGAN),US1Y exp vs arctan,200,one,0.015821,1.275233,0.101113,0.574933,0.282993,,0.455392,False,False,False
+Table 9 (f-AnoGAN),US1Y exp vs arccosh,200,one,0.052985,3.111294,0.000931,1.276048,0.101713,,0.406701,True,False,False
+Table 9 (f-AnoGAN),US5Y exp vs cosine,200,one,-0.012139,-0.821733,0.794386,-0.65042,0.741914,,0.741914,False,False,False
+Table 9 (f-AnoGAN),US5Y exp vs arctan,200,one,-0.007512,-0.471902,0.681502,-0.190328,0.575377,,0.71196,False,False,False
+Table 9 (f-AnoGAN),US5Y exp vs arccosh,200,one,-0.020149,-1.08902,0.861928,-0.414669,0.660585,,0.71196,False,False,False
+Table 9 (f-AnoGAN),US10Y exp vs cosine,200,one,0.029154,1.417209,0.078211,0.553319,0.290333,,0.455392,False,False,False
+Table 9 (f-AnoGAN),US10Y exp vs arctan,200,one,0.037164,2.744842,0.003027,1.103521,0.135567,,0.406701,True,False,False
+Table 9 (f-AnoGAN),US10Y exp vs arccosh,200,one,0.028955,1.400876,0.080626,0.514906,0.303595,,0.455392,False,False,False
+Table 9 (f-AnoGAN),US20Y exp vs cosine,200,one,0.023134,1.027455,0.152103,0.401054,0.344405,,0.469644,False,False,False
+Table 9 (f-AnoGAN),US20Y exp vs arctan,200,one,-0.016567,-0.959855,0.831436,-0.425394,0.664496,,0.71196,False,False,False
+Table 9 (f-AnoGAN),US20Y exp vs arccosh,200,one,0.05398,2.551997,0.005355,1.16742,0.122219,,0.406701,True,False,False
+Table 5 (equity indices),U30 COVID-19 exp vs cosine,100,two,-0.09,-2.225547,0.026045,-1.530997,0.128959,,0.314652,True,False,False
+Table 5 (equity indices),U30 Russia-Ukraine exp vs cosine,102,two,0.029412,0.598108,0.549768,0.303068,0.762462,,0.847168,False,False,False
+Table 5 (equity indices),U30 Chinese exp vs cosine,102,two,0.137255,2.964862,0.003028,1.912874,0.058597,,0.263685,True,False,False
+Table 5 (equity indices),U500 COVID-19 exp vs cosine,100,two,-0.05,-1.517342,0.12918,-0.709283,0.479816,,0.616906,False,False,False
+Table 5 (equity indices),U500 Russia-Ukraine exp vs cosine,102,two,-0.176471,-3.925147,8.7e-05,-1.443944,0.15185,,0.314652,True,False,False
+Table 5 (equity indices),U500 Chinese exp vs cosine,158,two,0.120253,4.632541,4e-06,2.397178,0.017697,,0.159272,True,True,False
+Table 5 (equity indices),DAX COVID-19 exp vs cosine,100,two,-0.02,-0.575416,0.56501,-0.193238,0.847168,,0.847168,False,False,False
+Table 5 (equity indices),DAX Russia-Ukraine exp vs cosine,101,two,0.049505,1.517243,0.129205,1.165723,0.246499,,0.369749,False,False,False
+Table 5 (equity indices),DAX Chinese exp vs cosine,158,two,-0.101266,-3.105317,0.001901,-1.363087,0.174807,,0.314652,True,False,False
+Table 7 (USOIL hybrid),exp vs cosine,863,one,0.019371,1.6234,0.052252,0.637013,0.262143,,0.300775,False,False,False
+Table 7 (USOIL hybrid),exp vs arctan,863,one,0.017617,1.742519,0.040709,0.568098,0.285058,,0.300775,True,False,False
+Table 7 (USOIL hybrid),exp vs arccosh,863,one,0.017397,1.604178,0.054337,0.522367,0.300775,,0.300775,False,False,False
+Benchmarks,US3M f-AnoGAN exp vs CNN-AE cosine,200,one,0.07408,5.341118,0.0,2.587457,0.005191,,0.032441,True,True,True
+Benchmarks,US3M f-AnoGAN exp vs CNN-AE arctan,200,one,0.050348,4.320787,8e-06,2.138678,0.01684,,0.052626,True,True,False
+Benchmarks,US3M f-AnoGAN exp vs CNN-AE arccosh,200,one,0.141045,8.206075,0.0,2.650699,0.004339,,0.032441,True,True,True
+Benchmarks,US3M f-AnoGAN exp vs CNN-AE exponential,200,one,0.058308,5.423219,0.0,2.41807,0.008252,,0.034383,True,True,True
+Benchmarks,US3M f-AnoGAN exp vs spread,200,two,-0.095224,-3.635358,0.000278,-1.467408,0.143844,two-sided; negative DM = spread has the lower loss,0.256864,True,False,False
+Benchmarks,US1Y f-AnoGAN exp vs CNN-AE cosine,200,one,0.099055,6.030215,0.0,3.015909,0.001448,,0.018101,True,True,True
+Benchmarks,US1Y f-AnoGAN exp vs CNN-AE arctan,200,one,0.07801,5.014102,0.0,2.339357,0.010154,,0.036265,True,True,True
+Benchmarks,US1Y f-AnoGAN exp vs CNN-AE arccosh,200,one,0.131692,7.458292,0.0,3.83807,8.3e-05,,0.002081,True,True,True
+Benchmarks,US1Y f-AnoGAN exp vs CNN-AE exponential,200,one,0.069652,4.834993,1e-06,1.891563,0.030001,,0.075002,True,True,False
+Benchmarks,US1Y f-AnoGAN exp vs spread,200,two,-0.060945,-2.484477,0.012974,-0.805037,0.421759,two-sided; negative DM = spread has the lower loss,0.585777,True,False,False
+Benchmarks,US5Y f-AnoGAN exp vs CNN-AE cosine,200,one,-0.008408,-0.516054,0.697092,-0.346981,0.635514,,0.722175,False,False,False
+Benchmarks,US5Y f-AnoGAN exp vs CNN-AE arctan,200,one,-0.000149,-0.010959,0.504372,-0.005928,0.502362,,0.661003,False,False,False
+Benchmarks,US5Y f-AnoGAN exp vs CNN-AE arccosh,200,one,-0.040498,-2.224551,0.986944,-0.94039,0.825921,,0.825921,False,False,False
+Benchmarks,US5Y f-AnoGAN exp vs CNN-AE exponential,200,one,-0.015075,-1.175035,0.88001,-0.81164,0.791016,,0.825921,False,False,False
+Benchmarks,US5Y f-AnoGAN exp vs spread,200,two,-0.237761,-7.515238,0.0,-2.66833,0.008251,two-sided; negative DM = spread has the lower loss,0.034383,True,True,True
+Benchmarks,US10Y f-AnoGAN exp vs CNN-AE cosine,200,one,-0.035572,-1.941361,0.973893,-0.818584,0.792998,,0.825921,False,False,False
+Benchmarks,US10Y f-AnoGAN exp vs CNN-AE arctan,200,one,0.020249,1.451079,0.073379,0.564085,0.286666,,0.421567,False,False,False
+Benchmarks,US10Y f-AnoGAN exp vs CNN-AE arccosh,200,one,-0.006965,-0.379052,0.647675,-0.11088,0.544088,,0.68011,False,False,False
+Benchmarks,US10Y f-AnoGAN exp vs CNN-AE exponential,200,one,-0.007065,-0.531753,0.702551,-0.235061,0.592798,,0.705712,False,False,False
+Benchmarks,US10Y f-AnoGAN exp vs spread,200,two,-0.199204,-6.623452,0.0,-2.024155,0.044291,two-sided; negative DM = spread has the lower loss,0.100661,True,True,False
+Benchmarks,US20Y f-AnoGAN exp vs CNN-AE cosine,200,one,0.046915,1.912242,0.027923,0.760967,0.223789,,0.34967,True,False,False
+Benchmarks,US20Y f-AnoGAN exp vs CNN-AE arctan,200,one,0.059701,3.142556,0.000837,1.080197,0.140681,,0.256864,True,False,False
+Benchmarks,US20Y f-AnoGAN exp vs CNN-AE arccosh,200,one,0.058607,2.372132,0.008843,0.815607,0.20785,,0.346417,True,False,False
+Benchmarks,US20Y f-AnoGAN exp vs CNN-AE exponential,200,one,0.067114,3.717996,0.0001,1.603829,0.055169,,0.114935,True,False,False
+Benchmarks,US20Y f-AnoGAN exp vs spread,200,two,-0.189701,-6.711324,0.0,-2.225367,0.027179,two-sided; negative DM = spread has the lower loss,0.075002,True,True,False
