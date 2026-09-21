@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+SP500_U500_Russia_Ukraine_war_crash,cosine,344,102,59,43,0.3413950979709625,0.5588235294117647,0.46153846153846156,0.27906976744186046,0.34782608695652173,0.5459203783996847,0.27759172758737277,0.32188157050632965

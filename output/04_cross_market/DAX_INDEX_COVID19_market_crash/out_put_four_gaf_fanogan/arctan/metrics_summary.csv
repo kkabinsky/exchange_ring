@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_COVID19_market_crash,arctan,904,100,41,59,0.007020438415929672,0.29,0.2857142857142857,0.13559322033898305,0.1839080459770115,0.2104175279040926,0.004156333600264661,0.005576192408334464

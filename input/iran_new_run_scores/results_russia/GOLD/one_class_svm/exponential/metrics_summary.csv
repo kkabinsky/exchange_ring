@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_russia\GOLD,one_class_svm,exponential,1486,125,60,65,7.418329043806793e-05,0.472,0.0,0.0,0.0,0.4502564102564103,-1.0408422915377082,-1.3875989483242328

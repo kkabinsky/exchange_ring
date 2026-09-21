@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+EURUSD,standalone_ref,arctan,0.44941956882255396,0.13513513513513514,130,67,10,10,32,2

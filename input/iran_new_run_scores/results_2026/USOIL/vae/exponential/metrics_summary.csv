@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_2026\USOIL,vae,exponential,2575,37,19,18,0.44533824920654297,0.4864864864864865,0.0,0.0,0.0,0.26608187134502925,0.2940022051334381,0.29986250400543213

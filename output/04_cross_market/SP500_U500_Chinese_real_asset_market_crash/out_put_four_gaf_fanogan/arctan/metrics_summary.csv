@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+SP500_U500_Chinese_real_asset_market_crash,arctan,344,158,53,105,0.030017825402319412,0.43670886075949367,1.0,0.1523809523809524,0.2644628099173554,0.8582210242587601,0.015423273327246006,0.0179750920727236

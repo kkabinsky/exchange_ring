@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+EURUSD,hybrid2,cosine,,0.0,0.10203553771083182,0.02347220403302207,0.14902199506759642,132,0,908

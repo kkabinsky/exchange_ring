@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+US1M_BOND_COVID200_daily,arccosh,1141,200,148,52,0.053633082658052444,0.62,0.038461538461538464,0.019230769230769232,0.02564102564102564,0.3321205821205821,0.026434569910175176,0.027112022035289556

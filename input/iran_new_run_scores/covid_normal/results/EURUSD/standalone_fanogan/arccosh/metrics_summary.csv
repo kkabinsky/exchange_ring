@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+EURUSD,standalone_fanogan,arccosh,,0.0,0.012094248674444788,0.004719960245698961,0.020981196966022252,132,0,908

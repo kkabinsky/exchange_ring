@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_russia\EURUSD,anomaly_transformer,exponential,1540,130,64,66,0.0009138392633758485,0.5461538461538461,0.5686274509803921,0.4393939393939394,0.49572649572649574,0.5153882575757576,0.00019195857748854905,0.002135975519195199

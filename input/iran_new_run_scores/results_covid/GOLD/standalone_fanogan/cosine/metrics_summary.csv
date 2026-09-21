@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,standalone_fanogan,cosine,0.8429348845937323,0.5585585585585585,146,73

@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+GOLD,one_class_svm,exponential,,0.0,-0.48109617472862176,0.0,-0.48109617472862176,128,0,1

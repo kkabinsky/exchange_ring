@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results\USOIL,isolation_forest,exponential,2323,106,66,40,0.5612655682205212,0.7169811320754716,0.6190476190476191,0.65,0.6341463414634146,0.8037878787878788,0.49874859689414486,0.5511521798231336

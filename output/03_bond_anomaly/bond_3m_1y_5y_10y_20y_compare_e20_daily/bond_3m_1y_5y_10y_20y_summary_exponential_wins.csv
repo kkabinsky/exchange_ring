@@ -1,0 +1,16 @@
+pipeline,dataset,asset,exp_f1,best_f1_method,best_f1,exp_auc,best_auc_method,best_auc,exp_best_by_f1,exp_best_by_auc,dm_lower_loss_wins_vs_3,dm_significant_5pct_wins_vs_3,outperform_summary
+CNN autoencoder,US10Y,US Treasury yield 10 year,0.0,cosine,0.0,0.3952702702702703,cosine,0.4697245322245322,False,False,2,1,mixed; exponential not dominant
+CNN autoencoder,US1Y,US Treasury yield 1 year,0.3492063492063492,exponential,0.3492063492063492,0.5560031185031186,exponential,0.5560031185031186,True,True,3,2,exponential leads by F1 and DM
+CNN autoencoder,US20Y,US Treasury yield 20 year,0.0,arctan,0.032258064516129,0.2263513513513513,cosine,0.2791060291060291,False,False,0,0,mixed; exponential not dominant
+CNN autoencoder,US3M,US Treasury yield 3 month,0.2278481012658227,exponential,0.2278481012658227,0.4961018711018711,arctan,0.5168918918918919,True,False,2,2,exponential leads by F1 and DM
+CNN autoencoder,US5Y,US Treasury yield 5 year,0.0,arccosh,0.0,0.3154885654885655,arccosh,0.3818866943866943,False,False,2,1,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US10Y,US Treasury yield 10 year,0.0,cosine,0.0,0.4175664451827242,cosine,0.4574335548172757,False,False,2,0,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US1Y,US Treasury yield 1 year,0.0,arctan,0.1818181818181818,0.8543417366946777,exponential,0.8543417366946777,False,True,3,3,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US20Y,US Treasury yield 20 year,0.0,arctan,0.0,,arctan,,False,False,0,0,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US3M,US Treasury yield 3 month,0.0,exponential,0.0,0.5035055549563154,exponential,0.5035055549563154,True,True,3,3,exponential leads by F1 and DM
+Hybrid TadGAN-GAF-f-AnoGAN,US5Y,US Treasury yield 5 year,0.0,cosine,0.2857142857142857,0.8503070327887845,arccosh,0.8706986444212722,False,False,1,0,mixed; exponential not dominant
+f-AnoGAN standalone,US10Y,US Treasury yield 10 year,0.0,arccosh,0.0235294117647058,0.3768191268191268,exponential,0.3768191268191268,False,True,3,1,mixed; exponential not dominant
+f-AnoGAN standalone,US1Y,US Treasury yield 1 year,0.4705882352941176,exponential,0.4705882352941176,0.7379158004158005,exponential,0.7379158004158005,True,True,3,2,exponential leads by F1 and DM
+f-AnoGAN standalone,US20Y,US Treasury yield 20 year,0.0,arctan,0.0,0.4016372141372141,arctan,0.4449064449064449,False,False,2,1,mixed; exponential not dominant
+f-AnoGAN standalone,US3M,US Treasury yield 3 month,0.4301075268817204,exponential,0.4301075268817204,0.6483887733887734,exponential,0.6483887733887734,True,True,3,2,exponential leads by F1 and DM
+f-AnoGAN standalone,US5Y,US Treasury yield 5 year,0.0,arccosh,0.0,0.2761174636174636,arccosh,0.3287422037422037,False,False,0,0,mixed; exponential not dominant

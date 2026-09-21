@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_2026\EURUSD,omnianomaly,exponential,2665,41,21,20,0.2826954126358032,0.5121951219512195,0.0,0.0,0.0,0.20714285714285713,0.1664147824048996,0.17056357860565186

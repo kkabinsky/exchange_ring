@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+EURUSD,standalone_tadgan,-,,0.0,0.9230637853679903,0.7469365512862359,2.3791340649601116,132,0,809

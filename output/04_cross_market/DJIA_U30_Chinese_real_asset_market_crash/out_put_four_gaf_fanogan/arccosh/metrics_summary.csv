@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_Chinese_real_asset_market_crash,arccosh,344,102,0,102,0.02367876367643475,0.29411764705882354,1.0,0.29411764705882354,0.45454545454545453,,0.012677622205025494,0.018960422009923587

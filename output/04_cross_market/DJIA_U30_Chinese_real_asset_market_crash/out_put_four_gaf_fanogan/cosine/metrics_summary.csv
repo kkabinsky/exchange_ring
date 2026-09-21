@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_Chinese_real_asset_market_crash,cosine,344,102,0,102,0.3032939419150352,0.18627450980392157,1.0,0.18627450980392157,0.3140495867768595,,0.24623031879580298,0.2712649402080798

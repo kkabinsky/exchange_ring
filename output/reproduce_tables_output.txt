@@ -1,0 +1,103 @@
+
+==============================================================================
+Table 5  DM test exponential vs cosine (0/1 loss, two-sided p) and F1-best mapping
+==============================================================================
+Index Crash                DM winner          p  F1-best
+U30   COVID-19             cosine         0.026  arctan
+U30   Russia-Ukraine       exponential    0.550  exponential
+U30   Chinese real-estate  exponential    0.003  exponential
+U500  COVID-19             cosine         0.129  arccosh
+U500  Russia-Ukraine       cosine        <0.001  cosine
+U500  Chinese real-estate  exponential   <0.001  exponential
+DAX   COVID-19             cosine         0.565  cosine
+DAX   Russia-Ukraine       exponential    0.129  exponential
+DAX   Chinese real-estate  cosine         0.002  cosine
+
+==============================================================================
+Table 6  F1 of standalone GAF-f-AnoGAN, four mappings
+==============================================================================
+Index Crash                     cosine      arctan     arccosh exponential
+U30   COVID-19                   0.330       0.415       0.060       0.167
+U30   Russia-Ukraine             0.532       0.406       0.522       0.563
+U30   Chinese real-estate        0.314       0.226       0.455       0.489
+U500  COVID-19                   0.031       0.000       0.066       0.029
+U500  Russia-Ukraine             0.348       0.214       0.094       0.241
+U500  Chinese real-estate        0.346       0.264       0.174       0.562
+DAX   COVID-19                   0.263       0.184       0.047       0.138
+DAX   Russia-Ukraine             0.043       0.041       0.082       0.200
+DAX   Chinese real-estate        0.232       0.156       0.102       0.176
+
+==============================================================================
+Table 7  USOIL hybrid TadGAN-GAF-f-AnoGAN: crash AUC, mean Brier loss, one-sided DM p
+==============================================================================
+  cosine      AUC(crash) = 0.117   (T=863, crash windows=10)
+  arctan      AUC(crash) = 0.194   (T=863, crash windows=10)
+  arccosh     AUC(crash) = 0.203   (T=863, crash windows=10)
+  exponential AUC(crash) = 0.964   (T=863, crash windows=10)
+  T=863
+  y_counts: {0: 853, 1: 10}
+  mean Brier loss per mapping:
+    cosine: 0.3419
+    arctan: 0.3401
+    arccosh: 0.3399
+    exponential: 0.3225
+  
+  Exp vs others (d = L_other - L_exp, positive => exp better):
+    cosine vs exponential: mean_d=0.0194, DM=1.6234, p_two=0.1045, p_one_exp_better=0.0523
+    arctan vs exponential: mean_d=0.0176, DM=1.7425, p_two=0.0814, p_one_exp_better=0.0407
+    arccosh vs exponential: mean_d=0.0174, DM=1.6042, p_two=0.1087, p_one_exp_better=0.0543
+
+==============================================================================
+Table 8  DM tests, five Treasury maturities, CNN autoencoder (rank-Brier loss, one-sided p)
+==============================================================================
+  US3M   exp vs cosine   loss diff +0.0158  DM +1.8895  p 0.0294
+  US3M   exp vs arctan   loss diff -0.0080  DM -0.9335  p 0.8247
+  US3M   exp vs arccosh  loss diff +0.0827  DM +5.3103  p <0.0001
+  US1Y   exp vs cosine   loss diff +0.0294  DM +3.1065  p 0.0009
+  US1Y   exp vs arctan   loss diff +0.0084  DM +0.9099  p 0.1814
+  US1Y   exp vs arccosh  loss diff +0.0620  DM +4.6466  p <0.0001
+  US5Y   exp vs cosine   loss diff +0.0067  DM +0.6786  p 0.2487
+  US5Y   exp vs arctan   loss diff +0.0149  DM +1.6473  p 0.0497
+  US5Y   exp vs arccosh  loss diff -0.0254  DM -1.6949  p 0.9550
+  US10Y  exp vs cosine   loss diff -0.0285  DM -2.4249  p 0.9923
+  US10Y  exp vs arctan   loss diff +0.0273  DM +2.7592  p 0.0029
+  US10Y  exp vs arccosh  loss diff +0.0001  DM +0.0068  p 0.4973
+  US20Y  exp vs cosine   loss diff -0.0202  DM -1.5039  p 0.9337
+  US20Y  exp vs arctan   loss diff -0.0074  DM -0.8351  p 0.7982
+  US20Y  exp vs arccosh  loss diff -0.0085  DM -0.4845  p 0.6860
+
+==============================================================================
+Table 9  DM tests, five Treasury maturities, f-AnoGAN standalone (rank-Brier loss, one-sided p)
+==============================================================================
+  US3M   exp vs cosine   loss diff +0.0327  DM +2.1989  p 0.0139
+  US3M   exp vs arctan   loss diff +0.0191  DM +1.5528  p 0.0602
+  US3M   exp vs arccosh  loss diff +0.0851  DM +5.6785  p <0.0001
+  US1Y   exp vs cosine   loss diff +0.0597  DM +3.7994  p <0.0001
+  US1Y   exp vs arctan   loss diff +0.0158  DM +1.2752  p 0.1011
+  US1Y   exp vs arccosh  loss diff +0.0530  DM +3.1113  p 0.0009
+  US5Y   exp vs cosine   loss diff -0.0121  DM -0.8217  p 0.7944
+  US5Y   exp vs arctan   loss diff -0.0075  DM -0.4719  p 0.6815
+  US5Y   exp vs arccosh  loss diff -0.0201  DM -1.0890  p 0.8619
+  US10Y  exp vs cosine   loss diff +0.0292  DM +1.4172  p 0.0782
+  US10Y  exp vs arctan   loss diff +0.0372  DM +2.7448  p 0.0030
+  US10Y  exp vs arccosh  loss diff +0.0290  DM +1.4009  p 0.0806
+  US20Y  exp vs cosine   loss diff +0.0231  DM +1.0275  p 0.1521
+  US20Y  exp vs arctan   loss diff -0.0166  DM -0.9599  p 0.8314
+  US20Y  exp vs arccosh  loss diff +0.0540  DM +2.5520  p 0.0054
+
+==============================================================================
+Supplementary Table S3  US30Y standalone f-AnoGAN (20 epochs)
+==============================================================================
+  bond_1m_30y_compare_e20_daily    cosine: F1=0.000  arctan: F1=0.000  arccosh: F1=0.000  exponential: F1=0.000
+  bond_1m_30y_compare_e20          cosine: F1=0.000  arctan: F1=0.000  arccosh: F1=0.000  exponential: F1=0.000
+
+==============================================================================
+Table 10  Lead-time consistency over the crisis cells (saved lead_time_economic_summary.csv)
+==============================================================================
+  Mapping     n(L>0)   Mean     SD    CV  Worst
+  cosine           6   24.1   25.1  1.04    -11
+  arctan           5   21.3   31.8  1.49    -29
+  arccosh          5   19.6   32.7  1.66    -32
+  exponential      6   25.4   24.2  0.95     -9
+
+Done. All values above are read from output/; nothing was retrained.

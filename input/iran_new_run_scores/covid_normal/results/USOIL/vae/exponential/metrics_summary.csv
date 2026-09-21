@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+USOIL,vae,exponential,,0.0,0.2837268114089966,0.0,0.2837268114089966,128,0,1

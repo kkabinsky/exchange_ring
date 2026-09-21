@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# trained weights are created again by the programs
+*.pt
+*.pth
+**/models/
+
+# per-window GAF images written by the programs
+output/02_gaf_mappings/run_all_grammian*/
+**/samples/
+**/samples_color/
+**/input_gaf/
+**/input_gaf_color/
+**/anomaly_score_gaf/
+**/anomaly_score_gaf_color/
+
+# working folders created by the TadGAN module when the hybrid pipeline runs
+output/04_cross_market/hybrid/results/
+output/04_cross_market/tadgan/*/*.xlsx

@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_chinese\USOIL,autoencoder,exponential,1863,147,77,70,0.07047268003225327,0.4217687074829932,0.3404255319148936,0.22857142857142856,0.27350427350427353,0.34007421150278294,0.03658296540379524,0.054495424032211304

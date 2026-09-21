@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+USOIL,standalone_ref,cosine,0.6638418079096045,0.1917808219178082,125,66,10,10,32,2

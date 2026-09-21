@@ -1,0 +1,2 @@
+job_name,dataset,scenario,model,best_method_by_f1_auc_acc,exponential_rank_by_f1_auc_acc,exponential_is_best_by_f1,exponential_f1,best_f1,exponential_auc,best_auc,dm_wins_vs_3_methods,dm_significant_wins_p_lt_0_05,conclusion
+US5Y_BOND_COVID200_daily_CNN_AE,US5Y,COVID-19 market crash,cnn_autoencoder,arccosh,2,True,0.0,0.0,0.3154885654885655,0.38188669438669437,0,0,exponential outperforms by F1

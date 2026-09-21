@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,standalone_fanogan,cosine,0.4382102272727273,0.3111111111111111,130,66

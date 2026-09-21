@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,hybrid2,exponential,0.0847953216374269,0.0,37,18

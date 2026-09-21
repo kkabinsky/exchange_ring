@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_COVID19_market_crash,cosine,910,100,41,59,0.07151201255619523,0.39,0.46875,0.2542372881355932,0.32967032967032966,0.39355105415460934,0.03661282763888057,0.07141082398593426

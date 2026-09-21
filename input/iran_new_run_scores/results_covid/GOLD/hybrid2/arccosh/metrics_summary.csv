@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,hybrid2,arccosh,0.6892475136048039,0.30612244897959184,146,73

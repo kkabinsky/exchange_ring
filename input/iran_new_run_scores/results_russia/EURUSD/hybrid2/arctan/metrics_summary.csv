@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,hybrid2,arctan,0.37476325757575757,0.08571428571428572,130,66

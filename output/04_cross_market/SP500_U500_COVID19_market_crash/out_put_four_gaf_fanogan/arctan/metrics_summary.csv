@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+SP500_U500_COVID19_market_crash,arctan,910,100,41,59,0.016116178687661884,0.41,0.0,0.0,0.0,0.5341050020669698,0.00863428764904921,0.00809925643261522

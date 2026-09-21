@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_russia\USOIL,tranad,exponential,1487,125,60,65,0.11633643507957458,0.536,1.0,0.1076923076923077,0.19444444444444445,0.7671794871794871,0.06030749902129173,0.06374040246009827

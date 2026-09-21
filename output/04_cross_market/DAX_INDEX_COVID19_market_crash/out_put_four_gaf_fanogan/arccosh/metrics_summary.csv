@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_COVID19_market_crash,arccosh,904,100,41,59,0.023032693006098254,0.19,0.07692307692307693,0.03389830508474576,0.047058823529411764,0.1694915254237288,0.0122618348393342,0.018887742464430632

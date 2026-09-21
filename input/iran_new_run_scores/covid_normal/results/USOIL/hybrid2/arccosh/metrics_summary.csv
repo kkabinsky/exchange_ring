@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+USOIL,hybrid2,arccosh,,0.0,0.009853247308584789,0.004044935245637819,0.01779582817107439,128,0,876

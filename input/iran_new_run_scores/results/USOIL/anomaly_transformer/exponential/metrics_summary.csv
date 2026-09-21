@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results\USOIL,anomaly_transformer,exponential,2323,106,66,40,0.00016181803948711604,0.37735849056603776,0.37735849056603776,1.0,0.547945205479452,0.44356060606060604,8.746255480218679e-05,0.0026984482537955046

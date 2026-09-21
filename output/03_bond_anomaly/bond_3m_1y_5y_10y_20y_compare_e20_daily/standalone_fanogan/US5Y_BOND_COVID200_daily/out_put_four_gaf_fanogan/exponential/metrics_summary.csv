@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+US5Y_BOND_COVID200_daily,exponential,897,200,148,52,0.27496623396873465,0.575,0.0,0.0,0.0,0.2761174636174636,0.1741287540083745,0.19934005439281463

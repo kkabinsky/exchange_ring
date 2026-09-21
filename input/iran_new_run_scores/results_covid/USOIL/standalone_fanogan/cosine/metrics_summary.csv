@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,standalone_fanogan,cosine,0.7299680990805029,0.631578947368421,146,73

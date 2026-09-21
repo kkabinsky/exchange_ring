@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,hybrid2,arctan,0.7157065115406267,0.5794392523364486,146,73

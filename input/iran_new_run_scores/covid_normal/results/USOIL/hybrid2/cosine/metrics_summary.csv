@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+USOIL,hybrid2,cosine,,0.0,0.044771325878679887,0.023208937886104185,0.08532456494867802,128,0,876

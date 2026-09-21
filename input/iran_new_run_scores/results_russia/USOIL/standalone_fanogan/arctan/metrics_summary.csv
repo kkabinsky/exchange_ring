@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,standalone_fanogan,arctan,0.7812820512820514,0.19444444444444445,125,65

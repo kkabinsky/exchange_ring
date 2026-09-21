@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_COVID19_market_crash,cosine,904,100,41,59,0.09426468834280956,0.27,0.325,0.22033898305084745,0.26262626262626265,0.2368747416287722,0.04158708485218375,0.09249865565448999

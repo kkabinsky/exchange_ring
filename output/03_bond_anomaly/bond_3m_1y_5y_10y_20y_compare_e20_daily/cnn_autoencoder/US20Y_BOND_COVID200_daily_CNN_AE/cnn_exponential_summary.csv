@@ -1,0 +1,2 @@
+job_name,dataset,scenario,model,best_method_by_f1_auc_acc,exponential_rank_by_f1_auc_acc,exponential_is_best_by_f1,exponential_f1,best_f1,exponential_auc,best_auc,dm_wins_vs_3_methods,dm_significant_wins_p_lt_0_05,conclusion
+US20Y_BOND_COVID200_daily_CNN_AE,US20Y,COVID-19 market crash,cnn_autoencoder,arctan,4,False,0.0,0.03225806451612903,0.22635135135135137,0.2791060291060291,3,1,not F1-best; best is arctan

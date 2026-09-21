@@ -1,0 +1,4 @@
+comparison,T,loss_exponential,loss_other,mean_loss_diff_other_minus_exp,dm_statistic,p_value,winner_lower_loss,interpretation
+exponential_vs_cosine,200,0.09,0.14,0.05,2.3844735867092943,0.017103575762750678,exponential,positive DM favors exponential
+exponential_vs_arctan,200,0.09,0.09,0.0,0.0,1.0,tie,same loss
+exponential_vs_arccosh,200,0.09,0.165,0.075,2.8339707363572306,0.004597354174647794,exponential,positive DM favors exponential

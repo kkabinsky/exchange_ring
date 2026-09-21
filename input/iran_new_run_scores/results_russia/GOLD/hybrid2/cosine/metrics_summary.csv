@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,hybrid2,cosine,0.4317948717948718,0.20454545454545456,125,65

@@ -1,0 +1,5 @@
+job_name,dataset,scenario,model,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+US1M_BOND_COVID200_daily_CNN_AE,US1M,COVID-19 market crash,cnn_autoencoder,exponential,897,200,200,0,0.05331195890903473,0.91,0.0,0.0,0.0,,0.022271042689681053,0.027143245562911034
+US1M_BOND_COVID200_daily_CNN_AE,US1M,COVID-19 market crash,cnn_autoencoder,arctan,897,200,200,0,0.0071272035129368305,0.91,0.0,0.0,0.0,,0.0028123711235821247,0.0033470189664512873
+US1M_BOND_COVID200_daily_CNN_AE,US1M,COVID-19 market crash,cnn_autoencoder,cosine,897,200,200,0,0.04423274099826813,0.86,0.0,0.0,0.0,,0.019587157294154167,0.023301923647522926
+US1M_BOND_COVID200_daily_CNN_AE,US1M,COVID-19 market crash,cnn_autoencoder,arccosh,897,200,200,0,0.022259240970015526,0.835,0.0,0.0,0.0,,0.009507736191153526,0.01162048615515232

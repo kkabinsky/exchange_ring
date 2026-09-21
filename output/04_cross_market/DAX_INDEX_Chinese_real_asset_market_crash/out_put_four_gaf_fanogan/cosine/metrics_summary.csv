@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_Chinese_real_asset_market_crash,cosine,354,158,53,105,0.3709486439824104,0.3291139240506329,0.48484848484848486,0.1523809523809524,0.2318840579710145,0.26504941599281223,0.2981945788961346,0.3255593849322464

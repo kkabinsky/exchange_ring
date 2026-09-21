@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_2026\GOLD,dagmm,exponential,2574,37,19,18,-7.150970458984375,0.5405405405405406,1.0,0.05555555555555555,0.10526315789473684,0.30116959064327486,-12.019323348999023,-12.148481369018555

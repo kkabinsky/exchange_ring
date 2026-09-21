@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+USOIL,standalone_fanogan,arctan,,0.0,0.006697991276032304,0.003623373316344645,0.013640359975397587,128,0,876

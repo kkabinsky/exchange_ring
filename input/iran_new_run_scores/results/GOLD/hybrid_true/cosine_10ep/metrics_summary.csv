@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+GOLD,hybrid_true,cosine,0.40262664165103196,0.0425531914893617,106,41,10,10,32,2

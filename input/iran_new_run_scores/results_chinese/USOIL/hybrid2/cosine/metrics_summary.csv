@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,hybrid2,cosine,0.33617810760667904,0.08108108108108109,147,70

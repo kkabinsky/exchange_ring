@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_covid\EURUSD,usad,exponential,1018,152,78,74,1.5664008855819702,0.4934210526315789,0.0,0.0,0.0,0.435031185031185,1.2793083190917969,1.184303641319275

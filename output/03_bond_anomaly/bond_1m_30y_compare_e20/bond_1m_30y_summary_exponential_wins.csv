@@ -1,0 +1,7 @@
+pipeline,dataset,asset,exp_f1,best_f1_method,best_f1,exp_auc,best_auc_method,best_auc,exp_best_by_f1,exp_best_by_auc,dm_lower_loss_wins_vs_3,dm_significant_5pct_wins_vs_3,outperform_summary
+CNN autoencoder,US1M,US Treasury yield 1 month,0.0,exponential,0.0,,exponential,,True,True,0,0,mixed; exponential not dominant
+CNN autoencoder,US30Y,US Treasury yield 30 year,0.0,arctan,0.0,,arctan,,False,False,0,0,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US1M,US Treasury yield 1 month,0.0,cosine,0.04081632653061224,0.4591384863123993,exponential,0.4591384863123993,False,True,3,1,mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN,US30Y,US Treasury yield 30 year,0.04761904761904762,exponential,0.04761904761904762,0.4637214296671269,arctan,0.4802883877895383,True,False,2,1,exponential leads by F1 and DM
+f-AnoGAN standalone,US1M,US Treasury yield 1 month,0.2409638554216867,exponential,0.2409638554216867,0.4387993762993763,arctan,0.6913981288981289,True,False,1,1,mixed; exponential not dominant
+f-AnoGAN standalone,US30Y,US Treasury yield 30 year,0.0,arctan,0.0,0.3377079002079002,arctan,0.3852650727650727,False,False,1,1,mixed; exponential not dominant

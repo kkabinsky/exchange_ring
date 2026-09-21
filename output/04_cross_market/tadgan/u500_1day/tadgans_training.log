@@ -1,0 +1,1115 @@
+2025-06-24 19:28:44,772 - tadGANs - INFO - Using device: cuda
+2025-06-24 19:28:44,773 - tadGANs - INFO - Found 1 Excel files: ['u500_1day.xlsx']
+2025-06-24 19:28:44,893 - tadGANs - WARNING - No recognizable signal column found in u500_1day.xlsx. Using first column.
+2025-06-24 19:28:44,897 - tadGANs - INFO - Converted u500_1day.xlsx to csv_data/u500_1day.csv
+2025-06-24 19:28:44,897 - tadGANs - INFO - Processing csv_data/u500_1day.csv
+2025-06-24 19:28:44,909 - tadGANs - INFO - Training new models
+2025-06-24 19:28:45,454 - tadGANs - INFO - Starting training
+2025-06-24 19:28:47,406 - tadGANs - INFO - Epoch 1/1000 - Time: 1.80s - Loss: critic_x=0.6871, critic_z=5.0594, encoder=1.0482, decoder=0.8272
+2025-06-24 19:28:48,969 - tadGANs - INFO - Epoch 2/1000 - Time: 1.56s - Loss: critic_x=0.2077, critic_z=4.7992, encoder=1.0384, decoder=0.8289
+2025-06-24 19:28:50,531 - tadGANs - INFO - Epoch 3/1000 - Time: 1.56s - Loss: critic_x=0.0476, critic_z=4.5547, encoder=1.0232, decoder=0.8265
+2025-06-24 19:28:52,060 - tadGANs - INFO - Epoch 4/1000 - Time: 1.53s - Loss: critic_x=-0.0100, critic_z=4.2667, encoder=1.0085, decoder=0.8259
+2025-06-24 19:28:53,666 - tadGANs - INFO - Epoch 5/1000 - Time: 1.61s - Loss: critic_x=-0.0598, critic_z=3.9919, encoder=0.9946, decoder=0.8277
+2025-06-24 19:28:55,259 - tadGANs - INFO - Epoch 6/1000 - Time: 1.59s - Loss: critic_x=-0.1126, critic_z=3.7415, encoder=0.9746, decoder=0.8245
+2025-06-24 19:28:56,847 - tadGANs - INFO - Epoch 7/1000 - Time: 1.59s - Loss: critic_x=-0.1666, critic_z=3.4646, encoder=0.9577, decoder=0.8268
+2025-06-24 19:28:58,414 - tadGANs - INFO - Epoch 8/1000 - Time: 1.57s - Loss: critic_x=-0.2250, critic_z=3.1962, encoder=0.9380, decoder=0.8312
+2025-06-24 19:29:02,591 - tadGANs - INFO - Epoch 9/1000 - Time: 4.18s - Loss: critic_x=-0.2884, critic_z=2.9157, encoder=0.9075, decoder=0.8303
+2025-06-24 19:29:04,174 - tadGANs - INFO - Epoch 10/1000 - Time: 1.58s - Loss: critic_x=-0.3563, critic_z=2.6628, encoder=0.8704, decoder=0.8295
+2025-06-24 19:29:04,189 - tadGANs - INFO - Models saved at epoch 10
+2025-06-24 19:29:05,821 - tadGANs - INFO - Epoch 11/1000 - Time: 1.63s - Loss: critic_x=-0.4226, critic_z=2.4080, encoder=0.8240, decoder=0.8265
+2025-06-24 19:29:07,487 - tadGANs - INFO - Epoch 12/1000 - Time: 1.67s - Loss: critic_x=-0.4865, critic_z=2.1553, encoder=0.7767, decoder=0.8321
+2025-06-24 19:29:09,114 - tadGANs - INFO - Epoch 13/1000 - Time: 1.63s - Loss: critic_x=-0.5475, critic_z=1.8787, encoder=0.7131, decoder=0.8309
+2025-06-24 19:29:10,641 - tadGANs - INFO - Epoch 14/1000 - Time: 1.53s - Loss: critic_x=-0.6010, critic_z=1.6169, encoder=0.6393, decoder=0.8325
+2025-06-24 19:29:12,231 - tadGANs - INFO - Epoch 15/1000 - Time: 1.59s - Loss: critic_x=-0.6484, critic_z=1.3810, encoder=0.5496, decoder=0.8312
+2025-06-24 19:29:13,834 - tadGANs - INFO - Epoch 16/1000 - Time: 1.60s - Loss: critic_x=-0.6914, critic_z=1.0628, encoder=0.4518, decoder=0.8383
+2025-06-24 19:29:15,406 - tadGANs - INFO - Epoch 17/1000 - Time: 1.57s - Loss: critic_x=-0.7291, critic_z=0.8068, encoder=0.3347, decoder=0.8406
+2025-06-24 19:29:17,034 - tadGANs - INFO - Epoch 18/1000 - Time: 1.63s - Loss: critic_x=-0.7597, critic_z=0.5065, encoder=0.2028, decoder=0.8428
+2025-06-24 19:29:18,626 - tadGANs - INFO - Epoch 19/1000 - Time: 1.59s - Loss: critic_x=-0.7878, critic_z=0.1920, encoder=0.0573, decoder=0.8438
+2025-06-24 19:29:20,172 - tadGANs - INFO - Epoch 20/1000 - Time: 1.55s - Loss: critic_x=-0.8126, critic_z=-0.0899, encoder=-0.1077, decoder=0.8480
+2025-06-24 19:29:20,182 - tadGANs - INFO - Models saved at epoch 20
+2025-06-24 19:29:21,713 - tadGANs - INFO - Epoch 21/1000 - Time: 1.53s - Loss: critic_x=-0.8341, critic_z=-0.4075, encoder=-0.2904, decoder=0.8487
+2025-06-24 19:29:23,257 - tadGANs - INFO - Epoch 22/1000 - Time: 1.54s - Loss: critic_x=-0.8443, critic_z=-0.7338, encoder=-0.4893, decoder=0.8496
+2025-06-24 19:29:24,847 - tadGANs - INFO - Epoch 23/1000 - Time: 1.59s - Loss: critic_x=-0.8613, critic_z=-1.0729, encoder=-0.7010, decoder=0.8479
+2025-06-24 19:29:26,481 - tadGANs - INFO - Epoch 24/1000 - Time: 1.63s - Loss: critic_x=-0.8764, critic_z=-1.4219, encoder=-0.9345, decoder=0.8461
+2025-06-24 19:29:28,052 - tadGANs - INFO - Epoch 25/1000 - Time: 1.57s - Loss: critic_x=-0.8922, critic_z=-1.7223, encoder=-1.1882, decoder=0.8510
+2025-06-24 19:29:29,636 - tadGANs - INFO - Epoch 26/1000 - Time: 1.58s - Loss: critic_x=-0.9007, critic_z=-2.0887, encoder=-1.4507, decoder=0.8479
+2025-06-24 19:29:31,229 - tadGANs - INFO - Epoch 27/1000 - Time: 1.59s - Loss: critic_x=-0.9100, critic_z=-2.4315, encoder=-1.7318, decoder=0.8441
+2025-06-24 19:29:32,813 - tadGANs - INFO - Epoch 28/1000 - Time: 1.58s - Loss: critic_x=-0.9143, critic_z=-2.8080, encoder=-2.0289, decoder=0.8409
+2025-06-24 19:29:36,969 - tadGANs - INFO - Epoch 29/1000 - Time: 4.16s - Loss: critic_x=-0.9172, critic_z=-3.1835, encoder=-2.3464, decoder=0.8366
+2025-06-24 19:29:38,562 - tadGANs - INFO - Epoch 30/1000 - Time: 1.59s - Loss: critic_x=-0.9193, critic_z=-3.5656, encoder=-2.6789, decoder=0.8353
+2025-06-24 19:29:38,570 - tadGANs - INFO - Models saved at epoch 30
+2025-06-24 19:29:40,317 - tadGANs - INFO - Epoch 31/1000 - Time: 1.75s - Loss: critic_x=-0.9184, critic_z=-3.9500, encoder=-3.0229, decoder=0.8304
+2025-06-24 19:29:42,034 - tadGANs - INFO - Epoch 32/1000 - Time: 1.72s - Loss: critic_x=-0.9199, critic_z=-4.3525, encoder=-3.4006, decoder=0.8295
+2025-06-24 19:29:44,141 - tadGANs - INFO - Epoch 33/1000 - Time: 2.11s - Loss: critic_x=-0.9167, critic_z=-4.7120, encoder=-3.7751, decoder=0.8297
+2025-06-24 19:29:46,355 - tadGANs - INFO - Epoch 34/1000 - Time: 2.21s - Loss: critic_x=-0.9147, critic_z=-5.1100, encoder=-4.1662, decoder=0.8241
+2025-06-24 19:29:48,503 - tadGANs - INFO - Epoch 35/1000 - Time: 2.15s - Loss: critic_x=-0.9102, critic_z=-5.5102, encoder=-4.5789, decoder=0.8225
+2025-06-24 19:29:50,559 - tadGANs - INFO - Epoch 36/1000 - Time: 2.06s - Loss: critic_x=-0.9062, critic_z=-5.9296, encoder=-5.0054, decoder=0.8146
+2025-06-24 19:29:52,570 - tadGANs - INFO - Epoch 37/1000 - Time: 2.01s - Loss: critic_x=-0.8991, critic_z=-6.3342, encoder=-5.4351, decoder=0.8052
+2025-06-24 19:29:54,634 - tadGANs - INFO - Epoch 38/1000 - Time: 2.06s - Loss: critic_x=-0.8922, critic_z=-6.7487, encoder=-5.9022, decoder=0.8057
+2025-06-24 19:29:56,688 - tadGANs - INFO - Epoch 39/1000 - Time: 2.05s - Loss: critic_x=-0.8861, critic_z=-7.1712, encoder=-6.3697, decoder=0.8024
+2025-06-24 19:29:58,736 - tadGANs - INFO - Epoch 40/1000 - Time: 2.05s - Loss: critic_x=-0.8785, critic_z=-7.5803, encoder=-6.8654, decoder=0.7960
+2025-06-24 19:29:58,746 - tadGANs - INFO - Models saved at epoch 40
+2025-06-24 19:30:00,764 - tadGANs - INFO - Epoch 41/1000 - Time: 2.02s - Loss: critic_x=-0.8698, critic_z=-8.0302, encoder=-7.3342, decoder=0.7819
+2025-06-24 19:30:02,779 - tadGANs - INFO - Epoch 42/1000 - Time: 2.01s - Loss: critic_x=-0.8587, critic_z=-8.4257, encoder=-7.8650, decoder=0.7797
+2025-06-24 19:30:04,821 - tadGANs - INFO - Epoch 43/1000 - Time: 2.04s - Loss: critic_x=-0.8489, critic_z=-8.8899, encoder=-8.3850, decoder=0.7661
+2025-06-24 19:30:06,863 - tadGANs - INFO - Epoch 44/1000 - Time: 2.04s - Loss: critic_x=-0.8361, critic_z=-9.3240, encoder=-8.9227, decoder=0.7612
+2025-06-24 19:30:11,519 - tadGANs - INFO - Epoch 45/1000 - Time: 4.66s - Loss: critic_x=-0.8242, critic_z=-9.7350, encoder=-9.4399, decoder=0.7516
+2025-06-24 19:30:13,652 - tadGANs - INFO - Epoch 46/1000 - Time: 2.13s - Loss: critic_x=-0.8113, critic_z=-10.1885, encoder=-10.0292, decoder=0.7469
+2025-06-24 19:30:15,741 - tadGANs - INFO - Epoch 47/1000 - Time: 2.09s - Loss: critic_x=-0.8005, critic_z=-10.6397, encoder=-10.5716, decoder=0.7383
+2025-06-24 19:30:17,869 - tadGANs - INFO - Epoch 48/1000 - Time: 2.13s - Loss: critic_x=-0.7874, critic_z=-11.0886, encoder=-11.1656, decoder=0.7452
+2025-06-24 19:30:20,027 - tadGANs - INFO - Epoch 49/1000 - Time: 2.16s - Loss: critic_x=-0.7723, critic_z=-11.5189, encoder=-11.7401, decoder=0.7475
+2025-06-24 19:30:22,173 - tadGANs - INFO - Epoch 50/1000 - Time: 2.15s - Loss: critic_x=-0.7619, critic_z=-11.9838, encoder=-12.3186, decoder=0.7478
+2025-06-24 19:30:22,183 - tadGANs - INFO - Models saved at epoch 50
+2025-06-24 19:30:24,256 - tadGANs - INFO - Epoch 51/1000 - Time: 2.07s - Loss: critic_x=-0.7460, critic_z=-12.4439, encoder=-12.9155, decoder=0.7526
+2025-06-24 19:30:26,274 - tadGANs - INFO - Epoch 52/1000 - Time: 2.02s - Loss: critic_x=-0.7357, critic_z=-12.8922, encoder=-13.5484, decoder=0.7658
+2025-06-24 19:30:28,366 - tadGANs - INFO - Epoch 53/1000 - Time: 2.09s - Loss: critic_x=-0.7259, critic_z=-13.3878, encoder=-14.1400, decoder=0.7700
+2025-06-24 19:30:30,372 - tadGANs - INFO - Epoch 54/1000 - Time: 2.01s - Loss: critic_x=-0.7179, critic_z=-13.7877, encoder=-14.8520, decoder=0.7867
+2025-06-24 19:30:32,439 - tadGANs - INFO - Epoch 55/1000 - Time: 2.07s - Loss: critic_x=-0.7093, critic_z=-14.2925, encoder=-15.4633, decoder=0.7977
+2025-06-24 19:30:34,509 - tadGANs - INFO - Epoch 56/1000 - Time: 2.07s - Loss: critic_x=-0.7010, critic_z=-14.7498, encoder=-16.0905, decoder=0.8051
+2025-06-24 19:30:36,590 - tadGANs - INFO - Epoch 57/1000 - Time: 2.08s - Loss: critic_x=-0.6933, critic_z=-15.2408, encoder=-16.7328, decoder=0.8161
+2025-06-24 19:30:38,657 - tadGANs - INFO - Epoch 58/1000 - Time: 2.07s - Loss: critic_x=-0.6887, critic_z=-15.7282, encoder=-17.4815, decoder=0.8328
+2025-06-24 19:30:40,737 - tadGANs - INFO - Epoch 59/1000 - Time: 2.08s - Loss: critic_x=-0.6831, critic_z=-16.2099, encoder=-18.0710, decoder=0.8389
+2025-06-24 19:30:42,849 - tadGANs - INFO - Epoch 60/1000 - Time: 2.11s - Loss: critic_x=-0.6767, critic_z=-16.6778, encoder=-18.7724, decoder=0.8477
+2025-06-24 19:30:42,858 - tadGANs - INFO - Models saved at epoch 60
+2025-06-24 19:30:47,611 - tadGANs - INFO - Epoch 61/1000 - Time: 4.75s - Loss: critic_x=-0.6674, critic_z=-17.1233, encoder=-19.4956, decoder=0.8655
+2025-06-24 19:30:49,692 - tadGANs - INFO - Epoch 62/1000 - Time: 2.08s - Loss: critic_x=-0.6644, critic_z=-17.6199, encoder=-20.1395, decoder=0.8660
+2025-06-24 19:30:51,848 - tadGANs - INFO - Epoch 63/1000 - Time: 2.16s - Loss: critic_x=-0.6565, critic_z=-18.0672, encoder=-20.8510, decoder=0.8710
+2025-06-24 19:30:53,982 - tadGANs - INFO - Epoch 64/1000 - Time: 2.13s - Loss: critic_x=-0.6520, critic_z=-18.6064, encoder=-21.5648, decoder=0.8769
+2025-06-24 19:30:56,198 - tadGANs - INFO - Epoch 65/1000 - Time: 2.22s - Loss: critic_x=-0.6443, critic_z=-19.0808, encoder=-22.1914, decoder=0.8677
+2025-06-24 19:30:58,353 - tadGANs - INFO - Epoch 66/1000 - Time: 2.15s - Loss: critic_x=-0.6449, critic_z=-19.5938, encoder=-22.9623, decoder=0.8686
+2025-06-24 19:31:00,432 - tadGANs - INFO - Epoch 67/1000 - Time: 2.08s - Loss: critic_x=-0.6397, critic_z=-20.1008, encoder=-23.6827, decoder=0.8682
+2025-06-24 19:31:02,546 - tadGANs - INFO - Epoch 68/1000 - Time: 2.11s - Loss: critic_x=-0.6409, critic_z=-20.6135, encoder=-24.4192, decoder=0.8719
+2025-06-24 19:31:04,639 - tadGANs - INFO - Epoch 69/1000 - Time: 2.09s - Loss: critic_x=-0.6401, critic_z=-21.0450, encoder=-25.1388, decoder=0.8733
+2025-06-24 19:31:06,702 - tadGANs - INFO - Epoch 70/1000 - Time: 2.06s - Loss: critic_x=-0.6394, critic_z=-21.5787, encoder=-25.8997, decoder=0.8784
+2025-06-24 19:31:06,713 - tadGANs - INFO - Models saved at epoch 70
+2025-06-24 19:31:08,789 - tadGANs - INFO - Epoch 71/1000 - Time: 2.08s - Loss: critic_x=-0.6383, critic_z=-22.0714, encoder=-26.6546, decoder=0.8806
+2025-06-24 19:31:10,934 - tadGANs - INFO - Epoch 72/1000 - Time: 2.14s - Loss: critic_x=-0.6371, critic_z=-22.6354, encoder=-27.4501, decoder=0.8897
+2025-06-24 19:31:12,998 - tadGANs - INFO - Epoch 73/1000 - Time: 2.06s - Loss: critic_x=-0.6400, critic_z=-23.1277, encoder=-28.1927, decoder=0.9028
+2025-06-24 19:31:15,148 - tadGANs - INFO - Epoch 74/1000 - Time: 2.15s - Loss: critic_x=-0.6466, critic_z=-23.6705, encoder=-28.9995, decoder=0.9078
+2025-06-24 19:31:17,287 - tadGANs - INFO - Epoch 75/1000 - Time: 2.14s - Loss: critic_x=-0.6478, critic_z=-24.1778, encoder=-29.7704, decoder=0.9185
+2025-06-24 19:31:22,004 - tadGANs - INFO - Epoch 76/1000 - Time: 4.72s - Loss: critic_x=-0.6547, critic_z=-24.6549, encoder=-30.4714, decoder=0.9176
+2025-06-24 19:31:24,161 - tadGANs - INFO - Epoch 77/1000 - Time: 2.16s - Loss: critic_x=-0.6564, critic_z=-25.2017, encoder=-31.3055, decoder=0.9244
+2025-06-24 19:31:26,342 - tadGANs - INFO - Epoch 78/1000 - Time: 2.18s - Loss: critic_x=-0.6690, critic_z=-25.7278, encoder=-32.1309, decoder=0.9367
+2025-06-24 19:31:28,497 - tadGANs - INFO - Epoch 79/1000 - Time: 2.15s - Loss: critic_x=-0.6687, critic_z=-26.2908, encoder=-32.8263, decoder=0.9279
+2025-06-24 19:31:30,677 - tadGANs - INFO - Epoch 80/1000 - Time: 2.18s - Loss: critic_x=-0.6715, critic_z=-26.8865, encoder=-33.7535, decoder=0.9320
+2025-06-24 19:31:30,687 - tadGANs - INFO - Models saved at epoch 80
+2025-06-24 19:31:32,814 - tadGANs - INFO - Epoch 81/1000 - Time: 2.13s - Loss: critic_x=-0.6732, critic_z=-27.3828, encoder=-34.4700, decoder=0.9259
+2025-06-24 19:31:34,996 - tadGANs - INFO - Epoch 82/1000 - Time: 2.18s - Loss: critic_x=-0.6783, critic_z=-27.8904, encoder=-35.2988, decoder=0.9238
+2025-06-24 19:31:37,102 - tadGANs - INFO - Epoch 83/1000 - Time: 2.11s - Loss: critic_x=-0.6855, critic_z=-28.4673, encoder=-36.1075, decoder=0.9256
+2025-06-24 19:31:39,232 - tadGANs - INFO - Epoch 84/1000 - Time: 2.13s - Loss: critic_x=-0.6944, critic_z=-28.9301, encoder=-36.8573, decoder=0.9279
+2025-06-24 19:31:41,366 - tadGANs - INFO - Epoch 85/1000 - Time: 2.13s - Loss: critic_x=-0.6963, critic_z=-29.5757, encoder=-37.8889, decoder=0.9443
+2025-06-24 19:31:43,485 - tadGANs - INFO - Epoch 86/1000 - Time: 2.12s - Loss: critic_x=-0.6885, critic_z=-30.0735, encoder=-38.6127, decoder=0.9393
+2025-06-24 19:31:45,611 - tadGANs - INFO - Epoch 87/1000 - Time: 2.13s - Loss: critic_x=-0.6918, critic_z=-30.6269, encoder=-39.3592, decoder=0.9244
+2025-06-24 19:31:47,766 - tadGANs - INFO - Epoch 88/1000 - Time: 2.15s - Loss: critic_x=-0.6953, critic_z=-31.2160, encoder=-40.2973, decoder=0.9204
+2025-06-24 19:31:49,923 - tadGANs - INFO - Epoch 89/1000 - Time: 2.16s - Loss: critic_x=-0.7030, critic_z=-31.8169, encoder=-41.1705, decoder=0.9178
+2025-06-24 19:31:52,124 - tadGANs - INFO - Epoch 90/1000 - Time: 2.20s - Loss: critic_x=-0.6978, critic_z=-32.3297, encoder=-42.1001, decoder=0.9114
+2025-06-24 19:31:52,134 - tadGANs - INFO - Models saved at epoch 90
+2025-06-24 19:31:56,874 - tadGANs - INFO - Epoch 91/1000 - Time: 4.74s - Loss: critic_x=-0.6965, critic_z=-32.8207, encoder=-42.8713, decoder=0.8998
+2025-06-24 19:31:59,016 - tadGANs - INFO - Epoch 92/1000 - Time: 2.14s - Loss: critic_x=-0.6983, critic_z=-33.4283, encoder=-43.7131, decoder=0.8965
+2025-06-24 19:32:01,261 - tadGANs - INFO - Epoch 93/1000 - Time: 2.24s - Loss: critic_x=-0.6956, critic_z=-34.1009, encoder=-44.6501, decoder=0.8933
+2025-06-24 19:32:03,536 - tadGANs - INFO - Epoch 94/1000 - Time: 2.27s - Loss: critic_x=-0.7016, critic_z=-34.7261, encoder=-45.5024, decoder=0.8824
+2025-06-24 19:32:05,805 - tadGANs - INFO - Epoch 95/1000 - Time: 2.27s - Loss: critic_x=-0.7033, critic_z=-35.2445, encoder=-46.3649, decoder=0.8702
+2025-06-24 19:32:08,022 - tadGANs - INFO - Epoch 96/1000 - Time: 2.22s - Loss: critic_x=-0.7072, critic_z=-35.7458, encoder=-47.2736, decoder=0.8614
+2025-06-24 19:32:10,188 - tadGANs - INFO - Epoch 97/1000 - Time: 2.17s - Loss: critic_x=-0.7106, critic_z=-36.3285, encoder=-48.1646, decoder=0.8572
+2025-06-24 19:32:12,341 - tadGANs - INFO - Epoch 98/1000 - Time: 2.15s - Loss: critic_x=-0.7155, critic_z=-37.0392, encoder=-49.1665, decoder=0.8432
+2025-06-24 19:32:14,506 - tadGANs - INFO - Epoch 99/1000 - Time: 2.16s - Loss: critic_x=-0.7244, critic_z=-37.6814, encoder=-50.0830, decoder=0.8366
+2025-06-24 19:32:16,652 - tadGANs - INFO - Epoch 100/1000 - Time: 2.15s - Loss: critic_x=-0.7266, critic_z=-38.2532, encoder=-51.0351, decoder=0.8383
+2025-06-24 19:32:16,663 - tadGANs - INFO - Models saved at epoch 100
+2025-06-24 19:32:18,867 - tadGANs - INFO - Epoch 101/1000 - Time: 2.20s - Loss: critic_x=-0.7292, critic_z=-38.7730, encoder=-51.9069, decoder=0.8322
+2025-06-24 19:32:21,096 - tadGANs - INFO - Epoch 102/1000 - Time: 2.23s - Loss: critic_x=-0.7315, critic_z=-39.4652, encoder=-52.8531, decoder=0.8277
+2025-06-24 19:32:23,350 - tadGANs - INFO - Epoch 103/1000 - Time: 2.25s - Loss: critic_x=-0.7272, critic_z=-40.0540, encoder=-53.7371, decoder=0.8228
+2025-06-24 19:32:25,594 - tadGANs - INFO - Epoch 104/1000 - Time: 2.24s - Loss: critic_x=-0.7236, critic_z=-40.6414, encoder=-54.7003, decoder=0.8053
+2025-06-24 19:32:30,475 - tadGANs - INFO - Epoch 105/1000 - Time: 4.88s - Loss: critic_x=-0.7267, critic_z=-41.2631, encoder=-55.7718, decoder=0.8118
+2025-06-24 19:32:32,803 - tadGANs - INFO - Epoch 106/1000 - Time: 2.33s - Loss: critic_x=-0.7266, critic_z=-41.9517, encoder=-56.7291, decoder=0.8028
+2025-06-24 19:32:35,227 - tadGANs - INFO - Epoch 107/1000 - Time: 2.42s - Loss: critic_x=-0.7270, critic_z=-42.3395, encoder=-57.5986, decoder=0.7958
+2025-06-24 19:32:37,593 - tadGANs - INFO - Epoch 108/1000 - Time: 2.37s - Loss: critic_x=-0.7305, critic_z=-43.1850, encoder=-58.6623, decoder=0.7935
+2025-06-24 19:32:40,014 - tadGANs - INFO - Epoch 109/1000 - Time: 2.42s - Loss: critic_x=-0.7329, critic_z=-43.7965, encoder=-59.6427, decoder=0.7892
+2025-06-24 19:32:42,308 - tadGANs - INFO - Epoch 110/1000 - Time: 2.29s - Loss: critic_x=-0.7307, critic_z=-44.3983, encoder=-60.5446, decoder=0.7963
+2025-06-24 19:32:42,318 - tadGANs - INFO - Models saved at epoch 110
+2025-06-24 19:32:44,632 - tadGANs - INFO - Epoch 111/1000 - Time: 2.31s - Loss: critic_x=-0.7307, critic_z=-45.1766, encoder=-61.7092, decoder=0.7887
+2025-06-24 19:32:46,840 - tadGANs - INFO - Epoch 112/1000 - Time: 2.21s - Loss: critic_x=-0.7289, critic_z=-45.6932, encoder=-62.5576, decoder=0.7863
+2025-06-24 19:32:48,989 - tadGANs - INFO - Epoch 113/1000 - Time: 2.15s - Loss: critic_x=-0.7289, critic_z=-46.3627, encoder=-63.5034, decoder=0.7761
+2025-06-24 19:32:51,173 - tadGANs - INFO - Epoch 114/1000 - Time: 2.18s - Loss: critic_x=-0.7245, critic_z=-46.9998, encoder=-64.5804, decoder=0.7743
+2025-06-24 19:32:53,342 - tadGANs - INFO - Epoch 115/1000 - Time: 2.17s - Loss: critic_x=-0.7236, critic_z=-47.6734, encoder=-65.5592, decoder=0.7664
+2025-06-24 19:32:55,501 - tadGANs - INFO - Epoch 116/1000 - Time: 2.16s - Loss: critic_x=-0.7251, critic_z=-48.3265, encoder=-66.7040, decoder=0.7618
+2025-06-24 19:32:57,722 - tadGANs - INFO - Epoch 117/1000 - Time: 2.22s - Loss: critic_x=-0.7234, critic_z=-49.0302, encoder=-67.7955, decoder=0.7598
+2025-06-24 19:32:59,936 - tadGANs - INFO - Epoch 118/1000 - Time: 2.21s - Loss: critic_x=-0.7187, critic_z=-49.6546, encoder=-68.8059, decoder=0.7477
+2025-06-24 19:33:02,099 - tadGANs - INFO - Epoch 119/1000 - Time: 2.16s - Loss: critic_x=-0.7203, critic_z=-50.3036, encoder=-69.9706, decoder=0.7469
+2025-06-24 19:33:06,942 - tadGANs - INFO - Epoch 120/1000 - Time: 4.84s - Loss: critic_x=-0.7157, critic_z=-50.9886, encoder=-71.0027, decoder=0.7411
+2025-06-24 19:33:06,954 - tadGANs - INFO - Models saved at epoch 120
+2025-06-24 19:33:09,175 - tadGANs - INFO - Epoch 121/1000 - Time: 2.22s - Loss: critic_x=-0.7212, critic_z=-51.7579, encoder=-72.2036, decoder=0.7313
+2025-06-24 19:33:11,413 - tadGANs - INFO - Epoch 122/1000 - Time: 2.24s - Loss: critic_x=-0.7208, critic_z=-52.3585, encoder=-73.1571, decoder=0.7302
+2025-06-24 19:33:13,638 - tadGANs - INFO - Epoch 123/1000 - Time: 2.22s - Loss: critic_x=-0.7194, critic_z=-53.1082, encoder=-74.4094, decoder=0.7244
+2025-06-24 19:33:15,913 - tadGANs - INFO - Epoch 124/1000 - Time: 2.27s - Loss: critic_x=-0.7171, critic_z=-53.6892, encoder=-75.4652, decoder=0.7253
+2025-06-24 19:33:18,103 - tadGANs - INFO - Epoch 125/1000 - Time: 2.19s - Loss: critic_x=-0.7136, critic_z=-54.4634, encoder=-76.5426, decoder=0.7250
+2025-06-24 19:33:20,308 - tadGANs - INFO - Epoch 126/1000 - Time: 2.20s - Loss: critic_x=-0.7104, critic_z=-55.0973, encoder=-77.6478, decoder=0.7159
+2025-06-24 19:33:22,506 - tadGANs - INFO - Epoch 127/1000 - Time: 2.20s - Loss: critic_x=-0.7077, critic_z=-55.7547, encoder=-78.7427, decoder=0.7179
+2025-06-24 19:33:24,786 - tadGANs - INFO - Epoch 128/1000 - Time: 2.28s - Loss: critic_x=-0.7037, critic_z=-56.4684, encoder=-79.8773, decoder=0.7058
+2025-06-24 19:33:27,053 - tadGANs - INFO - Epoch 129/1000 - Time: 2.27s - Loss: critic_x=-0.7029, critic_z=-57.2097, encoder=-81.0569, decoder=0.7119
+2025-06-24 19:33:29,221 - tadGANs - INFO - Epoch 130/1000 - Time: 2.17s - Loss: critic_x=-0.6954, critic_z=-57.9263, encoder=-82.1360, decoder=0.7019
+2025-06-24 19:33:29,231 - tadGANs - INFO - Models saved at epoch 130
+2025-06-24 19:33:31,432 - tadGANs - INFO - Epoch 131/1000 - Time: 2.20s - Loss: critic_x=-0.6948, critic_z=-58.5000, encoder=-83.4004, decoder=0.7026
+2025-06-24 19:33:33,730 - tadGANs - INFO - Epoch 132/1000 - Time: 2.30s - Loss: critic_x=-0.6924, critic_z=-59.3310, encoder=-84.5698, decoder=0.6846
+2025-06-24 19:33:35,926 - tadGANs - INFO - Epoch 133/1000 - Time: 2.20s - Loss: critic_x=-0.6922, critic_z=-60.1223, encoder=-85.7893, decoder=0.6824
+2025-06-24 19:33:40,735 - tadGANs - INFO - Epoch 134/1000 - Time: 4.81s - Loss: critic_x=-0.6867, critic_z=-60.7102, encoder=-86.9702, decoder=0.6751
+2025-06-24 19:33:42,950 - tadGANs - INFO - Epoch 135/1000 - Time: 2.21s - Loss: critic_x=-0.6844, critic_z=-61.5012, encoder=-88.3825, decoder=0.6764
+2025-06-24 19:33:45,280 - tadGANs - INFO - Epoch 136/1000 - Time: 2.33s - Loss: critic_x=-0.6830, critic_z=-62.3935, encoder=-89.3387, decoder=0.6734
+2025-06-24 19:33:47,559 - tadGANs - INFO - Epoch 137/1000 - Time: 2.28s - Loss: critic_x=-0.6845, critic_z=-63.0786, encoder=-90.8251, decoder=0.6673
+2025-06-24 19:33:49,949 - tadGANs - INFO - Epoch 138/1000 - Time: 2.39s - Loss: critic_x=-0.6796, critic_z=-63.7358, encoder=-91.9646, decoder=0.6497
+2025-06-24 19:33:52,186 - tadGANs - INFO - Epoch 139/1000 - Time: 2.24s - Loss: critic_x=-0.6718, critic_z=-64.5017, encoder=-93.1743, decoder=0.6466
+2025-06-24 19:33:54,358 - tadGANs - INFO - Epoch 140/1000 - Time: 2.17s - Loss: critic_x=-0.6701, critic_z=-65.1882, encoder=-94.3914, decoder=0.6351
+2025-06-24 19:33:54,368 - tadGANs - INFO - Models saved at epoch 140
+2025-06-24 19:33:56,569 - tadGANs - INFO - Epoch 141/1000 - Time: 2.20s - Loss: critic_x=-0.6664, critic_z=-66.1021, encoder=-95.6827, decoder=0.6421
+2025-06-24 19:33:58,842 - tadGANs - INFO - Epoch 142/1000 - Time: 2.27s - Loss: critic_x=-0.6621, critic_z=-66.8328, encoder=-96.8818, decoder=0.6341
+2025-06-24 19:34:01,010 - tadGANs - INFO - Epoch 143/1000 - Time: 2.17s - Loss: critic_x=-0.6621, critic_z=-67.4472, encoder=-98.1836, decoder=0.6265
+2025-06-24 19:34:03,186 - tadGANs - INFO - Epoch 144/1000 - Time: 2.18s - Loss: critic_x=-0.6564, critic_z=-68.4133, encoder=-99.2568, decoder=0.6128
+2025-06-24 19:34:05,391 - tadGANs - INFO - Epoch 145/1000 - Time: 2.20s - Loss: critic_x=-0.6526, critic_z=-69.0698, encoder=-100.6862, decoder=0.6035
+2025-06-24 19:34:07,616 - tadGANs - INFO - Epoch 146/1000 - Time: 2.23s - Loss: critic_x=-0.6567, critic_z=-69.7098, encoder=-101.8898, decoder=0.6019
+2025-06-24 19:34:09,874 - tadGANs - INFO - Epoch 147/1000 - Time: 2.26s - Loss: critic_x=-0.6539, critic_z=-70.5218, encoder=-103.1276, decoder=0.6129
+2025-06-24 19:34:12,179 - tadGANs - INFO - Epoch 148/1000 - Time: 2.31s - Loss: critic_x=-0.6473, critic_z=-71.3590, encoder=-104.4671, decoder=0.6100
+2025-06-24 19:34:17,082 - tadGANs - INFO - Epoch 149/1000 - Time: 4.90s - Loss: critic_x=-0.6387, critic_z=-72.0326, encoder=-105.7472, decoder=0.5736
+2025-06-24 19:34:19,444 - tadGANs - INFO - Epoch 150/1000 - Time: 2.36s - Loss: critic_x=-0.6281, critic_z=-72.8604, encoder=-106.9993, decoder=0.5738
+2025-06-24 19:34:19,456 - tadGANs - INFO - Models saved at epoch 150
+2025-06-24 19:34:21,766 - tadGANs - INFO - Epoch 151/1000 - Time: 2.31s - Loss: critic_x=-0.6258, critic_z=-73.6026, encoder=-108.2506, decoder=0.5640
+2025-06-24 19:34:24,033 - tadGANs - INFO - Epoch 152/1000 - Time: 2.27s - Loss: critic_x=-0.6162, critic_z=-74.3550, encoder=-109.5532, decoder=0.5589
+2025-06-24 19:34:26,307 - tadGANs - INFO - Epoch 153/1000 - Time: 2.27s - Loss: critic_x=-0.6185, critic_z=-75.0565, encoder=-110.6250, decoder=0.5490
+2025-06-24 19:34:28,548 - tadGANs - INFO - Epoch 154/1000 - Time: 2.24s - Loss: critic_x=-0.6168, critic_z=-75.9753, encoder=-112.2181, decoder=0.5582
+2025-06-24 19:34:30,875 - tadGANs - INFO - Epoch 155/1000 - Time: 2.33s - Loss: critic_x=-0.6185, critic_z=-76.7341, encoder=-113.5975, decoder=0.5634
+2025-06-24 19:34:33,217 - tadGANs - INFO - Epoch 156/1000 - Time: 2.34s - Loss: critic_x=-0.6177, critic_z=-77.5605, encoder=-114.8542, decoder=0.5639
+2025-06-24 19:34:35,459 - tadGANs - INFO - Epoch 157/1000 - Time: 2.24s - Loss: critic_x=-0.6144, critic_z=-78.3118, encoder=-115.9169, decoder=0.5491
+2025-06-24 19:34:37,729 - tadGANs - INFO - Epoch 158/1000 - Time: 2.27s - Loss: critic_x=-0.6091, critic_z=-79.1599, encoder=-117.3717, decoder=0.5587
+2025-06-24 19:34:39,961 - tadGANs - INFO - Epoch 159/1000 - Time: 2.23s - Loss: critic_x=-0.6052, critic_z=-79.9075, encoder=-118.7732, decoder=0.5739
+2025-06-24 19:34:42,190 - tadGANs - INFO - Epoch 160/1000 - Time: 2.23s - Loss: critic_x=-0.5972, critic_z=-80.7000, encoder=-119.9893, decoder=0.5488
+2025-06-24 19:34:42,201 - tadGANs - INFO - Models saved at epoch 160
+2025-06-24 19:34:44,421 - tadGANs - INFO - Epoch 161/1000 - Time: 2.22s - Loss: critic_x=-0.5948, critic_z=-81.5435, encoder=-121.4000, decoder=0.5436
+2025-06-24 19:34:46,663 - tadGANs - INFO - Epoch 162/1000 - Time: 2.24s - Loss: critic_x=-0.5819, critic_z=-82.3571, encoder=-122.6142, decoder=0.5268
+2025-06-24 19:34:51,338 - tadGANs - INFO - Epoch 163/1000 - Time: 4.67s - Loss: critic_x=-0.5788, critic_z=-83.1984, encoder=-124.1692, decoder=0.5503
+2025-06-24 19:34:53,665 - tadGANs - INFO - Epoch 164/1000 - Time: 2.33s - Loss: critic_x=-0.5821, critic_z=-83.9278, encoder=-125.5684, decoder=0.5462
+2025-06-24 19:34:56,081 - tadGANs - INFO - Epoch 165/1000 - Time: 2.42s - Loss: critic_x=-0.5694, critic_z=-84.8142, encoder=-127.1113, decoder=0.5416
+2025-06-24 19:34:58,476 - tadGANs - INFO - Epoch 166/1000 - Time: 2.39s - Loss: critic_x=-0.5680, critic_z=-85.5876, encoder=-128.3508, decoder=0.5442
+2025-06-24 19:35:00,809 - tadGANs - INFO - Epoch 167/1000 - Time: 2.33s - Loss: critic_x=-0.5591, critic_z=-86.4784, encoder=-129.6637, decoder=0.5337
+2025-06-24 19:35:03,162 - tadGANs - INFO - Epoch 168/1000 - Time: 2.35s - Loss: critic_x=-0.5540, critic_z=-87.2734, encoder=-131.0046, decoder=0.5316
+2025-06-24 19:35:05,470 - tadGANs - INFO - Epoch 169/1000 - Time: 2.31s - Loss: critic_x=-0.5471, critic_z=-88.0629, encoder=-132.2332, decoder=0.5339
+2025-06-24 19:35:07,846 - tadGANs - INFO - Epoch 170/1000 - Time: 2.38s - Loss: critic_x=-0.5390, critic_z=-89.0698, encoder=-133.9133, decoder=0.5267
+2025-06-24 19:35:07,857 - tadGANs - INFO - Models saved at epoch 170
+2025-06-24 19:35:10,156 - tadGANs - INFO - Epoch 171/1000 - Time: 2.30s - Loss: critic_x=-0.5375, critic_z=-89.7035, encoder=-135.3792, decoder=0.5242
+2025-06-24 19:35:12,447 - tadGANs - INFO - Epoch 172/1000 - Time: 2.29s - Loss: critic_x=-0.5327, critic_z=-90.5950, encoder=-136.8684, decoder=0.5386
+2025-06-24 19:35:14,784 - tadGANs - INFO - Epoch 173/1000 - Time: 2.34s - Loss: critic_x=-0.5209, critic_z=-91.5621, encoder=-138.0106, decoder=0.5190
+2025-06-24 19:35:17,110 - tadGANs - INFO - Epoch 174/1000 - Time: 2.33s - Loss: critic_x=-0.5218, critic_z=-92.4177, encoder=-139.5940, decoder=0.5209
+2025-06-24 19:35:19,461 - tadGANs - INFO - Epoch 175/1000 - Time: 2.35s - Loss: critic_x=-0.5095, critic_z=-93.0893, encoder=-140.9766, decoder=0.5102
+2025-06-24 19:35:21,741 - tadGANs - INFO - Epoch 176/1000 - Time: 2.28s - Loss: critic_x=-0.5081, critic_z=-94.0025, encoder=-142.6537, decoder=0.5217
+2025-06-24 19:35:26,391 - tadGANs - INFO - Epoch 177/1000 - Time: 4.65s - Loss: critic_x=-0.5073, critic_z=-94.8289, encoder=-143.6978, decoder=0.5160
+2025-06-24 19:35:28,670 - tadGANs - INFO - Epoch 178/1000 - Time: 2.28s - Loss: critic_x=-0.4942, critic_z=-95.6159, encoder=-145.2259, decoder=0.5016
+2025-06-24 19:35:30,925 - tadGANs - INFO - Epoch 179/1000 - Time: 2.25s - Loss: critic_x=-0.4922, critic_z=-96.5340, encoder=-146.6500, decoder=0.4879
+2025-06-24 19:35:33,181 - tadGANs - INFO - Epoch 180/1000 - Time: 2.26s - Loss: critic_x=-0.4856, critic_z=-97.4589, encoder=-148.0897, decoder=0.4767
+2025-06-24 19:35:33,191 - tadGANs - INFO - Models saved at epoch 180
+2025-06-24 19:35:35,584 - tadGANs - INFO - Epoch 181/1000 - Time: 2.39s - Loss: critic_x=-0.4819, critic_z=-98.2350, encoder=-149.5323, decoder=0.4843
+2025-06-24 19:35:37,914 - tadGANs - INFO - Epoch 182/1000 - Time: 2.33s - Loss: critic_x=-0.4735, critic_z=-99.1326, encoder=-151.1821, decoder=0.4854
+2025-06-24 19:35:40,295 - tadGANs - INFO - Epoch 183/1000 - Time: 2.38s - Loss: critic_x=-0.4761, critic_z=-99.9589, encoder=-152.6190, decoder=0.4870
+2025-06-24 19:35:42,625 - tadGANs - INFO - Epoch 184/1000 - Time: 2.33s - Loss: critic_x=-0.4703, critic_z=-100.8894, encoder=-154.0473, decoder=0.4908
+2025-06-24 19:35:44,966 - tadGANs - INFO - Epoch 185/1000 - Time: 2.34s - Loss: critic_x=-0.4661, critic_z=-101.6775, encoder=-155.7605, decoder=0.4775
+2025-06-24 19:35:47,357 - tadGANs - INFO - Epoch 186/1000 - Time: 2.39s - Loss: critic_x=-0.4639, critic_z=-102.5756, encoder=-157.3831, decoder=0.4772
+2025-06-24 19:35:49,680 - tadGANs - INFO - Epoch 187/1000 - Time: 2.32s - Loss: critic_x=-0.4599, critic_z=-103.4973, encoder=-158.5926, decoder=0.4994
+2025-06-24 19:35:52,008 - tadGANs - INFO - Epoch 188/1000 - Time: 2.33s - Loss: critic_x=-0.4468, critic_z=-104.5681, encoder=-160.2479, decoder=0.4695
+2025-06-24 19:35:54,376 - tadGANs - INFO - Epoch 189/1000 - Time: 2.37s - Loss: critic_x=-0.4538, critic_z=-105.2819, encoder=-161.7141, decoder=0.4897
+2025-06-24 19:35:59,703 - tadGANs - INFO - Epoch 190/1000 - Time: 5.33s - Loss: critic_x=-0.4382, critic_z=-106.1833, encoder=-163.3498, decoder=0.4736
+2025-06-24 19:35:59,714 - tadGANs - INFO - Models saved at epoch 190
+2025-06-24 19:36:02,050 - tadGANs - INFO - Epoch 191/1000 - Time: 2.34s - Loss: critic_x=-0.4303, critic_z=-107.1503, encoder=-164.6442, decoder=0.4639
+2025-06-24 19:36:04,346 - tadGANs - INFO - Epoch 192/1000 - Time: 2.30s - Loss: critic_x=-0.4302, critic_z=-107.9254, encoder=-166.1239, decoder=0.4588
+2025-06-24 19:36:06,657 - tadGANs - INFO - Epoch 193/1000 - Time: 2.31s - Loss: critic_x=-0.4260, critic_z=-108.7479, encoder=-167.8048, decoder=0.4517
+2025-06-24 19:36:08,962 - tadGANs - INFO - Epoch 194/1000 - Time: 2.30s - Loss: critic_x=-0.4235, critic_z=-109.7714, encoder=-169.3328, decoder=0.4717
+2025-06-24 19:36:11,199 - tadGANs - INFO - Epoch 195/1000 - Time: 2.24s - Loss: critic_x=-0.4159, critic_z=-110.5949, encoder=-170.6898, decoder=0.4623
+2025-06-24 19:36:13,479 - tadGANs - INFO - Epoch 196/1000 - Time: 2.28s - Loss: critic_x=-0.4103, critic_z=-111.7724, encoder=-172.4622, decoder=0.4704
+2025-06-24 19:36:15,829 - tadGANs - INFO - Epoch 197/1000 - Time: 2.35s - Loss: critic_x=-0.3981, critic_z=-112.5521, encoder=-174.1831, decoder=0.4586
+2025-06-24 19:36:18,166 - tadGANs - INFO - Epoch 198/1000 - Time: 2.34s - Loss: critic_x=-0.3972, critic_z=-113.5552, encoder=-175.8372, decoder=0.4541
+2025-06-24 19:36:20,608 - tadGANs - INFO - Epoch 199/1000 - Time: 2.44s - Loss: critic_x=-0.3778, critic_z=-114.3131, encoder=-177.4087, decoder=0.4454
+2025-06-24 19:36:22,941 - tadGANs - INFO - Epoch 200/1000 - Time: 2.33s - Loss: critic_x=-0.3750, critic_z=-115.2805, encoder=-178.7204, decoder=0.4263
+2025-06-24 19:36:22,952 - tadGANs - INFO - Models saved at epoch 200
+2025-06-24 19:36:25,272 - tadGANs - INFO - Epoch 201/1000 - Time: 2.32s - Loss: critic_x=-0.3699, critic_z=-116.1702, encoder=-180.3673, decoder=0.4413
+2025-06-24 19:36:27,573 - tadGANs - INFO - Epoch 202/1000 - Time: 2.30s - Loss: critic_x=-0.3653, critic_z=-117.0402, encoder=-181.8398, decoder=0.4255
+2025-06-24 19:36:29,904 - tadGANs - INFO - Epoch 203/1000 - Time: 2.33s - Loss: critic_x=-0.3594, critic_z=-117.9545, encoder=-183.4278, decoder=0.4501
+2025-06-24 19:36:35,206 - tadGANs - INFO - Epoch 204/1000 - Time: 5.30s - Loss: critic_x=-0.3461, critic_z=-119.0453, encoder=-184.9780, decoder=0.4295
+2025-06-24 19:36:37,566 - tadGANs - INFO - Epoch 205/1000 - Time: 2.36s - Loss: critic_x=-0.3318, critic_z=-119.8915, encoder=-186.8056, decoder=0.4268
+2025-06-24 19:36:40,023 - tadGANs - INFO - Epoch 206/1000 - Time: 2.46s - Loss: critic_x=-0.3233, critic_z=-120.9039, encoder=-188.3166, decoder=0.4021
+2025-06-24 19:36:42,405 - tadGANs - INFO - Epoch 207/1000 - Time: 2.38s - Loss: critic_x=-0.3188, critic_z=-121.9434, encoder=-190.3408, decoder=0.4213
+2025-06-24 19:36:44,866 - tadGANs - INFO - Epoch 208/1000 - Time: 2.46s - Loss: critic_x=-0.3143, critic_z=-122.7726, encoder=-191.6078, decoder=0.3970
+2025-06-24 19:36:47,265 - tadGANs - INFO - Epoch 209/1000 - Time: 2.40s - Loss: critic_x=-0.3005, critic_z=-123.6384, encoder=-193.1355, decoder=0.4146
+2025-06-24 19:36:49,677 - tadGANs - INFO - Epoch 210/1000 - Time: 2.41s - Loss: critic_x=-0.2955, critic_z=-124.5127, encoder=-195.2407, decoder=0.4103
+2025-06-24 19:36:49,688 - tadGANs - INFO - Models saved at epoch 210
+2025-06-24 19:36:51,949 - tadGANs - INFO - Epoch 211/1000 - Time: 2.26s - Loss: critic_x=-0.2815, critic_z=-125.6565, encoder=-196.4675, decoder=0.4249
+2025-06-24 19:36:54,248 - tadGANs - INFO - Epoch 212/1000 - Time: 2.30s - Loss: critic_x=-0.2817, critic_z=-126.4541, encoder=-198.2101, decoder=0.3988
+2025-06-24 19:36:56,572 - tadGANs - INFO - Epoch 213/1000 - Time: 2.32s - Loss: critic_x=-0.2680, critic_z=-127.4680, encoder=-199.8688, decoder=0.4151
+2025-06-24 19:36:59,042 - tadGANs - INFO - Epoch 214/1000 - Time: 2.47s - Loss: critic_x=-0.2555, critic_z=-128.4187, encoder=-201.3697, decoder=0.4223
+2025-06-24 19:37:01,514 - tadGANs - INFO - Epoch 215/1000 - Time: 2.47s - Loss: critic_x=-0.2500, critic_z=-129.4014, encoder=-203.2199, decoder=0.3902
+2025-06-24 19:37:03,942 - tadGANs - INFO - Epoch 216/1000 - Time: 2.43s - Loss: critic_x=-0.2382, critic_z=-130.3629, encoder=-204.8567, decoder=0.3759
+2025-06-24 19:37:06,263 - tadGANs - INFO - Epoch 217/1000 - Time: 2.32s - Loss: critic_x=-0.2295, critic_z=-131.3291, encoder=-206.5032, decoder=0.3943
+2025-06-24 19:37:11,489 - tadGANs - INFO - Epoch 218/1000 - Time: 5.23s - Loss: critic_x=-0.2274, critic_z=-132.3263, encoder=-208.3677, decoder=0.3999
+2025-06-24 19:37:13,803 - tadGANs - INFO - Epoch 219/1000 - Time: 2.31s - Loss: critic_x=-0.2130, critic_z=-133.4402, encoder=-209.8980, decoder=0.3691
+2025-06-24 19:37:16,199 - tadGANs - INFO - Epoch 220/1000 - Time: 2.40s - Loss: critic_x=-0.1952, critic_z=-134.3555, encoder=-211.6709, decoder=0.3287
+2025-06-24 19:37:16,209 - tadGANs - INFO - Models saved at epoch 220
+2025-06-24 19:37:18,633 - tadGANs - INFO - Epoch 221/1000 - Time: 2.42s - Loss: critic_x=-0.1869, critic_z=-135.2003, encoder=-213.3680, decoder=0.3668
+2025-06-24 19:37:20,978 - tadGANs - INFO - Epoch 222/1000 - Time: 2.34s - Loss: critic_x=-0.1731, critic_z=-136.2749, encoder=-214.9331, decoder=0.3493
+2025-06-24 19:37:23,307 - tadGANs - INFO - Epoch 223/1000 - Time: 2.33s - Loss: critic_x=-0.1621, critic_z=-137.3074, encoder=-217.0169, decoder=0.3523
+2025-06-24 19:37:25,723 - tadGANs - INFO - Epoch 224/1000 - Time: 2.42s - Loss: critic_x=-0.1437, critic_z=-138.4294, encoder=-218.5564, decoder=0.3239
+2025-06-24 19:37:28,118 - tadGANs - INFO - Epoch 225/1000 - Time: 2.39s - Loss: critic_x=-0.1361, critic_z=-139.1140, encoder=-220.3958, decoder=0.2791
+2025-06-24 19:37:30,583 - tadGANs - INFO - Epoch 226/1000 - Time: 2.47s - Loss: critic_x=-0.1243, critic_z=-140.0953, encoder=-222.2529, decoder=0.2913
+2025-06-24 19:37:32,884 - tadGANs - INFO - Epoch 227/1000 - Time: 2.30s - Loss: critic_x=-0.1114, critic_z=-141.1999, encoder=-223.6249, decoder=0.2823
+2025-06-24 19:37:35,164 - tadGANs - INFO - Epoch 228/1000 - Time: 2.28s - Loss: critic_x=-0.1090, critic_z=-142.2989, encoder=-225.7384, decoder=0.2592
+2025-06-24 19:37:37,535 - tadGANs - INFO - Epoch 229/1000 - Time: 2.37s - Loss: critic_x=-0.0896, critic_z=-143.2715, encoder=-227.2885, decoder=0.2419
+2025-06-24 19:37:39,893 - tadGANs - INFO - Epoch 230/1000 - Time: 2.36s - Loss: critic_x=-0.0808, critic_z=-144.2970, encoder=-229.2225, decoder=0.2546
+2025-06-24 19:37:39,908 - tadGANs - INFO - Models saved at epoch 230
+2025-06-24 19:37:45,085 - tadGANs - INFO - Epoch 231/1000 - Time: 5.18s - Loss: critic_x=-0.0653, critic_z=-145.2029, encoder=-230.8647, decoder=0.2406
+2025-06-24 19:37:47,539 - tadGANs - INFO - Epoch 232/1000 - Time: 2.45s - Loss: critic_x=-0.0632, critic_z=-146.3849, encoder=-232.4131, decoder=0.2546
+2025-06-24 19:37:49,899 - tadGANs - INFO - Epoch 233/1000 - Time: 2.36s - Loss: critic_x=-0.0714, critic_z=-147.3060, encoder=-234.1954, decoder=0.2487
+2025-06-24 19:37:52,247 - tadGANs - INFO - Epoch 234/1000 - Time: 2.35s - Loss: critic_x=-0.0644, critic_z=-148.1769, encoder=-236.0566, decoder=0.2493
+2025-06-24 19:37:54,586 - tadGANs - INFO - Epoch 235/1000 - Time: 2.34s - Loss: critic_x=-0.0591, critic_z=-149.2721, encoder=-237.9484, decoder=0.2981
+2025-06-24 19:37:56,948 - tadGANs - INFO - Epoch 236/1000 - Time: 2.36s - Loss: critic_x=-0.0551, critic_z=-150.3225, encoder=-239.6339, decoder=0.2881
+2025-06-24 19:37:59,325 - tadGANs - INFO - Epoch 237/1000 - Time: 2.38s - Loss: critic_x=-0.0622, critic_z=-151.1737, encoder=-241.2633, decoder=0.3130
+2025-06-24 19:38:01,637 - tadGANs - INFO - Epoch 238/1000 - Time: 2.31s - Loss: critic_x=-0.0659, critic_z=-152.3090, encoder=-243.1872, decoder=0.3201
+2025-06-24 19:38:03,925 - tadGANs - INFO - Epoch 239/1000 - Time: 2.29s - Loss: critic_x=-0.0631, critic_z=-153.5448, encoder=-245.0822, decoder=0.3460
+2025-06-24 19:38:06,339 - tadGANs - INFO - Epoch 240/1000 - Time: 2.41s - Loss: critic_x=-0.0701, critic_z=-154.6292, encoder=-247.3389, decoder=0.3712
+2025-06-24 19:38:06,350 - tadGANs - INFO - Models saved at epoch 240
+2025-06-24 19:38:08,689 - tadGANs - INFO - Epoch 241/1000 - Time: 2.34s - Loss: critic_x=-0.0714, critic_z=-155.3975, encoder=-248.6459, decoder=0.4081
+2025-06-24 19:38:10,988 - tadGANs - INFO - Epoch 242/1000 - Time: 2.30s - Loss: critic_x=-0.0779, critic_z=-156.3446, encoder=-250.4730, decoder=0.4613
+2025-06-24 19:38:13,362 - tadGANs - INFO - Epoch 243/1000 - Time: 2.37s - Loss: critic_x=-0.0882, critic_z=-157.5829, encoder=-252.1236, decoder=0.4985
+2025-06-24 19:38:15,701 - tadGANs - INFO - Epoch 244/1000 - Time: 2.34s - Loss: critic_x=-0.0989, critic_z=-158.5532, encoder=-254.1032, decoder=0.5470
+2025-06-24 19:38:20,902 - tadGANs - INFO - Epoch 245/1000 - Time: 5.20s - Loss: critic_x=-0.1064, critic_z=-159.7822, encoder=-256.0519, decoder=0.5732
+2025-06-24 19:38:23,187 - tadGANs - INFO - Epoch 246/1000 - Time: 2.28s - Loss: critic_x=-0.1125, critic_z=-160.7888, encoder=-257.8608, decoder=0.5955
+2025-06-24 19:38:25,510 - tadGANs - INFO - Epoch 247/1000 - Time: 2.32s - Loss: critic_x=-0.1150, critic_z=-161.6059, encoder=-259.7962, decoder=0.6175
+2025-06-24 19:38:27,804 - tadGANs - INFO - Epoch 248/1000 - Time: 2.29s - Loss: critic_x=-0.1162, critic_z=-162.7835, encoder=-261.7522, decoder=0.6683
+2025-06-24 19:38:30,175 - tadGANs - INFO - Epoch 249/1000 - Time: 2.37s - Loss: critic_x=-0.1189, critic_z=-163.9446, encoder=-263.7822, decoder=0.6979
+2025-06-24 19:38:32,462 - tadGANs - INFO - Epoch 250/1000 - Time: 2.29s - Loss: critic_x=-0.1158, critic_z=-164.9247, encoder=-265.3752, decoder=0.7021
+2025-06-24 19:38:32,473 - tadGANs - INFO - Models saved at epoch 250
+2025-06-24 19:38:34,866 - tadGANs - INFO - Epoch 251/1000 - Time: 2.39s - Loss: critic_x=-0.1169, critic_z=-166.0160, encoder=-267.2118, decoder=0.7213
+2025-06-24 19:38:37,305 - tadGANs - INFO - Epoch 252/1000 - Time: 2.44s - Loss: critic_x=-0.1166, critic_z=-167.2030, encoder=-269.0968, decoder=0.7220
+2025-06-24 19:38:39,627 - tadGANs - INFO - Epoch 253/1000 - Time: 2.32s - Loss: critic_x=-0.1150, critic_z=-168.2427, encoder=-271.2410, decoder=0.7361
+2025-06-24 19:38:41,982 - tadGANs - INFO - Epoch 254/1000 - Time: 2.35s - Loss: critic_x=-0.1116, critic_z=-169.3755, encoder=-273.2480, decoder=0.7343
+2025-06-24 19:38:44,271 - tadGANs - INFO - Epoch 255/1000 - Time: 2.29s - Loss: critic_x=-0.1115, critic_z=-170.1024, encoder=-275.0170, decoder=0.7030
+2025-06-24 19:38:46,642 - tadGANs - INFO - Epoch 256/1000 - Time: 2.37s - Loss: critic_x=-0.1128, critic_z=-171.5636, encoder=-277.0841, decoder=0.6911
+2025-06-24 19:38:49,059 - tadGANs - INFO - Epoch 257/1000 - Time: 2.42s - Loss: critic_x=-0.1139, critic_z=-172.6748, encoder=-278.6726, decoder=0.6693
+2025-06-24 19:38:51,489 - tadGANs - INFO - Epoch 258/1000 - Time: 2.43s - Loss: critic_x=-0.1086, critic_z=-173.6548, encoder=-280.8182, decoder=0.6680
+2025-06-24 19:38:56,809 - tadGANs - INFO - Epoch 259/1000 - Time: 5.32s - Loss: critic_x=-0.1112, critic_z=-174.6605, encoder=-282.5823, decoder=0.6565
+2025-06-24 19:38:59,297 - tadGANs - INFO - Epoch 260/1000 - Time: 2.49s - Loss: critic_x=-0.1116, critic_z=-175.7017, encoder=-284.3748, decoder=0.6466
+2025-06-24 19:38:59,308 - tadGANs - INFO - Models saved at epoch 260
+2025-06-24 19:39:01,804 - tadGANs - INFO - Epoch 261/1000 - Time: 2.50s - Loss: critic_x=-0.1069, critic_z=-176.9009, encoder=-286.5041, decoder=0.6183
+2025-06-24 19:39:04,363 - tadGANs - INFO - Epoch 262/1000 - Time: 2.56s - Loss: critic_x=-0.1086, critic_z=-177.8067, encoder=-288.5627, decoder=0.6339
+2025-06-24 19:39:06,711 - tadGANs - INFO - Epoch 263/1000 - Time: 2.35s - Loss: critic_x=-0.1143, critic_z=-178.9617, encoder=-290.2009, decoder=0.6159
+2025-06-24 19:39:08,997 - tadGANs - INFO - Epoch 264/1000 - Time: 2.29s - Loss: critic_x=-0.1161, critic_z=-180.2633, encoder=-292.7250, decoder=0.5963
+2025-06-24 19:39:11,396 - tadGANs - INFO - Epoch 265/1000 - Time: 2.40s - Loss: critic_x=-0.1172, critic_z=-181.4060, encoder=-294.2323, decoder=0.5922
+2025-06-24 19:39:13,781 - tadGANs - INFO - Epoch 266/1000 - Time: 2.38s - Loss: critic_x=-0.1199, critic_z=-182.4933, encoder=-296.5324, decoder=0.5841
+2025-06-24 19:39:16,161 - tadGANs - INFO - Epoch 267/1000 - Time: 2.38s - Loss: critic_x=-0.1182, critic_z=-183.5893, encoder=-298.5080, decoder=0.5731
+2025-06-24 19:39:18,520 - tadGANs - INFO - Epoch 268/1000 - Time: 2.36s - Loss: critic_x=-0.1179, critic_z=-184.5639, encoder=-300.3257, decoder=0.5554
+2025-06-24 19:39:20,865 - tadGANs - INFO - Epoch 269/1000 - Time: 2.34s - Loss: critic_x=-0.1211, critic_z=-185.7319, encoder=-302.6034, decoder=0.5325
+2025-06-24 19:39:23,182 - tadGANs - INFO - Epoch 270/1000 - Time: 2.32s - Loss: critic_x=-0.1235, critic_z=-186.7418, encoder=-304.3235, decoder=0.5056
+2025-06-24 19:39:23,192 - tadGANs - INFO - Models saved at epoch 270
+2025-06-24 19:39:25,480 - tadGANs - INFO - Epoch 271/1000 - Time: 2.29s - Loss: critic_x=-0.1195, critic_z=-187.9935, encoder=-306.3628, decoder=0.5018
+2025-06-24 19:39:30,637 - tadGANs - INFO - Epoch 272/1000 - Time: 5.16s - Loss: critic_x=-0.1227, critic_z=-189.1084, encoder=-308.1745, decoder=0.4888
+2025-06-24 19:39:33,075 - tadGANs - INFO - Epoch 273/1000 - Time: 2.44s - Loss: critic_x=-0.1224, critic_z=-190.3752, encoder=-310.0294, decoder=0.4834
+2025-06-24 19:39:35,471 - tadGANs - INFO - Epoch 274/1000 - Time: 2.40s - Loss: critic_x=-0.1237, critic_z=-191.4101, encoder=-312.1422, decoder=0.4767
+2025-06-24 19:39:37,865 - tadGANs - INFO - Epoch 275/1000 - Time: 2.39s - Loss: critic_x=-0.1264, critic_z=-192.4122, encoder=-314.2917, decoder=0.4930
+2025-06-24 19:39:40,263 - tadGANs - INFO - Epoch 276/1000 - Time: 2.40s - Loss: critic_x=-0.1274, critic_z=-193.4390, encoder=-316.0403, decoder=0.4782
+2025-06-24 19:39:42,616 - tadGANs - INFO - Epoch 277/1000 - Time: 2.35s - Loss: critic_x=-0.1293, critic_z=-194.5897, encoder=-318.0405, decoder=0.4722
+2025-06-24 19:39:44,940 - tadGANs - INFO - Epoch 278/1000 - Time: 2.32s - Loss: critic_x=-0.1303, critic_z=-195.9617, encoder=-320.1668, decoder=0.4812
+2025-06-24 19:39:47,223 - tadGANs - INFO - Epoch 279/1000 - Time: 2.28s - Loss: critic_x=-0.1355, critic_z=-197.0530, encoder=-322.2929, decoder=0.4833
+2025-06-24 19:39:49,648 - tadGANs - INFO - Epoch 280/1000 - Time: 2.42s - Loss: critic_x=-0.1372, critic_z=-198.3360, encoder=-324.6658, decoder=0.4840
+2025-06-24 19:39:49,659 - tadGANs - INFO - Models saved at epoch 280
+2025-06-24 19:39:52,077 - tadGANs - INFO - Epoch 281/1000 - Time: 2.42s - Loss: critic_x=-0.1396, critic_z=-199.5514, encoder=-326.3569, decoder=0.4862
+2025-06-24 19:39:54,597 - tadGANs - INFO - Epoch 282/1000 - Time: 2.52s - Loss: critic_x=-0.1390, critic_z=-200.5332, encoder=-328.5986, decoder=0.4931
+2025-06-24 19:39:57,177 - tadGANs - INFO - Epoch 283/1000 - Time: 2.58s - Loss: critic_x=-0.1394, critic_z=-201.6143, encoder=-330.5855, decoder=0.4760
+2025-06-24 19:39:59,664 - tadGANs - INFO - Epoch 284/1000 - Time: 2.49s - Loss: critic_x=-0.1424, critic_z=-202.8966, encoder=-332.6326, decoder=0.4586
+2025-06-24 19:40:02,009 - tadGANs - INFO - Epoch 285/1000 - Time: 2.35s - Loss: critic_x=-0.1443, critic_z=-203.8626, encoder=-334.6376, decoder=0.4690
+2025-06-24 19:40:07,182 - tadGANs - INFO - Epoch 286/1000 - Time: 5.17s - Loss: critic_x=-0.1457, critic_z=-204.9925, encoder=-337.4226, decoder=0.4645
+2025-06-24 19:40:09,553 - tadGANs - INFO - Epoch 287/1000 - Time: 2.37s - Loss: critic_x=-0.1478, critic_z=-206.2395, encoder=-338.8860, decoder=0.4622
+2025-06-24 19:40:11,946 - tadGANs - INFO - Epoch 288/1000 - Time: 2.39s - Loss: critic_x=-0.1450, critic_z=-207.5079, encoder=-340.5403, decoder=0.4598
+2025-06-24 19:40:14,371 - tadGANs - INFO - Epoch 289/1000 - Time: 2.42s - Loss: critic_x=-0.1479, critic_z=-208.8834, encoder=-343.6346, decoder=0.4538
+2025-06-24 19:40:16,758 - tadGANs - INFO - Epoch 290/1000 - Time: 2.39s - Loss: critic_x=-0.1493, critic_z=-209.9584, encoder=-345.4142, decoder=0.4614
+2025-06-24 19:40:16,768 - tadGANs - INFO - Models saved at epoch 290
+2025-06-24 19:40:19,167 - tadGANs - INFO - Epoch 291/1000 - Time: 2.40s - Loss: critic_x=-0.1526, critic_z=-210.8806, encoder=-347.3889, decoder=0.4529
+2025-06-24 19:40:21,632 - tadGANs - INFO - Epoch 292/1000 - Time: 2.47s - Loss: critic_x=-0.1506, critic_z=-212.2366, encoder=-349.4345, decoder=0.4587
+2025-06-24 19:40:23,986 - tadGANs - INFO - Epoch 293/1000 - Time: 2.35s - Loss: critic_x=-0.1539, critic_z=-213.3785, encoder=-351.2921, decoder=0.4582
+2025-06-24 19:40:26,362 - tadGANs - INFO - Epoch 294/1000 - Time: 2.38s - Loss: critic_x=-0.1514, critic_z=-214.3606, encoder=-353.2084, decoder=0.4454
+2025-06-24 19:40:28,878 - tadGANs - INFO - Epoch 295/1000 - Time: 2.52s - Loss: critic_x=-0.1504, critic_z=-215.9714, encoder=-355.6174, decoder=0.4613
+2025-06-24 19:40:31,446 - tadGANs - INFO - Epoch 296/1000 - Time: 2.57s - Loss: critic_x=-0.1532, critic_z=-216.9202, encoder=-357.8752, decoder=0.4649
+2025-06-24 19:40:33,936 - tadGANs - INFO - Epoch 297/1000 - Time: 2.49s - Loss: critic_x=-0.1548, critic_z=-218.3347, encoder=-360.3344, decoder=0.4738
+2025-06-24 19:40:36,387 - tadGANs - INFO - Epoch 298/1000 - Time: 2.45s - Loss: critic_x=-0.1547, critic_z=-219.3540, encoder=-362.0491, decoder=0.4787
+2025-06-24 19:40:41,571 - tadGANs - INFO - Epoch 299/1000 - Time: 5.18s - Loss: critic_x=-0.1568, critic_z=-220.4147, encoder=-364.7485, decoder=0.4773
+2025-06-24 19:40:43,945 - tadGANs - INFO - Epoch 300/1000 - Time: 2.37s - Loss: critic_x=-0.1523, critic_z=-221.8401, encoder=-366.9684, decoder=0.4763
+2025-06-24 19:40:43,956 - tadGANs - INFO - Models saved at epoch 300
+2025-06-24 19:40:46,391 - tadGANs - INFO - Epoch 301/1000 - Time: 2.43s - Loss: critic_x=-0.1580, critic_z=-222.8398, encoder=-368.6212, decoder=0.4779
+2025-06-24 19:40:48,849 - tadGANs - INFO - Epoch 302/1000 - Time: 2.46s - Loss: critic_x=-0.1548, critic_z=-224.0378, encoder=-370.8221, decoder=0.4686
+2025-06-24 19:40:51,374 - tadGANs - INFO - Epoch 303/1000 - Time: 2.52s - Loss: critic_x=-0.1541, critic_z=-225.6152, encoder=-372.9082, decoder=0.4748
+2025-06-24 19:40:53,757 - tadGANs - INFO - Epoch 304/1000 - Time: 2.38s - Loss: critic_x=-0.1597, critic_z=-226.4465, encoder=-375.0847, decoder=0.4720
+2025-06-24 19:40:56,071 - tadGANs - INFO - Epoch 305/1000 - Time: 2.31s - Loss: critic_x=-0.1612, critic_z=-227.7513, encoder=-377.3420, decoder=0.4729
+2025-06-24 19:40:58,433 - tadGANs - INFO - Epoch 306/1000 - Time: 2.36s - Loss: critic_x=-0.1580, critic_z=-228.7962, encoder=-379.4692, decoder=0.4573
+2025-06-24 19:41:00,802 - tadGANs - INFO - Epoch 307/1000 - Time: 2.37s - Loss: critic_x=-0.1566, critic_z=-229.9678, encoder=-381.4338, decoder=0.4646
+2025-06-24 19:41:03,229 - tadGANs - INFO - Epoch 308/1000 - Time: 2.43s - Loss: critic_x=-0.1600, critic_z=-231.3152, encoder=-383.8501, decoder=0.4691
+2025-06-24 19:41:05,663 - tadGANs - INFO - Epoch 309/1000 - Time: 2.43s - Loss: critic_x=-0.1572, critic_z=-232.7193, encoder=-386.2454, decoder=0.4617
+2025-06-24 19:41:07,998 - tadGANs - INFO - Epoch 310/1000 - Time: 2.34s - Loss: critic_x=-0.1581, critic_z=-233.8694, encoder=-387.9098, decoder=0.4659
+2025-06-24 19:41:08,010 - tadGANs - INFO - Models saved at epoch 310
+2025-06-24 19:41:10,325 - tadGANs - INFO - Epoch 311/1000 - Time: 2.31s - Loss: critic_x=-0.1557, critic_z=-234.8202, encoder=-390.1282, decoder=0.4658
+2025-06-24 19:41:15,625 - tadGANs - INFO - Epoch 312/1000 - Time: 5.30s - Loss: critic_x=-0.1573, critic_z=-236.3863, encoder=-393.0205, decoder=0.4706
+2025-06-24 19:41:18,306 - tadGANs - INFO - Epoch 313/1000 - Time: 2.68s - Loss: critic_x=-0.1577, critic_z=-237.5745, encoder=-395.1994, decoder=0.4643
+2025-06-24 19:41:21,117 - tadGANs - INFO - Epoch 314/1000 - Time: 2.81s - Loss: critic_x=-0.1561, critic_z=-238.4062, encoder=-397.0588, decoder=0.4505
+2025-06-24 19:41:23,630 - tadGANs - INFO - Epoch 315/1000 - Time: 2.51s - Loss: critic_x=-0.1548, critic_z=-239.9782, encoder=-399.3003, decoder=0.4584
+2025-06-24 19:41:26,038 - tadGANs - INFO - Epoch 316/1000 - Time: 2.41s - Loss: critic_x=-0.1549, critic_z=-241.0997, encoder=-401.2676, decoder=0.4564
+2025-06-24 19:41:28,406 - tadGANs - INFO - Epoch 317/1000 - Time: 2.37s - Loss: critic_x=-0.1538, critic_z=-242.5920, encoder=-403.6728, decoder=0.4484
+2025-06-24 19:41:30,867 - tadGANs - INFO - Epoch 318/1000 - Time: 2.46s - Loss: critic_x=-0.1552, critic_z=-243.9935, encoder=-406.3498, decoder=0.4496
+2025-06-24 19:41:33,264 - tadGANs - INFO - Epoch 319/1000 - Time: 2.40s - Loss: critic_x=-0.1566, critic_z=-244.8091, encoder=-407.9848, decoder=0.4596
+2025-06-24 19:41:35,656 - tadGANs - INFO - Epoch 320/1000 - Time: 2.39s - Loss: critic_x=-0.1566, critic_z=-246.2942, encoder=-410.8442, decoder=0.4551
+2025-06-24 19:41:35,668 - tadGANs - INFO - Models saved at epoch 320
+2025-06-24 19:41:38,134 - tadGANs - INFO - Epoch 321/1000 - Time: 2.47s - Loss: critic_x=-0.1575, critic_z=-247.8253, encoder=-413.1410, decoder=0.4482
+2025-06-24 19:41:40,560 - tadGANs - INFO - Epoch 322/1000 - Time: 2.43s - Loss: critic_x=-0.1537, critic_z=-249.0448, encoder=-415.0112, decoder=0.4550
+2025-06-24 19:41:42,882 - tadGANs - INFO - Epoch 323/1000 - Time: 2.32s - Loss: critic_x=-0.1534, critic_z=-250.1804, encoder=-417.9173, decoder=0.4553
+2025-06-24 19:41:45,312 - tadGANs - INFO - Epoch 324/1000 - Time: 2.43s - Loss: critic_x=-0.1481, critic_z=-251.1457, encoder=-420.0511, decoder=0.4769
+2025-06-24 19:41:50,205 - tadGANs - INFO - Epoch 325/1000 - Time: 4.89s - Loss: critic_x=-0.1519, critic_z=-252.7726, encoder=-421.8646, decoder=0.4537
+2025-06-24 19:41:52,602 - tadGANs - INFO - Epoch 326/1000 - Time: 2.40s - Loss: critic_x=-0.1474, critic_z=-253.6436, encoder=-424.7810, decoder=0.4630
+2025-06-24 19:41:54,997 - tadGANs - INFO - Epoch 327/1000 - Time: 2.39s - Loss: critic_x=-0.1496, critic_z=-254.8524, encoder=-426.4665, decoder=0.4476
+2025-06-24 19:41:57,382 - tadGANs - INFO - Epoch 328/1000 - Time: 2.38s - Loss: critic_x=-0.1513, critic_z=-256.4917, encoder=-428.6776, decoder=0.4248
+2025-06-24 19:41:59,764 - tadGANs - INFO - Epoch 329/1000 - Time: 2.38s - Loss: critic_x=-0.1508, critic_z=-257.6517, encoder=-431.3376, decoder=0.4373
+2025-06-24 19:42:02,225 - tadGANs - INFO - Epoch 330/1000 - Time: 2.46s - Loss: critic_x=-0.1456, critic_z=-259.0863, encoder=-434.1329, decoder=0.4316
+2025-06-24 19:42:02,236 - tadGANs - INFO - Models saved at epoch 330
+2025-06-24 19:42:04,654 - tadGANs - INFO - Epoch 331/1000 - Time: 2.42s - Loss: critic_x=-0.1400, critic_z=-260.2181, encoder=-435.8445, decoder=0.4304
+2025-06-24 19:42:07,017 - tadGANs - INFO - Epoch 332/1000 - Time: 2.36s - Loss: critic_x=-0.1404, critic_z=-261.2944, encoder=-438.8360, decoder=0.4356
+2025-06-24 19:42:09,410 - tadGANs - INFO - Epoch 333/1000 - Time: 2.39s - Loss: critic_x=-0.1384, critic_z=-262.7148, encoder=-440.8916, decoder=0.4482
+2025-06-24 19:42:11,788 - tadGANs - INFO - Epoch 334/1000 - Time: 2.38s - Loss: critic_x=-0.1373, critic_z=-264.1064, encoder=-442.6071, decoder=0.4510
+2025-06-24 19:42:14,304 - tadGANs - INFO - Epoch 335/1000 - Time: 2.52s - Loss: critic_x=-0.1343, critic_z=-265.4130, encoder=-445.0361, decoder=0.4551
+2025-06-24 19:42:16,745 - tadGANs - INFO - Epoch 336/1000 - Time: 2.44s - Loss: critic_x=-0.1335, critic_z=-266.4320, encoder=-447.1968, decoder=0.4478
+2025-06-24 19:42:19,207 - tadGANs - INFO - Epoch 337/1000 - Time: 2.46s - Loss: critic_x=-0.1291, critic_z=-267.9190, encoder=-449.8079, decoder=0.4308
+2025-06-24 19:42:21,657 - tadGANs - INFO - Epoch 338/1000 - Time: 2.45s - Loss: critic_x=-0.1301, critic_z=-269.0851, encoder=-452.4531, decoder=0.4293
+2025-06-24 19:42:27,065 - tadGANs - INFO - Epoch 339/1000 - Time: 5.41s - Loss: critic_x=-0.1287, critic_z=-270.7025, encoder=-455.1558, decoder=0.4094
+2025-06-24 19:42:29,475 - tadGANs - INFO - Epoch 340/1000 - Time: 2.41s - Loss: critic_x=-0.1232, critic_z=-271.8317, encoder=-456.7282, decoder=0.4204
+2025-06-24 19:42:29,486 - tadGANs - INFO - Models saved at epoch 340
+2025-06-24 19:42:32,034 - tadGANs - INFO - Epoch 341/1000 - Time: 2.55s - Loss: critic_x=-0.1236, critic_z=-273.6796, encoder=-459.8566, decoder=0.4161
+2025-06-24 19:42:34,456 - tadGANs - INFO - Epoch 342/1000 - Time: 2.42s - Loss: critic_x=-0.1197, critic_z=-274.7010, encoder=-461.8593, decoder=0.4113
+2025-06-24 19:42:36,857 - tadGANs - INFO - Epoch 343/1000 - Time: 2.40s - Loss: critic_x=-0.1185, critic_z=-275.5540, encoder=-464.1911, decoder=0.4154
+2025-06-24 19:42:39,243 - tadGANs - INFO - Epoch 344/1000 - Time: 2.39s - Loss: critic_x=-0.1176, critic_z=-277.5561, encoder=-466.8474, decoder=0.4103
+2025-06-24 19:42:41,641 - tadGANs - INFO - Epoch 345/1000 - Time: 2.40s - Loss: critic_x=-0.1152, critic_z=-278.4693, encoder=-469.1665, decoder=0.4011
+2025-06-24 19:42:44,078 - tadGANs - INFO - Epoch 346/1000 - Time: 2.44s - Loss: critic_x=-0.1125, critic_z=-279.4117, encoder=-471.1521, decoder=0.3932
+2025-06-24 19:42:46,445 - tadGANs - INFO - Epoch 347/1000 - Time: 2.37s - Loss: critic_x=-0.1131, critic_z=-281.1849, encoder=-474.0784, decoder=0.3737
+2025-06-24 19:42:48,905 - tadGANs - INFO - Epoch 348/1000 - Time: 2.46s - Loss: critic_x=-0.1092, critic_z=-282.3089, encoder=-476.0680, decoder=0.3858
+2025-06-24 19:42:51,378 - tadGANs - INFO - Epoch 349/1000 - Time: 2.47s - Loss: critic_x=-0.1101, critic_z=-283.4759, encoder=-479.0008, decoder=0.3875
+2025-06-24 19:42:53,818 - tadGANs - INFO - Epoch 350/1000 - Time: 2.44s - Loss: critic_x=-0.1073, critic_z=-285.0055, encoder=-480.6313, decoder=0.3737
+2025-06-24 19:42:53,828 - tadGANs - INFO - Models saved at epoch 350
+2025-06-24 19:42:56,174 - tadGANs - INFO - Epoch 351/1000 - Time: 2.35s - Loss: critic_x=-0.1032, critic_z=-286.4573, encoder=-483.1863, decoder=0.3815
+2025-06-24 19:43:01,184 - tadGANs - INFO - Epoch 352/1000 - Time: 5.01s - Loss: critic_x=-0.0989, critic_z=-287.8470, encoder=-486.2485, decoder=0.4024
+2025-06-24 19:43:03,609 - tadGANs - INFO - Epoch 353/1000 - Time: 2.43s - Loss: critic_x=-0.0939, critic_z=-289.2133, encoder=-488.0825, decoder=0.4005
+2025-06-24 19:43:06,091 - tadGANs - INFO - Epoch 354/1000 - Time: 2.48s - Loss: critic_x=-0.0962, critic_z=-290.6470, encoder=-490.9980, decoder=0.4135
+2025-06-24 19:43:08,564 - tadGANs - INFO - Epoch 355/1000 - Time: 2.47s - Loss: critic_x=-0.0972, critic_z=-291.6156, encoder=-492.9999, decoder=0.4200
+2025-06-24 19:43:10,982 - tadGANs - INFO - Epoch 356/1000 - Time: 2.42s - Loss: critic_x=-0.0928, critic_z=-292.7698, encoder=-495.7407, decoder=0.4245
+2025-06-24 19:43:13,395 - tadGANs - INFO - Epoch 357/1000 - Time: 2.41s - Loss: critic_x=-0.0913, critic_z=-294.3737, encoder=-497.7132, decoder=0.4314
+2025-06-24 19:43:15,741 - tadGANs - INFO - Epoch 358/1000 - Time: 2.35s - Loss: critic_x=-0.0891, critic_z=-295.8806, encoder=-500.4920, decoder=0.4144
+2025-06-24 19:43:18,178 - tadGANs - INFO - Epoch 359/1000 - Time: 2.44s - Loss: critic_x=-0.0868, critic_z=-297.3533, encoder=-502.9226, decoder=0.4159
+2025-06-24 19:43:20,529 - tadGANs - INFO - Epoch 360/1000 - Time: 2.35s - Loss: critic_x=-0.0830, critic_z=-298.2253, encoder=-505.2938, decoder=0.4075
+2025-06-24 19:43:20,540 - tadGANs - INFO - Models saved at epoch 360
+2025-06-24 19:43:22,872 - tadGANs - INFO - Epoch 361/1000 - Time: 2.33s - Loss: critic_x=-0.0801, critic_z=-299.6198, encoder=-507.6448, decoder=0.3987
+2025-06-24 19:43:25,162 - tadGANs - INFO - Epoch 362/1000 - Time: 2.29s - Loss: critic_x=-0.0746, critic_z=-301.1646, encoder=-510.1857, decoder=0.3934
+2025-06-24 19:43:27,612 - tadGANs - INFO - Epoch 363/1000 - Time: 2.45s - Loss: critic_x=-0.0716, critic_z=-302.6754, encoder=-512.6521, decoder=0.4025
+2025-06-24 19:43:29,978 - tadGANs - INFO - Epoch 364/1000 - Time: 2.37s - Loss: critic_x=-0.0685, critic_z=-303.9885, encoder=-515.2842, decoder=0.4000
+2025-06-24 19:43:35,204 - tadGANs - INFO - Epoch 365/1000 - Time: 5.23s - Loss: critic_x=-0.0712, critic_z=-305.5812, encoder=-517.7636, decoder=0.3973
+2025-06-24 19:43:37,552 - tadGANs - INFO - Epoch 366/1000 - Time: 2.35s - Loss: critic_x=-0.0677, critic_z=-306.4148, encoder=-520.1724, decoder=0.3951
+2025-06-24 19:43:40,150 - tadGANs - INFO - Epoch 367/1000 - Time: 2.60s - Loss: critic_x=-0.0642, critic_z=-307.8470, encoder=-522.5028, decoder=0.3724
+2025-06-24 19:43:42,667 - tadGANs - INFO - Epoch 368/1000 - Time: 2.52s - Loss: critic_x=-0.0614, critic_z=-309.0557, encoder=-525.1733, decoder=0.3805
+2025-06-24 19:43:44,985 - tadGANs - INFO - Epoch 369/1000 - Time: 2.32s - Loss: critic_x=-0.0623, critic_z=-310.8327, encoder=-527.4156, decoder=0.3771
+2025-06-24 19:43:47,319 - tadGANs - INFO - Epoch 370/1000 - Time: 2.33s - Loss: critic_x=-0.0646, critic_z=-312.0371, encoder=-530.3515, decoder=0.3827
+2025-06-24 19:43:47,330 - tadGANs - INFO - Models saved at epoch 370
+2025-06-24 19:43:49,739 - tadGANs - INFO - Epoch 371/1000 - Time: 2.41s - Loss: critic_x=-0.0613, critic_z=-313.4622, encoder=-532.8525, decoder=0.3895
+2025-06-24 19:43:52,031 - tadGANs - INFO - Epoch 372/1000 - Time: 2.29s - Loss: critic_x=-0.0629, critic_z=-314.8279, encoder=-535.1449, decoder=0.3897
+2025-06-24 19:43:54,405 - tadGANs - INFO - Epoch 373/1000 - Time: 2.37s - Loss: critic_x=-0.0597, critic_z=-316.1285, encoder=-538.0031, decoder=0.3850
+2025-06-24 19:43:56,767 - tadGANs - INFO - Epoch 374/1000 - Time: 2.36s - Loss: critic_x=-0.0591, critic_z=-317.6114, encoder=-540.6295, decoder=0.3941
+2025-06-24 19:43:59,199 - tadGANs - INFO - Epoch 375/1000 - Time: 2.43s - Loss: critic_x=-0.0554, critic_z=-319.0344, encoder=-542.5743, decoder=0.3948
+2025-06-24 19:44:01,583 - tadGANs - INFO - Epoch 376/1000 - Time: 2.38s - Loss: critic_x=-0.0552, critic_z=-320.6370, encoder=-545.6194, decoder=0.4059
+2025-06-24 19:44:03,955 - tadGANs - INFO - Epoch 377/1000 - Time: 2.37s - Loss: critic_x=-0.0561, critic_z=-321.7394, encoder=-548.4032, decoder=0.4036
+2025-06-24 19:44:06,367 - tadGANs - INFO - Epoch 378/1000 - Time: 2.41s - Loss: critic_x=-0.0516, critic_z=-323.3517, encoder=-550.7826, decoder=0.4051
+2025-06-24 19:44:11,318 - tadGANs - INFO - Epoch 379/1000 - Time: 4.95s - Loss: critic_x=-0.0520, critic_z=-324.5005, encoder=-553.0329, decoder=0.4003
+2025-06-24 19:44:13,698 - tadGANs - INFO - Epoch 380/1000 - Time: 2.38s - Loss: critic_x=-0.0498, critic_z=-326.2035, encoder=-555.7026, decoder=0.4075
+2025-06-24 19:44:13,710 - tadGANs - INFO - Models saved at epoch 380
+2025-06-24 19:44:16,041 - tadGANs - INFO - Epoch 381/1000 - Time: 2.33s - Loss: critic_x=-0.0511, critic_z=-327.5165, encoder=-558.2873, decoder=0.4036
+2025-06-24 19:44:18,419 - tadGANs - INFO - Epoch 382/1000 - Time: 2.38s - Loss: critic_x=-0.0512, critic_z=-328.9031, encoder=-561.0050, decoder=0.4150
+2025-06-24 19:44:20,782 - tadGANs - INFO - Epoch 383/1000 - Time: 2.36s - Loss: critic_x=-0.0588, critic_z=-329.9904, encoder=-563.6151, decoder=0.4024
+2025-06-24 19:44:23,180 - tadGANs - INFO - Epoch 384/1000 - Time: 2.40s - Loss: critic_x=-0.0572, critic_z=-331.8911, encoder=-565.9995, decoder=0.4101
+2025-06-24 19:44:25,569 - tadGANs - INFO - Epoch 385/1000 - Time: 2.39s - Loss: critic_x=-0.0575, critic_z=-333.0990, encoder=-568.5231, decoder=0.3933
+2025-06-24 19:44:27,929 - tadGANs - INFO - Epoch 386/1000 - Time: 2.36s - Loss: critic_x=-0.0550, critic_z=-334.9678, encoder=-571.5695, decoder=0.3945
+2025-06-24 19:44:30,282 - tadGANs - INFO - Epoch 387/1000 - Time: 2.35s - Loss: critic_x=-0.0580, critic_z=-335.7577, encoder=-574.3298, decoder=0.3844
+2025-06-24 19:44:32,707 - tadGANs - INFO - Epoch 388/1000 - Time: 2.42s - Loss: critic_x=-0.0595, critic_z=-337.4540, encoder=-576.4755, decoder=0.3730
+2025-06-24 19:44:35,112 - tadGANs - INFO - Epoch 389/1000 - Time: 2.40s - Loss: critic_x=-0.0591, critic_z=-339.0547, encoder=-579.2943, decoder=0.3655
+2025-06-24 19:44:37,571 - tadGANs - INFO - Epoch 390/1000 - Time: 2.46s - Loss: critic_x=-0.0614, critic_z=-340.2349, encoder=-582.2544, decoder=0.3693
+2025-06-24 19:44:37,581 - tadGANs - INFO - Models saved at epoch 390
+2025-06-24 19:44:39,955 - tadGANs - INFO - Epoch 391/1000 - Time: 2.37s - Loss: critic_x=-0.0566, critic_z=-341.4840, encoder=-584.2848, decoder=0.3648
+2025-06-24 19:44:45,201 - tadGANs - INFO - Epoch 392/1000 - Time: 5.24s - Loss: critic_x=-0.0604, critic_z=-343.4375, encoder=-587.0601, decoder=0.3691
+2025-06-24 19:44:47,664 - tadGANs - INFO - Epoch 393/1000 - Time: 2.46s - Loss: critic_x=-0.0601, critic_z=-344.6910, encoder=-589.6166, decoder=0.3652
+2025-06-24 19:44:50,188 - tadGANs - INFO - Epoch 394/1000 - Time: 2.52s - Loss: critic_x=-0.0598, critic_z=-345.9057, encoder=-592.2318, decoder=0.3647
+2025-06-24 19:44:52,631 - tadGANs - INFO - Epoch 395/1000 - Time: 2.44s - Loss: critic_x=-0.0616, critic_z=-347.2086, encoder=-595.1418, decoder=0.3724
+2025-06-24 19:44:55,015 - tadGANs - INFO - Epoch 396/1000 - Time: 2.38s - Loss: critic_x=-0.0644, critic_z=-348.9880, encoder=-597.6529, decoder=0.3666
+2025-06-24 19:44:57,445 - tadGANs - INFO - Epoch 397/1000 - Time: 2.43s - Loss: critic_x=-0.0636, critic_z=-350.5560, encoder=-601.1471, decoder=0.3560
+2025-06-24 19:44:59,890 - tadGANs - INFO - Epoch 398/1000 - Time: 2.44s - Loss: critic_x=-0.0616, critic_z=-351.8648, encoder=-602.8793, decoder=0.3524
+2025-06-24 19:45:02,277 - tadGANs - INFO - Epoch 399/1000 - Time: 2.39s - Loss: critic_x=-0.0601, critic_z=-353.5143, encoder=-606.1073, decoder=0.3596
+2025-06-24 19:45:04,620 - tadGANs - INFO - Epoch 400/1000 - Time: 2.34s - Loss: critic_x=-0.0601, critic_z=-354.5331, encoder=-608.8866, decoder=0.3656
+2025-06-24 19:45:04,631 - tadGANs - INFO - Models saved at epoch 400
+2025-06-24 19:45:06,995 - tadGANs - INFO - Epoch 401/1000 - Time: 2.36s - Loss: critic_x=-0.0632, critic_z=-356.4179, encoder=-611.2852, decoder=0.3567
+2025-06-24 19:45:09,352 - tadGANs - INFO - Epoch 402/1000 - Time: 2.36s - Loss: critic_x=-0.0574, critic_z=-357.6176, encoder=-613.5469, decoder=0.3442
+2025-06-24 19:45:11,730 - tadGANs - INFO - Epoch 403/1000 - Time: 2.38s - Loss: critic_x=-0.0608, critic_z=-358.9596, encoder=-616.9341, decoder=0.3395
+2025-06-24 19:45:14,131 - tadGANs - INFO - Epoch 404/1000 - Time: 2.40s - Loss: critic_x=-0.0577, critic_z=-360.7779, encoder=-619.0843, decoder=0.3376
+2025-06-24 19:45:16,585 - tadGANs - INFO - Epoch 405/1000 - Time: 2.45s - Loss: critic_x=-0.0542, critic_z=-362.3076, encoder=-622.2926, decoder=0.3253
+2025-06-24 19:45:21,560 - tadGANs - INFO - Epoch 406/1000 - Time: 4.98s - Loss: critic_x=-0.0606, critic_z=-363.5850, encoder=-624.5686, decoder=0.3246
+2025-06-24 19:45:23,971 - tadGANs - INFO - Epoch 407/1000 - Time: 2.41s - Loss: critic_x=-0.0613, critic_z=-365.0891, encoder=-627.6104, decoder=0.3173
+2025-06-24 19:45:26,419 - tadGANs - INFO - Epoch 408/1000 - Time: 2.45s - Loss: critic_x=-0.0608, critic_z=-366.6031, encoder=-629.9033, decoder=0.3050
+2025-06-24 19:45:28,792 - tadGANs - INFO - Epoch 409/1000 - Time: 2.37s - Loss: critic_x=-0.0636, critic_z=-368.1695, encoder=-632.0810, decoder=0.2989
+2025-06-24 19:45:31,172 - tadGANs - INFO - Epoch 410/1000 - Time: 2.38s - Loss: critic_x=-0.0662, critic_z=-369.6291, encoder=-635.4412, decoder=0.3048
+2025-06-24 19:45:31,182 - tadGANs - INFO - Models saved at epoch 410
+2025-06-24 19:45:33,549 - tadGANs - INFO - Epoch 411/1000 - Time: 2.37s - Loss: critic_x=-0.0646, critic_z=-371.3111, encoder=-637.8385, decoder=0.2958
+2025-06-24 19:45:35,924 - tadGANs - INFO - Epoch 412/1000 - Time: 2.37s - Loss: critic_x=-0.0683, critic_z=-372.3368, encoder=-640.8929, decoder=0.3032
+2025-06-24 19:45:38,239 - tadGANs - INFO - Epoch 413/1000 - Time: 2.31s - Loss: critic_x=-0.0687, critic_z=-373.8853, encoder=-643.6804, decoder=0.3158
+2025-06-24 19:45:40,555 - tadGANs - INFO - Epoch 414/1000 - Time: 2.32s - Loss: critic_x=-0.0770, critic_z=-375.6629, encoder=-646.3005, decoder=0.3366
+2025-06-24 19:45:42,857 - tadGANs - INFO - Epoch 415/1000 - Time: 2.30s - Loss: critic_x=-0.0787, critic_z=-377.1408, encoder=-649.8333, decoder=0.3504
+2025-06-24 19:45:45,333 - tadGANs - INFO - Epoch 416/1000 - Time: 2.48s - Loss: critic_x=-0.0783, critic_z=-378.4350, encoder=-651.6773, decoder=0.3418
+2025-06-24 19:45:47,763 - tadGANs - INFO - Epoch 417/1000 - Time: 2.43s - Loss: critic_x=-0.0844, critic_z=-380.2180, encoder=-655.0053, decoder=0.3464
+2025-06-24 19:45:50,142 - tadGANs - INFO - Epoch 418/1000 - Time: 2.38s - Loss: critic_x=-0.0864, critic_z=-381.4949, encoder=-657.5302, decoder=0.3389
+2025-06-24 19:45:55,399 - tadGANs - INFO - Epoch 419/1000 - Time: 5.26s - Loss: critic_x=-0.0898, critic_z=-383.1818, encoder=-660.5402, decoder=0.3439
+2025-06-24 19:45:58,077 - tadGANs - INFO - Epoch 420/1000 - Time: 2.68s - Loss: critic_x=-0.0884, critic_z=-384.8038, encoder=-663.6147, decoder=0.3345
+2025-06-24 19:45:58,088 - tadGANs - INFO - Models saved at epoch 420
+2025-06-24 19:46:00,677 - tadGANs - INFO - Epoch 421/1000 - Time: 2.59s - Loss: critic_x=-0.0851, critic_z=-386.1199, encoder=-666.3543, decoder=0.3385
+2025-06-24 19:46:03,132 - tadGANs - INFO - Epoch 422/1000 - Time: 2.45s - Loss: critic_x=-0.0818, critic_z=-387.5870, encoder=-668.7920, decoder=0.3265
+2025-06-24 19:46:05,515 - tadGANs - INFO - Epoch 423/1000 - Time: 2.38s - Loss: critic_x=-0.0831, critic_z=-389.2845, encoder=-672.3197, decoder=0.3328
+2025-06-24 19:46:07,865 - tadGANs - INFO - Epoch 424/1000 - Time: 2.35s - Loss: critic_x=-0.0812, critic_z=-390.9549, encoder=-674.7326, decoder=0.3257
+2025-06-24 19:46:10,179 - tadGANs - INFO - Epoch 425/1000 - Time: 2.31s - Loss: critic_x=-0.0826, critic_z=-392.0905, encoder=-677.0644, decoder=0.3190
+2025-06-24 19:46:12,527 - tadGANs - INFO - Epoch 426/1000 - Time: 2.35s - Loss: critic_x=-0.0819, critic_z=-393.7270, encoder=-680.2816, decoder=0.3031
+2025-06-24 19:46:15,003 - tadGANs - INFO - Epoch 427/1000 - Time: 2.48s - Loss: critic_x=-0.0851, critic_z=-395.3922, encoder=-682.9782, decoder=0.2944
+2025-06-24 19:46:17,413 - tadGANs - INFO - Epoch 428/1000 - Time: 2.41s - Loss: critic_x=-0.0819, critic_z=-397.2222, encoder=-685.8586, decoder=0.2944
+2025-06-24 19:46:19,833 - tadGANs - INFO - Epoch 429/1000 - Time: 2.42s - Loss: critic_x=-0.0884, critic_z=-398.2123, encoder=-688.6661, decoder=0.2884
+2025-06-24 19:46:22,193 - tadGANs - INFO - Epoch 430/1000 - Time: 2.36s - Loss: critic_x=-0.0891, critic_z=-399.6044, encoder=-692.4034, decoder=0.2755
+2025-06-24 19:46:22,204 - tadGANs - INFO - Models saved at epoch 430
+2025-06-24 19:46:24,546 - tadGANs - INFO - Epoch 431/1000 - Time: 2.34s - Loss: critic_x=-0.0901, critic_z=-401.4830, encoder=-694.1913, decoder=0.2808
+2025-06-24 19:46:26,873 - tadGANs - INFO - Epoch 432/1000 - Time: 2.33s - Loss: critic_x=-0.0918, critic_z=-403.0056, encoder=-697.4562, decoder=0.2724
+2025-06-24 19:46:31,788 - tadGANs - INFO - Epoch 433/1000 - Time: 4.91s - Loss: critic_x=-0.0920, critic_z=-404.5167, encoder=-699.7726, decoder=0.2732
+2025-06-24 19:46:34,183 - tadGANs - INFO - Epoch 434/1000 - Time: 2.39s - Loss: critic_x=-0.0939, critic_z=-406.2662, encoder=-703.7504, decoder=0.2786
+2025-06-24 19:46:36,643 - tadGANs - INFO - Epoch 435/1000 - Time: 2.46s - Loss: critic_x=-0.0995, critic_z=-408.1079, encoder=-706.0594, decoder=0.2769
+2025-06-24 19:46:39,015 - tadGANs - INFO - Epoch 436/1000 - Time: 2.37s - Loss: critic_x=-0.0991, critic_z=-409.3509, encoder=-709.4075, decoder=0.2754
+2025-06-24 19:46:41,343 - tadGANs - INFO - Epoch 437/1000 - Time: 2.33s - Loss: critic_x=-0.1022, critic_z=-410.4071, encoder=-710.9644, decoder=0.2701
+2025-06-24 19:46:43,762 - tadGANs - INFO - Epoch 438/1000 - Time: 2.42s - Loss: critic_x=-0.1037, critic_z=-412.4085, encoder=-714.4672, decoder=0.2644
+2025-06-24 19:46:46,154 - tadGANs - INFO - Epoch 439/1000 - Time: 2.39s - Loss: critic_x=-0.1061, critic_z=-413.4581, encoder=-717.0366, decoder=0.2601
+2025-06-24 19:46:48,570 - tadGANs - INFO - Epoch 440/1000 - Time: 2.42s - Loss: critic_x=-0.1026, critic_z=-415.9849, encoder=-720.1958, decoder=0.2534
+2025-06-24 19:46:48,626 - tadGANs - INFO - Models saved at epoch 440
+2025-06-24 19:46:51,017 - tadGANs - INFO - Epoch 441/1000 - Time: 2.39s - Loss: critic_x=-0.1086, critic_z=-416.5309, encoder=-722.6968, decoder=0.2440
+2025-06-24 19:46:53,337 - tadGANs - INFO - Epoch 442/1000 - Time: 2.32s - Loss: critic_x=-0.1049, critic_z=-418.7653, encoder=-725.8413, decoder=0.2340
+2025-06-24 19:46:55,647 - tadGANs - INFO - Epoch 443/1000 - Time: 2.31s - Loss: critic_x=-0.1103, critic_z=-419.9433, encoder=-728.5601, decoder=0.2246
+2025-06-24 19:46:58,030 - tadGANs - INFO - Epoch 444/1000 - Time: 2.38s - Loss: critic_x=-0.1034, critic_z=-421.3924, encoder=-731.4100, decoder=0.2107
+2025-06-24 19:47:00,418 - tadGANs - INFO - Epoch 445/1000 - Time: 2.39s - Loss: critic_x=-0.1052, critic_z=-422.9445, encoder=-734.1141, decoder=0.1929
+2025-06-24 19:47:05,837 - tadGANs - INFO - Epoch 446/1000 - Time: 5.42s - Loss: critic_x=-0.1054, critic_z=-424.7797, encoder=-736.9020, decoder=0.1917
+2025-06-24 19:47:08,278 - tadGANs - INFO - Epoch 447/1000 - Time: 2.44s - Loss: critic_x=-0.1043, critic_z=-426.8601, encoder=-740.8780, decoder=0.1771
+2025-06-24 19:47:10,825 - tadGANs - INFO - Epoch 448/1000 - Time: 2.55s - Loss: critic_x=-0.1038, critic_z=-427.8893, encoder=-743.4973, decoder=0.1564
+2025-06-24 19:47:13,213 - tadGANs - INFO - Epoch 449/1000 - Time: 2.39s - Loss: critic_x=-0.1080, critic_z=-429.8420, encoder=-747.0201, decoder=0.1494
+2025-06-24 19:47:15,594 - tadGANs - INFO - Epoch 450/1000 - Time: 2.38s - Loss: critic_x=-0.0981, critic_z=-430.8591, encoder=-748.8323, decoder=0.1314
+2025-06-24 19:47:15,604 - tadGANs - INFO - Models saved at epoch 450
+2025-06-24 19:47:17,935 - tadGANs - INFO - Epoch 451/1000 - Time: 2.33s - Loss: critic_x=-0.1015, critic_z=-432.8478, encoder=-751.9716, decoder=0.1414
+2025-06-24 19:47:20,330 - tadGANs - INFO - Epoch 452/1000 - Time: 2.39s - Loss: critic_x=-0.1056, critic_z=-434.5284, encoder=-755.5696, decoder=0.1427
+2025-06-24 19:47:22,691 - tadGANs - INFO - Epoch 453/1000 - Time: 2.36s - Loss: critic_x=-0.1019, critic_z=-435.4602, encoder=-757.6038, decoder=0.1250
+2025-06-24 19:47:25,152 - tadGANs - INFO - Epoch 454/1000 - Time: 2.46s - Loss: critic_x=-0.1023, critic_z=-437.6749, encoder=-760.6609, decoder=0.1354
+2025-06-24 19:47:27,510 - tadGANs - INFO - Epoch 455/1000 - Time: 2.36s - Loss: critic_x=-0.1004, critic_z=-439.0521, encoder=-764.0568, decoder=0.1084
+2025-06-24 19:47:29,910 - tadGANs - INFO - Epoch 456/1000 - Time: 2.40s - Loss: critic_x=-0.1023, critic_z=-440.6594, encoder=-766.8364, decoder=0.1178
+2025-06-24 19:47:32,294 - tadGANs - INFO - Epoch 457/1000 - Time: 2.38s - Loss: critic_x=-0.0993, critic_z=-442.1106, encoder=-769.4073, decoder=0.1289
+2025-06-24 19:47:34,655 - tadGANs - INFO - Epoch 458/1000 - Time: 2.36s - Loss: critic_x=-0.0987, critic_z=-443.8056, encoder=-772.7987, decoder=0.1358
+2025-06-24 19:47:36,957 - tadGANs - INFO - Epoch 459/1000 - Time: 2.30s - Loss: critic_x=-0.0997, critic_z=-445.3972, encoder=-775.2658, decoder=0.1420
+2025-06-24 19:47:42,106 - tadGANs - INFO - Epoch 460/1000 - Time: 5.15s - Loss: critic_x=-0.1014, critic_z=-447.2657, encoder=-778.5491, decoder=0.1381
+2025-06-24 19:47:42,116 - tadGANs - INFO - Models saved at epoch 460
+2025-06-24 19:47:44,493 - tadGANs - INFO - Epoch 461/1000 - Time: 2.38s - Loss: critic_x=-0.1009, critic_z=-448.9423, encoder=-781.8288, decoder=0.1292
+2025-06-24 19:47:46,916 - tadGANs - INFO - Epoch 462/1000 - Time: 2.42s - Loss: critic_x=-0.0997, critic_z=-450.3634, encoder=-784.9534, decoder=0.1257
+2025-06-24 19:47:49,397 - tadGANs - INFO - Epoch 463/1000 - Time: 2.48s - Loss: critic_x=-0.1018, critic_z=-452.1996, encoder=-787.9372, decoder=0.1246
+2025-06-24 19:47:51,806 - tadGANs - INFO - Epoch 464/1000 - Time: 2.41s - Loss: critic_x=-0.1037, critic_z=-453.3584, encoder=-790.7773, decoder=0.1065
+2025-06-24 19:47:54,165 - tadGANs - INFO - Epoch 465/1000 - Time: 2.36s - Loss: critic_x=-0.0993, critic_z=-454.8999, encoder=-793.7454, decoder=0.1078
+2025-06-24 19:47:56,475 - tadGANs - INFO - Epoch 466/1000 - Time: 2.31s - Loss: critic_x=-0.0999, critic_z=-456.8385, encoder=-796.5396, decoder=0.0852
+2025-06-24 19:47:58,904 - tadGANs - INFO - Epoch 467/1000 - Time: 2.43s - Loss: critic_x=-0.1000, critic_z=-458.4738, encoder=-800.0125, decoder=0.0680
+2025-06-24 19:48:01,349 - tadGANs - INFO - Epoch 468/1000 - Time: 2.45s - Loss: critic_x=-0.1052, critic_z=-460.2924, encoder=-802.9078, decoder=0.0558
+2025-06-24 19:48:03,729 - tadGANs - INFO - Epoch 469/1000 - Time: 2.38s - Loss: critic_x=-0.1003, critic_z=-461.8298, encoder=-805.5716, decoder=0.0424
+2025-06-24 19:48:06,080 - tadGANs - INFO - Epoch 470/1000 - Time: 2.35s - Loss: critic_x=-0.1017, critic_z=-463.4693, encoder=-808.7320, decoder=0.0326
+2025-06-24 19:48:06,090 - tadGANs - INFO - Models saved at epoch 470
+2025-06-24 19:48:08,402 - tadGANs - INFO - Epoch 471/1000 - Time: 2.31s - Loss: critic_x=-0.1055, critic_z=-464.6972, encoder=-811.8109, decoder=0.0281
+2025-06-24 19:48:10,685 - tadGANs - INFO - Epoch 472/1000 - Time: 2.28s - Loss: critic_x=-0.1064, critic_z=-466.5412, encoder=-814.8121, decoder=0.0247
+2025-06-24 19:48:15,756 - tadGANs - INFO - Epoch 473/1000 - Time: 5.07s - Loss: critic_x=-0.1062, critic_z=-468.1326, encoder=-818.0063, decoder=0.0151
+2025-06-24 19:48:18,090 - tadGANs - INFO - Epoch 474/1000 - Time: 2.33s - Loss: critic_x=-0.1007, critic_z=-470.5227, encoder=-821.5082, decoder=0.0138
+2025-06-24 19:48:20,410 - tadGANs - INFO - Epoch 475/1000 - Time: 2.32s - Loss: critic_x=-0.0998, critic_z=-471.6905, encoder=-824.3007, decoder=0.0077
+2025-06-24 19:48:22,882 - tadGANs - INFO - Epoch 476/1000 - Time: 2.47s - Loss: critic_x=-0.1012, critic_z=-473.4464, encoder=-828.1236, decoder=0.0014
+2025-06-24 19:48:25,376 - tadGANs - INFO - Epoch 477/1000 - Time: 2.49s - Loss: critic_x=-0.0966, critic_z=-474.5696, encoder=-830.4721, decoder=-0.0040
+2025-06-24 19:48:27,808 - tadGANs - INFO - Epoch 478/1000 - Time: 2.43s - Loss: critic_x=-0.0938, critic_z=-476.2654, encoder=-833.1457, decoder=0.0075
+2025-06-24 19:48:30,119 - tadGANs - INFO - Epoch 479/1000 - Time: 2.31s - Loss: critic_x=-0.0975, critic_z=-478.0110, encoder=-836.5533, decoder=0.0101
+2025-06-24 19:48:32,527 - tadGANs - INFO - Epoch 480/1000 - Time: 2.41s - Loss: critic_x=-0.0977, critic_z=-479.7233, encoder=-839.7288, decoder=0.0092
+2025-06-24 19:48:32,551 - tadGANs - INFO - Models saved at epoch 480
+2025-06-24 19:48:35,005 - tadGANs - INFO - Epoch 481/1000 - Time: 2.45s - Loss: critic_x=-0.0969, critic_z=-481.3950, encoder=-842.2592, decoder=0.0276
+2025-06-24 19:48:37,428 - tadGANs - INFO - Epoch 482/1000 - Time: 2.42s - Loss: critic_x=-0.0940, critic_z=-482.8940, encoder=-846.0294, decoder=0.0254
+2025-06-24 19:48:39,869 - tadGANs - INFO - Epoch 483/1000 - Time: 2.44s - Loss: critic_x=-0.0975, critic_z=-485.2337, encoder=-849.2695, decoder=0.0247
+2025-06-24 19:48:42,228 - tadGANs - INFO - Epoch 484/1000 - Time: 2.36s - Loss: critic_x=-0.1009, critic_z=-486.4637, encoder=-853.1558, decoder=0.0304
+2025-06-24 19:48:44,608 - tadGANs - INFO - Epoch 485/1000 - Time: 2.38s - Loss: critic_x=-0.0980, critic_z=-488.6892, encoder=-854.9364, decoder=0.0271
+2025-06-24 19:48:47,016 - tadGANs - INFO - Epoch 486/1000 - Time: 2.41s - Loss: critic_x=-0.0961, critic_z=-490.0339, encoder=-858.3511, decoder=0.0257
+2025-06-24 19:48:52,073 - tadGANs - INFO - Epoch 487/1000 - Time: 5.06s - Loss: critic_x=-0.0974, critic_z=-491.1923, encoder=-861.1913, decoder=0.0257
+2025-06-24 19:48:54,452 - tadGANs - INFO - Epoch 488/1000 - Time: 2.38s - Loss: critic_x=-0.0995, critic_z=-493.9992, encoder=-865.1881, decoder=0.0190
+2025-06-24 19:48:56,837 - tadGANs - INFO - Epoch 489/1000 - Time: 2.38s - Loss: critic_x=-0.0980, critic_z=-494.9436, encoder=-868.0886, decoder=0.0211
+2025-06-24 19:48:59,248 - tadGANs - INFO - Epoch 490/1000 - Time: 2.41s - Loss: critic_x=-0.0956, critic_z=-496.6472, encoder=-871.4475, decoder=0.0111
+2025-06-24 19:48:59,268 - tadGANs - INFO - Models saved at epoch 490
+2025-06-24 19:49:01,668 - tadGANs - INFO - Epoch 491/1000 - Time: 2.40s - Loss: critic_x=-0.1012, critic_z=-498.7728, encoder=-874.6539, decoder=0.0091
+2025-06-24 19:49:04,042 - tadGANs - INFO - Epoch 492/1000 - Time: 2.37s - Loss: critic_x=-0.0990, critic_z=-500.1374, encoder=-878.0107, decoder=-0.0091
+2025-06-24 19:49:06,303 - tadGANs - INFO - Epoch 493/1000 - Time: 2.26s - Loss: critic_x=-0.0987, critic_z=-501.2283, encoder=-879.9629, decoder=-0.0207
+2025-06-24 19:49:08,671 - tadGANs - INFO - Epoch 494/1000 - Time: 2.37s - Loss: critic_x=-0.1004, critic_z=-503.7286, encoder=-884.1056, decoder=-0.0333
+2025-06-24 19:49:10,972 - tadGANs - INFO - Epoch 495/1000 - Time: 2.30s - Loss: critic_x=-0.1000, critic_z=-504.8779, encoder=-887.9672, decoder=-0.0260
+2025-06-24 19:49:13,275 - tadGANs - INFO - Epoch 496/1000 - Time: 2.30s - Loss: critic_x=-0.1040, critic_z=-506.8605, encoder=-889.5197, decoder=-0.0481
+2025-06-24 19:49:15,627 - tadGANs - INFO - Epoch 497/1000 - Time: 2.35s - Loss: critic_x=-0.0984, critic_z=-508.5828, encoder=-893.1868, decoder=-0.0362
+2025-06-24 19:49:17,998 - tadGANs - INFO - Epoch 498/1000 - Time: 2.37s - Loss: critic_x=-0.0990, critic_z=-510.7100, encoder=-895.9525, decoder=-0.0515
+2025-06-24 19:49:20,328 - tadGANs - INFO - Epoch 499/1000 - Time: 2.33s - Loss: critic_x=-0.1003, critic_z=-512.0395, encoder=-899.7722, decoder=-0.0624
+2025-06-24 19:49:25,473 - tadGANs - INFO - Epoch 500/1000 - Time: 5.15s - Loss: critic_x=-0.0994, critic_z=-513.8448, encoder=-902.9597, decoder=-0.0605
+2025-06-24 19:49:25,486 - tadGANs - INFO - Models saved at epoch 500
+2025-06-24 19:49:27,799 - tadGANs - INFO - Epoch 501/1000 - Time: 2.31s - Loss: critic_x=-0.0999, critic_z=-515.3663, encoder=-906.2148, decoder=-0.0426
+2025-06-24 19:49:30,135 - tadGANs - INFO - Epoch 502/1000 - Time: 2.34s - Loss: critic_x=-0.1036, critic_z=-517.1938, encoder=-909.4316, decoder=-0.0489
+2025-06-24 19:49:32,464 - tadGANs - INFO - Epoch 503/1000 - Time: 2.33s - Loss: critic_x=-0.1008, critic_z=-518.8638, encoder=-912.3367, decoder=-0.0384
+2025-06-24 19:49:34,809 - tadGANs - INFO - Epoch 504/1000 - Time: 2.34s - Loss: critic_x=-0.1038, critic_z=-521.0105, encoder=-915.6501, decoder=-0.0281
+2025-06-24 19:49:37,266 - tadGANs - INFO - Epoch 505/1000 - Time: 2.46s - Loss: critic_x=-0.1044, critic_z=-522.4464, encoder=-918.6220, decoder=-0.0291
+2025-06-24 19:49:39,651 - tadGANs - INFO - Epoch 506/1000 - Time: 2.38s - Loss: critic_x=-0.1035, critic_z=-523.8054, encoder=-922.0004, decoder=-0.0204
+2025-06-24 19:49:42,063 - tadGANs - INFO - Epoch 507/1000 - Time: 2.41s - Loss: critic_x=-0.1022, critic_z=-526.5561, encoder=-925.5890, decoder=-0.0278
+2025-06-24 19:49:44,419 - tadGANs - INFO - Epoch 508/1000 - Time: 2.36s - Loss: critic_x=-0.0994, critic_z=-527.6651, encoder=-928.6337, decoder=-0.0346
+2025-06-24 19:49:46,774 - tadGANs - INFO - Epoch 509/1000 - Time: 2.35s - Loss: critic_x=-0.0985, critic_z=-529.0942, encoder=-931.9021, decoder=-0.0253
+2025-06-24 19:49:49,109 - tadGANs - INFO - Epoch 510/1000 - Time: 2.33s - Loss: critic_x=-0.0990, critic_z=-531.2030, encoder=-935.0311, decoder=-0.0117
+2025-06-24 19:49:49,124 - tadGANs - INFO - Models saved at epoch 510
+2025-06-24 19:49:51,498 - tadGANs - INFO - Epoch 511/1000 - Time: 2.37s - Loss: critic_x=-0.0972, critic_z=-533.1589, encoder=-938.3837, decoder=-0.0232
+2025-06-24 19:49:53,871 - tadGANs - INFO - Epoch 512/1000 - Time: 2.37s - Loss: critic_x=-0.0984, critic_z=-534.5323, encoder=-941.7626, decoder=-0.0313
+2025-06-24 19:49:56,288 - tadGANs - INFO - Epoch 513/1000 - Time: 2.42s - Loss: critic_x=-0.0961, critic_z=-536.3908, encoder=-944.6449, decoder=-0.0327
+2025-06-24 19:50:01,407 - tadGANs - INFO - Epoch 514/1000 - Time: 5.12s - Loss: critic_x=-0.0960, critic_z=-537.9645, encoder=-948.4150, decoder=-0.0253
+2025-06-24 19:50:03,790 - tadGANs - INFO - Epoch 515/1000 - Time: 2.38s - Loss: critic_x=-0.0993, critic_z=-539.7090, encoder=-950.9109, decoder=-0.0265
+2025-06-24 19:50:06,192 - tadGANs - INFO - Epoch 516/1000 - Time: 2.40s - Loss: critic_x=-0.0969, critic_z=-541.4965, encoder=-954.4639, decoder=-0.0440
+2025-06-24 19:50:08,578 - tadGANs - INFO - Epoch 517/1000 - Time: 2.39s - Loss: critic_x=-0.0978, critic_z=-543.0867, encoder=-958.2637, decoder=-0.0453
+2025-06-24 19:50:10,934 - tadGANs - INFO - Epoch 518/1000 - Time: 2.36s - Loss: critic_x=-0.0960, critic_z=-544.3242, encoder=-960.4566, decoder=-0.0326
+2025-06-24 19:50:13,297 - tadGANs - INFO - Epoch 519/1000 - Time: 2.36s - Loss: critic_x=-0.0953, critic_z=-546.7110, encoder=-965.0414, decoder=-0.0397
+2025-06-24 19:50:15,612 - tadGANs - INFO - Epoch 520/1000 - Time: 2.32s - Loss: critic_x=-0.0985, critic_z=-548.5511, encoder=-967.6705, decoder=-0.0304
+2025-06-24 19:50:15,623 - tadGANs - INFO - Models saved at epoch 520
+2025-06-24 19:50:17,966 - tadGANs - INFO - Epoch 521/1000 - Time: 2.34s - Loss: critic_x=-0.0970, critic_z=-550.2221, encoder=-970.5463, decoder=-0.0470
+2025-06-24 19:50:20,285 - tadGANs - INFO - Epoch 522/1000 - Time: 2.32s - Loss: critic_x=-0.0968, critic_z=-552.2289, encoder=-973.7017, decoder=-0.0504
+2025-06-24 19:50:22,781 - tadGANs - INFO - Epoch 523/1000 - Time: 2.50s - Loss: critic_x=-0.0937, critic_z=-553.4613, encoder=-978.2906, decoder=-0.0376
+2025-06-24 19:50:25,163 - tadGANs - INFO - Epoch 524/1000 - Time: 2.38s - Loss: critic_x=-0.0939, critic_z=-555.2610, encoder=-980.5355, decoder=-0.0471
+2025-06-24 19:50:27,554 - tadGANs - INFO - Epoch 525/1000 - Time: 2.39s - Loss: critic_x=-0.0918, critic_z=-557.3365, encoder=-984.2850, decoder=-0.0516
+2025-06-24 19:50:29,901 - tadGANs - INFO - Epoch 526/1000 - Time: 2.35s - Loss: critic_x=-0.0929, critic_z=-559.0129, encoder=-986.5761, decoder=-0.0547
+2025-06-24 19:50:35,050 - tadGANs - INFO - Epoch 527/1000 - Time: 5.15s - Loss: critic_x=-0.0914, critic_z=-560.8017, encoder=-990.9270, decoder=-0.0435
+2025-06-24 19:50:37,360 - tadGANs - INFO - Epoch 528/1000 - Time: 2.31s - Loss: critic_x=-0.0917, critic_z=-562.6282, encoder=-994.0131, decoder=-0.0473
+2025-06-24 19:50:39,764 - tadGANs - INFO - Epoch 529/1000 - Time: 2.40s - Loss: critic_x=-0.0891, critic_z=-564.3052, encoder=-998.1228, decoder=-0.0472
+2025-06-24 19:50:42,188 - tadGANs - INFO - Epoch 530/1000 - Time: 2.42s - Loss: critic_x=-0.0944, critic_z=-565.8970, encoder=-1000.8581, decoder=-0.0523
+2025-06-24 19:50:42,199 - tadGANs - INFO - Models saved at epoch 530
+2025-06-24 19:50:44,662 - tadGANs - INFO - Epoch 531/1000 - Time: 2.46s - Loss: critic_x=-0.0922, critic_z=-567.1520, encoder=-1002.9776, decoder=-0.0363
+2025-06-24 19:50:47,041 - tadGANs - INFO - Epoch 532/1000 - Time: 2.38s - Loss: critic_x=-0.0949, critic_z=-570.0367, encoder=-1006.9071, decoder=-0.0395
+2025-06-24 19:50:49,270 - tadGANs - INFO - Epoch 533/1000 - Time: 2.23s - Loss: critic_x=-0.0965, critic_z=-571.9442, encoder=-1010.4645, decoder=-0.0275
+2025-06-24 19:50:51,644 - tadGANs - INFO - Epoch 534/1000 - Time: 2.37s - Loss: critic_x=-0.0945, critic_z=-573.4006, encoder=-1014.7777, decoder=-0.0260
+2025-06-24 19:50:53,919 - tadGANs - INFO - Epoch 535/1000 - Time: 2.28s - Loss: critic_x=-0.0996, critic_z=-575.2830, encoder=-1017.9144, decoder=-0.0185
+2025-06-24 19:50:56,209 - tadGANs - INFO - Epoch 536/1000 - Time: 2.29s - Loss: critic_x=-0.0993, critic_z=-576.8078, encoder=-1020.5416, decoder=-0.0041
+2025-06-24 19:50:58,530 - tadGANs - INFO - Epoch 537/1000 - Time: 2.32s - Loss: critic_x=-0.0980, critic_z=-578.8112, encoder=-1024.8745, decoder=-0.0218
+2025-06-24 19:51:00,875 - tadGANs - INFO - Epoch 538/1000 - Time: 2.34s - Loss: critic_x=-0.0979, critic_z=-580.5901, encoder=-1027.0575, decoder=-0.0099
+2025-06-24 19:51:03,231 - tadGANs - INFO - Epoch 539/1000 - Time: 2.36s - Loss: critic_x=-0.0944, critic_z=-582.7110, encoder=-1031.2160, decoder=-0.0243
+2025-06-24 19:51:05,585 - tadGANs - INFO - Epoch 540/1000 - Time: 2.35s - Loss: critic_x=-0.0974, critic_z=-584.6381, encoder=-1034.9388, decoder=-0.0372
+2025-06-24 19:51:05,596 - tadGANs - INFO - Models saved at epoch 540
+2025-06-24 19:51:10,628 - tadGANs - INFO - Epoch 541/1000 - Time: 5.03s - Loss: critic_x=-0.0954, critic_z=-586.1049, encoder=-1038.2061, decoder=-0.0365
+2025-06-24 19:51:12,955 - tadGANs - INFO - Epoch 542/1000 - Time: 2.33s - Loss: critic_x=-0.1012, critic_z=-587.9854, encoder=-1041.7430, decoder=-0.0428
+2025-06-24 19:51:15,253 - tadGANs - INFO - Epoch 543/1000 - Time: 2.30s - Loss: critic_x=-0.0967, critic_z=-590.3955, encoder=-1045.5630, decoder=-0.0447
+2025-06-24 19:51:17,644 - tadGANs - INFO - Epoch 544/1000 - Time: 2.39s - Loss: critic_x=-0.0971, critic_z=-591.5909, encoder=-1048.5272, decoder=-0.0575
+2025-06-24 19:51:19,912 - tadGANs - INFO - Epoch 545/1000 - Time: 2.27s - Loss: critic_x=-0.0988, critic_z=-593.2705, encoder=-1052.7687, decoder=-0.0578
+2025-06-24 19:51:22,324 - tadGANs - INFO - Epoch 546/1000 - Time: 2.41s - Loss: critic_x=-0.0910, critic_z=-595.5394, encoder=-1055.6463, decoder=-0.0480
+2025-06-24 19:51:24,666 - tadGANs - INFO - Epoch 547/1000 - Time: 2.34s - Loss: critic_x=-0.0955, critic_z=-597.7602, encoder=-1058.6351, decoder=-0.0630
+2025-06-24 19:51:26,935 - tadGANs - INFO - Epoch 548/1000 - Time: 2.27s - Loss: critic_x=-0.0916, critic_z=-598.4529, encoder=-1061.7528, decoder=-0.0544
+2025-06-24 19:51:29,205 - tadGANs - INFO - Epoch 549/1000 - Time: 2.27s - Loss: critic_x=-0.0978, critic_z=-600.7050, encoder=-1065.1172, decoder=-0.0571
+2025-06-24 19:51:31,610 - tadGANs - INFO - Epoch 550/1000 - Time: 2.40s - Loss: critic_x=-0.0931, critic_z=-603.1366, encoder=-1069.5758, decoder=-0.0400
+2025-06-24 19:51:31,621 - tadGANs - INFO - Models saved at epoch 550
+2025-06-24 19:51:33,973 - tadGANs - INFO - Epoch 551/1000 - Time: 2.35s - Loss: critic_x=-0.0935, critic_z=-603.8143, encoder=-1072.0579, decoder=-0.0520
+2025-06-24 19:51:36,352 - tadGANs - INFO - Epoch 552/1000 - Time: 2.38s - Loss: critic_x=-0.0915, critic_z=-606.6746, encoder=-1075.7749, decoder=-0.0387
+2025-06-24 19:51:38,684 - tadGANs - INFO - Epoch 553/1000 - Time: 2.33s - Loss: critic_x=-0.0960, critic_z=-607.9948, encoder=-1079.5009, decoder=-0.0331
+2025-06-24 19:51:41,048 - tadGANs - INFO - Epoch 554/1000 - Time: 2.36s - Loss: critic_x=-0.0900, critic_z=-609.8317, encoder=-1083.1038, decoder=-0.0247
+2025-06-24 19:51:46,129 - tadGANs - INFO - Epoch 555/1000 - Time: 5.08s - Loss: critic_x=-0.0958, critic_z=-611.6102, encoder=-1086.2389, decoder=-0.0145
+2025-06-24 19:51:48,531 - tadGANs - INFO - Epoch 556/1000 - Time: 2.40s - Loss: critic_x=-0.0924, critic_z=-613.6157, encoder=-1090.0381, decoder=-0.0152
+2025-06-24 19:51:50,927 - tadGANs - INFO - Epoch 557/1000 - Time: 2.40s - Loss: critic_x=-0.0930, critic_z=-615.8619, encoder=-1093.3910, decoder=-0.0211
+2025-06-24 19:51:53,270 - tadGANs - INFO - Epoch 558/1000 - Time: 2.34s - Loss: critic_x=-0.0928, critic_z=-617.6729, encoder=-1097.3715, decoder=-0.0260
+2025-06-24 19:51:55,597 - tadGANs - INFO - Epoch 559/1000 - Time: 2.33s - Loss: critic_x=-0.0951, critic_z=-620.0123, encoder=-1100.4080, decoder=-0.0124
+2025-06-24 19:51:57,940 - tadGANs - INFO - Epoch 560/1000 - Time: 2.34s - Loss: critic_x=-0.0916, critic_z=-621.0125, encoder=-1103.7576, decoder=-0.0295
+2025-06-24 19:51:57,951 - tadGANs - INFO - Models saved at epoch 560
+2025-06-24 19:52:00,293 - tadGANs - INFO - Epoch 561/1000 - Time: 2.34s - Loss: critic_x=-0.0956, critic_z=-623.0984, encoder=-1106.7979, decoder=-0.0364
+2025-06-24 19:52:02,665 - tadGANs - INFO - Epoch 562/1000 - Time: 2.37s - Loss: critic_x=-0.0930, critic_z=-624.7984, encoder=-1110.5347, decoder=-0.0269
+2025-06-24 19:52:05,083 - tadGANs - INFO - Epoch 563/1000 - Time: 2.42s - Loss: critic_x=-0.0971, critic_z=-626.9095, encoder=-1113.6810, decoder=-0.0244
+2025-06-24 19:52:07,478 - tadGANs - INFO - Epoch 564/1000 - Time: 2.39s - Loss: critic_x=-0.0937, critic_z=-628.9131, encoder=-1117.3948, decoder=-0.0440
+2025-06-24 19:52:09,870 - tadGANs - INFO - Epoch 565/1000 - Time: 2.39s - Loss: critic_x=-0.0951, critic_z=-630.8327, encoder=-1122.2887, decoder=-0.0465
+2025-06-24 19:52:12,263 - tadGANs - INFO - Epoch 566/1000 - Time: 2.39s - Loss: critic_x=-0.0944, critic_z=-633.2978, encoder=-1125.0897, decoder=-0.0436
+2025-06-24 19:52:14,688 - tadGANs - INFO - Epoch 567/1000 - Time: 2.42s - Loss: critic_x=-0.0926, critic_z=-634.4333, encoder=-1129.6161, decoder=-0.0471
+2025-06-24 19:52:16,998 - tadGANs - INFO - Epoch 568/1000 - Time: 2.31s - Loss: critic_x=-0.0946, critic_z=-636.5295, encoder=-1132.1361, decoder=-0.0512
+2025-06-24 19:52:22,079 - tadGANs - INFO - Epoch 569/1000 - Time: 5.08s - Loss: critic_x=-0.1003, critic_z=-638.0176, encoder=-1136.5545, decoder=-0.0484
+2025-06-24 19:52:24,508 - tadGANs - INFO - Epoch 570/1000 - Time: 2.43s - Loss: critic_x=-0.0950, critic_z=-640.0352, encoder=-1139.5893, decoder=-0.0518
+2025-06-24 19:52:24,519 - tadGANs - INFO - Models saved at epoch 570
+2025-06-24 19:52:27,024 - tadGANs - INFO - Epoch 571/1000 - Time: 2.51s - Loss: critic_x=-0.0946, critic_z=-641.4428, encoder=-1142.7347, decoder=-0.0690
+2025-06-24 19:52:29,473 - tadGANs - INFO - Epoch 572/1000 - Time: 2.45s - Loss: critic_x=-0.0971, critic_z=-643.7875, encoder=-1145.8356, decoder=-0.0617
+2025-06-24 19:52:31,925 - tadGANs - INFO - Epoch 573/1000 - Time: 2.45s - Loss: critic_x=-0.0921, critic_z=-645.8415, encoder=-1149.8613, decoder=-0.0563
+2025-06-24 19:52:34,339 - tadGANs - INFO - Epoch 574/1000 - Time: 2.41s - Loss: critic_x=-0.0916, critic_z=-647.5976, encoder=-1153.7274, decoder=-0.0710
+2025-06-24 19:52:36,775 - tadGANs - INFO - Epoch 575/1000 - Time: 2.44s - Loss: critic_x=-0.0893, critic_z=-649.7376, encoder=-1157.5678, decoder=-0.0610
+2025-06-24 19:52:39,161 - tadGANs - INFO - Epoch 576/1000 - Time: 2.39s - Loss: critic_x=-0.0910, critic_z=-650.9086, encoder=-1160.3229, decoder=-0.0440
+2025-06-24 19:52:41,540 - tadGANs - INFO - Epoch 577/1000 - Time: 2.38s - Loss: critic_x=-0.0903, critic_z=-653.6395, encoder=-1164.0780, decoder=-0.0372
+2025-06-24 19:52:43,943 - tadGANs - INFO - Epoch 578/1000 - Time: 2.40s - Loss: critic_x=-0.0894, critic_z=-655.4053, encoder=-1167.5264, decoder=-0.0307
+2025-06-24 19:52:46,364 - tadGANs - INFO - Epoch 579/1000 - Time: 2.42s - Loss: critic_x=-0.0886, critic_z=-657.2364, encoder=-1170.9657, decoder=-0.0211
+2025-06-24 19:52:48,878 - tadGANs - INFO - Epoch 580/1000 - Time: 2.51s - Loss: critic_x=-0.0861, critic_z=-658.9986, encoder=-1175.5865, decoder=-0.0254
+2025-06-24 19:52:48,889 - tadGANs - INFO - Models saved at epoch 580
+2025-06-24 19:52:51,194 - tadGANs - INFO - Epoch 581/1000 - Time: 2.30s - Loss: critic_x=-0.0899, critic_z=-660.9229, encoder=-1178.4630, decoder=-0.0081
+2025-06-24 19:52:56,306 - tadGANs - INFO - Epoch 582/1000 - Time: 5.11s - Loss: critic_x=-0.0884, critic_z=-663.2337, encoder=-1181.6016, decoder=-0.0119
+2025-06-24 19:52:58,735 - tadGANs - INFO - Epoch 583/1000 - Time: 2.43s - Loss: critic_x=-0.0858, critic_z=-665.0444, encoder=-1185.7992, decoder=-0.0074
+2025-06-24 19:53:01,108 - tadGANs - INFO - Epoch 584/1000 - Time: 2.37s - Loss: critic_x=-0.0883, critic_z=-666.3956, encoder=-1189.8874, decoder=-0.0069
+2025-06-24 19:53:03,437 - tadGANs - INFO - Epoch 585/1000 - Time: 2.33s - Loss: critic_x=-0.0855, critic_z=-669.3572, encoder=-1193.3576, decoder=-0.0095
+2025-06-24 19:53:05,780 - tadGANs - INFO - Epoch 586/1000 - Time: 2.34s - Loss: critic_x=-0.0858, critic_z=-670.6019, encoder=-1196.8307, decoder=0.0042
+2025-06-24 19:53:08,111 - tadGANs - INFO - Epoch 587/1000 - Time: 2.33s - Loss: critic_x=-0.0860, critic_z=-672.7074, encoder=-1200.2793, decoder=-0.0068
+2025-06-24 19:53:10,498 - tadGANs - INFO - Epoch 588/1000 - Time: 2.39s - Loss: critic_x=-0.0868, critic_z=-674.5388, encoder=-1204.5811, decoder=-0.0165
+2025-06-24 19:53:12,845 - tadGANs - INFO - Epoch 589/1000 - Time: 2.35s - Loss: critic_x=-0.0822, critic_z=-676.0651, encoder=-1207.4911, decoder=-0.0078
+2025-06-24 19:53:15,249 - tadGANs - INFO - Epoch 590/1000 - Time: 2.40s - Loss: critic_x=-0.0817, critic_z=-678.4053, encoder=-1211.5791, decoder=-0.0134
+2025-06-24 19:53:15,260 - tadGANs - INFO - Models saved at epoch 590
+2025-06-24 19:53:17,706 - tadGANs - INFO - Epoch 591/1000 - Time: 2.45s - Loss: critic_x=-0.0837, critic_z=-680.1541, encoder=-1214.9000, decoder=-0.0130
+2025-06-24 19:53:20,031 - tadGANs - INFO - Epoch 592/1000 - Time: 2.32s - Loss: critic_x=-0.0818, critic_z=-682.3209, encoder=-1218.0153, decoder=-0.0081
+2025-06-24 19:53:22,349 - tadGANs - INFO - Epoch 593/1000 - Time: 2.32s - Loss: critic_x=-0.0814, critic_z=-684.6197, encoder=-1222.5723, decoder=-0.0030
+2025-06-24 19:53:24,669 - tadGANs - INFO - Epoch 594/1000 - Time: 2.32s - Loss: critic_x=-0.0796, critic_z=-686.1430, encoder=-1227.4126, decoder=-0.0006
+2025-06-24 19:53:26,975 - tadGANs - INFO - Epoch 595/1000 - Time: 2.31s - Loss: critic_x=-0.0839, critic_z=-688.5767, encoder=-1229.9347, decoder=0.0050
+2025-06-24 19:53:32,133 - tadGANs - INFO - Epoch 596/1000 - Time: 5.16s - Loss: critic_x=-0.0790, critic_z=-689.8862, encoder=-1232.6968, decoder=0.0115
+2025-06-24 19:53:34,489 - tadGANs - INFO - Epoch 597/1000 - Time: 2.36s - Loss: critic_x=-0.0765, critic_z=-692.6754, encoder=-1237.4807, decoder=0.0072
+2025-06-24 19:53:36,836 - tadGANs - INFO - Epoch 598/1000 - Time: 2.35s - Loss: critic_x=-0.0774, critic_z=-693.3988, encoder=-1240.4293, decoder=0.0059
+2025-06-24 19:53:39,161 - tadGANs - INFO - Epoch 599/1000 - Time: 2.32s - Loss: critic_x=-0.0736, critic_z=-697.0524, encoder=-1245.1382, decoder=0.0100
+2025-06-24 19:53:41,621 - tadGANs - INFO - Epoch 600/1000 - Time: 2.46s - Loss: critic_x=-0.0740, critic_z=-697.6156, encoder=-1247.1990, decoder=-0.0071
+2025-06-24 19:53:41,632 - tadGANs - INFO - Models saved at epoch 600
+2025-06-24 19:53:43,985 - tadGANs - INFO - Epoch 601/1000 - Time: 2.35s - Loss: critic_x=-0.0753, critic_z=-700.2391, encoder=-1251.6994, decoder=-0.0048
+2025-06-24 19:53:46,393 - tadGANs - INFO - Epoch 602/1000 - Time: 2.41s - Loss: critic_x=-0.0753, critic_z=-701.6255, encoder=-1255.3171, decoder=0.0124
+2025-06-24 19:53:48,749 - tadGANs - INFO - Epoch 603/1000 - Time: 2.36s - Loss: critic_x=-0.0708, critic_z=-703.8987, encoder=-1260.3223, decoder=0.0034
+2025-06-24 19:53:51,069 - tadGANs - INFO - Epoch 604/1000 - Time: 2.32s - Loss: critic_x=-0.0670, critic_z=-705.5387, encoder=-1262.1215, decoder=0.0005
+2025-06-24 19:53:53,428 - tadGANs - INFO - Epoch 605/1000 - Time: 2.36s - Loss: critic_x=-0.0737, critic_z=-707.7908, encoder=-1267.9116, decoder=0.0056
+2025-06-24 19:53:55,808 - tadGANs - INFO - Epoch 606/1000 - Time: 2.38s - Loss: critic_x=-0.0719, critic_z=-709.6283, encoder=-1270.6284, decoder=0.0079
+2025-06-24 19:53:58,133 - tadGANs - INFO - Epoch 607/1000 - Time: 2.32s - Loss: critic_x=-0.0721, critic_z=-711.3191, encoder=-1273.2915, decoder=0.0041
+2025-06-24 19:54:00,434 - tadGANs - INFO - Epoch 608/1000 - Time: 2.30s - Loss: critic_x=-0.0700, critic_z=-714.7359, encoder=-1278.5002, decoder=-0.0002
+2025-06-24 19:54:05,520 - tadGANs - INFO - Epoch 609/1000 - Time: 5.09s - Loss: critic_x=-0.0693, critic_z=-716.3164, encoder=-1281.1562, decoder=0.0059
+2025-06-24 19:54:07,893 - tadGANs - INFO - Epoch 610/1000 - Time: 2.37s - Loss: critic_x=-0.0671, critic_z=-717.5345, encoder=-1285.9101, decoder=0.0116
+2025-06-24 19:54:07,904 - tadGANs - INFO - Models saved at epoch 610
+2025-06-24 19:54:10,477 - tadGANs - INFO - Epoch 611/1000 - Time: 2.57s - Loss: critic_x=-0.0657, critic_z=-719.3744, encoder=-1288.9341, decoder=0.0140
+2025-06-24 19:54:12,920 - tadGANs - INFO - Epoch 612/1000 - Time: 2.44s - Loss: critic_x=-0.0674, critic_z=-721.2783, encoder=-1292.0562, decoder=-0.0025
+2025-06-24 19:54:15,412 - tadGANs - INFO - Epoch 613/1000 - Time: 2.49s - Loss: critic_x=-0.0611, critic_z=-723.3995, encoder=-1296.2548, decoder=0.0014
+2025-06-24 19:54:17,830 - tadGANs - INFO - Epoch 614/1000 - Time: 2.42s - Loss: critic_x=-0.0640, critic_z=-725.4232, encoder=-1299.5064, decoder=-0.0001
+2025-06-24 19:54:20,280 - tadGANs - INFO - Epoch 615/1000 - Time: 2.45s - Loss: critic_x=-0.0622, critic_z=-728.4468, encoder=-1303.6399, decoder=0.0033
+2025-06-24 19:54:22,651 - tadGANs - INFO - Epoch 616/1000 - Time: 2.37s - Loss: critic_x=-0.0553, critic_z=-729.3839, encoder=-1308.0055, decoder=0.0099
+2025-06-24 19:54:24,983 - tadGANs - INFO - Epoch 617/1000 - Time: 2.33s - Loss: critic_x=-0.0583, critic_z=-731.9194, encoder=-1312.4748, decoder=0.0360
+2025-06-24 19:54:27,362 - tadGANs - INFO - Epoch 618/1000 - Time: 2.38s - Loss: critic_x=-0.0606, critic_z=-734.0765, encoder=-1315.9496, decoder=0.0279
+2025-06-24 19:54:29,692 - tadGANs - INFO - Epoch 619/1000 - Time: 2.33s - Loss: critic_x=-0.0596, critic_z=-735.9917, encoder=-1319.8226, decoder=0.0440
+2025-06-24 19:54:32,090 - tadGANs - INFO - Epoch 620/1000 - Time: 2.40s - Loss: critic_x=-0.0599, critic_z=-738.0700, encoder=-1323.8334, decoder=0.0625
+2025-06-24 19:54:32,114 - tadGANs - INFO - Models saved at epoch 620
+2025-06-24 19:54:34,570 - tadGANs - INFO - Epoch 621/1000 - Time: 2.45s - Loss: critic_x=-0.0571, critic_z=-739.9479, encoder=-1327.5596, decoder=0.0656
+2025-06-24 19:54:39,411 - tadGANs - INFO - Epoch 622/1000 - Time: 4.84s - Loss: critic_x=-0.0600, critic_z=-742.1273, encoder=-1330.9082, decoder=0.0589
+2025-06-24 19:54:41,849 - tadGANs - INFO - Epoch 623/1000 - Time: 2.44s - Loss: critic_x=-0.0574, critic_z=-743.6713, encoder=-1334.5339, decoder=0.0640
+2025-06-24 19:54:44,348 - tadGANs - INFO - Epoch 624/1000 - Time: 2.50s - Loss: critic_x=-0.0556, critic_z=-746.1976, encoder=-1338.4068, decoder=0.0403
+2025-06-24 19:54:46,857 - tadGANs - INFO - Epoch 625/1000 - Time: 2.51s - Loss: critic_x=-0.0622, critic_z=-748.5309, encoder=-1343.1039, decoder=0.0449
+2025-06-24 19:54:49,356 - tadGANs - INFO - Epoch 626/1000 - Time: 2.50s - Loss: critic_x=-0.0563, critic_z=-750.0777, encoder=-1346.4275, decoder=0.0490
+2025-06-24 19:54:51,697 - tadGANs - INFO - Epoch 627/1000 - Time: 2.34s - Loss: critic_x=-0.0546, critic_z=-752.0146, encoder=-1350.0097, decoder=0.0394
+2025-06-24 19:54:54,076 - tadGANs - INFO - Epoch 628/1000 - Time: 2.38s - Loss: critic_x=-0.0525, critic_z=-754.0239, encoder=-1354.2623, decoder=0.0210
+2025-06-24 19:54:56,379 - tadGANs - INFO - Epoch 629/1000 - Time: 2.30s - Loss: critic_x=-0.0514, critic_z=-756.0942, encoder=-1357.5262, decoder=0.0242
+2025-06-24 19:54:58,683 - tadGANs - INFO - Epoch 630/1000 - Time: 2.30s - Loss: critic_x=-0.0495, critic_z=-757.9745, encoder=-1361.7667, decoder=0.0292
+2025-06-24 19:54:58,693 - tadGANs - INFO - Models saved at epoch 630
+2025-06-24 19:55:01,088 - tadGANs - INFO - Epoch 631/1000 - Time: 2.39s - Loss: critic_x=-0.0545, critic_z=-759.9659, encoder=-1364.6003, decoder=0.0246
+2025-06-24 19:55:03,506 - tadGANs - INFO - Epoch 632/1000 - Time: 2.42s - Loss: critic_x=-0.0495, critic_z=-762.2689, encoder=-1369.8057, decoder=0.0120
+2025-06-24 19:55:05,856 - tadGANs - INFO - Epoch 633/1000 - Time: 2.35s - Loss: critic_x=-0.0468, critic_z=-764.3779, encoder=-1373.5845, decoder=0.0234
+2025-06-24 19:55:08,171 - tadGANs - INFO - Epoch 634/1000 - Time: 2.31s - Loss: critic_x=-0.0498, critic_z=-766.5177, encoder=-1377.1240, decoder=0.0078
+2025-06-24 19:55:10,439 - tadGANs - INFO - Epoch 635/1000 - Time: 2.27s - Loss: critic_x=-0.0512, critic_z=-767.8702, encoder=-1380.3389, decoder=0.0186
+2025-06-24 19:55:15,402 - tadGANs - INFO - Epoch 636/1000 - Time: 4.96s - Loss: critic_x=-0.0526, critic_z=-770.1270, encoder=-1383.9410, decoder=0.0345
+2025-06-24 19:55:17,805 - tadGANs - INFO - Epoch 637/1000 - Time: 2.40s - Loss: critic_x=-0.0555, critic_z=-772.1014, encoder=-1388.6762, decoder=0.0415
+2025-06-24 19:55:20,257 - tadGANs - INFO - Epoch 638/1000 - Time: 2.45s - Loss: critic_x=-0.0508, critic_z=-774.8355, encoder=-1391.6627, decoder=0.0390
+2025-06-24 19:55:22,678 - tadGANs - INFO - Epoch 639/1000 - Time: 2.42s - Loss: critic_x=-0.0507, critic_z=-777.0619, encoder=-1396.3985, decoder=0.0544
+2025-06-24 19:55:25,227 - tadGANs - INFO - Epoch 640/1000 - Time: 2.55s - Loss: critic_x=-0.0461, critic_z=-778.9277, encoder=-1399.1610, decoder=0.0436
+2025-06-24 19:55:25,239 - tadGANs - INFO - Models saved at epoch 640
+2025-06-24 19:55:27,683 - tadGANs - INFO - Epoch 641/1000 - Time: 2.44s - Loss: critic_x=-0.0414, critic_z=-781.2432, encoder=-1404.9874, decoder=0.0515
+2025-06-24 19:55:30,167 - tadGANs - INFO - Epoch 642/1000 - Time: 2.48s - Loss: critic_x=-0.0452, critic_z=-782.9235, encoder=-1408.6075, decoder=0.0515
+2025-06-24 19:55:32,559 - tadGANs - INFO - Epoch 643/1000 - Time: 2.39s - Loss: critic_x=-0.0405, critic_z=-785.8409, encoder=-1412.6778, decoder=0.0496
+2025-06-24 19:55:34,980 - tadGANs - INFO - Epoch 644/1000 - Time: 2.42s - Loss: critic_x=-0.0375, critic_z=-787.5164, encoder=-1416.7515, decoder=0.0434
+2025-06-24 19:55:37,355 - tadGANs - INFO - Epoch 645/1000 - Time: 2.37s - Loss: critic_x=-0.0377, critic_z=-789.5963, encoder=-1420.2349, decoder=0.0442
+2025-06-24 19:55:39,707 - tadGANs - INFO - Epoch 646/1000 - Time: 2.35s - Loss: critic_x=-0.0377, critic_z=-791.8882, encoder=-1425.4907, decoder=0.0343
+2025-06-24 19:55:42,270 - tadGANs - INFO - Epoch 647/1000 - Time: 2.56s - Loss: critic_x=-0.0337, critic_z=-793.1184, encoder=-1429.2616, decoder=0.0475
+2025-06-24 19:55:44,633 - tadGANs - INFO - Epoch 648/1000 - Time: 2.36s - Loss: critic_x=-0.0388, critic_z=-795.3699, encoder=-1432.6771, decoder=0.0664
+2025-06-24 19:55:50,725 - tadGANs - INFO - Epoch 649/1000 - Time: 6.09s - Loss: critic_x=-0.0385, critic_z=-797.3414, encoder=-1436.9395, decoder=0.0799
+2025-06-24 19:55:53,146 - tadGANs - INFO - Epoch 650/1000 - Time: 2.42s - Loss: critic_x=-0.0398, critic_z=-799.5814, encoder=-1440.8922, decoder=0.0817
+2025-06-24 19:55:53,157 - tadGANs - INFO - Models saved at epoch 650
+2025-06-24 19:55:55,619 - tadGANs - INFO - Epoch 651/1000 - Time: 2.46s - Loss: critic_x=-0.0452, critic_z=-802.3375, encoder=-1443.6631, decoder=0.0879
+2025-06-24 19:55:58,005 - tadGANs - INFO - Epoch 652/1000 - Time: 2.39s - Loss: critic_x=-0.0521, critic_z=-804.5415, encoder=-1448.1135, decoder=0.0989
+2025-06-24 19:56:00,339 - tadGANs - INFO - Epoch 653/1000 - Time: 2.33s - Loss: critic_x=-0.0525, critic_z=-805.9620, encoder=-1452.4833, decoder=0.1048
+2025-06-24 19:56:02,702 - tadGANs - INFO - Epoch 654/1000 - Time: 2.36s - Loss: critic_x=-0.0458, critic_z=-808.2644, encoder=-1456.2831, decoder=0.1119
+2025-06-24 19:56:04,978 - tadGANs - INFO - Epoch 655/1000 - Time: 2.28s - Loss: critic_x=-0.0499, critic_z=-810.0025, encoder=-1458.3951, decoder=0.1063
+2025-06-24 19:56:07,225 - tadGANs - INFO - Epoch 656/1000 - Time: 2.25s - Loss: critic_x=-0.0470, critic_z=-813.0210, encoder=-1464.3047, decoder=0.1031
+2025-06-24 19:56:09,485 - tadGANs - INFO - Epoch 657/1000 - Time: 2.26s - Loss: critic_x=-0.0401, critic_z=-814.5600, encoder=-1468.1668, decoder=0.0958
+2025-06-24 19:56:11,812 - tadGANs - INFO - Epoch 658/1000 - Time: 2.33s - Loss: critic_x=-0.0399, critic_z=-816.6577, encoder=-1472.3374, decoder=0.0926
+2025-06-24 19:56:14,051 - tadGANs - INFO - Epoch 659/1000 - Time: 2.24s - Loss: critic_x=-0.0323, critic_z=-818.1988, encoder=-1475.5627, decoder=0.0997
+2025-06-24 19:56:16,337 - tadGANs - INFO - Epoch 660/1000 - Time: 2.29s - Loss: critic_x=-0.0359, critic_z=-820.7167, encoder=-1480.1608, decoder=0.1115
+2025-06-24 19:56:16,348 - tadGANs - INFO - Models saved at epoch 660
+2025-06-24 19:56:18,765 - tadGANs - INFO - Epoch 661/1000 - Time: 2.42s - Loss: critic_x=-0.0380, critic_z=-823.3537, encoder=-1484.1306, decoder=0.1015
+2025-06-24 19:56:21,288 - tadGANs - INFO - Epoch 662/1000 - Time: 2.52s - Loss: critic_x=-0.0374, critic_z=-825.4740, encoder=-1488.9359, decoder=0.0987
+2025-06-24 19:56:27,161 - tadGANs - INFO - Epoch 663/1000 - Time: 5.87s - Loss: critic_x=-0.0391, critic_z=-826.8290, encoder=-1492.2750, decoder=0.0919
+2025-06-24 19:56:29,543 - tadGANs - INFO - Epoch 664/1000 - Time: 2.38s - Loss: critic_x=-0.0385, critic_z=-829.7258, encoder=-1495.7114, decoder=0.1095
+2025-06-24 19:56:32,049 - tadGANs - INFO - Epoch 665/1000 - Time: 2.51s - Loss: critic_x=-0.0412, critic_z=-831.5846, encoder=-1500.3028, decoder=0.1038
+2025-06-24 19:56:34,466 - tadGANs - INFO - Epoch 666/1000 - Time: 2.42s - Loss: critic_x=-0.0444, critic_z=-833.6338, encoder=-1504.3088, decoder=0.0894
+2025-06-24 19:56:36,839 - tadGANs - INFO - Epoch 667/1000 - Time: 2.37s - Loss: critic_x=-0.0451, critic_z=-835.6050, encoder=-1508.2223, decoder=0.0960
+2025-06-24 19:56:39,214 - tadGANs - INFO - Epoch 668/1000 - Time: 2.37s - Loss: critic_x=-0.0480, critic_z=-837.6409, encoder=-1512.3282, decoder=0.0951
+2025-06-24 19:56:41,586 - tadGANs - INFO - Epoch 669/1000 - Time: 2.37s - Loss: critic_x=-0.0495, critic_z=-839.7915, encoder=-1516.3407, decoder=0.0939
+2025-06-24 19:56:44,059 - tadGANs - INFO - Epoch 670/1000 - Time: 2.47s - Loss: critic_x=-0.0505, critic_z=-842.4434, encoder=-1520.5210, decoder=0.0787
+2025-06-24 19:56:44,085 - tadGANs - INFO - Models saved at epoch 670
+2025-06-24 19:56:46,537 - tadGANs - INFO - Epoch 671/1000 - Time: 2.45s - Loss: critic_x=-0.0476, critic_z=-844.7113, encoder=-1524.5379, decoder=0.0868
+2025-06-24 19:56:49,038 - tadGANs - INFO - Epoch 672/1000 - Time: 2.50s - Loss: critic_x=-0.0477, critic_z=-846.3027, encoder=-1528.4500, decoder=0.0770
+2025-06-24 19:56:51,475 - tadGANs - INFO - Epoch 673/1000 - Time: 2.44s - Loss: critic_x=-0.0432, critic_z=-848.3703, encoder=-1531.5332, decoder=0.0773
+2025-06-24 19:56:53,835 - tadGANs - INFO - Epoch 674/1000 - Time: 2.36s - Loss: critic_x=-0.0457, critic_z=-850.8338, encoder=-1536.4556, decoder=0.0793
+2025-06-24 19:56:56,194 - tadGANs - INFO - Epoch 675/1000 - Time: 2.36s - Loss: critic_x=-0.0416, critic_z=-853.1642, encoder=-1540.4451, decoder=0.0814
+2025-06-24 19:57:01,440 - tadGANs - INFO - Epoch 676/1000 - Time: 5.25s - Loss: critic_x=-0.0505, critic_z=-855.2433, encoder=-1546.1672, decoder=0.0918
+2025-06-24 19:57:03,747 - tadGANs - INFO - Epoch 677/1000 - Time: 2.31s - Loss: critic_x=-0.0468, critic_z=-857.6651, encoder=-1548.1072, decoder=0.0779
+2025-06-24 19:57:06,030 - tadGANs - INFO - Epoch 678/1000 - Time: 2.28s - Loss: critic_x=-0.0461, critic_z=-859.6229, encoder=-1553.4201, decoder=0.0898
+2025-06-24 19:57:08,373 - tadGANs - INFO - Epoch 679/1000 - Time: 2.34s - Loss: critic_x=-0.0442, critic_z=-862.1094, encoder=-1557.2674, decoder=0.0852
+2025-06-24 19:57:10,726 - tadGANs - INFO - Epoch 680/1000 - Time: 2.35s - Loss: critic_x=-0.0344, critic_z=-863.1022, encoder=-1561.8066, decoder=0.1152
+2025-06-24 19:57:10,737 - tadGANs - INFO - Models saved at epoch 680
+2025-06-24 19:57:13,057 - tadGANs - INFO - Epoch 681/1000 - Time: 2.32s - Loss: critic_x=-0.0314, critic_z=-865.9471, encoder=-1564.3023, decoder=0.1245
+2025-06-24 19:57:15,410 - tadGANs - INFO - Epoch 682/1000 - Time: 2.35s - Loss: critic_x=-0.0316, critic_z=-868.6501, encoder=-1570.0011, decoder=0.1330
+2025-06-24 19:57:17,773 - tadGANs - INFO - Epoch 683/1000 - Time: 2.36s - Loss: critic_x=-0.0314, critic_z=-870.4775, encoder=-1573.6117, decoder=0.1457
+2025-06-24 19:57:20,116 - tadGANs - INFO - Epoch 684/1000 - Time: 2.34s - Loss: critic_x=-0.0335, critic_z=-872.7259, encoder=-1577.5707, decoder=0.1426
+2025-06-24 19:57:22,474 - tadGANs - INFO - Epoch 685/1000 - Time: 2.36s - Loss: critic_x=-0.0392, critic_z=-874.4949, encoder=-1582.2715, decoder=0.1565
+2025-06-24 19:57:24,821 - tadGANs - INFO - Epoch 686/1000 - Time: 2.35s - Loss: critic_x=-0.0393, critic_z=-876.9531, encoder=-1586.1469, decoder=0.1469
+2025-06-24 19:57:27,066 - tadGANs - INFO - Epoch 687/1000 - Time: 2.25s - Loss: critic_x=-0.0431, critic_z=-879.3574, encoder=-1590.6535, decoder=0.1546
+2025-06-24 19:57:29,414 - tadGANs - INFO - Epoch 688/1000 - Time: 2.35s - Loss: critic_x=-0.0403, critic_z=-881.4182, encoder=-1594.6420, decoder=0.1539
+2025-06-24 19:57:31,789 - tadGANs - INFO - Epoch 689/1000 - Time: 2.38s - Loss: critic_x=-0.0421, critic_z=-884.6912, encoder=-1599.8819, decoder=0.1480
+2025-06-24 19:57:37,344 - tadGANs - INFO - Epoch 690/1000 - Time: 5.55s - Loss: critic_x=-0.0415, critic_z=-885.6227, encoder=-1604.1220, decoder=0.1402
+2025-06-24 19:57:37,355 - tadGANs - INFO - Models saved at epoch 690
+2025-06-24 19:57:39,741 - tadGANs - INFO - Epoch 691/1000 - Time: 2.39s - Loss: critic_x=-0.0379, critic_z=-887.4306, encoder=-1607.5947, decoder=0.1318
+2025-06-24 19:57:42,142 - tadGANs - INFO - Epoch 692/1000 - Time: 2.40s - Loss: critic_x=-0.0440, critic_z=-890.6190, encoder=-1610.8351, decoder=0.1122
+2025-06-24 19:57:44,445 - tadGANs - INFO - Epoch 693/1000 - Time: 2.30s - Loss: critic_x=-0.0470, critic_z=-892.4080, encoder=-1614.9505, decoder=0.1182
+2025-06-24 19:57:46,803 - tadGANs - INFO - Epoch 694/1000 - Time: 2.36s - Loss: critic_x=-0.0515, critic_z=-894.3712, encoder=-1619.4339, decoder=0.1015
+2025-06-24 19:57:49,120 - tadGANs - INFO - Epoch 695/1000 - Time: 2.32s - Loss: critic_x=-0.0473, critic_z=-896.6456, encoder=-1624.2534, decoder=0.0868
+2025-06-24 19:57:51,420 - tadGANs - INFO - Epoch 696/1000 - Time: 2.30s - Loss: critic_x=-0.0481, critic_z=-898.8223, encoder=-1628.6587, decoder=0.0753
+2025-06-24 19:57:53,654 - tadGANs - INFO - Epoch 697/1000 - Time: 2.23s - Loss: critic_x=-0.0493, critic_z=-900.7386, encoder=-1630.7894, decoder=0.0720
+2025-06-24 19:57:55,983 - tadGANs - INFO - Epoch 698/1000 - Time: 2.33s - Loss: critic_x=-0.0422, critic_z=-902.8957, encoder=-1636.7500, decoder=0.0861
+2025-06-24 19:57:58,289 - tadGANs - INFO - Epoch 699/1000 - Time: 2.31s - Loss: critic_x=-0.0440, critic_z=-905.8361, encoder=-1640.0205, decoder=0.0769
+2025-06-24 19:58:00,605 - tadGANs - INFO - Epoch 700/1000 - Time: 2.32s - Loss: critic_x=-0.0457, critic_z=-908.7945, encoder=-1644.3476, decoder=0.0701
+2025-06-24 19:58:00,616 - tadGANs - INFO - Models saved at epoch 700
+2025-06-24 19:58:02,985 - tadGANs - INFO - Epoch 701/1000 - Time: 2.37s - Loss: critic_x=-0.0453, critic_z=-911.4454, encoder=-1650.3967, decoder=0.0637
+2025-06-24 19:58:05,291 - tadGANs - INFO - Epoch 702/1000 - Time: 2.31s - Loss: critic_x=-0.0418, critic_z=-912.5447, encoder=-1654.2318, decoder=0.0685
+2025-06-24 19:58:07,591 - tadGANs - INFO - Epoch 703/1000 - Time: 2.30s - Loss: critic_x=-0.0429, critic_z=-914.6754, encoder=-1657.4335, decoder=0.0629
+2025-06-24 19:58:13,201 - tadGANs - INFO - Epoch 704/1000 - Time: 5.61s - Loss: critic_x=-0.0430, critic_z=-916.3618, encoder=-1661.6201, decoder=0.0839
+2025-06-24 19:58:15,507 - tadGANs - INFO - Epoch 705/1000 - Time: 2.31s - Loss: critic_x=-0.0369, critic_z=-918.9725, encoder=-1665.6505, decoder=0.1052
+2025-06-24 19:58:17,874 - tadGANs - INFO - Epoch 706/1000 - Time: 2.37s - Loss: critic_x=-0.0390, critic_z=-921.8368, encoder=-1670.4232, decoder=0.1177
+2025-06-24 19:58:20,170 - tadGANs - INFO - Epoch 707/1000 - Time: 2.30s - Loss: critic_x=-0.0388, critic_z=-923.0043, encoder=-1674.2726, decoder=0.1328
+2025-06-24 19:58:22,532 - tadGANs - INFO - Epoch 708/1000 - Time: 2.36s - Loss: critic_x=-0.0401, critic_z=-925.7071, encoder=-1679.6822, decoder=0.1339
+2025-06-24 19:58:24,886 - tadGANs - INFO - Epoch 709/1000 - Time: 2.35s - Loss: critic_x=-0.0394, critic_z=-929.1372, encoder=-1684.0444, decoder=0.1555
+2025-06-24 19:58:27,253 - tadGANs - INFO - Epoch 710/1000 - Time: 2.37s - Loss: critic_x=-0.0407, critic_z=-929.7689, encoder=-1686.8624, decoder=0.1527
+2025-06-24 19:58:27,273 - tadGANs - INFO - Models saved at epoch 710
+2025-06-24 19:58:29,644 - tadGANs - INFO - Epoch 711/1000 - Time: 2.37s - Loss: critic_x=-0.0371, critic_z=-932.5298, encoder=-1691.5318, decoder=0.1450
+2025-06-24 19:58:31,934 - tadGANs - INFO - Epoch 712/1000 - Time: 2.29s - Loss: critic_x=-0.0351, critic_z=-934.7344, encoder=-1696.2084, decoder=0.1626
+2025-06-24 19:58:34,216 - tadGANs - INFO - Epoch 713/1000 - Time: 2.28s - Loss: critic_x=-0.0387, critic_z=-936.9366, encoder=-1700.9080, decoder=0.1369
+2025-06-24 19:58:36,453 - tadGANs - INFO - Epoch 714/1000 - Time: 2.24s - Loss: critic_x=-0.0351, critic_z=-939.2639, encoder=-1705.4544, decoder=0.1505
+2025-06-24 19:58:38,781 - tadGANs - INFO - Epoch 715/1000 - Time: 2.33s - Loss: critic_x=-0.0362, critic_z=-940.9507, encoder=-1709.2973, decoder=0.1637
+2025-06-24 19:58:41,024 - tadGANs - INFO - Epoch 716/1000 - Time: 2.24s - Loss: critic_x=-0.0356, critic_z=-943.3421, encoder=-1712.8766, decoder=0.1729
+2025-06-24 19:58:43,391 - tadGANs - INFO - Epoch 717/1000 - Time: 2.37s - Loss: critic_x=-0.0374, critic_z=-945.9538, encoder=-1716.8790, decoder=0.1620
+2025-06-24 19:58:48,947 - tadGANs - INFO - Epoch 718/1000 - Time: 5.56s - Loss: critic_x=-0.0349, critic_z=-948.3466, encoder=-1721.9999, decoder=0.1509
+2025-06-24 19:58:51,328 - tadGANs - INFO - Epoch 719/1000 - Time: 2.38s - Loss: critic_x=-0.0382, critic_z=-950.4639, encoder=-1725.5679, decoder=0.1549
+2025-06-24 19:58:53,636 - tadGANs - INFO - Epoch 720/1000 - Time: 2.31s - Loss: critic_x=-0.0370, critic_z=-952.9471, encoder=-1731.0949, decoder=0.1461
+2025-06-24 19:58:53,646 - tadGANs - INFO - Models saved at epoch 720
+2025-06-24 19:58:55,904 - tadGANs - INFO - Epoch 721/1000 - Time: 2.26s - Loss: critic_x=-0.0371, critic_z=-955.6362, encoder=-1734.8815, decoder=0.1392
+2025-06-24 19:58:58,193 - tadGANs - INFO - Epoch 722/1000 - Time: 2.29s - Loss: critic_x=-0.0346, critic_z=-957.6556, encoder=-1739.5733, decoder=0.1344
+2025-06-24 19:59:00,522 - tadGANs - INFO - Epoch 723/1000 - Time: 2.33s - Loss: critic_x=-0.0380, critic_z=-959.9473, encoder=-1744.2189, decoder=0.1225
+2025-06-24 19:59:02,854 - tadGANs - INFO - Epoch 724/1000 - Time: 2.33s - Loss: critic_x=-0.0411, critic_z=-962.1385, encoder=-1747.6353, decoder=0.1100
+2025-06-24 19:59:05,193 - tadGANs - INFO - Epoch 725/1000 - Time: 2.34s - Loss: critic_x=-0.0418, critic_z=-964.4836, encoder=-1751.7515, decoder=0.1042
+2025-06-24 19:59:07,464 - tadGANs - INFO - Epoch 726/1000 - Time: 2.27s - Loss: critic_x=-0.0448, critic_z=-967.1946, encoder=-1756.2873, decoder=0.1021
+2025-06-24 19:59:09,668 - tadGANs - INFO - Epoch 727/1000 - Time: 2.20s - Loss: critic_x=-0.0419, critic_z=-968.9763, encoder=-1761.5054, decoder=0.0983
+2025-06-24 19:59:11,961 - tadGANs - INFO - Epoch 728/1000 - Time: 2.29s - Loss: critic_x=-0.0388, critic_z=-971.3286, encoder=-1766.0859, decoder=0.1015
+2025-06-24 19:59:14,222 - tadGANs - INFO - Epoch 729/1000 - Time: 2.26s - Loss: critic_x=-0.0413, critic_z=-974.2251, encoder=-1769.1572, decoder=0.1026
+2025-06-24 19:59:16,557 - tadGANs - INFO - Epoch 730/1000 - Time: 2.33s - Loss: critic_x=-0.0429, critic_z=-976.2766, encoder=-1775.1951, decoder=0.1109
+2025-06-24 19:59:16,568 - tadGANs - INFO - Models saved at epoch 730
+2025-06-24 19:59:18,967 - tadGANs - INFO - Epoch 731/1000 - Time: 2.40s - Loss: critic_x=-0.0402, critic_z=-979.4143, encoder=-1778.7412, decoder=0.1049
+2025-06-24 19:59:24,629 - tadGANs - INFO - Epoch 732/1000 - Time: 5.66s - Loss: critic_x=-0.0409, critic_z=-980.4765, encoder=-1783.1161, decoder=0.1160
+2025-06-24 19:59:26,904 - tadGANs - INFO - Epoch 733/1000 - Time: 2.27s - Loss: critic_x=-0.0355, critic_z=-982.6532, encoder=-1787.1960, decoder=0.1084
+2025-06-24 19:59:29,228 - tadGANs - INFO - Epoch 734/1000 - Time: 2.32s - Loss: critic_x=-0.0347, critic_z=-985.3762, encoder=-1792.2070, decoder=0.1067
+2025-06-24 19:59:31,551 - tadGANs - INFO - Epoch 735/1000 - Time: 2.32s - Loss: critic_x=-0.0325, critic_z=-986.6873, encoder=-1796.0635, decoder=0.1125
+2025-06-24 19:59:33,924 - tadGANs - INFO - Epoch 736/1000 - Time: 2.37s - Loss: critic_x=-0.0330, critic_z=-989.8660, encoder=-1801.1612, decoder=0.1142
+2025-06-24 19:59:36,171 - tadGANs - INFO - Epoch 737/1000 - Time: 2.25s - Loss: critic_x=-0.0380, critic_z=-991.9335, encoder=-1803.6043, decoder=0.1214
+2025-06-24 19:59:38,548 - tadGANs - INFO - Epoch 738/1000 - Time: 2.38s - Loss: critic_x=-0.0386, critic_z=-994.9660, encoder=-1809.7192, decoder=0.1263
+2025-06-24 19:59:40,829 - tadGANs - INFO - Epoch 739/1000 - Time: 2.28s - Loss: critic_x=-0.0347, critic_z=-995.8525, encoder=-1813.0498, decoder=0.1459
+2025-06-24 19:59:43,070 - tadGANs - INFO - Epoch 740/1000 - Time: 2.24s - Loss: critic_x=-0.0294, critic_z=-998.7853, encoder=-1818.2969, decoder=0.1567
+2025-06-24 19:59:43,080 - tadGANs - INFO - Models saved at epoch 740
+2025-06-24 19:59:45,305 - tadGANs - INFO - Epoch 741/1000 - Time: 2.22s - Loss: critic_x=-0.0320, critic_z=-1001.6194, encoder=-1821.5286, decoder=0.1607
+2025-06-24 19:59:47,588 - tadGANs - INFO - Epoch 742/1000 - Time: 2.28s - Loss: critic_x=-0.0306, critic_z=-1004.0323, encoder=-1827.3992, decoder=0.1612
+2025-06-24 19:59:49,893 - tadGANs - INFO - Epoch 743/1000 - Time: 2.31s - Loss: critic_x=-0.0321, critic_z=-1005.9146, encoder=-1831.5220, decoder=0.1597
+2025-06-24 19:59:52,259 - tadGANs - INFO - Epoch 744/1000 - Time: 2.37s - Loss: critic_x=-0.0351, critic_z=-1007.9408, encoder=-1835.9023, decoder=0.1696
+2025-06-24 19:59:54,517 - tadGANs - INFO - Epoch 745/1000 - Time: 2.26s - Loss: critic_x=-0.0307, critic_z=-1011.0949, encoder=-1841.0229, decoder=0.1862
+2025-06-24 20:00:00,045 - tadGANs - INFO - Epoch 746/1000 - Time: 5.53s - Loss: critic_x=-0.0352, critic_z=-1013.6622, encoder=-1845.4813, decoder=0.1869
+2025-06-24 20:00:02,280 - tadGANs - INFO - Epoch 747/1000 - Time: 2.23s - Loss: critic_x=-0.0348, critic_z=-1014.7894, encoder=-1848.2267, decoder=0.2008
+2025-06-24 20:00:04,646 - tadGANs - INFO - Epoch 748/1000 - Time: 2.37s - Loss: critic_x=-0.0382, critic_z=-1017.9294, encoder=-1852.5058, decoder=0.1998
+2025-06-24 20:00:07,011 - tadGANs - INFO - Epoch 749/1000 - Time: 2.36s - Loss: critic_x=-0.0376, critic_z=-1020.7558, encoder=-1859.1236, decoder=0.2056
+2025-06-24 20:00:09,366 - tadGANs - INFO - Epoch 750/1000 - Time: 2.35s - Loss: critic_x=-0.0391, critic_z=-1023.0787, encoder=-1862.7559, decoder=0.2189
+2025-06-24 20:00:09,379 - tadGANs - INFO - Models saved at epoch 750
+2025-06-24 20:00:11,665 - tadGANs - INFO - Epoch 751/1000 - Time: 2.29s - Loss: critic_x=-0.0432, critic_z=-1024.8817, encoder=-1867.5917, decoder=0.2169
+2025-06-24 20:00:13,964 - tadGANs - INFO - Epoch 752/1000 - Time: 2.30s - Loss: critic_x=-0.0421, critic_z=-1027.0017, encoder=-1871.7418, decoder=0.2231
+2025-06-24 20:00:16,276 - tadGANs - INFO - Epoch 753/1000 - Time: 2.31s - Loss: critic_x=-0.0399, critic_z=-1028.9733, encoder=-1875.6781, decoder=0.2374
+2025-06-24 20:00:18,581 - tadGANs - INFO - Epoch 754/1000 - Time: 2.30s - Loss: critic_x=-0.0428, critic_z=-1031.8496, encoder=-1881.2219, decoder=0.2500
+2025-06-24 20:00:20,967 - tadGANs - INFO - Epoch 755/1000 - Time: 2.39s - Loss: critic_x=-0.0431, critic_z=-1034.9069, encoder=-1885.2567, decoder=0.2362
+2025-06-24 20:00:23,384 - tadGANs - INFO - Epoch 756/1000 - Time: 2.42s - Loss: critic_x=-0.0493, critic_z=-1036.7651, encoder=-1889.0643, decoder=0.2389
+2025-06-24 20:00:25,810 - tadGANs - INFO - Epoch 757/1000 - Time: 2.43s - Loss: critic_x=-0.0480, critic_z=-1039.0878, encoder=-1893.0982, decoder=0.2459
+2025-06-24 20:00:28,263 - tadGANs - INFO - Epoch 758/1000 - Time: 2.45s - Loss: critic_x=-0.0495, critic_z=-1040.7134, encoder=-1898.2336, decoder=0.2410
+2025-06-24 20:00:30,726 - tadGANs - INFO - Epoch 759/1000 - Time: 2.46s - Loss: critic_x=-0.0517, critic_z=-1042.9571, encoder=-1902.1254, decoder=0.2328
+2025-06-24 20:00:36,641 - tadGANs - INFO - Epoch 760/1000 - Time: 5.91s - Loss: critic_x=-0.0499, critic_z=-1046.0443, encoder=-1906.7733, decoder=0.2359
+2025-06-24 20:00:36,652 - tadGANs - INFO - Models saved at epoch 760
+2025-06-24 20:00:39,091 - tadGANs - INFO - Epoch 761/1000 - Time: 2.44s - Loss: critic_x=-0.0485, critic_z=-1048.4499, encoder=-1912.2618, decoder=0.2300
+2025-06-24 20:00:41,563 - tadGANs - INFO - Epoch 762/1000 - Time: 2.47s - Loss: critic_x=-0.0495, critic_z=-1051.0027, encoder=-1916.3782, decoder=0.2139
+2025-06-24 20:00:44,069 - tadGANs - INFO - Epoch 763/1000 - Time: 2.51s - Loss: critic_x=-0.0526, critic_z=-1053.8107, encoder=-1920.7651, decoder=0.2169
+2025-06-24 20:00:46,615 - tadGANs - INFO - Epoch 764/1000 - Time: 2.55s - Loss: critic_x=-0.0524, critic_z=-1055.8838, encoder=-1925.5204, decoder=0.2065
+2025-06-24 20:00:48,963 - tadGANs - INFO - Epoch 765/1000 - Time: 2.35s - Loss: critic_x=-0.0482, critic_z=-1057.5621, encoder=-1929.8749, decoder=0.2095
+2025-06-24 20:00:51,298 - tadGANs - INFO - Epoch 766/1000 - Time: 2.34s - Loss: critic_x=-0.0474, critic_z=-1061.5191, encoder=-1934.8740, decoder=0.2048
+2025-06-24 20:00:53,475 - tadGANs - INFO - Epoch 767/1000 - Time: 2.18s - Loss: critic_x=-0.0491, critic_z=-1062.4154, encoder=-1939.0559, decoder=0.1965
+2025-06-24 20:00:55,805 - tadGANs - INFO - Epoch 768/1000 - Time: 2.33s - Loss: critic_x=-0.0440, critic_z=-1065.3326, encoder=-1944.7787, decoder=0.2061
+2025-06-24 20:00:58,085 - tadGANs - INFO - Epoch 769/1000 - Time: 2.28s - Loss: critic_x=-0.0438, critic_z=-1067.7878, encoder=-1947.9027, decoder=0.2081
+2025-06-24 20:01:00,425 - tadGANs - INFO - Epoch 770/1000 - Time: 2.34s - Loss: critic_x=-0.0465, critic_z=-1070.2829, encoder=-1952.5914, decoder=0.1953
+2025-06-24 20:01:00,435 - tadGANs - INFO - Models saved at epoch 770
+2025-06-24 20:01:02,723 - tadGANs - INFO - Epoch 771/1000 - Time: 2.29s - Loss: critic_x=-0.0436, critic_z=-1073.1791, encoder=-1958.7602, decoder=0.2072
+2025-06-24 20:01:05,011 - tadGANs - INFO - Epoch 772/1000 - Time: 2.29s - Loss: critic_x=-0.0438, critic_z=-1075.0590, encoder=-1962.1812, decoder=0.2094
+2025-06-24 20:01:10,513 - tadGANs - INFO - Epoch 773/1000 - Time: 5.50s - Loss: critic_x=-0.0408, critic_z=-1076.6235, encoder=-1968.5267, decoder=0.2350
+2025-06-24 20:01:12,768 - tadGANs - INFO - Epoch 774/1000 - Time: 2.25s - Loss: critic_x=-0.0415, critic_z=-1079.0062, encoder=-1970.5643, decoder=0.2514
+2025-06-24 20:01:15,100 - tadGANs - INFO - Epoch 775/1000 - Time: 2.33s - Loss: critic_x=-0.0418, critic_z=-1081.3784, encoder=-1975.8924, decoder=0.2526
+2025-06-24 20:01:17,401 - tadGANs - INFO - Epoch 776/1000 - Time: 2.30s - Loss: critic_x=-0.0421, critic_z=-1085.2075, encoder=-1980.1424, decoder=0.2642
+2025-06-24 20:01:19,698 - tadGANs - INFO - Epoch 777/1000 - Time: 2.30s - Loss: critic_x=-0.0422, critic_z=-1086.8808, encoder=-1986.8086, decoder=0.2775
+2025-06-24 20:01:21,956 - tadGANs - INFO - Epoch 778/1000 - Time: 2.26s - Loss: critic_x=-0.0413, critic_z=-1089.2443, encoder=-1989.7213, decoder=0.2897
+2025-06-24 20:01:24,202 - tadGANs - INFO - Epoch 779/1000 - Time: 2.25s - Loss: critic_x=-0.0411, critic_z=-1092.5128, encoder=-1994.7134, decoder=0.2977
+2025-06-24 20:01:26,503 - tadGANs - INFO - Epoch 780/1000 - Time: 2.30s - Loss: critic_x=-0.0417, critic_z=-1093.7990, encoder=-2001.4749, decoder=0.3016
+2025-06-24 20:01:26,514 - tadGANs - INFO - Models saved at epoch 780
+2025-06-24 20:01:28,760 - tadGANs - INFO - Epoch 781/1000 - Time: 2.25s - Loss: critic_x=-0.0408, critic_z=-1095.7127, encoder=-2003.4013, decoder=0.2917
+2025-06-24 20:01:31,107 - tadGANs - INFO - Epoch 782/1000 - Time: 2.35s - Loss: critic_x=-0.0397, critic_z=-1099.1059, encoder=-2008.3413, decoder=0.2932
+2025-06-24 20:01:33,417 - tadGANs - INFO - Epoch 783/1000 - Time: 2.31s - Loss: critic_x=-0.0428, critic_z=-1101.2259, encoder=-2014.3673, decoder=0.2959
+2025-06-24 20:01:35,762 - tadGANs - INFO - Epoch 784/1000 - Time: 2.35s - Loss: critic_x=-0.0421, critic_z=-1103.9560, encoder=-2019.2819, decoder=0.2905
+2025-06-24 20:01:38,053 - tadGANs - INFO - Epoch 785/1000 - Time: 2.29s - Loss: critic_x=-0.0419, critic_z=-1105.9191, encoder=-2022.7180, decoder=0.2953
+2025-06-24 20:01:40,295 - tadGANs - INFO - Epoch 786/1000 - Time: 2.24s - Loss: critic_x=-0.0445, critic_z=-1108.8451, encoder=-2026.0429, decoder=0.3087
+2025-06-24 20:01:42,529 - tadGANs - INFO - Epoch 787/1000 - Time: 2.23s - Loss: critic_x=-0.0470, critic_z=-1111.0534, encoder=-2031.0745, decoder=0.3068
+2025-06-24 20:01:44,837 - tadGANs - INFO - Epoch 788/1000 - Time: 2.31s - Loss: critic_x=-0.0482, critic_z=-1114.5691, encoder=-2037.7304, decoder=0.3075
+2025-06-24 20:01:47,170 - tadGANs - INFO - Epoch 789/1000 - Time: 2.33s - Loss: critic_x=-0.0462, critic_z=-1116.2807, encoder=-2042.4673, decoder=0.3031
+2025-06-24 20:01:49,458 - tadGANs - INFO - Epoch 790/1000 - Time: 2.29s - Loss: critic_x=-0.0466, critic_z=-1118.5230, encoder=-2044.8560, decoder=0.2925
+2025-06-24 20:01:49,469 - tadGANs - INFO - Models saved at epoch 790
+2025-06-24 20:01:51,922 - tadGANs - INFO - Epoch 791/1000 - Time: 2.45s - Loss: critic_x=-0.0479, critic_z=-1121.7350, encoder=-2050.8579, decoder=0.2817
+2025-06-24 20:01:54,585 - tadGANs - INFO - Epoch 792/1000 - Time: 2.66s - Loss: critic_x=-0.0449, critic_z=-1123.4001, encoder=-2055.9554, decoder=0.2745
+2025-06-24 20:01:57,166 - tadGANs - INFO - Epoch 793/1000 - Time: 2.58s - Loss: critic_x=-0.0476, critic_z=-1125.7940, encoder=-2059.4937, decoder=0.2583
+2025-06-24 20:02:04,065 - tadGANs - INFO - Epoch 794/1000 - Time: 6.90s - Loss: critic_x=-0.0449, critic_z=-1128.4894, encoder=-2065.0879, decoder=0.2774
+2025-06-24 20:02:06,808 - tadGANs - INFO - Epoch 795/1000 - Time: 2.74s - Loss: critic_x=-0.0444, critic_z=-1130.9192, encoder=-2070.6559, decoder=0.2580
+2025-06-24 20:02:09,669 - tadGANs - INFO - Epoch 796/1000 - Time: 2.86s - Loss: critic_x=-0.0383, critic_z=-1132.7229, encoder=-2073.4484, decoder=0.2692
+2025-06-24 20:02:12,475 - tadGANs - INFO - Epoch 797/1000 - Time: 2.81s - Loss: critic_x=-0.0390, critic_z=-1136.0734, encoder=-2078.0436, decoder=0.2652
+2025-06-24 20:02:15,242 - tadGANs - INFO - Epoch 798/1000 - Time: 2.77s - Loss: critic_x=-0.0405, critic_z=-1138.0732, encoder=-2082.6998, decoder=0.2776
+2025-06-24 20:02:18,075 - tadGANs - INFO - Epoch 799/1000 - Time: 2.83s - Loss: critic_x=-0.0385, critic_z=-1141.3371, encoder=-2088.3152, decoder=0.2991
+2025-06-24 20:02:20,900 - tadGANs - INFO - Epoch 800/1000 - Time: 2.83s - Loss: critic_x=-0.0405, critic_z=-1142.9160, encoder=-2092.8439, decoder=0.3079
+2025-06-24 20:02:20,914 - tadGANs - INFO - Models saved at epoch 800
+2025-06-24 20:02:23,627 - tadGANs - INFO - Epoch 801/1000 - Time: 2.71s - Loss: critic_x=-0.0388, critic_z=-1146.1143, encoder=-2098.2954, decoder=0.3336
+2025-06-24 20:02:26,181 - tadGANs - INFO - Epoch 802/1000 - Time: 2.55s - Loss: critic_x=-0.0404, critic_z=-1148.0957, encoder=-2100.9344, decoder=0.3455
+2025-06-24 20:02:28,856 - tadGANs - INFO - Epoch 803/1000 - Time: 2.67s - Loss: critic_x=-0.0423, critic_z=-1150.9559, encoder=-2107.1338, decoder=0.3576
+2025-06-24 20:02:31,415 - tadGANs - INFO - Epoch 804/1000 - Time: 2.56s - Loss: critic_x=-0.0412, critic_z=-1153.7848, encoder=-2112.3417, decoder=0.3730
+2025-06-24 20:02:33,965 - tadGANs - INFO - Epoch 805/1000 - Time: 2.55s - Loss: critic_x=-0.0400, critic_z=-1155.0919, encoder=-2116.7495, decoder=0.3833
+2025-06-24 20:02:34,922 - tadGANs - INFO - Epoch 806/1000 - Time: 0.96s - Loss: critic_x=-0.0407, critic_z=-1158.6373, encoder=-2122.2003, decoder=0.3932
+2025-06-24 20:02:37,500 - tadGANs - INFO - Epoch 807/1000 - Time: 2.58s - Loss: critic_x=-0.0363, critic_z=-1161.5785, encoder=-2127.6911, decoder=0.3775
+2025-06-24 20:02:40,173 - tadGANs - INFO - Epoch 808/1000 - Time: 2.67s - Loss: critic_x=-0.0390, critic_z=-1163.2085, encoder=-2131.1187, decoder=0.3851
+2025-06-24 20:02:42,804 - tadGANs - INFO - Epoch 809/1000 - Time: 2.63s - Loss: critic_x=-0.0370, critic_z=-1166.1863, encoder=-2137.6591, decoder=0.3895
+2025-06-24 20:02:45,349 - tadGANs - INFO - Epoch 810/1000 - Time: 2.54s - Loss: critic_x=-0.0391, critic_z=-1167.7107, encoder=-2140.4108, decoder=0.3690
+2025-06-24 20:02:45,362 - tadGANs - INFO - Models saved at epoch 810
+2025-06-24 20:02:47,877 - tadGANs - INFO - Epoch 811/1000 - Time: 2.51s - Loss: critic_x=-0.0421, critic_z=-1170.6435, encoder=-2145.5533, decoder=0.3729
+2025-06-24 20:02:50,418 - tadGANs - INFO - Epoch 812/1000 - Time: 2.54s - Loss: critic_x=-0.0405, critic_z=-1173.2868, encoder=-2150.2585, decoder=0.3575
+2025-06-24 20:02:52,762 - tadGANs - INFO - Epoch 813/1000 - Time: 2.34s - Loss: critic_x=-0.0393, critic_z=-1177.2065, encoder=-2154.9361, decoder=0.3437
+2025-06-24 20:02:55,130 - tadGANs - INFO - Epoch 814/1000 - Time: 2.37s - Loss: critic_x=-0.0386, critic_z=-1178.1763, encoder=-2160.7633, decoder=0.3419
+2025-06-24 20:02:57,498 - tadGANs - INFO - Epoch 815/1000 - Time: 2.37s - Loss: critic_x=-0.0408, critic_z=-1181.3468, encoder=-2165.4311, decoder=0.3302
+2025-06-24 20:02:59,847 - tadGANs - INFO - Epoch 816/1000 - Time: 2.35s - Loss: critic_x=-0.0409, critic_z=-1183.7965, encoder=-2170.1515, decoder=0.3239
+2025-06-24 20:03:02,075 - tadGANs - INFO - Epoch 817/1000 - Time: 2.23s - Loss: critic_x=-0.0415, critic_z=-1186.0563, encoder=-2174.5622, decoder=0.3310
+2025-06-24 20:03:04,445 - tadGANs - INFO - Epoch 818/1000 - Time: 2.37s - Loss: critic_x=-0.0416, critic_z=-1188.0521, encoder=-2180.6175, decoder=0.3293
+2025-06-24 20:03:08,115 - tadGANs - INFO - Epoch 819/1000 - Time: 3.67s - Loss: critic_x=-0.0425, critic_z=-1191.4277, encoder=-2183.1368, decoder=0.3293
+2025-06-24 20:03:10,749 - tadGANs - INFO - Epoch 820/1000 - Time: 2.63s - Loss: critic_x=-0.0445, critic_z=-1193.5580, encoder=-2189.6000, decoder=0.3352
+2025-06-24 20:03:10,783 - tadGANs - INFO - Models saved at epoch 820
+2025-06-24 20:03:13,404 - tadGANs - INFO - Epoch 821/1000 - Time: 2.62s - Loss: critic_x=-0.0440, critic_z=-1196.6673, encoder=-2194.5653, decoder=0.3441
+2025-06-24 20:03:15,959 - tadGANs - INFO - Epoch 822/1000 - Time: 2.55s - Loss: critic_x=-0.0473, critic_z=-1199.0335, encoder=-2198.6927, decoder=0.3310
+2025-06-24 20:03:18,524 - tadGANs - INFO - Epoch 823/1000 - Time: 2.57s - Loss: critic_x=-0.0446, critic_z=-1202.0630, encoder=-2204.1167, decoder=0.3337
+2025-06-24 20:03:21,133 - tadGANs - INFO - Epoch 824/1000 - Time: 2.61s - Loss: critic_x=-0.0491, critic_z=-1203.8486, encoder=-2209.1273, decoder=0.3325
+2025-06-24 20:03:23,664 - tadGANs - INFO - Epoch 825/1000 - Time: 2.53s - Loss: critic_x=-0.0474, critic_z=-1205.6634, encoder=-2213.2211, decoder=0.3460
+2025-06-24 20:03:26,070 - tadGANs - INFO - Epoch 826/1000 - Time: 2.41s - Loss: critic_x=-0.0500, critic_z=-1208.9545, encoder=-2218.1661, decoder=0.3296
+2025-06-24 20:03:28,445 - tadGANs - INFO - Epoch 827/1000 - Time: 2.37s - Loss: critic_x=-0.0527, critic_z=-1211.7024, encoder=-2223.2238, decoder=0.3263
+2025-06-24 20:03:30,953 - tadGANs - INFO - Epoch 828/1000 - Time: 2.51s - Loss: critic_x=-0.0539, critic_z=-1215.0135, encoder=-2227.3498, decoder=0.3248
+2025-06-24 20:03:33,346 - tadGANs - INFO - Epoch 829/1000 - Time: 2.39s - Loss: critic_x=-0.0562, critic_z=-1216.2699, encoder=-2233.0324, decoder=0.3162
+2025-06-24 20:03:35,777 - tadGANs - INFO - Epoch 830/1000 - Time: 2.43s - Loss: critic_x=-0.0581, critic_z=-1219.2564, encoder=-2237.8476, decoder=0.3099
+2025-06-24 20:03:35,790 - tadGANs - INFO - Models saved at epoch 830
+2025-06-24 20:03:38,380 - tadGANs - INFO - Epoch 831/1000 - Time: 2.59s - Loss: critic_x=-0.0576, critic_z=-1221.6400, encoder=-2242.5089, decoder=0.3219
+2025-06-24 20:03:41,979 - tadGANs - INFO - Epoch 832/1000 - Time: 3.60s - Loss: critic_x=-0.0582, critic_z=-1223.5056, encoder=-2246.0560, decoder=0.3308
+2025-06-24 20:03:44,343 - tadGANs - INFO - Epoch 833/1000 - Time: 2.36s - Loss: critic_x=-0.0623, critic_z=-1226.2152, encoder=-2251.7451, decoder=0.3320
+2025-06-24 20:03:46,713 - tadGANs - INFO - Epoch 834/1000 - Time: 2.37s - Loss: critic_x=-0.0596, critic_z=-1229.4750, encoder=-2256.4993, decoder=0.3206
+2025-06-24 20:03:49,108 - tadGANs - INFO - Epoch 835/1000 - Time: 2.40s - Loss: critic_x=-0.0607, critic_z=-1232.6368, encoder=-2262.3481, decoder=0.3276
+2025-06-24 20:03:51,484 - tadGANs - INFO - Epoch 836/1000 - Time: 2.38s - Loss: critic_x=-0.0619, critic_z=-1233.7801, encoder=-2266.6341, decoder=0.3330
+2025-06-24 20:03:53,928 - tadGANs - INFO - Epoch 837/1000 - Time: 2.44s - Loss: critic_x=-0.0637, critic_z=-1237.0229, encoder=-2271.4378, decoder=0.3512
+2025-06-24 20:03:56,249 - tadGANs - INFO - Epoch 838/1000 - Time: 2.32s - Loss: critic_x=-0.0611, critic_z=-1240.5258, encoder=-2277.1850, decoder=0.3648
+2025-06-24 20:03:58,688 - tadGANs - INFO - Epoch 839/1000 - Time: 2.44s - Loss: critic_x=-0.0609, critic_z=-1242.4039, encoder=-2282.8661, decoder=0.3745
+2025-06-24 20:04:01,055 - tadGANs - INFO - Epoch 840/1000 - Time: 2.37s - Loss: critic_x=-0.0629, critic_z=-1244.4956, encoder=-2285.7986, decoder=0.3731
+2025-06-24 20:04:01,066 - tadGANs - INFO - Models saved at epoch 840
+2025-06-24 20:04:03,468 - tadGANs - INFO - Epoch 841/1000 - Time: 2.40s - Loss: critic_x=-0.0616, critic_z=-1246.8384, encoder=-2291.7689, decoder=0.3752
+2025-06-24 20:04:05,788 - tadGANs - INFO - Epoch 842/1000 - Time: 2.32s - Loss: critic_x=-0.0635, critic_z=-1249.6063, encoder=-2297.4343, decoder=0.3929
+2025-06-24 20:04:08,191 - tadGANs - INFO - Epoch 843/1000 - Time: 2.40s - Loss: critic_x=-0.0633, critic_z=-1252.1808, encoder=-2300.8158, decoder=0.3660
+2025-06-24 20:04:10,571 - tadGANs - INFO - Epoch 844/1000 - Time: 2.38s - Loss: critic_x=-0.0643, critic_z=-1255.8304, encoder=-2306.4810, decoder=0.3542
+2025-06-24 20:04:15,818 - tadGANs - INFO - Epoch 845/1000 - Time: 5.25s - Loss: critic_x=-0.0629, critic_z=-1257.6699, encoder=-2313.3793, decoder=0.3629
+2025-06-24 20:04:18,245 - tadGANs - INFO - Epoch 846/1000 - Time: 2.43s - Loss: critic_x=-0.0654, critic_z=-1260.0824, encoder=-2315.6834, decoder=0.3519
+2025-06-24 20:04:20,689 - tadGANs - INFO - Epoch 847/1000 - Time: 2.44s - Loss: critic_x=-0.0666, critic_z=-1263.4745, encoder=-2321.0063, decoder=0.3534
+2025-06-24 20:04:23,082 - tadGANs - INFO - Epoch 848/1000 - Time: 2.39s - Loss: critic_x=-0.0629, critic_z=-1265.8715, encoder=-2326.3529, decoder=0.3520
+2025-06-24 20:04:25,642 - tadGANs - INFO - Epoch 849/1000 - Time: 2.56s - Loss: critic_x=-0.0657, critic_z=-1267.6904, encoder=-2331.3560, decoder=0.3599
+2025-06-24 20:04:28,070 - tadGANs - INFO - Epoch 850/1000 - Time: 2.43s - Loss: critic_x=-0.0658, critic_z=-1271.5915, encoder=-2336.1901, decoder=0.3486
+2025-06-24 20:04:28,085 - tadGANs - INFO - Models saved at epoch 850
+2025-06-24 20:04:30,538 - tadGANs - INFO - Epoch 851/1000 - Time: 2.45s - Loss: critic_x=-0.0656, critic_z=-1273.7462, encoder=-2342.7121, decoder=0.3520
+2025-06-24 20:04:33,062 - tadGANs - INFO - Epoch 852/1000 - Time: 2.52s - Loss: critic_x=-0.0657, critic_z=-1276.4325, encoder=-2346.8327, decoder=0.3487
+2025-06-24 20:04:35,498 - tadGANs - INFO - Epoch 853/1000 - Time: 2.44s - Loss: critic_x=-0.0640, critic_z=-1278.7938, encoder=-2352.8950, decoder=0.3433
+2025-06-24 20:04:37,952 - tadGANs - INFO - Epoch 854/1000 - Time: 2.45s - Loss: critic_x=-0.0656, critic_z=-1281.4519, encoder=-2356.8026, decoder=0.3437
+2025-06-24 20:04:40,413 - tadGANs - INFO - Epoch 855/1000 - Time: 2.46s - Loss: critic_x=-0.0616, critic_z=-1284.2115, encoder=-2361.1183, decoder=0.3454
+2025-06-24 20:04:42,778 - tadGANs - INFO - Epoch 856/1000 - Time: 2.36s - Loss: critic_x=-0.0638, critic_z=-1287.3564, encoder=-2369.4386, decoder=0.3554
+2025-06-24 20:04:45,175 - tadGANs - INFO - Epoch 857/1000 - Time: 2.40s - Loss: critic_x=-0.0655, critic_z=-1289.3629, encoder=-2373.0894, decoder=0.3674
+2025-06-24 20:04:49,570 - tadGANs - INFO - Epoch 858/1000 - Time: 4.39s - Loss: critic_x=-0.0714, critic_z=-1291.2138, encoder=-2377.2861, decoder=0.3759
+2025-06-24 20:04:51,919 - tadGANs - INFO - Epoch 859/1000 - Time: 2.35s - Loss: critic_x=-0.0693, critic_z=-1294.1162, encoder=-2382.2862, decoder=0.3870
+2025-06-24 20:04:54,281 - tadGANs - INFO - Epoch 860/1000 - Time: 2.36s - Loss: critic_x=-0.0715, critic_z=-1297.3474, encoder=-2386.8160, decoder=0.3994
+2025-06-24 20:04:54,321 - tadGANs - INFO - Models saved at epoch 860
+2025-06-24 20:04:56,677 - tadGANs - INFO - Epoch 861/1000 - Time: 2.36s - Loss: critic_x=-0.0738, critic_z=-1300.7017, encoder=-2392.8645, decoder=0.3948
+2025-06-24 20:04:59,072 - tadGANs - INFO - Epoch 862/1000 - Time: 2.40s - Loss: critic_x=-0.0770, critic_z=-1302.4382, encoder=-2397.1399, decoder=0.3855
+2025-06-24 20:05:01,432 - tadGANs - INFO - Epoch 863/1000 - Time: 2.36s - Loss: critic_x=-0.0786, critic_z=-1305.3295, encoder=-2403.0962, decoder=0.3756
+2025-06-24 20:05:03,798 - tadGANs - INFO - Epoch 864/1000 - Time: 2.37s - Loss: critic_x=-0.0789, critic_z=-1307.5361, encoder=-2407.0180, decoder=0.3702
+2025-06-24 20:05:06,188 - tadGANs - INFO - Epoch 865/1000 - Time: 2.39s - Loss: critic_x=-0.0796, critic_z=-1309.9119, encoder=-2412.2213, decoder=0.3807
+2025-06-24 20:05:08,628 - tadGANs - INFO - Epoch 866/1000 - Time: 2.44s - Loss: critic_x=-0.0768, critic_z=-1312.5865, encoder=-2417.8561, decoder=0.3779
+2025-06-24 20:05:11,015 - tadGANs - INFO - Epoch 867/1000 - Time: 2.39s - Loss: critic_x=-0.0783, critic_z=-1315.6911, encoder=-2421.8604, decoder=0.3675
+2025-06-24 20:05:13,316 - tadGANs - INFO - Epoch 868/1000 - Time: 2.30s - Loss: critic_x=-0.0775, critic_z=-1318.1116, encoder=-2427.4767, decoder=0.3764
+2025-06-24 20:05:15,602 - tadGANs - INFO - Epoch 869/1000 - Time: 2.29s - Loss: critic_x=-0.0737, critic_z=-1320.8717, encoder=-2431.6701, decoder=0.3826
+2025-06-24 20:05:17,952 - tadGANs - INFO - Epoch 870/1000 - Time: 2.35s - Loss: critic_x=-0.0758, critic_z=-1323.0049, encoder=-2437.1525, decoder=0.3929
+2025-06-24 20:05:17,962 - tadGANs - INFO - Models saved at epoch 870
+2025-06-24 20:05:20,328 - tadGANs - INFO - Epoch 871/1000 - Time: 2.37s - Loss: critic_x=-0.0782, critic_z=-1326.7650, encoder=-2442.4421, decoder=0.3950
+2025-06-24 20:05:25,638 - tadGANs - INFO - Epoch 872/1000 - Time: 5.31s - Loss: critic_x=-0.0802, critic_z=-1328.7707, encoder=-2448.4617, decoder=0.4011
+2025-06-24 20:05:28,217 - tadGANs - INFO - Epoch 873/1000 - Time: 2.58s - Loss: critic_x=-0.0810, critic_z=-1331.1628, encoder=-2451.9011, decoder=0.3921
+2025-06-24 20:05:30,748 - tadGANs - INFO - Epoch 874/1000 - Time: 2.53s - Loss: critic_x=-0.0819, critic_z=-1333.3074, encoder=-2457.6761, decoder=0.3963
+2025-06-24 20:05:33,340 - tadGANs - INFO - Epoch 875/1000 - Time: 2.59s - Loss: critic_x=-0.0847, critic_z=-1337.8287, encoder=-2463.1699, decoder=0.3958
+2025-06-24 20:05:35,637 - tadGANs - INFO - Epoch 876/1000 - Time: 2.30s - Loss: critic_x=-0.0851, critic_z=-1339.1540, encoder=-2467.3869, decoder=0.4045
+2025-06-24 20:05:37,891 - tadGANs - INFO - Epoch 877/1000 - Time: 2.25s - Loss: critic_x=-0.0883, critic_z=-1342.1066, encoder=-2474.2417, decoder=0.4034
+2025-06-24 20:05:40,232 - tadGANs - INFO - Epoch 878/1000 - Time: 2.34s - Loss: critic_x=-0.0847, critic_z=-1345.2966, encoder=-2480.3714, decoder=0.4063
+2025-06-24 20:05:42,634 - tadGANs - INFO - Epoch 879/1000 - Time: 2.40s - Loss: critic_x=-0.0839, critic_z=-1347.3962, encoder=-2483.8077, decoder=0.4116
+2025-06-24 20:05:44,995 - tadGANs - INFO - Epoch 880/1000 - Time: 2.36s - Loss: critic_x=-0.0855, critic_z=-1349.9693, encoder=-2487.5549, decoder=0.3958
+2025-06-24 20:05:45,006 - tadGANs - INFO - Models saved at epoch 880
+2025-06-24 20:05:47,341 - tadGANs - INFO - Epoch 881/1000 - Time: 2.33s - Loss: critic_x=-0.0834, critic_z=-1353.1336, encoder=-2493.5963, decoder=0.3840
+2025-06-24 20:05:49,699 - tadGANs - INFO - Epoch 882/1000 - Time: 2.36s - Loss: critic_x=-0.0799, critic_z=-1354.9704, encoder=-2498.3554, decoder=0.3714
+2025-06-24 20:05:52,010 - tadGANs - INFO - Epoch 883/1000 - Time: 2.31s - Loss: critic_x=-0.0802, critic_z=-1358.5720, encoder=-2504.1440, decoder=0.3784
+2025-06-24 20:05:54,337 - tadGANs - INFO - Epoch 884/1000 - Time: 2.33s - Loss: critic_x=-0.0807, critic_z=-1361.4475, encoder=-2509.4900, decoder=0.3609
+2025-06-24 20:05:58,880 - tadGANs - INFO - Epoch 885/1000 - Time: 4.54s - Loss: critic_x=-0.0823, critic_z=-1364.4634, encoder=-2513.8823, decoder=0.3594
+2025-06-24 20:06:01,190 - tadGANs - INFO - Epoch 886/1000 - Time: 2.31s - Loss: critic_x=-0.0806, critic_z=-1367.1876, encoder=-2520.9637, decoder=0.3561
+2025-06-24 20:06:03,599 - tadGANs - INFO - Epoch 887/1000 - Time: 2.41s - Loss: critic_x=-0.0814, critic_z=-1368.3242, encoder=-2523.9885, decoder=0.3527
+2025-06-24 20:06:05,877 - tadGANs - INFO - Epoch 888/1000 - Time: 2.28s - Loss: critic_x=-0.0833, critic_z=-1372.5088, encoder=-2530.7493, decoder=0.3711
+2025-06-24 20:06:08,182 - tadGANs - INFO - Epoch 889/1000 - Time: 2.31s - Loss: critic_x=-0.0854, critic_z=-1375.0895, encoder=-2536.5318, decoder=0.3652
+2025-06-24 20:06:10,520 - tadGANs - INFO - Epoch 890/1000 - Time: 2.34s - Loss: critic_x=-0.0816, critic_z=-1377.0740, encoder=-2539.8155, decoder=0.3733
+2025-06-24 20:06:10,531 - tadGANs - INFO - Models saved at epoch 890
+2025-06-24 20:06:12,921 - tadGANs - INFO - Epoch 891/1000 - Time: 2.39s - Loss: critic_x=-0.0844, critic_z=-1380.0256, encoder=-2544.9836, decoder=0.3847
+2025-06-24 20:06:15,281 - tadGANs - INFO - Epoch 892/1000 - Time: 2.36s - Loss: critic_x=-0.0850, critic_z=-1383.5860, encoder=-2551.3786, decoder=0.3936
+2025-06-24 20:06:17,596 - tadGANs - INFO - Epoch 893/1000 - Time: 2.31s - Loss: critic_x=-0.0882, critic_z=-1385.5984, encoder=-2557.3959, decoder=0.3993
+2025-06-24 20:06:19,948 - tadGANs - INFO - Epoch 894/1000 - Time: 2.35s - Loss: critic_x=-0.0893, critic_z=-1387.9498, encoder=-2561.8102, decoder=0.3959
+2025-06-24 20:06:22,283 - tadGANs - INFO - Epoch 895/1000 - Time: 2.33s - Loss: critic_x=-0.0861, critic_z=-1391.1684, encoder=-2565.9194, decoder=0.3911
+2025-06-24 20:06:24,600 - tadGANs - INFO - Epoch 896/1000 - Time: 2.32s - Loss: critic_x=-0.0916, critic_z=-1394.0849, encoder=-2571.4046, decoder=0.4065
+2025-06-24 20:06:26,867 - tadGANs - INFO - Epoch 897/1000 - Time: 2.27s - Loss: critic_x=-0.0922, critic_z=-1397.5409, encoder=-2576.9093, decoder=0.4076
+2025-06-24 20:06:29,207 - tadGANs - INFO - Epoch 898/1000 - Time: 2.34s - Loss: critic_x=-0.0859, critic_z=-1399.1820, encoder=-2583.2962, decoder=0.4185
+2025-06-24 20:06:34,516 - tadGANs - INFO - Epoch 899/1000 - Time: 5.31s - Loss: critic_x=-0.0872, critic_z=-1402.8950, encoder=-2587.8096, decoder=0.4295
+2025-06-24 20:06:37,067 - tadGANs - INFO - Epoch 900/1000 - Time: 2.55s - Loss: critic_x=-0.0904, critic_z=-1404.3293, encoder=-2593.2762, decoder=0.4320
+2025-06-24 20:06:37,079 - tadGANs - INFO - Models saved at epoch 900
+2025-06-24 20:06:39,559 - tadGANs - INFO - Epoch 901/1000 - Time: 2.48s - Loss: critic_x=-0.0928, critic_z=-1407.2920, encoder=-2598.6746, decoder=0.4377
+2025-06-24 20:06:42,126 - tadGANs - INFO - Epoch 902/1000 - Time: 2.57s - Loss: critic_x=-0.0897, critic_z=-1410.1738, encoder=-2603.8020, decoder=0.4371
+2025-06-24 20:06:44,473 - tadGANs - INFO - Epoch 903/1000 - Time: 2.35s - Loss: critic_x=-0.0912, critic_z=-1413.7683, encoder=-2608.4788, decoder=0.4236
+2025-06-24 20:06:46,766 - tadGANs - INFO - Epoch 904/1000 - Time: 2.29s - Loss: critic_x=-0.0924, critic_z=-1415.9099, encoder=-2615.1791, decoder=0.4348
+2025-06-24 20:06:48,993 - tadGANs - INFO - Epoch 905/1000 - Time: 2.23s - Loss: critic_x=-0.0920, critic_z=-1417.9898, encoder=-2618.2404, decoder=0.4340
+2025-06-24 20:06:51,284 - tadGANs - INFO - Epoch 906/1000 - Time: 2.29s - Loss: critic_x=-0.0917, critic_z=-1420.3134, encoder=-2623.7897, decoder=0.4177
+2025-06-24 20:06:53,615 - tadGANs - INFO - Epoch 907/1000 - Time: 2.33s - Loss: critic_x=-0.0897, critic_z=-1423.2615, encoder=-2629.8283, decoder=0.4215
+2025-06-24 20:06:55,965 - tadGANs - INFO - Epoch 908/1000 - Time: 2.35s - Loss: critic_x=-0.0938, critic_z=-1426.4759, encoder=-2633.0570, decoder=0.4246
+2025-06-24 20:06:58,291 - tadGANs - INFO - Epoch 909/1000 - Time: 2.33s - Loss: critic_x=-0.0966, critic_z=-1429.1846, encoder=-2640.1092, decoder=0.4068
+2025-06-24 20:07:00,665 - tadGANs - INFO - Epoch 910/1000 - Time: 2.37s - Loss: critic_x=-0.0923, critic_z=-1432.2568, encoder=-2645.9438, decoder=0.4071
+2025-06-24 20:07:00,676 - tadGANs - INFO - Models saved at epoch 910
+2025-06-24 20:07:03,025 - tadGANs - INFO - Epoch 911/1000 - Time: 2.35s - Loss: critic_x=-0.0947, critic_z=-1435.2716, encoder=-2651.4502, decoder=0.3980
+2025-06-24 20:07:05,425 - tadGANs - INFO - Epoch 912/1000 - Time: 2.40s - Loss: critic_x=-0.0944, critic_z=-1438.4682, encoder=-2656.7042, decoder=0.3841
+2025-06-24 20:07:10,154 - tadGANs - INFO - Epoch 913/1000 - Time: 4.73s - Loss: critic_x=-0.0962, critic_z=-1440.1656, encoder=-2662.8241, decoder=0.3752
+2025-06-24 20:07:12,515 - tadGANs - INFO - Epoch 914/1000 - Time: 2.36s - Loss: critic_x=-0.0962, critic_z=-1443.0992, encoder=-2667.9476, decoder=0.3747
+2025-06-24 20:07:14,794 - tadGANs - INFO - Epoch 915/1000 - Time: 2.28s - Loss: critic_x=-0.0966, critic_z=-1446.4506, encoder=-2671.8270, decoder=0.3673
+2025-06-24 20:07:17,184 - tadGANs - INFO - Epoch 916/1000 - Time: 2.39s - Loss: critic_x=-0.0965, critic_z=-1450.2798, encoder=-2679.2963, decoder=0.3645
+2025-06-24 20:07:19,528 - tadGANs - INFO - Epoch 917/1000 - Time: 2.34s - Loss: critic_x=-0.0992, critic_z=-1452.2044, encoder=-2684.2254, decoder=0.3674
+2025-06-24 20:07:21,900 - tadGANs - INFO - Epoch 918/1000 - Time: 2.37s - Loss: critic_x=-0.0939, critic_z=-1454.7713, encoder=-2688.5095, decoder=0.3689
+2025-06-24 20:07:24,236 - tadGANs - INFO - Epoch 919/1000 - Time: 2.34s - Loss: critic_x=-0.0999, critic_z=-1456.3052, encoder=-2694.6672, decoder=0.3710
+2025-06-24 20:07:26,637 - tadGANs - INFO - Epoch 920/1000 - Time: 2.40s - Loss: critic_x=-0.0966, critic_z=-1459.1164, encoder=-2698.4190, decoder=0.3534
+2025-06-24 20:07:26,648 - tadGANs - INFO - Models saved at epoch 920
+2025-06-24 20:07:29,021 - tadGANs - INFO - Epoch 921/1000 - Time: 2.37s - Loss: critic_x=-0.0974, critic_z=-1463.0774, encoder=-2704.3288, decoder=0.3583
+2025-06-24 20:07:31,407 - tadGANs - INFO - Epoch 922/1000 - Time: 2.39s - Loss: critic_x=-0.0977, critic_z=-1467.0273, encoder=-2710.1129, decoder=0.3577
+2025-06-24 20:07:33,764 - tadGANs - INFO - Epoch 923/1000 - Time: 2.36s - Loss: critic_x=-0.0949, critic_z=-1468.9609, encoder=-2716.8736, decoder=0.3415
+2025-06-24 20:07:36,102 - tadGANs - INFO - Epoch 924/1000 - Time: 2.34s - Loss: critic_x=-0.0985, critic_z=-1472.5036, encoder=-2721.5615, decoder=0.3563
+2025-06-24 20:07:38,455 - tadGANs - INFO - Epoch 925/1000 - Time: 2.35s - Loss: critic_x=-0.0965, critic_z=-1473.6344, encoder=-2725.8963, decoder=0.3460
+2025-06-24 20:07:43,752 - tadGANs - INFO - Epoch 926/1000 - Time: 5.30s - Loss: critic_x=-0.0937, critic_z=-1476.0409, encoder=-2732.2709, decoder=0.3611
+2025-06-24 20:07:46,284 - tadGANs - INFO - Epoch 927/1000 - Time: 2.53s - Loss: critic_x=-0.0951, critic_z=-1480.1203, encoder=-2737.6694, decoder=0.3493
+2025-06-24 20:07:48,899 - tadGANs - INFO - Epoch 928/1000 - Time: 2.61s - Loss: critic_x=-0.0939, critic_z=-1482.3417, encoder=-2742.8154, decoder=0.3294
+2025-06-24 20:07:51,345 - tadGANs - INFO - Epoch 929/1000 - Time: 2.45s - Loss: critic_x=-0.0894, critic_z=-1485.5138, encoder=-2747.2544, decoder=0.3296
+2025-06-24 20:07:53,672 - tadGANs - INFO - Epoch 930/1000 - Time: 2.33s - Loss: critic_x=-0.0934, critic_z=-1488.1391, encoder=-2753.8206, decoder=0.3246
+2025-06-24 20:07:53,682 - tadGANs - INFO - Models saved at epoch 930
+2025-06-24 20:07:55,994 - tadGANs - INFO - Epoch 931/1000 - Time: 2.31s - Loss: critic_x=-0.0972, critic_z=-1491.4278, encoder=-2759.2097, decoder=0.3237
+2025-06-24 20:07:58,327 - tadGANs - INFO - Epoch 932/1000 - Time: 2.33s - Loss: critic_x=-0.0935, critic_z=-1493.7933, encoder=-2763.3767, decoder=0.3307
+2025-06-24 20:08:00,699 - tadGANs - INFO - Epoch 933/1000 - Time: 2.37s - Loss: critic_x=-0.0903, critic_z=-1496.9474, encoder=-2769.8949, decoder=0.3179
+2025-06-24 20:08:03,015 - tadGANs - INFO - Epoch 934/1000 - Time: 2.32s - Loss: critic_x=-0.0918, critic_z=-1499.4396, encoder=-2775.8050, decoder=0.3291
+2025-06-24 20:08:05,369 - tadGANs - INFO - Epoch 935/1000 - Time: 2.35s - Loss: critic_x=-0.0907, critic_z=-1503.4200, encoder=-2780.7994, decoder=0.3095
+2025-06-24 20:08:07,755 - tadGANs - INFO - Epoch 936/1000 - Time: 2.39s - Loss: critic_x=-0.0896, critic_z=-1504.8529, encoder=-2787.8286, decoder=0.3063
+2025-06-24 20:08:10,212 - tadGANs - INFO - Epoch 937/1000 - Time: 2.46s - Loss: critic_x=-0.0892, critic_z=-1508.6995, encoder=-2791.1135, decoder=0.3057
+2025-06-24 20:08:12,633 - tadGANs - INFO - Epoch 938/1000 - Time: 2.42s - Loss: critic_x=-0.0889, critic_z=-1510.9021, encoder=-2794.9366, decoder=0.3101
+2025-06-24 20:08:14,972 - tadGANs - INFO - Epoch 939/1000 - Time: 2.34s - Loss: critic_x=-0.0867, critic_z=-1514.4619, encoder=-2804.1206, decoder=0.2988
+2025-06-24 20:08:19,703 - tadGANs - INFO - Epoch 940/1000 - Time: 4.73s - Loss: critic_x=-0.0853, critic_z=-1515.9579, encoder=-2809.5532, decoder=0.3123
+2025-06-24 20:08:19,716 - tadGANs - INFO - Models saved at epoch 940
+2025-06-24 20:08:22,176 - tadGANs - INFO - Epoch 941/1000 - Time: 2.46s - Loss: critic_x=-0.0884, critic_z=-1520.0172, encoder=-2813.0434, decoder=0.2899
+2025-06-24 20:08:24,521 - tadGANs - INFO - Epoch 942/1000 - Time: 2.34s - Loss: critic_x=-0.0888, critic_z=-1522.2183, encoder=-2820.6235, decoder=0.2894
+2025-06-24 20:08:26,865 - tadGANs - INFO - Epoch 943/1000 - Time: 2.34s - Loss: critic_x=-0.0884, critic_z=-1524.2963, encoder=-2824.7049, decoder=0.2825
+2025-06-24 20:08:29,284 - tadGANs - INFO - Epoch 944/1000 - Time: 2.42s - Loss: critic_x=-0.0946, critic_z=-1526.9512, encoder=-2828.7023, decoder=0.2756
+2025-06-24 20:08:31,755 - tadGANs - INFO - Epoch 945/1000 - Time: 2.47s - Loss: critic_x=-0.0947, critic_z=-1530.1012, encoder=-2834.4015, decoder=0.2838
+2025-06-24 20:08:34,200 - tadGANs - INFO - Epoch 946/1000 - Time: 2.44s - Loss: critic_x=-0.0933, critic_z=-1534.3996, encoder=-2839.8297, decoder=0.2909
+2025-06-24 20:08:36,664 - tadGANs - INFO - Epoch 947/1000 - Time: 2.46s - Loss: critic_x=-0.0936, critic_z=-1537.3510, encoder=-2847.7461, decoder=0.2670
+2025-06-24 20:08:39,134 - tadGANs - INFO - Epoch 948/1000 - Time: 2.47s - Loss: critic_x=-0.0947, critic_z=-1540.2130, encoder=-2853.9697, decoder=0.2666
+2025-06-24 20:08:41,484 - tadGANs - INFO - Epoch 949/1000 - Time: 2.35s - Loss: critic_x=-0.0973, critic_z=-1542.4218, encoder=-2857.7202, decoder=0.2489
+2025-06-24 20:08:43,904 - tadGANs - INFO - Epoch 950/1000 - Time: 2.42s - Loss: critic_x=-0.0957, critic_z=-1545.7137, encoder=-2862.7662, decoder=0.2449
+2025-06-24 20:08:43,915 - tadGANs - INFO - Models saved at epoch 950
+2025-06-24 20:08:46,230 - tadGANs - INFO - Epoch 951/1000 - Time: 2.32s - Loss: critic_x=-0.0958, critic_z=-1548.1327, encoder=-2868.7416, decoder=0.2620
+2025-06-24 20:08:48,581 - tadGANs - INFO - Epoch 952/1000 - Time: 2.35s - Loss: critic_x=-0.0953, critic_z=-1552.3916, encoder=-2873.9082, decoder=0.2565
+2025-06-24 20:08:53,819 - tadGANs - INFO - Epoch 953/1000 - Time: 5.24s - Loss: critic_x=-0.0966, critic_z=-1554.3229, encoder=-2880.6950, decoder=0.2537
+2025-06-24 20:08:56,239 - tadGANs - INFO - Epoch 954/1000 - Time: 2.42s - Loss: critic_x=-0.0969, critic_z=-1556.1483, encoder=-2884.3595, decoder=0.2554
+2025-06-24 20:08:58,824 - tadGANs - INFO - Epoch 955/1000 - Time: 2.59s - Loss: critic_x=-0.1004, critic_z=-1559.7685, encoder=-2889.0701, decoder=0.2535
+2025-06-24 20:09:01,395 - tadGANs - INFO - Epoch 956/1000 - Time: 2.57s - Loss: critic_x=-0.1000, critic_z=-1562.5241, encoder=-2896.4050, decoder=0.2317
+2025-06-24 20:09:03,724 - tadGANs - INFO - Epoch 957/1000 - Time: 2.33s - Loss: critic_x=-0.0923, critic_z=-1565.4097, encoder=-2901.2364, decoder=0.2320
+2025-06-24 20:09:06,065 - tadGANs - INFO - Epoch 958/1000 - Time: 2.34s - Loss: critic_x=-0.0978, critic_z=-1568.1416, encoder=-2907.7401, decoder=0.2204
+2025-06-24 20:09:08,349 - tadGANs - INFO - Epoch 959/1000 - Time: 2.28s - Loss: critic_x=-0.1004, critic_z=-1570.8618, encoder=-2912.6536, decoder=0.2213
+2025-06-24 20:09:10,671 - tadGANs - INFO - Epoch 960/1000 - Time: 2.32s - Loss: critic_x=-0.0995, critic_z=-1575.5473, encoder=-2919.4424, decoder=0.2244
+2025-06-24 20:09:10,682 - tadGANs - INFO - Models saved at epoch 960
+2025-06-24 20:09:13,032 - tadGANs - INFO - Epoch 961/1000 - Time: 2.35s - Loss: critic_x=-0.0973, critic_z=-1576.1727, encoder=-2924.2551, decoder=0.2148
+2025-06-24 20:09:15,336 - tadGANs - INFO - Epoch 962/1000 - Time: 2.30s - Loss: critic_x=-0.0960, critic_z=-1579.3312, encoder=-2929.8804, decoder=0.2151
+2025-06-24 20:09:17,610 - tadGANs - INFO - Epoch 963/1000 - Time: 2.27s - Loss: critic_x=-0.0980, critic_z=-1582.9795, encoder=-2935.7206, decoder=0.2161
+2025-06-24 20:09:19,902 - tadGANs - INFO - Epoch 964/1000 - Time: 2.29s - Loss: critic_x=-0.0994, critic_z=-1585.3268, encoder=-2939.7157, decoder=0.2130
+2025-06-24 20:09:22,211 - tadGANs - INFO - Epoch 965/1000 - Time: 2.31s - Loss: critic_x=-0.0998, critic_z=-1588.5800, encoder=-2944.3979, decoder=0.2089
+2025-06-24 20:09:24,594 - tadGANs - INFO - Epoch 966/1000 - Time: 2.38s - Loss: critic_x=-0.0965, critic_z=-1592.1457, encoder=-2951.3855, decoder=0.2032
+2025-06-24 20:09:29,435 - tadGANs - INFO - Epoch 967/1000 - Time: 4.84s - Loss: critic_x=-0.1005, critic_z=-1595.3669, encoder=-2958.2363, decoder=0.2029
+2025-06-24 20:09:31,783 - tadGANs - INFO - Epoch 968/1000 - Time: 2.35s - Loss: critic_x=-0.0984, critic_z=-1597.3232, encoder=-2964.2059, decoder=0.2130
+2025-06-24 20:09:34,195 - tadGANs - INFO - Epoch 969/1000 - Time: 2.41s - Loss: critic_x=-0.0974, critic_z=-1599.8259, encoder=-2969.2551, decoder=0.2036
+2025-06-24 20:09:36,601 - tadGANs - INFO - Epoch 970/1000 - Time: 2.41s - Loss: critic_x=-0.0971, critic_z=-1602.8862, encoder=-2974.3842, decoder=0.2173
+2025-06-24 20:09:36,611 - tadGANs - INFO - Models saved at epoch 970
+2025-06-24 20:09:39,020 - tadGANs - INFO - Epoch 971/1000 - Time: 2.41s - Loss: critic_x=-0.0962, critic_z=-1606.3473, encoder=-2978.5018, decoder=0.2091
+2025-06-24 20:09:41,292 - tadGANs - INFO - Epoch 972/1000 - Time: 2.27s - Loss: critic_x=-0.0922, critic_z=-1609.4378, encoder=-2985.3238, decoder=0.1882
+2025-06-24 20:09:43,574 - tadGANs - INFO - Epoch 973/1000 - Time: 2.28s - Loss: critic_x=-0.0968, critic_z=-1612.1690, encoder=-2990.8701, decoder=0.1905
+2025-06-24 20:09:45,891 - tadGANs - INFO - Epoch 974/1000 - Time: 2.32s - Loss: critic_x=-0.0945, critic_z=-1615.0727, encoder=-2996.8720, decoder=0.1670
+2025-06-24 20:09:48,259 - tadGANs - INFO - Epoch 975/1000 - Time: 2.37s - Loss: critic_x=-0.0995, critic_z=-1618.7533, encoder=-3003.3639, decoder=0.1541
+2025-06-24 20:09:50,563 - tadGANs - INFO - Epoch 976/1000 - Time: 2.30s - Loss: critic_x=-0.0975, critic_z=-1621.1759, encoder=-3006.4416, decoder=0.1489
+2025-06-24 20:09:52,938 - tadGANs - INFO - Epoch 977/1000 - Time: 2.37s - Loss: critic_x=-0.0941, critic_z=-1623.2352, encoder=-3011.7797, decoder=0.1620
+2025-06-24 20:09:55,252 - tadGANs - INFO - Epoch 978/1000 - Time: 2.31s - Loss: critic_x=-0.0921, critic_z=-1627.5916, encoder=-3018.7688, decoder=0.1597
+2025-06-24 20:09:57,570 - tadGANs - INFO - Epoch 979/1000 - Time: 2.32s - Loss: critic_x=-0.0923, critic_z=-1629.4447, encoder=-3026.4517, decoder=0.1605
+2025-06-24 20:09:59,836 - tadGANs - INFO - Epoch 980/1000 - Time: 2.27s - Loss: critic_x=-0.0927, critic_z=-1632.2764, encoder=-3029.5998, decoder=0.1583
+2025-06-24 20:09:59,849 - tadGANs - INFO - Models saved at epoch 980
+2025-06-24 20:10:05,070 - tadGANs - INFO - Epoch 981/1000 - Time: 5.22s - Loss: critic_x=-0.0945, critic_z=-1635.2429, encoder=-3036.6115, decoder=0.1544
+2025-06-24 20:10:07,566 - tadGANs - INFO - Epoch 982/1000 - Time: 2.50s - Loss: critic_x=-0.0863, critic_z=-1639.7352, encoder=-3042.5557, decoder=0.1671
+2025-06-24 20:10:10,092 - tadGANs - INFO - Epoch 983/1000 - Time: 2.53s - Loss: critic_x=-0.0946, critic_z=-1642.4497, encoder=-3050.0228, decoder=0.1564
+2025-06-24 20:10:12,444 - tadGANs - INFO - Epoch 984/1000 - Time: 2.35s - Loss: critic_x=-0.0915, critic_z=-1646.0297, encoder=-3054.0036, decoder=0.1548
+2025-06-24 20:10:14,774 - tadGANs - INFO - Epoch 985/1000 - Time: 2.33s - Loss: critic_x=-0.0924, critic_z=-1647.3980, encoder=-3060.3549, decoder=0.1490
+2025-06-24 20:10:17,153 - tadGANs - INFO - Epoch 986/1000 - Time: 2.38s - Loss: critic_x=-0.0964, critic_z=-1650.8278, encoder=-3065.2397, decoder=0.1364
+2025-06-24 20:10:19,464 - tadGANs - INFO - Epoch 987/1000 - Time: 2.31s - Loss: critic_x=-0.0948, critic_z=-1653.8275, encoder=-3072.5449, decoder=0.1374
+2025-06-24 20:10:21,824 - tadGANs - INFO - Epoch 988/1000 - Time: 2.36s - Loss: critic_x=-0.0934, critic_z=-1655.7026, encoder=-3076.0378, decoder=0.1338
+2025-06-24 20:10:24,001 - tadGANs - INFO - Epoch 989/1000 - Time: 2.18s - Loss: critic_x=-0.0936, critic_z=-1659.7620, encoder=-3081.9796, decoder=0.1243
+2025-06-24 20:10:25,972 - tadGANs - INFO - Epoch 990/1000 - Time: 1.97s - Loss: critic_x=-0.0953, critic_z=-1663.7839, encoder=-3089.6542, decoder=0.1195
+2025-06-24 20:10:25,984 - tadGANs - INFO - Models saved at epoch 990
+2025-06-24 20:10:27,928 - tadGANs - INFO - Epoch 991/1000 - Time: 1.94s - Loss: critic_x=-0.0959, critic_z=-1665.6383, encoder=-3094.3202, decoder=0.1191
+2025-06-24 20:10:30,006 - tadGANs - INFO - Epoch 992/1000 - Time: 2.08s - Loss: critic_x=-0.0975, critic_z=-1667.7617, encoder=-3098.5835, decoder=0.1029
+2025-06-24 20:10:32,058 - tadGANs - INFO - Epoch 993/1000 - Time: 2.05s - Loss: critic_x=-0.0939, critic_z=-1671.9626, encoder=-3107.5138, decoder=0.0973
+2025-06-24 20:10:34,105 - tadGANs - INFO - Epoch 994/1000 - Time: 2.05s - Loss: critic_x=-0.0954, critic_z=-1672.7900, encoder=-3111.0930, decoder=0.0939
+2025-06-24 20:10:38,661 - tadGANs - INFO - Epoch 995/1000 - Time: 4.56s - Loss: critic_x=-0.0978, critic_z=-1677.8208, encoder=-3116.7473, decoder=0.0955
+2025-06-24 20:10:40,686 - tadGANs - INFO - Epoch 996/1000 - Time: 2.02s - Loss: critic_x=-0.0978, critic_z=-1680.6030, encoder=-3122.7745, decoder=0.0823
+2025-06-24 20:10:42,669 - tadGANs - INFO - Epoch 997/1000 - Time: 1.98s - Loss: critic_x=-0.1019, critic_z=-1683.4019, encoder=-3127.4221, decoder=0.0896
+2025-06-24 20:10:44,784 - tadGANs - INFO - Epoch 998/1000 - Time: 2.12s - Loss: critic_x=-0.1019, critic_z=-1685.4387, encoder=-3132.4668, decoder=0.0876
+2025-06-24 20:10:46,767 - tadGANs - INFO - Epoch 999/1000 - Time: 1.98s - Loss: critic_x=-0.1035, critic_z=-1689.4126, encoder=-3139.5460, decoder=0.0877
+2025-06-24 20:10:48,787 - tadGANs - INFO - Epoch 1000/1000 - Time: 2.02s - Loss: critic_x=-0.1009, critic_z=-1691.3256, encoder=-3144.9933, decoder=0.0898
+2025-06-24 20:10:48,799 - tadGANs - INFO - Models saved at epoch 1000
+2025-06-24 20:10:48,809 - tadGANs - INFO - Training completed in 2523.20s
+2025-06-24 20:10:48,812 - tadGANs - INFO - Calculating anomaly scores
+2025-06-24 20:12:01,526 - tadGANs - INFO - Using statistical threshold: 2.8198
+2025-06-24 20:12:01,527 - tadGANs - INFO - Pruning false positives
+2025-06-24 20:12:02,221 - tadGANs - INFO - Plot saved to results/u500_1day_results_plot.png
+2025-06-24 20:12:02,226 - tadGANs - INFO - Results saved to results/u500_1day_results.csv
+2025-06-24 20:12:02,298 - tadGANs - INFO - Results exported to Excel: results/u500_1day_results.xlsx
+2025-06-24 20:12:02,298 - tadGANs - INFO - Successfully processed csv_data/u500_1day.csv

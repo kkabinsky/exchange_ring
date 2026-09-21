@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,hybrid2,arctan,0.5348484848484849,0.07407407407407407,106,40

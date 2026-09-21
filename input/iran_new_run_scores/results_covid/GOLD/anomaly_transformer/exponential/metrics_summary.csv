@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_covid\GOLD,anomaly_transformer,exponential,982,146,73,73,0.0018153489800170064,0.6917808219178082,1.0,0.3835616438356164,0.5544554455445545,0.7978982923625445,0.00032840215135365725,0.002078418619930744

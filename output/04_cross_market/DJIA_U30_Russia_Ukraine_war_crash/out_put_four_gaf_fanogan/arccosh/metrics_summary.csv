@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_Russia_Ukraine_war_crash,arccosh,344,102,0,102,0.024704242032021272,0.35294117647058826,1.0,0.35294117647058826,0.5217391304347826,,0.01256015654761604,0.02350878093720359

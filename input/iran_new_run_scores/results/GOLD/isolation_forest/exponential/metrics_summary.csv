@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results\GOLD,isolation_forest,exponential,2322,106,66,40,0.5639943343631978,0.5849056603773585,0.0,0.0,0.0,0.49507575757575756,0.5048860278206194,0.509401163339523

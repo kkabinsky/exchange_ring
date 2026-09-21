@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+US30Y_BOND_COVID200_daily,arctan,897,200,148,52,0.036461054533720005,0.685,0.0,0.0,0.0,0.4018970893970894,0.017353909694949952,0.017039841532241553

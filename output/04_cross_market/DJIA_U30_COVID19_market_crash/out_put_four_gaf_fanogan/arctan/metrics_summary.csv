@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_COVID19_market_crash,arctan,910,100,41,59,0.005991986580193042,0.52,0.7391304347826086,0.288135593220339,0.4146341463414634,0.5105415460934271,0.003645664299607973,0.004809535713866353

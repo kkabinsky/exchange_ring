@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,standalone_fanogan,arccosh,0.03508771929824561,0.0,37,18

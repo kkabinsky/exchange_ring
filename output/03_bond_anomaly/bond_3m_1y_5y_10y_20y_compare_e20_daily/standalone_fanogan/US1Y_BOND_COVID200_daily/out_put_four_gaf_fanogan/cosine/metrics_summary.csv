@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+US1Y_BOND_COVID200_daily,cosine,897,200,148,52,0.11031527370214461,0.8,1.0,0.23076923076923078,0.375,0.5819906444906445,0.06205717088818683,0.056507358076050875

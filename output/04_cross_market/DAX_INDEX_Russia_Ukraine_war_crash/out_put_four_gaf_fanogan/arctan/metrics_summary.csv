@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_Russia_Ukraine_war_crash,arctan,354,101,58,43,0.027579308301210397,0.5346534653465347,0.16666666666666666,0.023255813953488372,0.04081632653061224,0.6427425821972734,0.01632271800979467,0.01999025805714992

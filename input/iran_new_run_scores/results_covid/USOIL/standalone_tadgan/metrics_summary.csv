@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,standalone_tadgan,-,0.06622383252818036,0.0,146,92

@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DJIA_U30_Russia_Ukraine_war_crash,cosine,344,102,0,102,0.30389160662889475,0.3627450980392157,1.0,0.3627450980392157,0.5323741007194245,,0.2492651805541543,0.2933189112181757

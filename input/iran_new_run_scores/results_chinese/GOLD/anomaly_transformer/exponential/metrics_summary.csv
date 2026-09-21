@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_chinese\GOLD,anomaly_transformer,exponential,1862,147,77,70,0.0007273321389220655,0.3401360544217687,0.3246753246753247,0.35714285714285715,0.3401360544217687,0.32801484230055655,0.0001700118009466678,0.002033361466601491

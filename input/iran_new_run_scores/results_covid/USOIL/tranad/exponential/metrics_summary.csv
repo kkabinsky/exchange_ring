@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_covid\USOIL,tranad,exponential,983,146,73,73,0.14730383455753326,0.4931506849315068,0.0,0.0,0.0,0.39632201163445296,0.08554630726575851,0.06647467613220215

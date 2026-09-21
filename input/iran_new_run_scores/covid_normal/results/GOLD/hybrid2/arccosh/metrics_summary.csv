@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+GOLD,hybrid2,arccosh,,0.0,0.10611945356641497,0.02803954967728921,0.1558772161602974,128,0,875

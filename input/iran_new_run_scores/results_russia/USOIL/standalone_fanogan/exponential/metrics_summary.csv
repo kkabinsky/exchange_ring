@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,standalone_fanogan,exponential,0.8174358974358975,0.5393258426966292,125,65

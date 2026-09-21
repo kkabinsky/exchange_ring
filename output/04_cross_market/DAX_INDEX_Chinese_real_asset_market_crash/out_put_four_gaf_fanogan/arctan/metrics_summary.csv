@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+DAX_INDEX_Chinese_real_asset_market_crash,arctan,354,158,53,105,0.03303717039525506,0.31645569620253167,0.43478260869565216,0.09523809523809523,0.15625,0.23989218328840972,0.017828397179222376,0.02227017960711559

@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_chinese\GOLD,vae,exponential,1862,147,77,70,0.46440261602401733,0.54421768707483,1.0,0.04285714285714286,0.0821917808219178,0.5948051948051948,0.30386054515838623,0.3179547190666199

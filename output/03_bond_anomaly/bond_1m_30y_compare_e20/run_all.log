@@ -1,0 +1,55 @@
+[START] stage=all | base=D:\tadgan_gaf\f_anogan\market_crash-main
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[CNN] device=cuda | output=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20\cnn_autoencoder
+[CNN] run US1M -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | cosine
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | exponential
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | arctan
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | arccosh
+[CNN] run US30Y -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | cosine
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | exponential
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | arctan
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | arccosh
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1372 | test=200 | crash_windows=52
+[INFO] Device: cuda
+[FANOGAN] device/module loaded | output=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20\standalone_fanogan
+[FANOGAN] run US1M -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx
+
+==========================================================================================
+[STOCK] US1M_BOND_COVID200_daily | file=D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | n_prices=527
+==========================================================================================
+
+[RUN] US1M_BOND_COVID200_daily | method=cosine
+    [DATA] windows total=496 | train_normal=439 | test=57 | crash_in_test=0 | normal_in_test=57
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-08
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=5.8396 G=-0.7397
+    [GAN] epoch 002/20 D=-8.5502 G=4.6991
+    [GAN] epoch 003/20 D=-13.8887 G=10.0429
+    [GAN] epoch 004/20 D=-13.0186 G=7.8571
+    [GAN] epoch 005/20 D=-12.8897 G=11.8792
+    [GAN] epoch 006/20 D=-12.9416 G=9.8270
+    [GAN] epoch 007/20 D=-13.4106 G=9.5985
+    [GAN] epoch 008/20 D=-11.5155 G=5.6293
+    [GAN] epoch 009/20 D=-11.6841 G=6.8349
+    [GAN] epoch 010/20 D=-11.4250 G=6.9220
+    [GAN] epoch 011/20 D=-11.4116 G=6.3557
+    [GAN] epoch 012/20 D=-11.0495 G=6.0597
+    [GAN] epoch 013/20 D=-9.3190 G=6.8125
+    [GAN] epoch 014/20 D=-9.3523 G=6.1483
+    [GAN] epoch 015/20 D=-9.3098 G=6.0563
+    [GAN] epoch 016/20 D=-7.6791 G=2.4701
+    [GAN] epoch 017/20 D=-2.9326 G=-1.6299
+    [GAN] epoch 018/20 D=-1.2990 G=13.1063
+    [GAN] epoch 019/20 D=0.0220 G=6.5891
+    [GAN] epoch 020/20 D=0.2780 G=11.3825
+    [ENC] epoch 001/20 loss=0.285793
+    [ENC] epoch 002/20 loss=0.193827
+    [ENC] epoch 003/20 loss=0.175015
+    [ENC] epoch 004/20 loss=0.167662

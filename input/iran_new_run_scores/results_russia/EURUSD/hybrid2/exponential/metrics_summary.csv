@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,hybrid2,exponential,0.4152462121212121,0.34,130,66

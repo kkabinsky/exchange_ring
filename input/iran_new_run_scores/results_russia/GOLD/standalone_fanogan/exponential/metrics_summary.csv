@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,standalone_fanogan,exponential,0.48102564102564105,0.20689655172413793,125,65

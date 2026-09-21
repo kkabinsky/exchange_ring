@@ -1,0 +1,101 @@
+
+[CONFIG] Jobs to run
+  dataset                        scenario actual_train_start actual_train_end actual_test_start actual_test_end  forecast_days  n_train_normal_windows  n_test_crash_windows  n_test_normal_windows
+   S&P500           COVID-19 market crash         2017-01-03       2019-12-05        2019-12-06      2020-03-31            100                     910                    59                     41
+   S&P500        Russia-Ukraine war crash         2017-01-03       2018-02-10        2021-10-28      2022-02-24            102                     344                    43                     59
+   S&P500 Chinese real asset market crash         2017-01-03       2018-02-10        2023-05-01      2023-10-31            158                     344                   105                     53
+DAX INDEX           COVID-19 market crash         2016-09-21       2019-12-05        2019-12-06      2020-03-31            100                     904                    59                     41
+DAX INDEX        Russia-Ukraine war crash         2016-09-21       2018-02-09        2021-10-28      2022-02-24            101                     354                    43                     58
+DAX INDEX Chinese real asset market crash         2016-09-21       2018-02-09        2023-05-01      2023-10-31            158                     354                   105                     53
+     DJIA           COVID-19 market crash         2017-01-03       2019-12-05        2019-12-06      2020-03-31            100                     910                    59                     41
+     DJIA        Russia-Ukraine war crash         2017-01-03       2018-02-10        2021-10-28      2022-02-24            102                     344                    43                     59
+     DJIA Chinese real asset market crash         2017-01-03       2018-02-10        2023-05-01      2023-10-31            158                     344                   105                     53
+
+[MASTER] Performance summary
+  dataset                        scenario      method  accuracy  precision   recall       f1      auc
+   S&P500           COVID-19 market crash     arccosh  0.430000   1.000000 0.033898 0.065574 0.713105
+   S&P500           COVID-19 market crash      cosine  0.370000   0.166667 0.016949 0.030769 0.372881
+   S&P500           COVID-19 market crash exponential  0.320000   0.090909 0.016949 0.028571 0.350145
+   S&P500           COVID-19 market crash      arctan  0.410000   0.000000 0.000000 0.000000 0.534105
+   S&P500        Russia-Ukraine war crash      cosine  0.558824   0.461538 0.279070 0.347826 0.545920
+   S&P500        Russia-Ukraine war crash exponential  0.382353   0.250000 0.232558 0.240964 0.349231
+   S&P500        Russia-Ukraine war crash      arctan  0.352941   0.219512 0.209302 0.214286 0.268033
+   S&P500        Russia-Ukraine war crash     arccosh  0.431373   0.142857 0.069767 0.093750 0.243595
+   S&P500 Chinese real asset market crash exponential  0.594937   1.000000 0.390476 0.561644 0.799281
+   S&P500 Chinese real asset market crash      cosine  0.474684   1.000000 0.209524 0.346457 0.610782
+   S&P500 Chinese real asset market crash      arctan  0.436709   1.000000 0.152381 0.264463 0.858221
+   S&P500 Chinese real asset market crash     arccosh  0.398734   1.000000 0.095238 0.173913 0.744654
+DAX INDEX           COVID-19 market crash      cosine  0.270000   0.325000 0.220339 0.262626 0.236875
+DAX INDEX           COVID-19 market crash      arctan  0.290000   0.285714 0.135593 0.183908 0.210418
+DAX INDEX           COVID-19 market crash exponential  0.250000   0.214286 0.101695 0.137931 0.146755
+DAX INDEX           COVID-19 market crash     arccosh  0.190000   0.076923 0.033898 0.047059 0.169492
+DAX INDEX        Russia-Ukraine war crash exponential  0.603960   0.714286 0.116279 0.200000 0.583400
+DAX INDEX        Russia-Ukraine war crash     arccosh  0.554455   0.333333 0.046512 0.081633 0.370890
+DAX INDEX        Russia-Ukraine war crash      cosine  0.554455   0.250000 0.023256 0.042553 0.513633
+DAX INDEX        Russia-Ukraine war crash      arctan  0.534653   0.166667 0.023256 0.040816 0.642743
+DAX INDEX Chinese real asset market crash      cosine  0.329114   0.484848 0.152381 0.231884 0.265049
+DAX INDEX Chinese real asset market crash exponential  0.227848   0.302326 0.123810 0.175676 0.137646
+DAX INDEX Chinese real asset market crash      arctan  0.316456   0.434783 0.095238 0.156250 0.239892
+DAX INDEX Chinese real asset market crash     arccosh  0.329114   0.461538 0.057143 0.101695 0.162084
+     DJIA           COVID-19 market crash      arctan  0.520000   0.739130 0.288136 0.414634 0.510542
+     DJIA           COVID-19 market crash      cosine  0.390000   0.468750 0.254237 0.329670 0.393551
+     DJIA           COVID-19 market crash exponential  0.300000   0.280000 0.118644 0.166667 0.315006
+     DJIA           COVID-19 market crash     arccosh  0.370000   0.250000 0.033898 0.059701 0.258371
+     DJIA        Russia-Ukraine war crash exponential  0.392157   1.000000 0.392157 0.563380      NaN
+     DJIA        Russia-Ukraine war crash      cosine  0.362745   1.000000 0.362745 0.532374      NaN
+     DJIA        Russia-Ukraine war crash     arccosh  0.352941   1.000000 0.352941 0.521739      NaN
+     DJIA        Russia-Ukraine war crash      arctan  0.254902   1.000000 0.254902 0.406250      NaN
+     DJIA Chinese real asset market crash exponential  0.323529   1.000000 0.323529 0.488889      NaN
+     DJIA Chinese real asset market crash     arccosh  0.294118   1.000000 0.294118 0.454545      NaN
+     DJIA Chinese real asset market crash      cosine  0.186275   1.000000 0.186275 0.314050      NaN
+     DJIA Chinese real asset market crash      arctan  0.127451   1.000000 0.127451 0.226087      NaN
+
+[MASTER] DM test summary
+dataset_code   dataset                   scenario_code                        scenario             comparison   T  loss_exponential  loss_other  mean_loss_diff_other_minus_exp  dm_statistic      p_value winner_lower_loss                 interpretation
+  SP500_U500    S&P500            COVID19_market_crash           COVID-19 market crash  exponential_vs_cosine 100          0.680000    0.630000                       -0.050000     -1.517342 1.291805e-01            cosine       negative DM favors other
+  SP500_U500    S&P500            COVID19_market_crash           COVID-19 market crash  exponential_vs_arctan 100          0.680000    0.590000                       -0.090000     -2.805259 5.027611e-03            arctan       negative DM favors other
+  SP500_U500    S&P500            COVID19_market_crash           COVID-19 market crash exponential_vs_arccosh 100          0.680000    0.570000                       -0.110000     -3.187523 1.434969e-03           arccosh       negative DM favors other
+  SP500_U500    S&P500        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_cosine 102          0.617647    0.441176                       -0.176471     -3.925147 8.667676e-05            cosine       negative DM favors other
+  SP500_U500    S&P500        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_arctan 102          0.617647    0.647059                        0.029412      0.830786 4.060947e-01       exponential positive DM favors exponential
+  SP500_U500    S&P500        Russia_Ukraine_war_crash        Russia-Ukraine war crash exponential_vs_arccosh 102          0.617647    0.568627                       -0.049020     -0.843961 3.986910e-01           arccosh       negative DM favors other
+  SP500_U500    S&P500 Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_cosine 158          0.405063    0.525316                        0.120253      4.632541 3.612056e-06       exponential positive DM favors exponential
+  SP500_U500    S&P500 Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_arctan 158          0.405063    0.563291                        0.158228      5.432428 5.559227e-08       exponential positive DM favors exponential
+  SP500_U500    S&P500 Chinese_real_asset_market_crash Chinese real asset market crash exponential_vs_arccosh 158          0.405063    0.601266                        0.196203      5.229498 1.699706e-07       exponential positive DM favors exponential
+   DAX_INDEX DAX INDEX            COVID19_market_crash           COVID-19 market crash  exponential_vs_cosine 100          0.750000    0.730000                       -0.020000     -0.575416 5.650099e-01            cosine       negative DM favors other
+   DAX_INDEX DAX INDEX            COVID19_market_crash           COVID-19 market crash  exponential_vs_arctan 100          0.750000    0.710000                       -0.040000     -0.728582 4.662577e-01            arctan       negative DM favors other
+   DAX_INDEX DAX INDEX            COVID19_market_crash           COVID-19 market crash exponential_vs_arccosh 100          0.750000    0.810000                        0.060000      1.347095 1.779498e-01       exponential positive DM favors exponential
+   DAX_INDEX DAX INDEX        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_cosine 101          0.396040    0.445545                        0.049505      1.517243 1.292054e-01       exponential positive DM favors exponential
+   DAX_INDEX DAX INDEX        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_arctan 101          0.396040    0.465347                        0.069307      2.386980 1.698741e-02       exponential positive DM favors exponential
+   DAX_INDEX DAX INDEX        Russia_Ukraine_war_crash        Russia-Ukraine war crash exponential_vs_arccosh 101          0.396040    0.445545                        0.049505      1.681682 9.263052e-02       exponential positive DM favors exponential
+   DAX_INDEX DAX INDEX Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_cosine 158          0.772152    0.670886                       -0.101266     -3.105317 1.900751e-03            cosine       negative DM favors other
+   DAX_INDEX DAX INDEX Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_arctan 158          0.772152    0.683544                       -0.088608     -2.185923 2.882121e-02            arctan       negative DM favors other
+   DAX_INDEX DAX INDEX Chinese_real_asset_market_crash Chinese real asset market crash exponential_vs_arccosh 158          0.772152    0.670886                       -0.101266     -2.893671 3.807666e-03           arccosh       negative DM favors other
+    DJIA_U30      DJIA            COVID19_market_crash           COVID-19 market crash  exponential_vs_cosine 100          0.700000    0.610000                       -0.090000     -2.225547 2.604457e-02            cosine       negative DM favors other
+    DJIA_U30      DJIA            COVID19_market_crash           COVID-19 market crash  exponential_vs_arctan 100          0.700000    0.480000                       -0.220000     -4.548529 5.402211e-06            arctan       negative DM favors other
+    DJIA_U30      DJIA            COVID19_market_crash           COVID-19 market crash exponential_vs_arccosh 100          0.700000    0.630000                       -0.070000     -1.537917 1.240690e-01           arccosh       negative DM favors other
+    DJIA_U30      DJIA        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_cosine 102          0.607843    0.637255                        0.029412      0.598108 5.497679e-01       exponential positive DM favors exponential
+    DJIA_U30      DJIA        Russia_Ukraine_war_crash        Russia-Ukraine war crash  exponential_vs_arctan 102          0.607843    0.745098                        0.137255      2.964862 3.028184e-03       exponential positive DM favors exponential
+    DJIA_U30      DJIA        Russia_Ukraine_war_crash        Russia-Ukraine war crash exponential_vs_arccosh 102          0.607843    0.647059                        0.039216      0.684203 4.938467e-01       exponential positive DM favors exponential
+    DJIA_U30      DJIA Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_cosine 102          0.676471    0.813725                        0.137255      2.964862 3.028184e-03       exponential positive DM favors exponential
+    DJIA_U30      DJIA Chinese_real_asset_market_crash Chinese real asset market crash  exponential_vs_arctan 102          0.676471    0.872549                        0.196078      4.055800 4.996306e-05       exponential positive DM favors exponential
+    DJIA_U30      DJIA Chinese_real_asset_market_crash Chinese real asset market crash exponential_vs_arccosh 102          0.676471    0.705882                        0.029412      0.598108 5.497679e-01       exponential positive DM favors exponential
+
+[MASTER] Exponential outperformance by crash
+                  scenario_code                        scenario  markets_tested  exponential_best_f1_count  mean_exponential_f1  mean_best_f1  dm_wins_total  dm_significant_wins_total  dm_significant_losses_total  exponential_best_f1_rate                                                    summary
+           COVID19_market_crash           COVID-19 market crash               3                          0             0.111056      0.247611              1                          0                            4                  0.000000 exponential does not outperform by F1 in this crash window
+Chinese_real_asset_market_crash Chinese real asset market crash               3                          2             0.408736      0.427472              6                          5                            3                  0.666667              exponential outperforms in some markets by F1
+       Russia_Ukraine_war_crash        Russia-Ukraine war crash               3                          2             0.334781      0.370402              7                          2                            1                  0.666667              exponential outperforms in some markets by F1
+
+[MASTER] Exponential outperformance detail
+dataset_code   dataset                   scenario_code                        scenario best_method_by_f1_auc_acc  exponential_rank_by_f1_auc_acc  exponential_is_best_by_f1  exponential_f1  best_f1  exponential_auc  best_auc  exponential_precision  exponential_recall  dm_wins_vs_3_methods  dm_significant_wins_p_lt_0_05  dm_significant_losses_p_lt_0_05                    conclusion
+   DAX_INDEX DAX INDEX            COVID19_market_crash           COVID-19 market crash                    cosine                               3                      False        0.137931 0.262626         0.146755  0.236875               0.214286            0.101695                     1                              0                                0   not F1-best; best is cosine
+   DAX_INDEX DAX INDEX Chinese_real_asset_market_crash Chinese real asset market crash                    cosine                               2                      False        0.175676 0.231884         0.137646  0.265049               0.302326            0.123810                     0                              0                                3   not F1-best; best is cosine
+   DAX_INDEX DAX INDEX        Russia_Ukraine_war_crash        Russia-Ukraine war crash               exponential                               1                       True        0.200000 0.200000         0.583400  0.642743               0.714286            0.116279                     3                              1                                0 exponential outperforms by F1
+    DJIA_U30      DJIA            COVID19_market_crash           COVID-19 market crash                    arctan                               3                      False        0.166667 0.414634         0.315006  0.510542               0.280000            0.118644                     0                              0                                2   not F1-best; best is arctan
+    DJIA_U30      DJIA Chinese_real_asset_market_crash Chinese real asset market crash               exponential                               1                       True        0.488889 0.488889              NaN       NaN               1.000000            0.323529                     3                              2                                0 exponential outperforms by F1
+    DJIA_U30      DJIA        Russia_Ukraine_war_crash        Russia-Ukraine war crash               exponential                               1                       True        0.563380 0.563380              NaN       NaN               1.000000            0.392157                     3                              1                                0 exponential outperforms by F1
+  SP500_U500    S&P500            COVID19_market_crash           COVID-19 market crash                   arccosh                               3                      False        0.028571 0.065574         0.350145  0.713105               0.090909            0.016949                     0                              0                                2  not F1-best; best is arccosh
+  SP500_U500    S&P500 Chinese_real_asset_market_crash Chinese real asset market crash               exponential                               1                       True        0.561644 0.561644         0.799281  0.858221               1.000000            0.390476                     3                              3                                0 exponential outperforms by F1
+  SP500_U500    S&P500        Russia_Ukraine_war_crash        Russia-Ukraine war crash                    cosine                               2                      False        0.240964 0.347826         0.349231  0.545920               0.250000            0.232558                     1                              0                                1   not F1-best; best is cosine
+
+[MASTER] Excel saved: D:\tadgan_gaf\gaf\githup_exchange_ring\output\04_cross_market\market_crash_3datasets_3crashes_summary.xlsx

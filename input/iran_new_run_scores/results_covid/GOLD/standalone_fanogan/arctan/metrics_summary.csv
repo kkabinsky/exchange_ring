@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,standalone_fanogan,arctan,0.7275286170013135,0.37037037037037035,146,73

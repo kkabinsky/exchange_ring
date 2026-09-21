@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+EURUSD,standalone_ref,exponential,0.38993055555555556,0.075,152,72,20,20,32,2

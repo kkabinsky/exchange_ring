@@ -1,0 +1,2 @@
+stock_name,method,mapping,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+D:\tadgan_gaf\exponential_gaf\Iran_new_run\results_chinese\EURUSD,anomaly_transformer,exponential,1931,152,81,71,0.0006223890231922269,0.4407894736842105,0.37037037037037035,0.28169014084507044,0.32,0.36115458181185883,0.00015325502317864448,0.002019739244133234

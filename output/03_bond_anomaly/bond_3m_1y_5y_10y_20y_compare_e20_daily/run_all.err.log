@@ -1,0 +1,170 @@
+D:\tadgan_gaf\f_anogan\market_crash-main\cnn_gaf_autoencoder_benchmark.py:104: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  return parsed.fillna(pd.to_datetime(text, errors="coerce", dayfirst=True))
+D:\tadgan_gaf\f_anogan\market_crash-main\cnn_gaf_autoencoder_benchmark.py:104: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  return parsed.fillna(pd.to_datetime(text, errors="coerce", dayfirst=True))
+D:\tadgan_gaf\f_anogan\market_crash-main\cnn_gaf_autoencoder_benchmark.py:104: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  return parsed.fillna(pd.to_datetime(text, errors="coerce", dayfirst=True))
+D:\tadgan_gaf\f_anogan\market_crash-main\cnn_gaf_autoencoder_benchmark.py:104: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  return parsed.fillna(pd.to_datetime(text, errors="coerce", dayfirst=True))
+D:\tadgan_gaf\f_anogan\market_crash-main\cnn_gaf_autoencoder_benchmark.py:104: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  return parsed.fillna(pd.to_datetime(text, errors="coerce", dayfirst=True))
+2026-06-19 23:05:35,806 - tadGANs - INFO - Processing D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US10Y_BOND_COVID200_daily\stage1_tadgan\signal_input.csv
+2026-06-19 23:05:35,861 - tadGANs - INFO - Training new models
+2026-06-19 23:05:35,867 - tadGANs - INFO - Starting training
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 100])) that is different to the input size (torch.Size([64, 100])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2026-06-19 23:05:37,383 - tadGANs - INFO - Epoch 1/20 - Time: 1.48s - Loss: critic_x=0.2657, critic_z=5.2949, encoder=0.9022, decoder=0.9876
+2026-06-19 23:05:38,644 - tadGANs - INFO - Epoch 2/20 - Time: 1.25s - Loss: critic_x=0.2124, critic_z=5.2936, encoder=0.8930, decoder=0.9855
+2026-06-19 23:05:39,874 - tadGANs - INFO - Epoch 3/20 - Time: 1.22s - Loss: critic_x=0.1702, critic_z=5.2568, encoder=0.8819, decoder=0.9816
+2026-06-19 23:05:41,077 - tadGANs - INFO - Epoch 4/20 - Time: 1.19s - Loss: critic_x=0.1289, critic_z=5.2272, encoder=0.8762, decoder=0.9832
+2026-06-19 23:05:42,295 - tadGANs - INFO - Epoch 5/20 - Time: 1.21s - Loss: critic_x=0.0970, critic_z=5.2000, encoder=0.8707, decoder=0.9847
+2026-06-19 23:05:43,481 - tadGANs - INFO - Epoch 6/20 - Time: 1.18s - Loss: critic_x=0.0737, critic_z=5.1541, encoder=0.8602, decoder=0.9816
+2026-06-19 23:05:44,739 - tadGANs - INFO - Epoch 7/20 - Time: 1.25s - Loss: critic_x=0.0518, critic_z=5.1243, encoder=0.8512, decoder=0.9799
+2026-06-19 23:05:45,936 - tadGANs - INFO - Epoch 8/20 - Time: 1.19s - Loss: critic_x=0.0358, critic_z=5.0796, encoder=0.8435, decoder=0.9798
+2026-06-19 23:05:47,187 - tadGANs - INFO - Epoch 9/20 - Time: 1.24s - Loss: critic_x=0.0231, critic_z=5.0551, encoder=0.8346, decoder=0.9790
+2026-06-19 23:05:48,434 - tadGANs - INFO - Epoch 10/20 - Time: 1.24s - Loss: critic_x=0.0113, critic_z=5.0626, encoder=0.8274, decoder=0.9797
+2026-06-19 23:05:48,472 - tadGANs - INFO - Models saved at epoch 10
+2026-06-19 23:05:49,697 - tadGANs - INFO - Epoch 11/20 - Time: 1.22s - Loss: critic_x=0.0006, critic_z=4.9638, encoder=0.8187, decoder=0.9794
+2026-06-19 23:05:50,903 - tadGANs - INFO - Epoch 12/20 - Time: 1.20s - Loss: critic_x=-0.0089, critic_z=4.9189, encoder=0.8058, decoder=0.9748
+2026-06-19 23:05:52,069 - tadGANs - INFO - Epoch 13/20 - Time: 1.16s - Loss: critic_x=-0.0168, critic_z=4.9418, encoder=0.7963, decoder=0.9736
+2026-06-19 23:05:53,239 - tadGANs - INFO - Epoch 14/20 - Time: 1.16s - Loss: critic_x=-0.0246, critic_z=4.8346, encoder=0.7838, decoder=0.9712
+2026-06-19 23:05:54,420 - tadGANs - INFO - Epoch 15/20 - Time: 1.18s - Loss: critic_x=-0.0327, critic_z=4.8054, encoder=0.7742, decoder=0.9734
+2026-06-19 23:05:55,640 - tadGANs - INFO - Epoch 16/20 - Time: 1.21s - Loss: critic_x=-0.0403, critic_z=4.7457, encoder=0.7583, decoder=0.9707
+2026-06-19 23:05:56,795 - tadGANs - INFO - Epoch 17/20 - Time: 1.14s - Loss: critic_x=-0.0463, critic_z=4.6894, encoder=0.7423, decoder=0.9693
+2026-06-19 23:05:57,934 - tadGANs - INFO - Epoch 18/20 - Time: 1.13s - Loss: critic_x=-0.0513, critic_z=4.6345, encoder=0.7232, decoder=0.9653
+2026-06-19 23:05:59,031 - tadGANs - INFO - Epoch 19/20 - Time: 1.09s - Loss: critic_x=-0.0604, critic_z=4.6068, encoder=0.7072, decoder=0.9654
+2026-06-19 23:06:00,166 - tadGANs - INFO - Epoch 20/20 - Time: 1.12s - Loss: critic_x=-0.0675, critic_z=4.5714, encoder=0.6855, decoder=0.9615
+2026-06-19 23:06:00,198 - tadGANs - INFO - Models saved at epoch 20
+2026-06-19 23:06:00,218 - tadGANs - INFO - Training completed in 24.32s
+2026-06-19 23:06:00,224 - tadGANs - INFO - Calculating anomaly scores
+2026-06-19 23:08:01,370 - tadGANs - INFO - Using statistical threshold: 3.2697
+2026-06-19 23:08:01,381 - tadGANs - INFO - Pruning false positives
+2026-06-19 23:08:01,387 - tadGANs - INFO - Results saved to D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US10Y_BOND_COVID200_daily\stage1_tadgan\tadgan_results.csv
+2026-06-19 23:11:40,538 - tadGANs - INFO - Processing D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US1Y_BOND_COVID200_daily\stage1_tadgan\signal_input.csv
+2026-06-19 23:11:40,589 - tadGANs - INFO - Training new models
+2026-06-19 23:11:40,594 - tadGANs - INFO - Starting training
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 100])) that is different to the input size (torch.Size([64, 100])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2026-06-19 23:11:41,844 - tadGANs - INFO - Epoch 1/20 - Time: 1.23s - Loss: critic_x=0.1732, critic_z=5.4473, encoder=0.6999, decoder=0.9993
+2026-06-19 23:11:43,082 - tadGANs - INFO - Epoch 2/20 - Time: 1.23s - Loss: critic_x=0.1242, critic_z=5.4105, encoder=0.6936, decoder=0.9985
+2026-06-19 23:11:44,331 - tadGANs - INFO - Epoch 3/20 - Time: 1.24s - Loss: critic_x=0.0837, critic_z=5.4034, encoder=0.6870, decoder=0.9968
+2026-06-19 23:11:45,568 - tadGANs - INFO - Epoch 4/20 - Time: 1.23s - Loss: critic_x=0.0514, critic_z=5.3790, encoder=0.6864, decoder=1.0011
+2026-06-19 23:11:46,765 - tadGANs - INFO - Epoch 5/20 - Time: 1.19s - Loss: critic_x=0.0252, critic_z=5.3526, encoder=0.6798, decoder=0.9993
+2026-06-19 23:11:47,973 - tadGANs - INFO - Epoch 6/20 - Time: 1.21s - Loss: critic_x=0.0015, critic_z=5.3321, encoder=0.6745, decoder=0.9987
+2026-06-19 23:11:49,199 - tadGANs - INFO - Epoch 7/20 - Time: 1.22s - Loss: critic_x=-0.0149, critic_z=5.3219, encoder=0.6644, decoder=0.9932
+2026-06-19 23:11:50,420 - tadGANs - INFO - Epoch 8/20 - Time: 1.21s - Loss: critic_x=-0.0247, critic_z=5.2518, encoder=0.6608, decoder=0.9941
+2026-06-19 23:11:51,858 - tadGANs - INFO - Epoch 9/20 - Time: 1.44s - Loss: critic_x=-0.0344, critic_z=5.2371, encoder=0.6564, decoder=0.9943
+2026-06-19 23:11:53,241 - tadGANs - INFO - Epoch 10/20 - Time: 1.38s - Loss: critic_x=-0.0388, critic_z=5.1951, encoder=0.6505, decoder=0.9930
+2026-06-19 23:11:53,272 - tadGANs - INFO - Models saved at epoch 10
+2026-06-19 23:11:54,604 - tadGANs - INFO - Epoch 11/20 - Time: 1.33s - Loss: critic_x=-0.0429, critic_z=5.2085, encoder=0.6373, decoder=0.9847
+2026-06-19 23:11:55,945 - tadGANs - INFO - Epoch 12/20 - Time: 1.34s - Loss: critic_x=-0.0506, critic_z=5.1952, encoder=0.6378, decoder=0.9899
+2026-06-19 23:11:57,204 - tadGANs - INFO - Epoch 13/20 - Time: 1.26s - Loss: critic_x=-0.0532, critic_z=5.1640, encoder=0.6291, decoder=0.9865
+2026-06-19 23:11:58,448 - tadGANs - INFO - Epoch 14/20 - Time: 1.24s - Loss: critic_x=-0.0587, critic_z=5.1216, encoder=0.6212, decoder=0.9842
+2026-06-19 23:11:59,703 - tadGANs - INFO - Epoch 15/20 - Time: 1.25s - Loss: critic_x=-0.0629, critic_z=5.0575, encoder=0.6083, decoder=0.9783
+2026-06-19 23:12:00,968 - tadGANs - INFO - Epoch 16/20 - Time: 1.25s - Loss: critic_x=-0.0663, critic_z=5.0334, encoder=0.6056, decoder=0.9833
+2026-06-19 23:12:02,268 - tadGANs - INFO - Epoch 17/20 - Time: 1.29s - Loss: critic_x=-0.0739, critic_z=5.0522, encoder=0.5922, decoder=0.9782
+2026-06-19 23:12:03,525 - tadGANs - INFO - Epoch 18/20 - Time: 1.25s - Loss: critic_x=-0.0811, critic_z=4.9725, encoder=0.5730, decoder=0.9674
+2026-06-19 23:12:04,809 - tadGANs - INFO - Epoch 19/20 - Time: 1.27s - Loss: critic_x=-0.0892, critic_z=4.9011, encoder=0.5730, decoder=0.9771
+2026-06-19 23:12:06,054 - tadGANs - INFO - Epoch 20/20 - Time: 1.24s - Loss: critic_x=-0.0948, critic_z=4.8748, encoder=0.5618, decoder=0.9759
+2026-06-19 23:12:06,095 - tadGANs - INFO - Models saved at epoch 20
+2026-06-19 23:12:06,120 - tadGANs - INFO - Training completed in 25.51s
+2026-06-19 23:12:06,129 - tadGANs - INFO - Calculating anomaly scores
+2026-06-19 23:14:31,253 - tadGANs - INFO - Using statistical threshold: 4.4453
+2026-06-19 23:14:31,263 - tadGANs - INFO - Pruning false positives
+2026-06-19 23:14:31,270 - tadGANs - INFO - Results saved to D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US1Y_BOND_COVID200_daily\stage1_tadgan\tadgan_results.csv
+2026-06-19 23:18:09,237 - tadGANs - INFO - Processing D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US20Y_BOND_COVID200_daily\stage1_tadgan\signal_input.csv
+2026-06-19 23:18:09,285 - tadGANs - INFO - Training new models
+2026-06-19 23:18:09,290 - tadGANs - INFO - Starting training
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 100])) that is different to the input size (torch.Size([64, 100])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2026-06-19 23:18:10,350 - tadGANs - INFO - Epoch 1/20 - Time: 1.04s - Loss: critic_x=0.4776, critic_z=6.2989, encoder=0.8077, decoder=0.9835
+2026-06-19 23:18:11,419 - tadGANs - INFO - Epoch 2/20 - Time: 1.07s - Loss: critic_x=0.3860, critic_z=6.2678, encoder=0.8071, decoder=0.9865
+2026-06-19 23:18:12,891 - tadGANs - INFO - Epoch 3/20 - Time: 1.46s - Loss: critic_x=0.3268, critic_z=6.2195, encoder=0.8024, decoder=0.9851
+2026-06-19 23:18:14,057 - tadGANs - INFO - Epoch 4/20 - Time: 1.16s - Loss: critic_x=0.2604, critic_z=6.2057, encoder=0.7977, decoder=0.9842
+2026-06-19 23:18:15,208 - tadGANs - INFO - Epoch 5/20 - Time: 1.14s - Loss: critic_x=0.2023, critic_z=6.1772, encoder=0.7942, decoder=0.9844
+2026-06-19 23:18:16,241 - tadGANs - INFO - Epoch 6/20 - Time: 1.02s - Loss: critic_x=0.1506, critic_z=6.1495, encoder=0.7873, decoder=0.9812
+2026-06-19 23:18:17,376 - tadGANs - INFO - Epoch 7/20 - Time: 1.12s - Loss: critic_x=0.1049, critic_z=6.1330, encoder=0.7797, decoder=0.9774
+2026-06-19 23:18:18,496 - tadGANs - INFO - Epoch 8/20 - Time: 1.11s - Loss: critic_x=0.0689, critic_z=6.0728, encoder=0.7802, decoder=0.9819
+2026-06-19 23:18:19,554 - tadGANs - INFO - Epoch 9/20 - Time: 1.06s - Loss: critic_x=0.0314, critic_z=6.0447, encoder=0.7696, decoder=0.9752
+2026-06-19 23:18:20,685 - tadGANs - INFO - Epoch 10/20 - Time: 1.12s - Loss: critic_x=0.0041, critic_z=6.0363, encoder=0.7674, decoder=0.9774
+2026-06-19 23:18:20,721 - tadGANs - INFO - Models saved at epoch 10
+2026-06-19 23:18:21,827 - tadGANs - INFO - Epoch 11/20 - Time: 1.11s - Loss: critic_x=-0.0208, critic_z=5.9994, encoder=0.7611, decoder=0.9753
+2026-06-19 23:18:22,914 - tadGANs - INFO - Epoch 12/20 - Time: 1.08s - Loss: critic_x=-0.0400, critic_z=5.9561, encoder=0.7509, decoder=0.9693
+2026-06-19 23:18:24,552 - tadGANs - INFO - Epoch 13/20 - Time: 1.63s - Loss: critic_x=-0.0606, critic_z=5.9455, encoder=0.7475, decoder=0.9704
+2026-06-19 23:18:26,158 - tadGANs - INFO - Epoch 14/20 - Time: 1.59s - Loss: critic_x=-0.0757, critic_z=5.8818, encoder=0.7384, decoder=0.9660
+2026-06-19 23:18:27,744 - tadGANs - INFO - Epoch 15/20 - Time: 1.58s - Loss: critic_x=-0.0894, critic_z=5.8798, encoder=0.7351, decoder=0.9684
+2026-06-19 23:18:29,324 - tadGANs - INFO - Epoch 16/20 - Time: 1.57s - Loss: critic_x=-0.1017, critic_z=5.7858, encoder=0.7278, decoder=0.9671
+2026-06-19 23:18:30,840 - tadGANs - INFO - Epoch 17/20 - Time: 1.51s - Loss: critic_x=-0.1121, critic_z=5.7598, encoder=0.7185, decoder=0.9662
+2026-06-19 23:18:32,418 - tadGANs - INFO - Epoch 18/20 - Time: 1.57s - Loss: critic_x=-0.1214, critic_z=5.7326, encoder=0.7033, decoder=0.9603
+2026-06-19 23:18:33,974 - tadGANs - INFO - Epoch 19/20 - Time: 1.55s - Loss: critic_x=-0.1286, critic_z=5.6615, encoder=0.6952, decoder=0.9626
+2026-06-19 23:18:35,359 - tadGANs - INFO - Epoch 20/20 - Time: 1.38s - Loss: critic_x=-0.1331, critic_z=5.6305, encoder=0.6810, decoder=0.9592
+2026-06-19 23:18:35,401 - tadGANs - INFO - Models saved at epoch 20
+2026-06-19 23:18:35,430 - tadGANs - INFO - Training completed in 26.12s
+2026-06-19 23:18:35,438 - tadGANs - INFO - Calculating anomaly scores
+2026-06-19 23:21:04,463 - tadGANs - INFO - Using statistical threshold: 2.8450
+2026-06-19 23:21:04,474 - tadGANs - INFO - Pruning false positives
+2026-06-19 23:21:04,480 - tadGANs - INFO - Results saved to D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US20Y_BOND_COVID200_daily\stage1_tadgan\tadgan_results.csv
+2026-06-19 23:24:43,596 - tadGANs - INFO - Processing D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US3M_BOND_COVID200_daily\stage1_tadgan\signal_input.csv
+2026-06-19 23:24:43,640 - tadGANs - INFO - Training new models
+2026-06-19 23:24:43,645 - tadGANs - INFO - Starting training
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 100])) that is different to the input size (torch.Size([64, 100])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2026-06-19 23:24:44,906 - tadGANs - INFO - Epoch 1/20 - Time: 1.25s - Loss: critic_x=0.1583, critic_z=6.7433, encoder=0.6968, decoder=0.7172
+2026-06-19 23:24:46,218 - tadGANs - INFO - Epoch 2/20 - Time: 1.30s - Loss: critic_x=0.1204, critic_z=6.7158, encoder=0.6902, decoder=0.7143
+2026-06-19 23:24:47,507 - tadGANs - INFO - Epoch 3/20 - Time: 1.28s - Loss: critic_x=0.0907, critic_z=6.6730, encoder=0.6875, decoder=0.7160
+2026-06-19 23:24:48,763 - tadGANs - INFO - Epoch 4/20 - Time: 1.25s - Loss: critic_x=0.0690, critic_z=6.6228, encoder=0.6788, decoder=0.7116
+2026-06-19 23:24:49,986 - tadGANs - INFO - Epoch 5/20 - Time: 1.21s - Loss: critic_x=0.0518, critic_z=6.6151, encoder=0.6757, decoder=0.7130
+2026-06-19 23:24:51,281 - tadGANs - INFO - Epoch 6/20 - Time: 1.29s - Loss: critic_x=0.0375, critic_z=6.5719, encoder=0.6676, decoder=0.7097
+2026-06-19 23:24:52,551 - tadGANs - INFO - Epoch 7/20 - Time: 1.26s - Loss: critic_x=0.0259, critic_z=6.5469, encoder=0.6608, decoder=0.7078
+2026-06-19 23:24:53,948 - tadGANs - INFO - Epoch 8/20 - Time: 1.39s - Loss: critic_x=0.0159, critic_z=6.4739, encoder=0.6495, decoder=0.7016
+2026-06-19 23:24:55,244 - tadGANs - INFO - Epoch 9/20 - Time: 1.29s - Loss: critic_x=0.0070, critic_z=6.4414, encoder=0.6511, decoder=0.7090
+2026-06-19 23:24:56,475 - tadGANs - INFO - Epoch 10/20 - Time: 1.22s - Loss: critic_x=-0.0017, critic_z=6.4396, encoder=0.6417, decoder=0.7055
+2026-06-19 23:24:56,514 - tadGANs - INFO - Models saved at epoch 10
+2026-06-19 23:24:57,924 - tadGANs - INFO - Epoch 11/20 - Time: 1.41s - Loss: critic_x=-0.0098, critic_z=6.3954, encoder=0.6378, decoder=0.7075
+2026-06-19 23:24:59,205 - tadGANs - INFO - Epoch 12/20 - Time: 1.27s - Loss: critic_x=-0.0183, critic_z=6.3485, encoder=0.6315, decoder=0.7075
+2026-06-19 23:25:00,471 - tadGANs - INFO - Epoch 13/20 - Time: 1.26s - Loss: critic_x=-0.0260, critic_z=6.3454, encoder=0.6234, decoder=0.7058
+2026-06-19 23:25:01,819 - tadGANs - INFO - Epoch 14/20 - Time: 1.34s - Loss: critic_x=-0.0342, critic_z=6.3282, encoder=0.6155, decoder=0.7047
+2026-06-19 23:25:03,074 - tadGANs - INFO - Epoch 15/20 - Time: 1.24s - Loss: critic_x=-0.0422, critic_z=6.2221, encoder=0.6068, decoder=0.7039
+2026-06-19 23:25:04,426 - tadGANs - INFO - Epoch 16/20 - Time: 1.35s - Loss: critic_x=-0.0503, critic_z=6.2268, encoder=0.5930, decoder=0.6985
+2026-06-19 23:25:05,822 - tadGANs - INFO - Epoch 17/20 - Time: 1.39s - Loss: critic_x=-0.0587, critic_z=6.1854, encoder=0.5840, decoder=0.6982
+2026-06-19 23:25:07,230 - tadGANs - INFO - Epoch 18/20 - Time: 1.41s - Loss: critic_x=-0.0660, critic_z=6.1141, encoder=0.5674, decoder=0.6907
+2026-06-19 23:25:08,656 - tadGANs - INFO - Epoch 19/20 - Time: 1.42s - Loss: critic_x=-0.0736, critic_z=6.1020, encoder=0.5614, decoder=0.6948
+2026-06-19 23:25:10,062 - tadGANs - INFO - Epoch 20/20 - Time: 1.40s - Loss: critic_x=-0.0824, critic_z=6.0448, encoder=0.5531, decoder=0.6972
+2026-06-19 23:25:10,099 - tadGANs - INFO - Models saved at epoch 20
+2026-06-19 23:25:10,134 - tadGANs - INFO - Training completed in 26.48s
+2026-06-19 23:25:10,144 - tadGANs - INFO - Calculating anomaly scores
+2026-06-19 23:27:40,469 - tadGANs - INFO - Using statistical threshold: 4.4875
+2026-06-19 23:27:40,481 - tadGANs - INFO - Pruning false positives
+2026-06-19 23:27:40,489 - tadGANs - INFO - Results saved to D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US3M_BOND_COVID200_daily\stage1_tadgan\tadgan_results.csv
+2026-06-19 23:31:20,864 - tadGANs - INFO - Processing D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US5Y_BOND_COVID200_daily\stage1_tadgan\signal_input.csv
+2026-06-19 23:31:20,921 - tadGANs - INFO - Training new models
+2026-06-19 23:31:20,926 - tadGANs - INFO - Starting training
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 100])) that is different to the input size (torch.Size([64, 100])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2026-06-19 23:31:22,297 - tadGANs - INFO - Epoch 1/20 - Time: 1.34s - Loss: critic_x=0.1078, critic_z=6.3192, encoder=0.8542, decoder=0.8059
+2026-06-19 23:31:23,681 - tadGANs - INFO - Epoch 2/20 - Time: 1.37s - Loss: critic_x=0.0652, critic_z=6.2977, encoder=0.8512, decoder=0.8073
+2026-06-19 23:31:25,146 - tadGANs - INFO - Epoch 3/20 - Time: 1.46s - Loss: critic_x=0.0309, critic_z=6.2596, encoder=0.8467, decoder=0.8073
+2026-06-19 23:31:26,623 - tadGANs - INFO - Epoch 4/20 - Time: 1.47s - Loss: critic_x=0.0023, critic_z=6.2494, encoder=0.8424, decoder=0.8074
+2026-06-19 23:31:28,083 - tadGANs - INFO - Epoch 5/20 - Time: 1.45s - Loss: critic_x=-0.0189, critic_z=6.2229, encoder=0.8303, decoder=0.7998
+2026-06-19 23:31:29,454 - tadGANs - INFO - Epoch 6/20 - Time: 1.36s - Loss: critic_x=-0.0367, critic_z=6.1557, encoder=0.8278, decoder=0.8021
+2026-06-19 23:31:30,964 - tadGANs - INFO - Epoch 7/20 - Time: 1.50s - Loss: critic_x=-0.0508, critic_z=6.1201, encoder=0.8195, decoder=0.7981
+2026-06-19 23:31:32,439 - tadGANs - INFO - Epoch 8/20 - Time: 1.47s - Loss: critic_x=-0.0663, critic_z=6.1121, encoder=0.8178, decoder=0.8014
+2026-06-19 23:31:33,625 - tadGANs - INFO - Epoch 9/20 - Time: 1.18s - Loss: critic_x=-0.0784, critic_z=6.0797, encoder=0.8104, decoder=0.7989
+2026-06-19 23:31:34,876 - tadGANs - INFO - Epoch 10/20 - Time: 1.24s - Loss: critic_x=-0.0894, critic_z=6.0298, encoder=0.8065, decoder=0.8005
+2026-06-19 23:31:34,913 - tadGANs - INFO - Models saved at epoch 10
+2026-06-19 23:31:36,236 - tadGANs - INFO - Epoch 11/20 - Time: 1.32s - Loss: critic_x=-0.1007, critic_z=5.9889, encoder=0.8000, decoder=0.7997
+2026-06-19 23:31:37,543 - tadGANs - INFO - Epoch 12/20 - Time: 1.30s - Loss: critic_x=-0.1129, critic_z=5.9941, encoder=0.7871, decoder=0.7932
+2026-06-19 23:31:38,814 - tadGANs - INFO - Epoch 13/20 - Time: 1.26s - Loss: critic_x=-0.1227, critic_z=5.8969, encoder=0.7757, decoder=0.7904
+2026-06-19 23:31:40,066 - tadGANs - INFO - Epoch 14/20 - Time: 1.24s - Loss: critic_x=-0.1347, critic_z=5.8645, encoder=0.7697, decoder=0.7940
+2026-06-19 23:31:41,352 - tadGANs - INFO - Epoch 15/20 - Time: 1.28s - Loss: critic_x=-0.1441, critic_z=5.8081, encoder=0.7573, decoder=0.7920
+2026-06-19 23:31:42,676 - tadGANs - INFO - Epoch 16/20 - Time: 1.31s - Loss: critic_x=-0.1555, critic_z=5.7812, encoder=0.7459, decoder=0.7913
+2026-06-19 23:31:43,996 - tadGANs - INFO - Epoch 17/20 - Time: 1.31s - Loss: critic_x=-0.1667, critic_z=5.7361, encoder=0.7356, decoder=0.7924
+2026-06-19 23:31:45,217 - tadGANs - INFO - Epoch 18/20 - Time: 1.21s - Loss: critic_x=-0.1754, critic_z=5.6970, encoder=0.7182, decoder=0.7873
+2026-06-19 23:31:46,488 - tadGANs - INFO - Epoch 19/20 - Time: 1.26s - Loss: critic_x=-0.1865, critic_z=5.6386, encoder=0.7039, decoder=0.7856
+2026-06-19 23:31:47,759 - tadGANs - INFO - Epoch 20/20 - Time: 1.26s - Loss: critic_x=-0.1981, critic_z=5.5633, encoder=0.6921, decoder=0.7874
+2026-06-19 23:31:47,794 - tadGANs - INFO - Models saved at epoch 20
+2026-06-19 23:31:47,818 - tadGANs - INFO - Training completed in 26.86s
+2026-06-19 23:31:47,825 - tadGANs - INFO - Calculating anomaly scores
+2026-06-19 23:33:46,670 - tadGANs - INFO - Using statistical threshold: 3.7390
+2026-06-19 23:33:46,680 - tadGANs - INFO - Pruning false positives
+2026-06-19 23:33:46,688 - tadGANs - INFO - Results saved to D:\tadgan_gaf\f_anogan\market_crash-main\bond_3m_1y_5y_10y_20y_compare_e20_daily\hybrid\US5Y_BOND_COVID200_daily\stage1_tadgan\tadgan_results.csv

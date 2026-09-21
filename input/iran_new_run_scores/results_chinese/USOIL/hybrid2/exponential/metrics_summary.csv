@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+USOIL,hybrid2,exponential,0.36827458256029677,0.04878048780487805,147,70

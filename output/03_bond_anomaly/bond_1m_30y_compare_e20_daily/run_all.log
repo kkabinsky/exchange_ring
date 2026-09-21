@@ -1,0 +1,975 @@
+[START] stage=all | base=D:\tadgan_gaf\f_anogan\market_crash-main
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[CNN] device=cuda | output=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\cnn_autoencoder
+[CNN] run US1M -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | cosine
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | exponential
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | arctan
+[CNN] US1M_BOND_COVID200_daily_CNN_AE | arccosh
+[CNN] run US30Y -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | cosine
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | exponential
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | arctan
+[CNN] US30Y_BOND_COVID200_daily_CNN_AE | arccosh
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[INFO] Device: cuda
+[FANOGAN] device/module loaded | output=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\standalone_fanogan
+[FANOGAN] run US1M -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx
+
+==========================================================================================
+[STOCK] US1M_BOND_COVID200_daily | file=D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | n_prices=1128
+==========================================================================================
+
+[RUN] US1M_BOND_COVID200_daily | method=cosine
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=-3.9010 G=3.4348
+    [GAN] epoch 002/20 D=-14.9144 G=11.3406
+    [GAN] epoch 003/20 D=-13.8368 G=11.8546
+    [GAN] epoch 004/20 D=-14.3482 G=9.5349
+    [GAN] epoch 005/20 D=-12.1734 G=5.6573
+    [GAN] epoch 006/20 D=-10.0102 G=6.3218
+    [GAN] epoch 007/20 D=-9.7194 G=6.7698
+    [GAN] epoch 008/20 D=-3.7883 G=1.9190
+    [GAN] epoch 009/20 D=-1.8108 G=14.0417
+    [GAN] epoch 010/20 D=-0.2012 G=10.6625
+    [GAN] epoch 011/20 D=0.0337 G=11.1957
+    [GAN] epoch 012/20 D=0.4156 G=3.1064
+    [GAN] epoch 013/20 D=0.3829 G=6.7363
+    [GAN] epoch 014/20 D=-0.1141 G=1.2331
+    [GAN] epoch 015/20 D=-0.2319 G=0.7413
+    [GAN] epoch 016/20 D=-0.2353 G=-0.5965
+    [GAN] epoch 017/20 D=-0.0445 G=1.6890
+    [GAN] epoch 018/20 D=-0.1895 G=2.3719
+    [GAN] epoch 019/20 D=-0.1956 G=-1.9266
+    [GAN] epoch 020/20 D=-0.0920 G=-0.0818
+    [ENC] epoch 001/20 loss=0.160322
+    [ENC] epoch 002/20 loss=0.108113
+    [ENC] epoch 003/20 loss=0.097030
+    [ENC] epoch 004/20 loss=0.089592
+    [ENC] epoch 005/20 loss=0.085196
+    [ENC] epoch 006/20 loss=0.080668
+    [ENC] epoch 007/20 loss=0.082464
+    [ENC] epoch 008/20 loss=0.080133
+    [ENC] epoch 009/20 loss=0.079189
+    [ENC] epoch 010/20 loss=0.076980
+    [ENC] epoch 011/20 loss=0.074282
+    [ENC] epoch 012/20 loss=0.074420
+    [ENC] epoch 013/20 loss=0.072186
+    [ENC] epoch 014/20 loss=0.072573
+    [ENC] epoch 015/20 loss=0.072500
+    [ENC] epoch 016/20 loss=0.072244
+    [ENC] epoch 017/20 loss=0.071366
+    [ENC] epoch 018/20 loss=0.071935
+    [ENC] epoch 019/20 loss=0.071106
+    [ENC] epoch 020/20 loss=0.069406
+    [RESULT] acc=0.6700 precision=0.2812 recall=0.1731 f1=0.2143 auc=0.5837
+    [TIME] cosine took 0.65 min
+
+[RUN] US1M_BOND_COVID200_daily | method=exponential
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=-4.9436 G=2.0666
+    [GAN] epoch 002/20 D=-12.7385 G=8.6313
+    [GAN] epoch 003/20 D=-11.9220 G=10.5399
+    [GAN] epoch 004/20 D=-11.3800 G=5.6704
+    [GAN] epoch 005/20 D=-11.4937 G=4.2841
+    [GAN] epoch 006/20 D=-11.4412 G=3.7324
+    [GAN] epoch 007/20 D=-11.5662 G=2.7811
+    [GAN] epoch 008/20 D=-11.5140 G=2.5165
+    [GAN] epoch 009/20 D=-11.5776 G=2.7057
+    [GAN] epoch 010/20 D=-11.6845 G=3.0782
+    [GAN] epoch 011/20 D=-11.6334 G=3.0122
+    [GAN] epoch 012/20 D=-11.6015 G=3.4164
+    [GAN] epoch 013/20 D=-11.3249 G=2.8079
+    [GAN] epoch 014/20 D=-9.8161 G=3.3621
+    [GAN] epoch 015/20 D=-9.9526 G=3.1590
+    [GAN] epoch 016/20 D=-9.8903 G=3.1331
+    [GAN] epoch 017/20 D=-9.8773 G=3.0140
+    [GAN] epoch 018/20 D=-9.8701 G=3.4255
+    [GAN] epoch 019/20 D=-9.0551 G=3.2720
+    [GAN] epoch 020/20 D=-7.0684 G=4.0639
+    [ENC] epoch 001/20 loss=0.296448
+    [ENC] epoch 002/20 loss=0.196327
+    [ENC] epoch 003/20 loss=0.177765
+    [ENC] epoch 004/20 loss=0.177119
+    [ENC] epoch 005/20 loss=0.164322
+    [ENC] epoch 006/20 loss=0.165040
+    [ENC] epoch 007/20 loss=0.163173
+    [ENC] epoch 008/20 loss=0.158910
+    [ENC] epoch 009/20 loss=0.156255
+    [ENC] epoch 010/20 loss=0.160210
+    [ENC] epoch 011/20 loss=0.154293
+    [ENC] epoch 012/20 loss=0.153350
+    [ENC] epoch 013/20 loss=0.151465
+    [ENC] epoch 014/20 loss=0.149218
+    [ENC] epoch 015/20 loss=0.152060
+    [ENC] epoch 016/20 loss=0.151609
+    [ENC] epoch 017/20 loss=0.151864
+    [ENC] epoch 018/20 loss=0.146953
+    [ENC] epoch 019/20 loss=0.148324
+    [ENC] epoch 020/20 loss=0.147912
+    [RESULT] acc=0.7000 precision=0.3750 recall=0.2308 f1=0.2857 auc=0.5217
+    [TIME] exponential took 0.92 min
+
+[RUN] US1M_BOND_COVID200_daily | method=arctan
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=-1.0705 G=1.2785
+    [GAN] epoch 002/20 D=-13.5599 G=16.2962
+    [GAN] epoch 003/20 D=-14.0349 G=14.9255
+    [GAN] epoch 004/20 D=-14.0531 G=11.4543
+    [GAN] epoch 005/20 D=-13.9082 G=8.3094
+    [GAN] epoch 006/20 D=-13.4883 G=8.6424
+    [GAN] epoch 007/20 D=-12.8912 G=8.2811
+    [GAN] epoch 008/20 D=-5.9645 G=4.0465
+    [GAN] epoch 009/20 D=-3.2874 G=10.5227
+    [GAN] epoch 010/20 D=-3.0509 G=12.1061
+    [GAN] epoch 011/20 D=-1.9894 G=11.5771
+    [GAN] epoch 012/20 D=-1.1098 G=9.4012
+    [GAN] epoch 013/20 D=-0.5442 G=8.6703
+    [GAN] epoch 014/20 D=-0.3040 G=7.0573
+    [GAN] epoch 015/20 D=-0.1816 G=9.0469
+    [GAN] epoch 016/20 D=-0.1638 G=9.9993
+    [GAN] epoch 017/20 D=-0.2827 G=11.5780
+    [GAN] epoch 018/20 D=-0.2671 G=12.1527
+    [GAN] epoch 019/20 D=-0.2705 G=11.5066
+    [GAN] epoch 020/20 D=-0.2196 G=10.6020
+    [ENC] epoch 001/20 loss=0.058161
+    [ENC] epoch 002/20 loss=0.036640
+    [ENC] epoch 003/20 loss=0.025298
+    [ENC] epoch 004/20 loss=0.022503
+    [ENC] epoch 005/20 loss=0.019593
+    [ENC] epoch 006/20 loss=0.018868
+    [ENC] epoch 007/20 loss=0.019141
+    [ENC] epoch 008/20 loss=0.016972
+    [ENC] epoch 009/20 loss=0.018266
+    [ENC] epoch 010/20 loss=0.016214
+    [ENC] epoch 011/20 loss=0.014419
+    [ENC] epoch 012/20 loss=0.015563
+    [ENC] epoch 013/20 loss=0.014909
+    [ENC] epoch 014/20 loss=0.013718
+    [ENC] epoch 015/20 loss=0.014669
+    [ENC] epoch 016/20 loss=0.013968
+    [ENC] epoch 017/20 loss=0.014477
+    [ENC] epoch 018/20 loss=0.013366
+    [ENC] epoch 019/20 loss=0.012619
+    [ENC] epoch 020/20 loss=0.013075
+    [RESULT] acc=0.7100 precision=0.3125 recall=0.0962 f1=0.1471 auc=0.6088
+    [TIME] arctan took 1.05 min
+
+[RUN] US1M_BOND_COVID200_daily | method=arccosh
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=1.4719 G=2.0020
+    [GAN] epoch 002/20 D=-12.2663 G=15.4957
+    [GAN] epoch 003/20 D=-9.4657 G=13.9750
+    [GAN] epoch 004/20 D=-7.5475 G=8.5103
+    [GAN] epoch 005/20 D=-7.2596 G=6.1333
+    [GAN] epoch 006/20 D=-5.3880 G=3.6852
+    [GAN] epoch 007/20 D=-2.8175 G=0.6899
+    [GAN] epoch 008/20 D=-1.4403 G=4.8915
+    [GAN] epoch 009/20 D=-0.5634 G=3.3009
+    [GAN] epoch 010/20 D=-0.6549 G=2.2007
+    [GAN] epoch 011/20 D=-0.4194 G=2.3843
+    [GAN] epoch 012/20 D=-0.5488 G=2.7050
+    [GAN] epoch 013/20 D=-0.4015 G=3.9413
+    [GAN] epoch 014/20 D=-0.3645 G=2.5287
+    [GAN] epoch 015/20 D=-0.4983 G=2.2284
+    [GAN] epoch 016/20 D=-0.3746 G=3.2450
+    [GAN] epoch 017/20 D=-0.4318 G=2.0373
+    [GAN] epoch 018/20 D=-0.5250 G=2.3143
+    [GAN] epoch 019/20 D=-0.4372 G=2.4281
+    [GAN] epoch 020/20 D=-0.4937 G=1.0418
+    [ENC] epoch 001/20 loss=0.093053
+    [ENC] epoch 002/20 loss=0.054568
+    [ENC] epoch 003/20 loss=0.045563
+    [ENC] epoch 004/20 loss=0.040094
+    [ENC] epoch 005/20 loss=0.038424
+    [ENC] epoch 006/20 loss=0.035211
+    [ENC] epoch 007/20 loss=0.035078
+    [ENC] epoch 008/20 loss=0.034895
+    [ENC] epoch 009/20 loss=0.032447
+    [ENC] epoch 010/20 loss=0.031829
+    [ENC] epoch 011/20 loss=0.030890
+    [ENC] epoch 012/20 loss=0.031938
+    [ENC] epoch 013/20 loss=0.031082
+    [ENC] epoch 014/20 loss=0.029294
+    [ENC] epoch 015/20 loss=0.029342
+    [ENC] epoch 016/20 loss=0.029941
+    [ENC] epoch 017/20 loss=0.028166
+    [ENC] epoch 018/20 loss=0.029385
+    [ENC] epoch 019/20 loss=0.029185
+    [ENC] epoch 020/20 loss=0.028453
+    [RESULT] acc=0.6000 precision=0.0333 recall=0.0192 f1=0.0244 auc=0.2879
+    [TIME] arccosh took 1.06 min
+[FANOGAN] run US30Y -> D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx
+
+==========================================================================================
+[STOCK] US30Y_BOND_COVID200_daily | file=D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | n_prices=1128
+==========================================================================================
+
+[RUN] US30Y_BOND_COVID200_daily | method=cosine
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=0.8983 G=0.7187
+    [GAN] epoch 002/20 D=-12.2533 G=8.6333
+    [GAN] epoch 003/20 D=-4.9215 G=9.1313
+    [GAN] epoch 004/20 D=-5.6263 G=4.7848
+    [GAN] epoch 005/20 D=-5.0070 G=0.6440
+    [GAN] epoch 006/20 D=0.0111 G=-0.3957
+    [GAN] epoch 007/20 D=-0.0173 G=2.0582
+    [GAN] epoch 008/20 D=-0.2177 G=-1.2498
+    [GAN] epoch 009/20 D=-0.2464 G=-1.4989
+    [GAN] epoch 010/20 D=-0.3103 G=-2.0085
+    [GAN] epoch 011/20 D=-0.3183 G=-2.5386
+    [GAN] epoch 012/20 D=-0.7646 G=-3.0572
+    [GAN] epoch 013/20 D=-0.6905 G=-2.8546
+    [GAN] epoch 014/20 D=-0.3560 G=-4.7041
+    [GAN] epoch 015/20 D=-0.3205 G=-1.8336
+    [GAN] epoch 016/20 D=-0.5475 G=-2.7369
+    [GAN] epoch 017/20 D=-0.2410 G=-3.0179
+    [GAN] epoch 018/20 D=-0.4680 G=-2.6215
+    [GAN] epoch 019/20 D=-0.5997 G=-3.4706
+    [GAN] epoch 020/20 D=-0.7012 G=-2.1353
+    [ENC] epoch 001/20 loss=0.176202
+    [ENC] epoch 002/20 loss=0.128362
+    [ENC] epoch 003/20 loss=0.112767
+    [ENC] epoch 004/20 loss=0.109157
+    [ENC] epoch 005/20 loss=0.105642
+    [ENC] epoch 006/20 loss=0.104315
+    [ENC] epoch 007/20 loss=0.101946
+    [ENC] epoch 008/20 loss=0.100212
+    [ENC] epoch 009/20 loss=0.098697
+    [ENC] epoch 010/20 loss=0.097681
+    [ENC] epoch 011/20 loss=0.095987
+    [ENC] epoch 012/20 loss=0.095278
+    [ENC] epoch 013/20 loss=0.094820
+    [ENC] epoch 014/20 loss=0.094896
+    [ENC] epoch 015/20 loss=0.095756
+    [ENC] epoch 016/20 loss=0.094237
+    [ENC] epoch 017/20 loss=0.093855
+    [ENC] epoch 018/20 loss=0.093093
+    [ENC] epoch 019/20 loss=0.093547
+    [ENC] epoch 020/20 loss=0.092526
+    [RESULT] acc=0.6750 precision=0.0000 recall=0.0000 f1=0.0000 auc=0.2798
+    [TIME] cosine took 1.05 min
+
+[RUN] US30Y_BOND_COVID200_daily | method=exponential
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=-4.1721 G=4.4332
+    [GAN] epoch 002/20 D=-13.2950 G=9.9568
+    [GAN] epoch 003/20 D=-11.7297 G=12.5563
+    [GAN] epoch 004/20 D=-11.0076 G=7.4252
+    [GAN] epoch 005/20 D=-11.2453 G=7.1359
+    [GAN] epoch 006/20 D=-10.7226 G=6.8041
+    [GAN] epoch 007/20 D=-8.7005 G=5.8798
+    [GAN] epoch 008/20 D=-5.9507 G=4.9906
+    [GAN] epoch 009/20 D=-5.9894 G=4.5886
+    [GAN] epoch 010/20 D=-6.0610 G=4.1375
+    [GAN] epoch 011/20 D=-5.9660 G=4.1068
+    [GAN] epoch 012/20 D=-5.9657 G=4.0247
+    [GAN] epoch 013/20 D=-6.0471 G=3.8358
+    [GAN] epoch 014/20 D=-5.9897 G=3.9620
+    [GAN] epoch 015/20 D=-5.9822 G=4.3462
+    [GAN] epoch 016/20 D=-5.9844 G=4.6144
+    [GAN] epoch 017/20 D=-5.9408 G=4.3944
+    [GAN] epoch 018/20 D=-5.9202 G=5.6021
+    [GAN] epoch 019/20 D=-5.9283 G=5.1401
+    [GAN] epoch 020/20 D=-5.1301 G=5.5035
+    [ENC] epoch 001/20 loss=0.323569
+    [ENC] epoch 002/20 loss=0.225242
+    [ENC] epoch 003/20 loss=0.204725
+    [ENC] epoch 004/20 loss=0.194901
+    [ENC] epoch 005/20 loss=0.186945
+    [ENC] epoch 006/20 loss=0.182073
+    [ENC] epoch 007/20 loss=0.177386
+    [ENC] epoch 008/20 loss=0.179226
+    [ENC] epoch 009/20 loss=0.175784
+    [ENC] epoch 010/20 loss=0.173019
+    [ENC] epoch 011/20 loss=0.169978
+    [ENC] epoch 012/20 loss=0.168903
+    [ENC] epoch 013/20 loss=0.169863
+    [ENC] epoch 014/20 loss=0.166364
+    [ENC] epoch 015/20 loss=0.167068
+    [ENC] epoch 016/20 loss=0.165524
+    [ENC] epoch 017/20 loss=0.164602
+    [ENC] epoch 018/20 loss=0.164607
+    [ENC] epoch 019/20 loss=0.161483
+    [ENC] epoch 020/20 loss=0.162258
+    [RESULT] acc=0.6500 precision=0.0000 recall=0.0000 f1=0.0000 auc=0.2409
+    [TIME] exponential took 1.06 min
+
+[RUN] US30Y_BOND_COVID200_daily | method=arctan
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=-11.1873 G=8.0977
+    [GAN] epoch 002/20 D=-26.5460 G=24.1503
+    [GAN] epoch 003/20 D=-21.9819 G=21.6644
+    [GAN] epoch 004/20 D=-16.9678 G=12.8966
+    [GAN] epoch 005/20 D=-6.5788 G=5.0115
+    [GAN] epoch 006/20 D=-4.9160 G=11.1441
+    [GAN] epoch 007/20 D=-4.0406 G=10.0570
+    [GAN] epoch 008/20 D=-3.4689 G=4.6043
+    [GAN] epoch 009/20 D=-3.1605 G=1.8408
+    [GAN] epoch 010/20 D=-3.1084 G=0.5515
+    [GAN] epoch 011/20 D=-2.7649 G=-2.0288
+    [GAN] epoch 012/20 D=-2.3813 G=-3.7554
+    [GAN] epoch 013/20 D=-1.9505 G=-3.9129
+    [GAN] epoch 014/20 D=-1.4905 G=-7.3023
+    [GAN] epoch 015/20 D=-0.7476 G=-8.4110
+    [GAN] epoch 016/20 D=-0.3533 G=-11.0082
+    [GAN] epoch 017/20 D=-0.0740 G=-11.9419
+    [GAN] epoch 018/20 D=-0.1626 G=-12.5402
+    [GAN] epoch 019/20 D=-0.0917 G=-10.9659
+    [GAN] epoch 020/20 D=-0.1149 G=-12.6812
+    [ENC] epoch 001/20 loss=0.062501
+    [ENC] epoch 002/20 loss=0.039351
+    [ENC] epoch 003/20 loss=0.031692
+    [ENC] epoch 004/20 loss=0.028014
+    [ENC] epoch 005/20 loss=0.025430
+    [ENC] epoch 006/20 loss=0.023259
+    [ENC] epoch 007/20 loss=0.022545
+    [ENC] epoch 008/20 loss=0.021194
+    [ENC] epoch 009/20 loss=0.021454
+    [ENC] epoch 010/20 loss=0.020115
+    [ENC] epoch 011/20 loss=0.019528
+    [ENC] epoch 012/20 loss=0.021076
+    [ENC] epoch 013/20 loss=0.019391
+    [ENC] epoch 014/20 loss=0.019343
+    [ENC] epoch 015/20 loss=0.019519
+    [ENC] epoch 016/20 loss=0.020028
+    [ENC] epoch 017/20 loss=0.018859
+    [ENC] epoch 018/20 loss=0.018606
+    [ENC] epoch 019/20 loss=0.019260
+    [ENC] epoch 020/20 loss=0.018219
+    [RESULT] acc=0.6850 precision=0.0000 recall=0.0000 f1=0.0000 auc=0.4019
+    [TIME] arctan took 1.07 min
+
+[RUN] US30Y_BOND_COVID200_daily | method=arccosh
+    [DATA] windows total=1097 | train_normal=897 | test=200 | crash_in_test=52 | normal_in_test=148
+    [SPLIT] train_end=2019-12-30 | test_start=2020-01-02 | test_end=2020-10-27
+    [PREP] EXPORT_SAMPLE_GAF=0 so input GAF JPG export is skipped.
+    [RUN] Starting f-AnoGAN training ...
+    [GAN] epoch 001/20 D=5.8681 G=-2.8173
+    [GAN] epoch 002/20 D=-8.1631 G=9.1109
+    [GAN] epoch 003/20 D=-5.4735 G=11.3094
+    [GAN] epoch 004/20 D=-1.7562 G=1.7503
+    [GAN] epoch 005/20 D=-1.2867 G=-3.8572
+    [GAN] epoch 006/20 D=-1.6871 G=-3.0344
+    [GAN] epoch 007/20 D=-1.1127 G=-3.0388
+    [GAN] epoch 008/20 D=-1.4074 G=-3.6612
+    [GAN] epoch 009/20 D=-1.0701 G=-4.6835
+    [GAN] epoch 010/20 D=-1.1185 G=-3.6638
+    [GAN] epoch 011/20 D=-0.9559 G=-2.0946
+    [GAN] epoch 012/20 D=-0.8296 G=-4.0682
+    [GAN] epoch 013/20 D=-0.9771 G=-2.8624
+    [GAN] epoch 014/20 D=-0.9069 G=-4.1746
+    [GAN] epoch 015/20 D=-0.9487 G=-3.9971
+    [GAN] epoch 016/20 D=-1.1085 G=-4.7707
+    [GAN] epoch 017/20 D=-0.9819 G=-4.8866
+    [GAN] epoch 018/20 D=-1.0764 G=-4.8920
+    [GAN] epoch 019/20 D=-0.9143 G=-3.2452
+    [GAN] epoch 020/20 D=-1.0245 G=-4.1305
+    [ENC] epoch 001/20 loss=0.125184
+    [ENC] epoch 002/20 loss=0.066979
+    [ENC] epoch 003/20 loss=0.055947
+    [ENC] epoch 004/20 loss=0.049920
+    [ENC] epoch 005/20 loss=0.048052
+    [ENC] epoch 006/20 loss=0.043347
+    [ENC] epoch 007/20 loss=0.042549
+    [ENC] epoch 008/20 loss=0.041963
+    [ENC] epoch 009/20 loss=0.040658
+    [ENC] epoch 010/20 loss=0.039682
+    [ENC] epoch 011/20 loss=0.037124
+    [ENC] epoch 012/20 loss=0.037281
+    [ENC] epoch 013/20 loss=0.037937
+    [ENC] epoch 014/20 loss=0.036321
+    [ENC] epoch 015/20 loss=0.036736
+    [ENC] epoch 016/20 loss=0.036619
+    [ENC] epoch 017/20 loss=0.034987
+    [ENC] epoch 018/20 loss=0.033965
+    [ENC] epoch 019/20 loss=0.035877
+    [ENC] epoch 020/20 loss=0.034842
+    [RESULT] acc=0.6950 precision=0.0000 recall=0.0000 f1=0.0000 auc=0.3473
+    [TIME] arccosh took 1.02 min
+[PREP] US1M: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US1M_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[PREP] US30Y: wrote D:\tadgan_gaf\f_anogan\market_crash-main\excel\US30Y_BOND_COVID200_daily_final2.xlsx | rows=1128 | test=200 | crash_windows=52
+[INFO] device=cuda
+[INFO] QUICK=0 | FORECAST_DAYS=200 | WINDOW_SIZE=32 | N_EPOCHS_GAN=20 | N_EPOCHS_ENC=20 | FC_EPOCHS=50 | TADGAN_EPOCHS=20
+[HYBRID] batch run -> input=D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y | output=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid
+[MAIN] OUT_ROOT=D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid | n_stocks=2 | EXCEL_DIR=D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y | BATCH_SUFFIX=_final2.xlsx
+  [1/2] D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y\US1M_BOND_COVID200_daily_final2.xlsx
+  [2/2] D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y\US30Y_BOND_COVID200_daily_final2.xlsx
+
+==================== STOCK: US1M_BOND_COVID200_daily ====================
+[STOCK] excel=D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y\US1M_BOND_COVID200_daily_final2.xlsx -> D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid\US1M_BOND_COVID200_daily
+[DATA] prices=1128 | first=2015-05-06T00:00:00.000000000 | last=2020-12-14T00:00:00.000000000
+  [TADGAN] preparing scores (1128 raw prices)
+  [TADGAN] scores=1029 | anomaly_windows=95 | normal_windows=934
+  [FC] epoch 001/50 train=0.17438 val=8.46590
+  [FC] epoch 002/50 train=0.11512 val=6.04023
+  [FC] epoch 003/50 train=0.04651 val=3.16165
+  [FC] epoch 004/50 train=0.01666 val=0.66918
+  [FC] epoch 005/50 train=0.00899 val=0.40382
+  [FC] epoch 006/50 train=0.00622 val=0.84737
+  [FC] epoch 007/50 train=0.00579 val=0.72879
+  [FC] epoch 008/50 train=0.00461 val=0.56524
+  [FC] epoch 009/50 train=0.00431 val=0.57612
+  [FC] epoch 010/50 train=0.00388 val=0.53698
+  [FC] epoch 011/50 train=0.00339 val=0.55761
+  [FC] epoch 012/50 train=0.00329 val=0.56574
+  [FC] epoch 013/50 train=0.00298 val=0.57890
+  [FC] epoch 014/50 train=0.00290 val=0.61051
+  [FC] epoch 015/50 train=0.00281 val=0.61407
+  [FC] epoch 016/50 train=0.00321 val=0.60615
+  [FC] epoch 017/50 train=0.00269 val=0.61993
+  [FC] epoch 018/50 train=0.00273 val=0.65075
+  [FC] epoch 019/50 train=0.00254 val=0.60167
+  [FC] epoch 020/50 train=0.00271 val=0.62281
+  [FC] epoch 021/50 train=0.00271 val=0.63813
+  [FC] epoch 022/50 train=0.00257 val=0.66926
+  [FC] epoch 023/50 train=0.00249 val=0.66073
+  [FC] epoch 024/50 train=0.00226 val=0.69579
+  [FC] epoch 025/50 train=0.00230 val=0.65886
+  [FC] epoch 026/50 train=0.00224 val=0.68619
+  [FC] epoch 027/50 train=0.00239 val=0.69831
+  [FC] epoch 028/50 train=0.00230 val=0.64770
+  [FC] epoch 029/50 train=0.00239 val=0.66714
+  [FC] epoch 030/50 train=0.00225 val=0.70818
+  [FC] epoch 031/50 train=0.00227 val=0.69322
+  [FC] epoch 032/50 train=0.00207 val=0.72264
+  [FC] epoch 033/50 train=0.00211 val=0.73374
+  [FC] epoch 034/50 train=0.00193 val=0.70655
+  [FC] epoch 035/50 train=0.00208 val=0.75187
+  [FC] epoch 036/50 train=0.00200 val=0.77276
+  [FC] epoch 037/50 train=0.00191 val=0.75748
+  [FC] epoch 038/50 train=0.00197 val=0.71601
+  [FC] epoch 039/50 train=0.00193 val=0.72194
+  [FC] epoch 040/50 train=0.00189 val=0.79286
+  [FC] epoch 041/50 train=0.00197 val=0.78613
+  [FC] epoch 042/50 train=0.00194 val=0.75940
+  [FC] epoch 043/50 train=0.00176 val=0.79065
+  [FC] epoch 044/50 train=0.00160 val=0.77257
+  [FC] epoch 045/50 train=0.00166 val=0.79119
+  [FC] epoch 046/50 train=0.00172 val=0.80548
+  [FC] epoch 047/50 train=0.00184 val=0.82327
+  [FC] epoch 048/50 train=0.00170 val=0.78954
+  [FC] epoch 049/50 train=0.00167 val=0.82340
+  [FC] epoch 050/50 train=0.00164 val=0.81127
+  [METHOD] cosine
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=79
+    [DATA] train_total=798 | normal_used=798 | backtest_windows=200
+    [GAN] epoch 001/20 D=-1.1879 G=1.6457
+    [GAN] epoch 002/20 D=-11.3226 G=8.9769
+    [GAN] epoch 003/20 D=-11.2040 G=6.9105
+    [GAN] epoch 004/20 D=-10.9775 G=4.5439
+    [GAN] epoch 005/20 D=-11.2436 G=2.0612
+    [GAN] epoch 006/20 D=-11.1221 G=3.7132
+    [GAN] epoch 007/20 D=-11.0577 G=4.3448
+    [GAN] epoch 008/20 D=-10.8882 G=3.7826
+    [GAN] epoch 009/20 D=-8.8107 G=3.8392
+    [GAN] epoch 010/20 D=-8.7273 G=3.7470
+    [GAN] epoch 011/20 D=-8.6785 G=3.8022
+    [GAN] epoch 012/20 D=-8.6853 G=3.7409
+    [GAN] epoch 013/20 D=-8.7373 G=3.7432
+    [GAN] epoch 014/20 D=-8.7198 G=3.7947
+    [GAN] epoch 015/20 D=-8.6998 G=3.7909
+    [GAN] epoch 016/20 D=-8.1539 G=3.2980
+    [GAN] epoch 017/20 D=-5.9699 G=4.7378
+    [GAN] epoch 018/20 D=-5.7609 G=3.4538
+    [GAN] epoch 019/20 D=-5.7800 G=2.2373
+    [GAN] epoch 020/20 D=-3.1956 G=-0.7779
+    [ENC] epoch 001/20 loss=0.182001
+    [ENC] epoch 002/20 loss=0.135339
+    [ENC] epoch 003/20 loss=0.127956
+    [ENC] epoch 004/20 loss=0.118395
+    [ENC] epoch 005/20 loss=0.117355
+    [ENC] epoch 006/20 loss=0.112696
+    [ENC] epoch 007/20 loss=0.109741
+    [ENC] epoch 008/20 loss=0.108884
+    [ENC] epoch 009/20 loss=0.108505
+    [ENC] epoch 010/20 loss=0.108760
+    [ENC] epoch 011/20 loss=0.105770
+    [ENC] epoch 012/20 loss=0.104179
+    [ENC] epoch 013/20 loss=0.104377
+    [ENC] epoch 014/20 loss=0.103543
+    [ENC] epoch 015/20 loss=0.103559
+    [ENC] epoch 016/20 loss=0.105349
+    [ENC] epoch 017/20 loss=0.103850
+    [ENC] epoch 018/20 loss=0.102263
+    [ENC] epoch 019/20 loss=0.101722
+    [ENC] epoch 020/20 loss=0.101761
+  [METHOD] exponential
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=79
+    [DATA] train_total=798 | normal_used=798 | backtest_windows=200
+    [GAN] epoch 001/20 D=2.1278 G=0.5568
+    [GAN] epoch 002/20 D=-10.8233 G=8.0161
+    [GAN] epoch 003/20 D=-5.6297 G=8.6059
+    [GAN] epoch 004/20 D=-4.7361 G=2.2034
+    [GAN] epoch 005/20 D=-1.1131 G=-2.1950
+    [GAN] epoch 006/20 D=-0.9697 G=-3.5524
+    [GAN] epoch 007/20 D=-1.1522 G=-6.4094
+    [GAN] epoch 008/20 D=-0.6109 G=-3.9066
+    [GAN] epoch 009/20 D=-0.5680 G=-2.9444
+    [GAN] epoch 010/20 D=-0.3501 G=-3.0194
+    [GAN] epoch 011/20 D=-0.3315 G=-1.3942
+    [GAN] epoch 012/20 D=-0.8631 G=-3.6538
+    [GAN] epoch 013/20 D=-0.3214 G=-0.8162
+    [GAN] epoch 014/20 D=-0.3685 G=-1.8177
+    [GAN] epoch 015/20 D=-0.4374 G=-2.9102
+    [GAN] epoch 016/20 D=-0.5170 G=-1.4084
+    [GAN] epoch 017/20 D=-0.4979 G=-3.2098
+    [GAN] epoch 018/20 D=-0.5102 G=-1.6052
+    [GAN] epoch 019/20 D=-0.6125 G=-3.2726
+    [GAN] epoch 020/20 D=-0.6087 G=-3.2552
+    [ENC] epoch 001/20 loss=0.154472
+    [ENC] epoch 002/20 loss=0.074988
+    [ENC] epoch 003/20 loss=0.063812
+    [ENC] epoch 004/20 loss=0.058346
+    [ENC] epoch 005/20 loss=0.053237
+    [ENC] epoch 006/20 loss=0.052223
+    [ENC] epoch 007/20 loss=0.047808
+    [ENC] epoch 008/20 loss=0.048721
+    [ENC] epoch 009/20 loss=0.042127
+    [ENC] epoch 010/20 loss=0.043285
+    [ENC] epoch 011/20 loss=0.044468
+    [ENC] epoch 012/20 loss=0.040588
+    [ENC] epoch 013/20 loss=0.040359
+    [ENC] epoch 014/20 loss=0.040861
+    [ENC] epoch 015/20 loss=0.038393
+    [ENC] epoch 016/20 loss=0.039060
+    [ENC] epoch 017/20 loss=0.038114
+    [ENC] epoch 018/20 loss=0.038288
+    [ENC] epoch 019/20 loss=0.037545
+    [ENC] epoch 020/20 loss=0.036567
+  [METHOD] arctan
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=79
+    [DATA] train_total=798 | normal_used=798 | backtest_windows=200
+    [GAN] epoch 001/20 D=-5.2147 G=0.8948
+    [GAN] epoch 002/20 D=-24.4272 G=17.2557
+    [GAN] epoch 003/20 D=-26.0336 G=20.0992
+    [GAN] epoch 004/20 D=-24.8157 G=18.3401
+    [GAN] epoch 005/20 D=-23.5877 G=16.5906
+    [GAN] epoch 006/20 D=-19.4970 G=10.6912
+    [GAN] epoch 007/20 D=-9.0388 G=-1.0379
+    [GAN] epoch 008/20 D=-0.8720 G=1.6101
+    [GAN] epoch 009/20 D=0.1375 G=4.5030
+    [GAN] epoch 010/20 D=0.5932 G=1.8347
+    [GAN] epoch 011/20 D=0.5116 G=3.8847
+    [GAN] epoch 012/20 D=0.3322 G=5.0087
+    [GAN] epoch 013/20 D=-0.0475 G=6.3513
+    [GAN] epoch 014/20 D=-0.6783 G=4.8681
+    [GAN] epoch 015/20 D=-0.5324 G=0.9160
+    [GAN] epoch 016/20 D=-0.2979 G=1.1532
+    [GAN] epoch 017/20 D=-0.1697 G=1.7757
+    [GAN] epoch 018/20 D=-0.2651 G=-0.3294
+    [GAN] epoch 019/20 D=-0.1713 G=-1.3014
+    [GAN] epoch 020/20 D=-0.1415 G=0.4751
+    [ENC] epoch 001/20 loss=0.060164
+    [ENC] epoch 002/20 loss=0.041775
+    [ENC] epoch 003/20 loss=0.038075
+    [ENC] epoch 004/20 loss=0.037248
+    [ENC] epoch 005/20 loss=0.034753
+    [ENC] epoch 006/20 loss=0.032671
+    [ENC] epoch 007/20 loss=0.031554
+    [ENC] epoch 008/20 loss=0.031216
+    [ENC] epoch 009/20 loss=0.030359
+    [ENC] epoch 010/20 loss=0.029793
+    [ENC] epoch 011/20 loss=0.029842
+    [ENC] epoch 012/20 loss=0.028914
+    [ENC] epoch 013/20 loss=0.030085
+    [ENC] epoch 014/20 loss=0.028538
+    [ENC] epoch 015/20 loss=0.028220
+    [ENC] epoch 016/20 loss=0.028324
+    [ENC] epoch 017/20 loss=0.028536
+    [ENC] epoch 018/20 loss=0.028041
+    [ENC] epoch 019/20 loss=0.027486
+    [ENC] epoch 020/20 loss=0.027894
+  [METHOD] arccosh
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=79
+    [DATA] train_total=798 | normal_used=798 | backtest_windows=200
+    [GAN] epoch 001/20 D=-1.9809 G=6.5036
+    [GAN] epoch 002/20 D=-17.7113 G=20.7344
+    [GAN] epoch 003/20 D=-13.3695 G=16.2855
+    [GAN] epoch 004/20 D=-10.8824 G=7.4342
+    [GAN] epoch 005/20 D=-6.2592 G=3.8222
+    [GAN] epoch 006/20 D=-3.7312 G=10.1048
+    [GAN] epoch 007/20 D=-2.2728 G=8.0576
+    [GAN] epoch 008/20 D=-2.8134 G=9.7574
+    [GAN] epoch 009/20 D=-2.8990 G=6.7552
+    [GAN] epoch 010/20 D=-1.0981 G=6.0712
+    [GAN] epoch 011/20 D=-0.5660 G=3.5929
+    [GAN] epoch 012/20 D=-0.7723 G=3.2374
+    [GAN] epoch 013/20 D=-0.4169 G=2.3406
+    [GAN] epoch 014/20 D=-0.3102 G=2.3799
+    [GAN] epoch 015/20 D=-0.2634 G=3.6206
+    [GAN] epoch 016/20 D=-0.2535 G=0.5762
+    [GAN] epoch 017/20 D=-0.4631 G=2.1379
+    [GAN] epoch 018/20 D=-0.3947 G=-0.0378
+    [GAN] epoch 019/20 D=-0.5052 G=0.8850
+    [GAN] epoch 020/20 D=-0.6526 G=1.0073
+    [ENC] epoch 001/20 loss=0.144857
+    [ENC] epoch 002/20 loss=0.091880
+    [ENC] epoch 003/20 loss=0.074717
+    [ENC] epoch 004/20 loss=0.068821
+    [ENC] epoch 005/20 loss=0.065160
+    [ENC] epoch 006/20 loss=0.057681
+    [ENC] epoch 007/20 loss=0.055541
+    [ENC] epoch 008/20 loss=0.054117
+    [ENC] epoch 009/20 loss=0.054312
+    [ENC] epoch 010/20 loss=0.051858
+    [ENC] epoch 011/20 loss=0.053997
+    [ENC] epoch 012/20 loss=0.048679
+    [ENC] epoch 013/20 loss=0.049348
+    [ENC] epoch 014/20 loss=0.049375
+    [ENC] epoch 015/20 loss=0.049963
+    [ENC] epoch 016/20 loss=0.047802
+    [ENC] epoch 017/20 loss=0.047349
+    [ENC] epoch 018/20 loss=0.046504
+    [ENC] epoch 019/20 loss=0.046227
+    [ENC] epoch 020/20 loss=0.047083
+
+---- SUMMARY [US1M_BOND_COVID200_daily] (backtest, label 0=crash, 1=not_crash) ----
+     method |         acc |     prec(0) |      rec(0) |       f1(0) |      auc(0) |          TP |          FP |          TN |          FN |  fut_crash%
+     cosine |       0.585 |       0.000 |       0.000 |       0.000 |       0.397 |           0 |           4 |         117 |          79 |       0.970
+exponential |       0.525 |       0.100 |       0.025 |       0.040 |       0.431 |           2 |          18 |         103 |          77 |       0.065
+     arctan |       0.610 |       1.000 |       0.013 |       0.025 |       0.465 |           1 |           0 |         121 |          78 |       0.940
+    arccosh |       0.530 |       0.000 |       0.000 |       0.000 |       0.472 |           0 |          15 |         106 |          79 |       0.705
+   ensemble |       0.575 |       0.000 |       0.000 |       0.000 |       0.430 |           0 |           6 |         115 |          79 |       0.000
+[STOCK] US1M_BOND_COVID200_daily done -> D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid\US1M_BOND_COVID200_daily\hybrid_four_gaf_report.xlsx
+
+==================== STOCK: US30Y_BOND_COVID200_daily ====================
+[STOCK] excel=D:\tadgan_gaf\f_anogan\market_crash-main\eurusd_1day\excel_hybrid_bond_1m30y\US30Y_BOND_COVID200_daily_final2.xlsx -> D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid\US30Y_BOND_COVID200_daily
+[DATA] prices=1128 | first=2015-05-06T00:00:00.000000000 | last=2020-12-14T00:00:00.000000000
+  [TADGAN] preparing scores (1128 raw prices)
+  [TADGAN] scores=1029 | anomaly_windows=80 | normal_windows=949
+  [FC] epoch 001/50 train=0.91747 val=0.21818
+  [FC] epoch 002/50 train=0.25258 val=0.36684
+  [FC] epoch 003/50 train=0.07411 val=0.01028
+  [FC] epoch 004/50 train=0.04215 val=0.02932
+  [FC] epoch 005/50 train=0.03223 val=0.00925
+  [FC] epoch 006/50 train=0.02457 val=0.00462
+  [FC] epoch 007/50 train=0.02013 val=0.00877
+  [FC] epoch 008/50 train=0.01578 val=0.00575
+  [FC] epoch 009/50 train=0.01285 val=0.00687
+  [FC] epoch 010/50 train=0.01070 val=0.01191
+  [FC] epoch 011/50 train=0.01036 val=0.00516
+  [FC] epoch 012/50 train=0.00758 val=0.00715
+  [FC] epoch 013/50 train=0.00799 val=0.00219
+  [FC] epoch 014/50 train=0.00678 val=0.00341
+  [FC] epoch 015/50 train=0.00596 val=0.00184
+  [FC] epoch 016/50 train=0.00501 val=0.00182
+  [FC] epoch 017/50 train=0.00493 val=0.00181
+  [FC] epoch 018/50 train=0.00445 val=0.00165
+  [FC] epoch 019/50 train=0.00499 val=0.00183
+  [FC] epoch 020/50 train=0.00471 val=0.00182
+  [FC] epoch 021/50 train=0.00489 val=0.00147
+  [FC] epoch 022/50 train=0.00471 val=0.00148
+  [FC] epoch 023/50 train=0.00430 val=0.00149
+  [FC] epoch 024/50 train=0.00440 val=0.00197
+  [FC] epoch 025/50 train=0.00530 val=0.00140
+  [FC] epoch 026/50 train=0.00507 val=0.00188
+  [FC] epoch 027/50 train=0.00472 val=0.00291
+  [FC] epoch 028/50 train=0.00502 val=0.00143
+  [FC] epoch 029/50 train=0.00395 val=0.00132
+  [FC] epoch 030/50 train=0.00397 val=0.00140
+  [FC] epoch 031/50 train=0.00407 val=0.00130
+  [FC] epoch 032/50 train=0.00351 val=0.00140
+  [FC] epoch 033/50 train=0.00397 val=0.00128
+  [FC] epoch 034/50 train=0.00373 val=0.00133
+  [FC] epoch 035/50 train=0.00409 val=0.00130
+  [FC] epoch 036/50 train=0.00404 val=0.00150
+  [FC] epoch 037/50 train=0.00458 val=0.00128
+  [FC] epoch 038/50 train=0.00374 val=0.00205
+  [FC] epoch 039/50 train=0.00389 val=0.00125
+  [FC] epoch 040/50 train=0.00364 val=0.00139
+  [FC] epoch 041/50 train=0.00364 val=0.00134
+  [FC] epoch 042/50 train=0.00412 val=0.00169
+  [FC] epoch 043/50 train=0.00458 val=0.00265
+  [FC] epoch 044/50 train=0.00379 val=0.00126
+  [FC] epoch 045/50 train=0.00347 val=0.00124
+  [FC] epoch 046/50 train=0.00339 val=0.00122
+  [FC] epoch 047/50 train=0.00366 val=0.00171
+  [FC] epoch 048/50 train=0.00331 val=0.00122
+  [FC] epoch 049/50 train=0.00333 val=0.00245
+  [FC] epoch 050/50 train=0.00411 val=0.00115
+  [METHOD] cosine
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=47
+    [DATA] train_total=798 | normal_used=766 | backtest_windows=200
+    [GAN] epoch 001/20 D=-1.2636 G=1.8179
+    [GAN] epoch 002/20 D=-15.9323 G=12.8760
+    [GAN] epoch 003/20 D=-14.5573 G=7.5489
+    [GAN] epoch 004/20 D=-13.9524 G=6.6311
+    [GAN] epoch 005/20 D=-12.9132 G=6.0471
+    [GAN] epoch 006/20 D=-12.5142 G=4.7255
+    [GAN] epoch 007/20 D=-10.7051 G=2.9675
+    [GAN] epoch 008/20 D=-5.9247 G=2.7751
+    [GAN] epoch 009/20 D=-2.6716 G=3.8017
+    [GAN] epoch 010/20 D=1.0206 G=7.3344
+    [GAN] epoch 011/20 D=0.2524 G=5.9060
+    [GAN] epoch 012/20 D=0.1395 G=5.5205
+    [GAN] epoch 013/20 D=-0.1629 G=7.4636
+    [GAN] epoch 014/20 D=0.0302 G=1.1008
+    [GAN] epoch 015/20 D=-0.0942 G=9.7826
+    [GAN] epoch 016/20 D=-0.0508 G=8.4401
+    [GAN] epoch 017/20 D=-0.0926 G=7.7524
+    [GAN] epoch 018/20 D=-0.2333 G=6.5395
+    [GAN] epoch 019/20 D=-0.2564 G=2.7099
+    [GAN] epoch 020/20 D=-0.4381 G=3.5010
+    [ENC] epoch 001/20 loss=0.148755
+    [ENC] epoch 002/20 loss=0.103250
+    [ENC] epoch 003/20 loss=0.090838
+    [ENC] epoch 004/20 loss=0.085239
+    [ENC] epoch 005/20 loss=0.086499
+    [ENC] epoch 006/20 loss=0.079346
+    [ENC] epoch 007/20 loss=0.077093
+    [ENC] epoch 008/20 loss=0.075644
+    [ENC] epoch 009/20 loss=0.074128
+    [ENC] epoch 010/20 loss=0.073095
+    [ENC] epoch 011/20 loss=0.071019
+    [ENC] epoch 012/20 loss=0.068796
+    [ENC] epoch 013/20 loss=0.071087
+    [ENC] epoch 014/20 loss=0.068719
+    [ENC] epoch 015/20 loss=0.067453
+    [ENC] epoch 016/20 loss=0.071797
+    [ENC] epoch 017/20 loss=0.067245
+    [ENC] epoch 018/20 loss=0.066604
+    [ENC] epoch 019/20 loss=0.066798
+    [ENC] epoch 020/20 loss=0.065678
+  [METHOD] exponential
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=47
+    [DATA] train_total=798 | normal_used=766 | backtest_windows=200
+    [GAN] epoch 001/20 D=-5.1665 G=6.0889
+    [GAN] epoch 002/20 D=-17.5834 G=16.0800
+    [GAN] epoch 003/20 D=-10.8462 G=13.0613
+    [GAN] epoch 004/20 D=-8.4848 G=8.5546
+    [GAN] epoch 005/20 D=-8.0353 G=5.1303
+    [GAN] epoch 006/20 D=-8.1295 G=5.1537
+    [GAN] epoch 007/20 D=-8.1993 G=4.4296
+    [GAN] epoch 008/20 D=-8.0464 G=5.1410
+    [GAN] epoch 009/20 D=-8.1074 G=5.6676
+    [GAN] epoch 010/20 D=-8.1140 G=5.6775
+    [GAN] epoch 011/20 D=-8.0796 G=6.2181
+    [GAN] epoch 012/20 D=-8.0111 G=6.1493
+    [GAN] epoch 013/20 D=-7.8609 G=6.0115
+    [GAN] epoch 014/20 D=-6.5198 G=6.2186
+    [GAN] epoch 015/20 D=-3.0712 G=7.0287
+    [GAN] epoch 016/20 D=-0.7450 G=8.8742
+    [GAN] epoch 017/20 D=0.0131 G=8.5876
+    [GAN] epoch 018/20 D=-0.1158 G=6.3985
+    [GAN] epoch 019/20 D=-0.3094 G=4.3226
+    [GAN] epoch 020/20 D=-0.0346 G=2.7297
+    [ENC] epoch 001/20 loss=0.157343
+    [ENC] epoch 002/20 loss=0.099826
+    [ENC] epoch 003/20 loss=0.075925
+    [ENC] epoch 004/20 loss=0.069118
+    [ENC] epoch 005/20 loss=0.066662
+    [ENC] epoch 006/20 loss=0.059909
+    [ENC] epoch 007/20 loss=0.059527
+    [ENC] epoch 008/20 loss=0.052452
+    [ENC] epoch 009/20 loss=0.050922
+    [ENC] epoch 010/20 loss=0.057122
+    [ENC] epoch 011/20 loss=0.051094
+    [ENC] epoch 012/20 loss=0.049623
+    [ENC] epoch 013/20 loss=0.046245
+    [ENC] epoch 014/20 loss=0.046988
+    [ENC] epoch 015/20 loss=0.044808
+    [ENC] epoch 016/20 loss=0.044408
+    [ENC] epoch 017/20 loss=0.043173
+    [ENC] epoch 018/20 loss=0.044500
+    [ENC] epoch 019/20 loss=0.041916
+    [ENC] epoch 020/20 loss=0.043454
+  [METHOD] arctan
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=47
+    [DATA] train_total=798 | normal_used=766 | backtest_windows=200
+    [GAN] epoch 001/20 D=-6.0158 G=4.2673
+    [GAN] epoch 002/20 D=-21.8460 G=21.3204
+    [GAN] epoch 003/20 D=-21.9466 G=21.5102
+    [GAN] epoch 004/20 D=-18.9934 G=18.7502
+    [GAN] epoch 005/20 D=-17.5011 G=16.7048
+    [GAN] epoch 006/20 D=-12.8301 G=8.3714
+    [GAN] epoch 007/20 D=-4.3387 G=3.7511
+    [GAN] epoch 008/20 D=-2.1118 G=7.7885
+    [GAN] epoch 009/20 D=-0.6613 G=4.3224
+    [GAN] epoch 010/20 D=0.2335 G=1.8754
+    [GAN] epoch 011/20 D=0.5490 G=1.0205
+    [GAN] epoch 012/20 D=0.5653 G=3.9577
+    [GAN] epoch 013/20 D=0.3558 G=3.8078
+    [GAN] epoch 014/20 D=0.1407 G=2.5919
+    [GAN] epoch 015/20 D=0.0105 G=2.1670
+    [GAN] epoch 016/20 D=0.0780 G=3.0704
+    [GAN] epoch 017/20 D=0.1504 G=3.6054
+    [GAN] epoch 018/20 D=0.4433 G=5.7082
+    [GAN] epoch 019/20 D=0.2944 G=4.7999
+    [GAN] epoch 020/20 D=0.5532 G=-0.7897
+    [ENC] epoch 001/20 loss=0.041910
+    [ENC] epoch 002/20 loss=0.027815
+    [ENC] epoch 003/20 loss=0.025857
+    [ENC] epoch 004/20 loss=0.024325
+    [ENC] epoch 005/20 loss=0.024424
+    [ENC] epoch 006/20 loss=0.023806
+    [ENC] epoch 007/20 loss=0.023183
+    [ENC] epoch 008/20 loss=0.022689
+    [ENC] epoch 009/20 loss=0.023170
+    [ENC] epoch 010/20 loss=0.022715
+    [ENC] epoch 011/20 loss=0.022372
+    [ENC] epoch 012/20 loss=0.021825
+    [ENC] epoch 013/20 loss=0.022128
+    [ENC] epoch 014/20 loss=0.021984
+    [ENC] epoch 015/20 loss=0.021943
+    [ENC] epoch 016/20 loss=0.021637
+    [ENC] epoch 017/20 loss=0.021597
+    [ENC] epoch 018/20 loss=0.021205
+    [ENC] epoch 019/20 loss=0.021595
+    [ENC] epoch 020/20 loss=0.021353
+  [METHOD] arccosh
+    [SPLIT] train=798 | backtest=200 | backtest_anomalies=47
+    [DATA] train_total=798 | normal_used=766 | backtest_windows=200
+    [GAN] epoch 001/20 D=-1.4068 G=5.0925
+    [GAN] epoch 002/20 D=-16.2660 G=16.4048
+    [GAN] epoch 003/20 D=-13.3896 G=12.9576
+    [GAN] epoch 004/20 D=-11.1280 G=8.4983
+    [GAN] epoch 005/20 D=-10.1228 G=7.1040
+    [GAN] epoch 006/20 D=-9.1948 G=6.0002
+    [GAN] epoch 007/20 D=-5.6869 G=3.7969
+    [GAN] epoch 008/20 D=-3.1951 G=1.9299
+    [GAN] epoch 009/20 D=-1.7865 G=2.6017
+    [GAN] epoch 010/20 D=-0.9997 G=-1.1940
+    [GAN] epoch 011/20 D=-0.7601 G=-3.7530
+    [GAN] epoch 012/20 D=-0.8475 G=-8.0860
+    [GAN] epoch 013/20 D=-0.5186 G=-7.0993
+    [GAN] epoch 014/20 D=-0.7393 G=-3.1777
+    [GAN] epoch 015/20 D=-0.8741 G=-3.2314
+    [GAN] epoch 016/20 D=-0.4033 G=-5.3743
+    [GAN] epoch 017/20 D=-0.6036 G=-6.4992
+    [GAN] epoch 018/20 D=-0.5839 G=-5.8946
+    [GAN] epoch 019/20 D=-0.6120 G=-4.1623
+    [GAN] epoch 020/20 D=-0.6097 G=-4.6888
+    [ENC] epoch 001/20 loss=0.101914
+    [ENC] epoch 002/20 loss=0.061989
+    [ENC] epoch 003/20 loss=0.055729
+    [ENC] epoch 004/20 loss=0.052089
+    [ENC] epoch 005/20 loss=0.040896
+    [ENC] epoch 006/20 loss=0.040470
+    [ENC] epoch 007/20 loss=0.039430
+    [ENC] epoch 008/20 loss=0.035313
+    [ENC] epoch 009/20 loss=0.037052
+    [ENC] epoch 010/20 loss=0.035779
+    [ENC] epoch 011/20 loss=0.034092
+    [ENC] epoch 012/20 loss=0.034693
+    [ENC] epoch 013/20 loss=0.033600
+    [ENC] epoch 014/20 loss=0.032866
+    [ENC] epoch 015/20 loss=0.031330
+    [ENC] epoch 016/20 loss=0.029388
+    [ENC] epoch 017/20 loss=0.033130
+    [ENC] epoch 018/20 loss=0.030585
+    [ENC] epoch 019/20 loss=0.029798
+    [ENC] epoch 020/20 loss=0.032762
+
+---- SUMMARY [US30Y_BOND_COVID200_daily] (backtest, label 0=crash, 1=not_crash) ----
+     method |         acc |     prec(0) |      rec(0) |       f1(0) |      auc(0) |          TP |          FP |          TN |          FN |  fut_crash%
+     cosine |       0.700 |       0.000 |       0.000 |       0.000 |       0.371 |           0 |          13 |         140 |          47 |       0.000
+exponential |       0.745 |       0.000 |       0.000 |       0.000 |       0.462 |           0 |           4 |         149 |          47 |       0.000
+     arctan |       0.735 |       0.000 |       0.000 |       0.000 |       0.458 |           0 |           6 |         147 |          47 |       0.000
+    arccosh |       0.660 |       0.000 |       0.000 |       0.000 |       0.306 |           0 |          21 |         132 |          47 |       0.000
+   ensemble |       0.725 |       0.000 |       0.000 |       0.000 |       0.386 |           0 |           8 |         145 |          47 |       0.075
+[STOCK] US30Y_BOND_COVID200_daily done -> D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid\US30Y_BOND_COVID200_daily\hybrid_four_gaf_report.xlsx
+
+[ALL] summary saved -> D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\hybrid\all_stocks_summary.csv
+[ALL] done. success=2 skipped=0
+[SUMMARY] wrote D:\tadgan_gaf\f_anogan\market_crash-main\bond_1m_30y_compare_e20_daily\bond_1m_30y_cnn_fanogan_hybrid_summary_latest.xlsx
+
+===== PERFORMANCE (F1/AUC/precision) =====
+                  pipeline dataset      method  accuracy  precision  recall     f1    auc  n_test_total  n_test_crash  n_test_normal
+           CNN autoencoder    US1M     arccosh    0.5850     0.0303  0.0192 0.0235 0.3082           200            52            148
+           CNN autoencoder    US1M      arctan    0.7000     0.2500  0.0769 0.1176 0.4799           200            52            148
+           CNN autoencoder    US1M      cosine    0.6450     0.1481  0.0769 0.1013 0.4440           200            52            148
+           CNN autoencoder    US1M exponential    0.7250     0.4118  0.1346 0.2029 0.4751           200            52            148
+           CNN autoencoder   US30Y     arccosh    0.6050     0.0000  0.0000 0.0000 0.1862           200            52            148
+           CNN autoencoder   US30Y      arctan    0.6850     0.0000  0.0000 0.0000 0.2578           200            52            148
+           CNN autoencoder   US30Y      cosine    0.6700     0.0000  0.0000 0.0000 0.1180           200            52            148
+           CNN autoencoder   US30Y exponential    0.6550     0.0000  0.0000 0.0000 0.1554           200            52            148
+Hybrid TadGAN-GAF-f-AnoGAN    US1M     arccosh    0.5300     0.0000  0.0000 0.0000 0.4722           200            79            121
+Hybrid TadGAN-GAF-f-AnoGAN    US1M      arctan    0.6100     1.0000  0.0127 0.0250 0.4648           200            79            121
+Hybrid TadGAN-GAF-f-AnoGAN    US1M      cosine    0.5850     0.0000  0.0000 0.0000 0.3969           200            79            121
+Hybrid TadGAN-GAF-f-AnoGAN    US1M    ensemble    0.5750     0.0000  0.0000 0.0000 0.4303           200            79            121
+Hybrid TadGAN-GAF-f-AnoGAN    US1M exponential    0.5250     0.1000  0.0253 0.0404 0.4308           200            79            121
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y     arccosh    0.6600     0.0000  0.0000 0.0000 0.3059           200            47            153
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y      arctan    0.7350     0.0000  0.0000 0.0000 0.4582           200            47            153
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y      cosine    0.7000     0.0000  0.0000 0.0000 0.3709           200            47            153
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y    ensemble    0.7250     0.0000  0.0000 0.0000 0.3860           200            47            153
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y exponential    0.7450     0.0000  0.0000 0.0000 0.4615           200            47            153
+       f-AnoGAN standalone    US1M     arccosh    0.6000     0.0333  0.0192 0.0244 0.2879           200            52            148
+       f-AnoGAN standalone    US1M      arctan    0.7100     0.3125  0.0962 0.1471 0.6088           200            52            148
+       f-AnoGAN standalone    US1M      cosine    0.6700     0.2812  0.1731 0.2143 0.5837           200            52            148
+       f-AnoGAN standalone    US1M exponential    0.7000     0.3750  0.2308 0.2857 0.5217           200            52            148
+       f-AnoGAN standalone   US30Y     arccosh    0.6950     0.0000  0.0000 0.0000 0.3473           200            52            148
+       f-AnoGAN standalone   US30Y      arctan    0.6850     0.0000  0.0000 0.0000 0.4019           200            52            148
+       f-AnoGAN standalone   US30Y      cosine    0.6750     0.0000  0.0000 0.0000 0.2798           200            52            148
+       f-AnoGAN standalone   US30Y exponential    0.6500     0.0000  0.0000 0.0000 0.2409           200            52            148
+
+===== AVERAGE ACROSS US1M + US30Y =====
+                  pipeline      method  accuracy_mean  precision_mean  recall_mean  f1_mean  auc_mean  n_rows
+           CNN autoencoder exponential         0.6900          0.2059       0.0673   0.1014    0.3152       2
+           CNN autoencoder      arctan         0.6925          0.1250       0.0385   0.0588    0.3688       2
+           CNN autoencoder      cosine         0.6575          0.0741       0.0385   0.0506    0.2810       2
+           CNN autoencoder     arccosh         0.5950          0.0152       0.0096   0.0118    0.2472       2
+Hybrid TadGAN-GAF-f-AnoGAN exponential         0.6350          0.0500       0.0127   0.0202    0.4462       2
+Hybrid TadGAN-GAF-f-AnoGAN      arctan         0.6725          0.5000       0.0063   0.0125    0.4615       2
+Hybrid TadGAN-GAF-f-AnoGAN     arccosh         0.5950          0.0000       0.0000   0.0000    0.3891       2
+Hybrid TadGAN-GAF-f-AnoGAN      cosine         0.6425          0.0000       0.0000   0.0000    0.3839       2
+       f-AnoGAN standalone exponential         0.6750          0.1875       0.1154   0.1429    0.3813       2
+       f-AnoGAN standalone      cosine         0.6725          0.1406       0.0865   0.1071    0.4317       2
+       f-AnoGAN standalone      arctan         0.6975          0.1562       0.0481   0.0735    0.5053       2
+       f-AnoGAN standalone     arccosh         0.6475          0.0167       0.0096   0.0122    0.3176       2
+
+===== DM TEST (ranked anomaly score Brier loss; positive DM = exponential better) =====
+                  pipeline dataset             comparison  baseline_rank_brier_loss  exponential_rank_brier_loss  loss_diff_baseline_minus_exp  dm_stat_positive_exp_better  p_one_sided_exp_better  exp_lower_loss  significant_5pct
+           CNN autoencoder    US1M exponential vs arccosh                    0.4059                       0.3421                        0.0639                       4.7383                  0.0000            True              True
+           CNN autoencoder    US1M  exponential vs arctan                    0.3402                       0.3421                       -0.0018                      -0.2200                  0.5871           False             False
+           CNN autoencoder    US1M  exponential vs cosine                    0.3539                       0.3421                        0.0119                       1.3006                  0.0967            True             False
+           CNN autoencoder   US30Y exponential vs arccosh                    0.4527                       0.4644                       -0.0118                      -0.7617                  0.7769           False             False
+           CNN autoencoder   US30Y  exponential vs arctan                    0.4252                       0.4644                       -0.0392                      -3.8168                  0.9999           False             False
+           CNN autoencoder   US30Y  exponential vs cosine                    0.4788                       0.4644                        0.0143                       1.7945                  0.0364            True              True
+Hybrid TadGAN-GAF-f-AnoGAN    US1M exponential vs arccosh                    0.3457                       0.3654                       -0.0197                      -1.7873                  0.9631           False             False
+Hybrid TadGAN-GAF-f-AnoGAN    US1M  exponential vs arctan                    0.3492                       0.3654                       -0.0162                      -1.4495                  0.9264           False             False
+Hybrid TadGAN-GAF-f-AnoGAN    US1M  exponential vs cosine                    0.3815                       0.3654                        0.0161                       1.0432                  0.1484            True             False
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y exponential vs arccosh                    0.4019                       0.3463                        0.0557                       2.8531                  0.0022            True              True
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y  exponential vs arctan                    0.3475                       0.3463                        0.0012                       0.0765                  0.4695            True             False
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y  exponential vs cosine                    0.3787                       0.3463                        0.0324                       2.5531                  0.0053            True              True
+       f-AnoGAN standalone    US1M exponential vs arccosh                    0.4137                       0.3242                        0.0895                       5.5810                  0.0000            True              True
+       f-AnoGAN standalone    US1M  exponential vs arctan                    0.2909                       0.3242                       -0.0333                      -3.0421                  0.9988           False             False
+       f-AnoGAN standalone    US1M  exponential vs cosine                    0.3005                       0.3242                       -0.0237                      -1.6064                  0.9459           False             False
+       f-AnoGAN standalone   US30Y exponential vs arccosh                    0.3910                       0.4317                       -0.0407                      -2.4913                  0.9936           False             False
+       f-AnoGAN standalone   US30Y  exponential vs arctan                    0.3701                       0.4317                       -0.0616                      -4.2585                  1.0000           False             False
+       f-AnoGAN standalone   US30Y  exponential vs cosine                    0.4168                       0.4317                       -0.0149                      -1.1332                  0.8714           False             False
+
+===== DOES EXPONENTIAL OUTPERFORM? =====
+                  pipeline dataset  exp_f1 best_f1_method  best_f1  exp_auc best_auc_method  best_auc  dm_lower_loss_wins_vs_3  dm_significant_5pct_wins_vs_3              outperform_summary
+           CNN autoencoder    US1M  0.2029    exponential   0.2029   0.4751          arctan    0.4799                        2                              1  exponential leads by F1 and DM
+           CNN autoencoder   US30Y  0.0000         arctan   0.0000   0.1554          arctan    0.2578                        1                              1 mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN    US1M  0.0404    exponential   0.0404   0.4308         arccosh    0.4722                        1                              0 mixed; exponential not dominant
+Hybrid TadGAN-GAF-f-AnoGAN   US30Y  0.0000    exponential   0.0000   0.4615     exponential    0.4615                        3                              2  exponential leads by F1 and DM
+       f-AnoGAN standalone    US1M  0.2857    exponential   0.2857   0.5217          arctan    0.6088                        1                              1 mixed; exponential not dominant
+       f-AnoGAN standalone   US30Y  0.0000         arctan   0.0000   0.2409          arctan    0.4019                        0                              0 mixed; exponential not dominant
+[DONE] elapsed_min=17.57

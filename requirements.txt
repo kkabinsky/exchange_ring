@@ -1,0 +1,11 @@
+# versions used to produce the saved results (Python 3.14)
+numpy>=2.4
+pandas>=3.0
+openpyxl>=3.1
+matplotlib>=3.10
+scikit-learn>=1.8
+scipy>=1.17
+torch>=2.11
+pillow>=12.2
+# only for code/03_bond_anomaly/legacy_original_fanogan/
+# torchvision

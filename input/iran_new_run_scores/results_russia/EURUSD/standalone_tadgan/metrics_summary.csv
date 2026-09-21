@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,standalone_tadgan,-,0.2443293885601578,0.23076923076923078,130,78

@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+SP500_U500_COVID19_market_crash,exponential,910,100,41,59,0.2202475495636463,0.32,0.09090909090909091,0.01694915254237288,0.02857142857142857,0.3501446878875568,0.12851013274720083,0.13677094668149947

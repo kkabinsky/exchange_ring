@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+EURUSD,standalone_ref,cosine,0.42691305377872546,0.08108108108108109,130,67,10,10,32,2

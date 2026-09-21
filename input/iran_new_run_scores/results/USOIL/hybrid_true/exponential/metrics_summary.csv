@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash,n_epochs_gan,n_epochs_enc,batch_size,n_critic
+USOIL,hybrid_true,exponential,0.5440900562851783,0.2127659574468085,106,41,20,20,32,2

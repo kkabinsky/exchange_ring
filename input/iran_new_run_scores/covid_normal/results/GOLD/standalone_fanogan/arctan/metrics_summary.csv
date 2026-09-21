@@ -1,0 +1,2 @@
+dataset,method,mapping,auc_test,f1_test,train_score_mean,train_score_std,threshold_q95,n_test,n_crash,n_train
+GOLD,standalone_fanogan,arctan,,0.0,0.007930623671572124,0.0038015276845168484,0.01557945683598518,128,0,875

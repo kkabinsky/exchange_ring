@@ -1,0 +1,2 @@
+stock_name,method,n_train_normal,n_test_total,n_test_normal,n_test_crash,threshold,accuracy,precision,recall,f1,auc,mean_train_score,mean_test_score
+SP500_U500_Chinese_real_asset_market_crash,cosine,344,158,53,105,0.3413950979709625,0.47468354430379744,1.0,0.20952380952380953,0.3464566929133858,0.6107816711590297,0.27759172758737277,0.2877480649872671

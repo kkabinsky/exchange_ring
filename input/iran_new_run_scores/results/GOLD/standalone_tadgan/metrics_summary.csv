@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+GOLD,standalone_tadgan,-,0.9382142857142858,0.7044025157232704,106,56

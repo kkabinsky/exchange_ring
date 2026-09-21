@@ -1,0 +1,29 @@
+======================================================================
+TAB:FULL4  F1 grid (per-row best in bold)
+======================================================================
+U30  & COVID-19            & 0.330 & \best{0.415} & 0.060 & 0.167 \\   % OK
+U30  & Russia--Ukraine     & 0.532 & 0.406 & 0.522 & \best{0.563} \\   % OK
+U30  & Chinese real-estate & 0.314 & 0.226 & 0.455 & \best{0.489} \\   % OK
+U500 & COVID-19            & 0.031 & 0.000 & \best{0.066} & 0.029 \\   % OK
+U500 & Russia--Ukraine     & \best{0.348} & 0.214 & 0.094 & 0.241 \\   % OK
+U500 & Chinese real-estate & 0.346 & 0.264 & 0.174 & \best{0.562} \\   % OK
+DAX  & COVID-19            & \best{0.263} & 0.184 & 0.047 & 0.138 \\   % OK
+DAX  & Russia--Ukraine     & 0.043 & 0.041 & 0.082 & \best{0.200} \\   % OK
+DAX  & Chinese real-estate & \best{0.232} & 0.156 & 0.102 & 0.176 \\   % OK
+
+======================================================================
+TAB:BOND  exp AUC / F1-best / DM(exp vs cos)
+======================================================================
+US1M  & 0.439 & exponential& cosine     & dm=-2.454 p_winner=0.0071 \\   % F1: cosine=0.198, arctan=0.129, arccosh=0.026, exponential=0.241
+US30Y & 0.338 & none       & cosine     & dm=-3.167 p_winner=0.0008 \\   % F1: cosine=0.000, arctan=0.000, arccosh=0.000, exponential=0.000
+US10Y & 0.377 & arccosh    & exponential& dm=+0.863 p_winner=0.1940 \\   % F1: cosine=0.000, arctan=0.000, arccosh=0.024, exponential=0.000
+
+======================================================================
+LEAD-TIME consistency (from lead_time_economic_summary.csv)
+======================================================================
+  cosine      n=8 mean= 24.12 sd=25.12 CV=1.041 worst=-11
+  arctan      n=7 mean= 21.29 sd=31.76 CV=1.492 worst=-29
+  arccosh     n=8 mean= 19.62 sd=32.66 CV=1.664 worst=-32
+  exponential n=8 mean= 25.38 sd=24.16 CV=0.952 worst=-9
+  mean rank (4=best): {'cosine': 2.5, 'arctan': 2, 'arccosh': 2.25, 'exponential': 3}
+  cells with lead-time: [('DAX_INDEX', 'COVID19_market_crash'), ('DAX_INDEX', 'Russia_Ukraine_war_crash'), ('DJIA_U30', 'COVID19_market_crash'), ('DJIA_U30', 'Chinese_real_asset_market_crash'), ('DJIA_U30', 'Russia_Ukraine_war_crash'), ('SP500_U500', 'COVID19_market_crash'), ('SP500_U500', 'Chinese_real_asset_market_crash'), ('SP500_U500', 'Russia_Ukraine_war_crash')]

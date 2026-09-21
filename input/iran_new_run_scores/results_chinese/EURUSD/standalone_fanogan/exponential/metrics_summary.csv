@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,standalone_fanogan,exponential,0.4171448443748913,0.024691358024691357,152,71

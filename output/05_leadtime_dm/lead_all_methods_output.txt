@@ -1,0 +1,23 @@
+=== VALIDATION: DAX x Russia (my compute vs CSV) ===
+  cosine      csv=41.0  lead_start=72  lead_close=41  signal_close=2021-12-26
+  arctan      csv=39.0  lead_start=70  lead_close=39  signal_close=2021-12-28
+  arccosh     csv=37.0  lead_start=68  lead_close=37  signal_close=2021-12-30
+  exponential csv=36.0  lead_start=67  lead_close=36  signal_close=2021-12-31
+  --> 'close' convention matches CSV: True
+
+=== DAX x Chinese (computed, convention=close) ===
+  cosine      lead=53  signal_close=2023-06-06
+  arctan      lead=40  signal_close=2023-06-21
+  arccosh     lead=53  signal_close=2023-06-06
+  exponential lead=53  signal_close=2023-06-06
+
+=== TAB: lead-time, ALL 4 mappings (cosine, arctan, arccosh, exponential) ===
+U30  & COVID-19            & 22 & 12 & 20 & 17 \\
+U30  & Russia--Ukraine     & 53 & 48 & 56 & 51 \\
+U30  & Chinese real-estate & $-11$ & $-11$ & $-32$ & $-9$ \\
+U500 & COVID-19            & 11 & n/s & $-7$ & 18 \\
+U500 & Russia--Ukraine     & 52 & 56 & 59 & 59 \\
+U500 & Chinese real-estate & $-8$ & $-29$ & $-8$ & $-3$ \\
+DAX  & COVID-19            & 33 & 34 & 32 & 34 \\
+DAX  & Russia--Ukraine     & 41 & 39 & 37 & 36 \\
+DAX  & Chinese real-estate & 53 & 40 & 53 & 53 \\

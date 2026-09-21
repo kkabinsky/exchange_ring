@@ -1,0 +1,2 @@
+dataset,method,mapping,auc,f1,n_test,n_crash
+EURUSD,standalone_fanogan,arccosh,0.40719696969696967,0.0759493670886076,130,66
