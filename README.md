@@ -39,10 +39,10 @@ Table and figure numbers refer to the revised manuscript.
 |---|---|---|
 | Table 1, Fig. 5 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_nilpotent_inversion.csv`, `.jpg` |
 | Table 2, Fig. 6 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_inversion_four_params.jpg` |
-| Tables 3–4, eq. (64) | `code/01_theory_ns_var/var_3m_shock_levels.py` | `output/01_theory_ns_var/var_3m_shock_levels.csv`, `var_3m_shock_inversion.csv` |
+| Tables 3–4, eq. (49) | `code/01_theory_ns_var/var_3m_shock_levels.py` | `output/01_theory_ns_var/var_3m_shock_levels.csv`, `var_3m_shock_inversion.csv` |
 | supporting (VAR impulse responses) | `code/01_theory_ns_var/irf_var_simulation.py` | `output/01_theory_ns_var/irf_*.csv`, `.jpg` |
 | supporting (observed 30Y − 1M spread) | `code/01_theory_ns_var/empirical_invertible_yield.py` | `output/01_theory_ns_var/empirical_*.csv`, `.jpg` |
-| eq. (80), four mappings | `code/02_gaf_mappings/run_all_grammian*.py` | `output/02_gaf_mappings/<program>/` (window images) |
+| eq. (60), four mappings | `code/02_gaf_mappings/run_all_grammian*.py` | `output/02_gaf_mappings/<program>/` (window images) |
 | Fig. 11, Supplementary Figs. S8–S9 | `code/02_gaf_mappings/full_length_gaf_figures.py` | `output/02_gaf_mappings/full_gaf_yields.jpg`, `full_gaf_equities.jpg`, `full_gaf_assets.jpg` |
 | polar plot of the four mappings | `code/02_gaf_mappings/plot_polar_gaf_final.py` | `output/02_gaf_mappings/gaf_four_mappings.jpg` |
 | Tables 8–9 | `code/03_bond_anomaly/run_bond_5maturities_compare.py` | `output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/` |
@@ -50,11 +50,11 @@ Table and figure numbers refer to the revised manuscript.
 | US30Y at 100 epochs | `code/03_bond_anomaly/rerun_us30y.py` | `output/03_bond_anomaly/bond_30y_rerun_e100/` |
 | benchmark: f-AnoGAN (exp) vs CNN autoencoder, DM test | `code/03_bond_anomaly/benchmark_cnn_vs_fanogan_dm.py` | `output/03_bond_anomaly/benchmarks/dm_fanogan_exp_vs_cnn_ae.csv` |
 | benchmark: 10Y−3M spread (= probit on the spread) | `code/03_bond_anomaly/benchmark_spread_probit.py` | `output/03_bond_anomaly/benchmarks/spread_benchmark_*.csv` |
-| Tables 5–6, eq. (81) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
+| Tables 5–6, eq. (61) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
 | Table 7 | `code/04_cross_market/hybrid_gaf_tadgan_fanogan.py`, `compute_hybrid_dm_matrix.py` | `output/04_cross_market/hybrid/USOIL_daily/` |
 | TadGAN anomaly scores per asset | `code/04_cross_market/run_tadgan_assets.py` | `output/04_cross_market/tadgan/<asset>/` |
 | DM tests corrected for overlapping windows (HAC/HLN) and multiple testing (Benjamini–Hochberg), Tables 5, 7, 8, 9 and benchmarks | `code/05_leadtime_dm/dm_hac_hln_bh.py` | `output/05_leadtime_dm/dm_corrected/dm_hac_hln_bh.csv` |
-| Table 10, eq. (82) | `code/05_leadtime_dm/lead_time_economic.py`, `fill_tables.py`, `lead_all_methods.py` | `output/05_leadtime_dm/` |
+| Table 10, eq. (62) | `code/05_leadtime_dm/lead_time_economic.py`, `fill_tables.py`, `lead_all_methods.py` | `output/05_leadtime_dm/` |
 
 ## Running each part
 
