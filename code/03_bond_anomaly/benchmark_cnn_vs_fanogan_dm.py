@@ -5,7 +5,7 @@ Reads only the saved test scores of run_bond_5maturities_compare.py (no training
   f-AnoGAN : output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/standalone_fanogan/<job>/out_put_four_gaf_fanogan/exponential/test_scores.csv
   CNN-AE   : output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/cnn_autoencoder/<job>_CNN_AE/cnn_test_scores.csv
 Both pipelines score the same 200 test windows with the same crash labels; the rows are
-matched on window_start. The DM test is the one used for Tables 8-9: each score is turned
+matched on window_start. The DM test is the one used for Tables 5-6: each score is turned
 into a rank probability r/(n+1), the loss is (r/(n+1) - y)^2, d = loss_CNN - loss_fAnoGAN,
 DM = mean(d) / (sd(d)/sqrt(n)), one-sided p = P(Z > DM) (positive DM: f-AnoGAN better).
 

@@ -2,7 +2,7 @@
 """Econometric benchmark: the 10-year minus 3-month Treasury spread.
 
 The spread is the standard yield-curve predictor (Estrella and Mishkin 1998). Here it is
-used under the same protocol as the GAF detectors of Tables 8-9:
+used under the same protocol as the GAF detectors of Tables 5-6:
   - windows of 32 trading days on the prepared Treasury series (2015-05-06 to 2020-12-14);
   - test = the same 200 windows (first window start on/after 2020-01-02), crash label = the
     window overlaps the crash sub-window 2020-03-02..2020-03-30 (52 crash windows);
@@ -14,7 +14,7 @@ A probit P = Phi(a + b * spread) with b < 0 is a strictly increasing function of
 it gives the same ranking, the same flagged windows, the same AUC/F1 and the same rank-based
 DM statistics for any a and b; no coefficients need to be estimated.
 
-The DM test against the exponential GAF-f-AnoGAN is the one used for Tables 8-9 (rank
+The DM test against the exponential GAF-f-AnoGAN is the one used for Tables 5-6 (rank
 probability, squared loss, one-sided p; positive DM means f-AnoGAN has the lower loss).
 
 Output: output/03_bond_anomaly/benchmarks/spread_benchmark_*.csv  (runs in seconds)

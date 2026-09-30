@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Diebold-Mariano tests corrected for overlapping windows and multiple testing.
 
-Reads only saved test scores (no training). For every DM test in Tables 5, 7, 8, 9 and in the
+Reads only saved test scores (no training). For every DM test in Tables 5, 6, 7, 9 and in the
 two benchmark comparisons (CNN autoencoder, 10Y-3M spread) it reports:
 
   dm_plain, p_plain   the statistic as in the original table (same loss, same variance, same side)
@@ -13,8 +13,8 @@ two benchmark comparisons (CNN autoencoder, 10Y-3M spread) it reports:
 Windows of W = 32 trading days that move one day at a time share 31 observations, so the loss
 differences are serially correlated up to lag 31.
 
-Sides (as in the original tables): Tables 7, 8, 9 and the CNN benchmark are one-sided (exponential
-better); Table 5 is two-sided (0/1 loss); the spread benchmark is two-sided, because its direction
+Sides (as in the original tables): Tables 5, 6, 9 and the CNN benchmark are one-sided (exponential
+better); Table 7 is two-sided (0/1 loss); the spread benchmark is two-sided, because its direction
 was not fixed in advance.
 
 Output: output/05_leadtime_dm/dm_corrected/dm_hac_hln_bh.csv  (runs in seconds)
@@ -108,7 +108,7 @@ def add(family, test, d, side, ddof, T=None, note=""):
                  "dm_hac_hln": s1, "p_hac_hln": p_t(s1, len(d), side), "note": note})
 
 
-# ------------------------------------------------------------------ Tables 8 and 9 (bonds)
+# ------------------------------------------------------------------ Tables 5 and 6 (bonds)
 def fanogan_scores(mat, m):
     s = pd.read_csv(BOND / "standalone_fanogan" / f"{mat}_BOND_COVID200_daily" / "out_put_four_gaf_fanogan" / m / "test_scores.csv")
     return s.sort_values("window_start")[["window_start", "label_0normal_1crash", "anomaly_score"]]
@@ -120,7 +120,7 @@ def cnn_scores(mat, m):
     return s.sort_values("window_start")[["window_start", "label_0normal_1crash", "anomaly_score"]]
 
 
-for fam, loader in [("Table 8 (CNN autoencoder)", cnn_scores), ("Table 9 (f-AnoGAN)", fanogan_scores)]:
+for fam, loader in [("Table 5 (CNN autoencoder)", cnn_scores), ("Table 6 (f-AnoGAN)", fanogan_scores)]:
     for mat in MATS:
         tabs = {m: loader(mat, m) for m in MAPS}
         check_contiguous(tabs["exponential"]["window_start"], f"{fam} {mat}")
@@ -131,7 +131,7 @@ for fam, loader in [("Table 8 (CNN autoencoder)", cnn_scores), ("Table 9 (f-AnoG
                 raise RuntimeError(f"{fam} {mat} {b}: windows differ")
             add(fam, f"{mat} exp vs {b}", loss[b] - loss["exponential"], "one", ddof=1)
 
-# ------------------------------------------------------------------ Table 5 (equity indices, exp vs cosine, 0/1 loss)
+# ------------------------------------------------------------------ Table 7 (equity indices, exp vs cosine, 0/1 loss)
 CELLS = [("U30", "COVID-19", "DJIA_U30_COVID19_market_crash"),
          ("U30", "Russia-Ukraine", "DJIA_U30_Russia_Ukraine_war_crash"),
          ("U30", "Chinese", "DJIA_U30_Chinese_real_asset_market_crash"),
@@ -146,12 +146,12 @@ for idx, crash, folder in CELLS:
     e = pd.read_csv(base / "exponential" / "test_scores.csv")
     c = pd.read_csv(base / "cosine" / "test_scores.csv")
     j = e.merge(c, on=["window_start", "window_end"], suffixes=("_e", "_c"), validate="one_to_one").sort_values("window_start")
-    check_contiguous(j["window_start"], f"Table 5 {idx} {crash}")
+    check_contiguous(j["window_start"], f"Table 7 {idx} {crash}")
     le = (j["label_0normal_1crash_e"] - j["predicted_label_e"]) ** 2
     lc = (j["label_0normal_1crash_c"] - j["predicted_label_c"]) ** 2
-    add("Table 5 (equity indices)", f"{idx} {crash} exp vs cosine", lc - le, "two", ddof=1)
+    add("Table 7 (equity indices)", f"{idx} {crash} exp vs cosine", lc - le, "two", ddof=1)
 
-# ------------------------------------------------------------------ Table 7 (USOIL hybrid)
+# ------------------------------------------------------------------ Table 9 (USOIL hybrid)
 hyb = O4 / "hybrid" / "USOIL_daily" / "stage3_fanogan"
 frames = {m: pd.read_csv(hyb / m / "backtest_detail.csv")[["window_start", "fanogan_score", "true_label_user_0crash_1not"]]
           for m in MAPS}
@@ -159,11 +159,11 @@ j = frames["cosine"].rename(columns={"fanogan_score": "cosine"})
 for m in ["arctan", "arccosh", "exponential"]:
     j = j.merge(frames[m].rename(columns={"fanogan_score": m}), on=["window_start", "true_label_user_0crash_1not"])
 j = j.sort_values("window_start")
-check_contiguous(j["window_start"], "Table 7")
+check_contiguous(j["window_start"], "Table 9")
 y7 = 1 - j["true_label_user_0crash_1not"].astype(int).to_numpy()
 l7 = {m: (rank_prob(j[m]) - y7) ** 2 for m in MAPS}
 for b in BASES:
-    add("Table 7 (USOIL hybrid)", f"exp vs {b}", l7[b] - l7["exponential"], "one", ddof=0)
+    add("Table 9 (USOIL hybrid)", f"exp vs {b}", l7[b] - l7["exponential"], "one", ddof=0)
 
 # ------------------------------------------------------------------ benchmarks (CNN-AE, spread)
 spread = pd.read_csv(O3 / "benchmarks" / "spread_benchmark_test_scores.csv").sort_values("window_start")

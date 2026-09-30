@@ -10,8 +10,8 @@ pip install -r requirements.txt
 python code/reproduce_tables.py
 ```
 
-This prints Tables 5–10 and Supplementary Table S3 from the saved results in
-`output/`. Nothing is retrained. The printed values are also in
+This prints Tables 5–10 and the US1M/US10Y/US30Y check of Section 5.2 from the
+saved results in `output/`. Nothing is retrained. The printed values are also in
 `output/reproduce_tables_output.txt`.
 
 ## Folder layout
@@ -37,24 +37,28 @@ Table and figure numbers refer to the revised manuscript.
 
 | Paper | Program | Output |
 |---|---|---|
-| Table 1, Fig. 5 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_nilpotent_inversion.csv`, `.jpg` |
-| Table 2, Fig. 6 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_inversion_four_params.jpg` |
-| Tables 3–4, eq. (49) | `code/01_theory_ns_var/var_3m_shock_levels.py` | `output/01_theory_ns_var/var_3m_shock_levels.csv`, `var_3m_shock_inversion.csv` |
+| Table 1, Fig. 3 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_nilpotent_inversion.csv`, `.jpg` |
+| Table 2, Fig. 4 | `code/01_theory_ns_var/ns_nilpotent_inversion.py` | `output/01_theory_ns_var/ns_inversion_four_params.jpg` |
+| Tables 3–4, eq. (21) | `code/01_theory_ns_var/var_3m_shock_levels.py` | `output/01_theory_ns_var/var_3m_shock_levels.csv`, `var_3m_shock_inversion.csv` |
 | supporting (VAR impulse responses) | `code/01_theory_ns_var/irf_var_simulation.py` | `output/01_theory_ns_var/irf_*.csv`, `.jpg` |
 | supporting (observed 30Y − 1M spread) | `code/01_theory_ns_var/empirical_invertible_yield.py` | `output/01_theory_ns_var/empirical_*.csv`, `.jpg` |
-| eq. (60), four mappings | `code/02_gaf_mappings/run_all_grammian*.py` | `output/02_gaf_mappings/<program>/` (window images) |
-| Fig. 11, Supplementary Figs. S8–S9 | `code/02_gaf_mappings/full_length_gaf_figures.py` | `output/02_gaf_mappings/full_gaf_yields.jpg`, `full_gaf_equities.jpg`, `full_gaf_assets.jpg` |
+| eq. (22), four mappings | `code/02_gaf_mappings/run_all_grammian*.py` | `output/02_gaf_mappings/<program>/` (window images) |
+| Fig. 9 (and the same plot for the equity indices and the other assets) | `code/02_gaf_mappings/full_length_gaf_figures.py` | `output/02_gaf_mappings/full_gaf_yields.jpg` (`full_gaf_equities.jpg`, `full_gaf_assets.jpg`) |
 | polar plot of the four mappings | `code/02_gaf_mappings/plot_polar_gaf_final.py` | `output/02_gaf_mappings/gaf_four_mappings.jpg` |
-| Tables 8–9 | `code/03_bond_anomaly/run_bond_5maturities_compare.py` | `output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/` |
-| Supplementary Table S3 (US30Y) | `code/03_bond_anomaly/run_bond_1m_30y_compare.py` | `output/03_bond_anomaly/bond_1m_30y_compare_e20_daily/` |
+| Tables 5–6 | `code/03_bond_anomaly/run_bond_5maturities_compare.py` | `output/03_bond_anomaly/bond_3m_1y_5y_10y_20y_compare_e20_daily/` |
+| US1M/US10Y/US30Y check, Section 5.2 | `code/03_bond_anomaly/run_bond_1m_30y_compare.py` (US1M, US30Y), `run_bond_5maturities_compare.py` (US10Y) | `output/03_bond_anomaly/bond_1m_30y_compare_e20/`, `bond_3m_1y_5y_10y_20y_compare_e20_daily/` (see Notes) |
 | US30Y at 100 epochs | `code/03_bond_anomaly/rerun_us30y.py` | `output/03_bond_anomaly/bond_30y_rerun_e100/` |
 | benchmark: f-AnoGAN (exp) vs CNN autoencoder, DM test | `code/03_bond_anomaly/benchmark_cnn_vs_fanogan_dm.py` | `output/03_bond_anomaly/benchmarks/dm_fanogan_exp_vs_cnn_ae.csv` |
 | benchmark: 10Y−3M spread (= probit on the spread) | `code/03_bond_anomaly/benchmark_spread_probit.py` | `output/03_bond_anomaly/benchmarks/spread_benchmark_*.csv` |
-| Tables 5–6, eq. (61) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
-| Table 7 | `code/04_cross_market/hybrid_gaf_tadgan_fanogan.py`, `compute_hybrid_dm_matrix.py` | `output/04_cross_market/hybrid/USOIL_daily/` |
+| Tables 7–8, eq. (24) | `code/04_cross_market/run_market_crash_3datasets_oneclick.py` | `output/04_cross_market/<index>_<crash>/` |
+| Table 9 | `code/04_cross_market/hybrid_gaf_tadgan_fanogan.py`, `compute_hybrid_dm_matrix.py` | `output/04_cross_market/hybrid/USOIL_daily/` |
 | TadGAN anomaly scores per asset | `code/04_cross_market/run_tadgan_assets.py` | `output/04_cross_market/tadgan/<asset>/` |
-| DM tests corrected for overlapping windows (HAC/HLN) and multiple testing (Benjamini–Hochberg), Tables 5, 7, 8, 9 and benchmarks | `code/05_leadtime_dm/dm_hac_hln_bh.py` | `output/05_leadtime_dm/dm_corrected/dm_hac_hln_bh.csv` |
-| Table 10, eq. (62) | `code/05_leadtime_dm/lead_time_economic.py`, `fill_tables.py`, `lead_all_methods.py` | `output/05_leadtime_dm/` |
+| DM tests corrected for overlapping windows (HAC/HLN) and multiple testing (Benjamini–Hochberg), Tables 5, 6, 7, 9 and benchmarks | `code/05_leadtime_dm/dm_hac_hln_bh.py` | `output/05_leadtime_dm/dm_corrected/dm_hac_hln_bh.csv` |
+| Table 10, lead time *L* (Section 5.4) | `code/05_leadtime_dm/lead_time_economic.py`, `fill_tables.py`, `lead_all_methods.py` | `output/05_leadtime_dm/` |
+
+Figs. 1–2 are diagrams. Figs. 5–8 (observed Treasury yields around COVID-19 and
+polar plots of short- and long-maturity yields) were kept from the first
+submission; the programs that drew them are not included.
 
 ## Running each part
 
@@ -112,7 +116,7 @@ hybrid pipeline (`stage1_tadgan/tadgan_results.csv`) unless `TADGAN_FORCE_TRAIN=
 | `input/dm_test/input_dm_test.xlsx` | template read by `dm_test.py` |
 | `input/iran_new_run_scores/` | saved scores for the programs in `code/05_leadtime_dm/sensitivity_iran_run/` |
 
-The prepared Treasury inputs used for Tables 8–9 and S3 are in
+The prepared Treasury inputs used for Tables 5–6 and the Section 5.2 check are in
 `output/03_bond_anomaly/<run>/prepared_inputs/`; `--stage prepare` writes them again
 from `input/combine_TTM.xlsx`.
 
@@ -124,6 +128,14 @@ from `input/combine_TTM.xlsx`.
   Running `lead_time_economic.py` on the saved scores writes
   `lead_time_economic_summary_recomputed.csv`; it has one more cell (DAX, Chinese
   real-estate), and six U30/DAX COVID-19 values differ from the saved file.
+- **US1M/US10Y/US30Y check (Section 5.2):** the exponential-mapping AUCs quoted
+  there, 0.439 (US1M) and 0.338 (US30Y), are in `output/03_bond_anomaly/bond_1m_30y_compare_e20/`.
+  `run_bond_1m_30y_compare.py` now writes to `bond_1m_30y_compare_e20_daily/`, a second
+  run of the same program with the same input files and 20 epochs; it gives 0.522
+  (US1M) and 0.241 (US30Y). The exponential US30Y F1 is 0 in both runs. The US10Y
+  value, 0.377, is from the standalone f-AnoGAN run behind Table 6.
+- **Table 9:** `compute_hybrid_dm_matrix.py` prints the mean squared loss as
+  "mean Brier loss"; the paper calls it the squared loss.
 - **Mean rank:** `fill_tables.py` prints the mean rank with 4 = best.
 - **`sensitivity_iran_run/`:** moving-block bootstrap for overlapping windows,
   threshold sweep (0.90, 0.95, 0.99), Brier decomposition and lead time at matched

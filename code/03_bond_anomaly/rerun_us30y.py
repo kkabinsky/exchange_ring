@@ -68,7 +68,7 @@ def main():
     log("US30Y @100ep: " + " | ".join(f"{m}: F1={rows[m]['f1']:.3f} AUC={rows[m]['auc']}" for m in order))
     f1max = max(rows[m]["f1"] for m in order)
     f1best = "none" if f1max < 1e-9 else max(order, key=lambda m: rows[m]["f1"])
-    log(f"=> Supplementary Table S3 US30Y: exp_AUC={rows['exponential']['auc']:.3f}  F1-best={f1best}  (max F1={f1max:.3f})")
+    log(f"=> US30Y check of Section 5.2: exp_AUC={rows['exponential']['auc']:.3f}  F1-best={f1best}  (max F1={f1max:.3f})")
     log("DONE rerun_us30y.")
 
 

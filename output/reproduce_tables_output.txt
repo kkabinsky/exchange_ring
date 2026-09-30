@@ -1,54 +1,6 @@
 
 ==============================================================================
-Table 5  DM test exponential vs cosine (0/1 loss, two-sided p) and F1-best mapping
-==============================================================================
-Index Crash                DM winner          p  F1-best
-U30   COVID-19             cosine         0.026  arctan
-U30   Russia-Ukraine       exponential    0.550  exponential
-U30   Chinese real-estate  exponential    0.003  exponential
-U500  COVID-19             cosine         0.129  arccosh
-U500  Russia-Ukraine       cosine        <0.001  cosine
-U500  Chinese real-estate  exponential   <0.001  exponential
-DAX   COVID-19             cosine         0.565  cosine
-DAX   Russia-Ukraine       exponential    0.129  exponential
-DAX   Chinese real-estate  cosine         0.002  cosine
-
-==============================================================================
-Table 6  F1 of standalone GAF-f-AnoGAN, four mappings
-==============================================================================
-Index Crash                     cosine      arctan     arccosh exponential
-U30   COVID-19                   0.330       0.415       0.060       0.167
-U30   Russia-Ukraine             0.532       0.406       0.522       0.563
-U30   Chinese real-estate        0.314       0.226       0.455       0.489
-U500  COVID-19                   0.031       0.000       0.066       0.029
-U500  Russia-Ukraine             0.348       0.214       0.094       0.241
-U500  Chinese real-estate        0.346       0.264       0.174       0.562
-DAX   COVID-19                   0.263       0.184       0.047       0.138
-DAX   Russia-Ukraine             0.043       0.041       0.082       0.200
-DAX   Chinese real-estate        0.232       0.156       0.102       0.176
-
-==============================================================================
-Table 7  USOIL hybrid TadGAN-GAF-f-AnoGAN: crash AUC, mean Brier loss, one-sided DM p
-==============================================================================
-  cosine      AUC(crash) = 0.117   (T=863, crash windows=10)
-  arctan      AUC(crash) = 0.194   (T=863, crash windows=10)
-  arccosh     AUC(crash) = 0.203   (T=863, crash windows=10)
-  exponential AUC(crash) = 0.964   (T=863, crash windows=10)
-  T=863
-  y_counts: {0: 853, 1: 10}
-  mean Brier loss per mapping:
-    cosine: 0.3419
-    arctan: 0.3401
-    arccosh: 0.3399
-    exponential: 0.3225
-  
-  Exp vs others (d = L_other - L_exp, positive => exp better):
-    cosine vs exponential: mean_d=0.0194, DM=1.6234, p_two=0.1045, p_one_exp_better=0.0523
-    arctan vs exponential: mean_d=0.0176, DM=1.7425, p_two=0.0814, p_one_exp_better=0.0407
-    arccosh vs exponential: mean_d=0.0174, DM=1.6042, p_two=0.1087, p_one_exp_better=0.0543
-
-==============================================================================
-Table 8  DM tests, five Treasury maturities, CNN autoencoder (rank-Brier loss, one-sided p)
+Table 5  DM tests, five Treasury maturities, CNN autoencoder (rank-Brier loss, one-sided p)
 ==============================================================================
   US3M   exp vs cosine   loss diff +0.0158  DM +1.8895  p 0.0294
   US3M   exp vs arctan   loss diff -0.0080  DM -0.9335  p 0.8247
@@ -67,7 +19,7 @@ Table 8  DM tests, five Treasury maturities, CNN autoencoder (rank-Brier loss, o
   US20Y  exp vs arccosh  loss diff -0.0085  DM -0.4845  p 0.6860
 
 ==============================================================================
-Table 9  DM tests, five Treasury maturities, f-AnoGAN standalone (rank-Brier loss, one-sided p)
+Table 6  DM tests, five Treasury maturities, f-AnoGAN standalone (rank-Brier loss, one-sided p)
 ==============================================================================
   US3M   exp vs cosine   loss diff +0.0327  DM +2.1989  p 0.0139
   US3M   exp vs arctan   loss diff +0.0191  DM +1.5528  p 0.0602
@@ -86,10 +38,60 @@ Table 9  DM tests, five Treasury maturities, f-AnoGAN standalone (rank-Brier los
   US20Y  exp vs arccosh  loss diff +0.0540  DM +2.5520  p 0.0054
 
 ==============================================================================
-Supplementary Table S3  US30Y standalone f-AnoGAN (20 epochs)
+Section 5.2  separate standalone f-AnoGAN check (20 epochs): exponential AUC and F1 per mapping
 ==============================================================================
-  bond_1m_30y_compare_e20_daily    cosine: F1=0.000  arctan: F1=0.000  arccosh: F1=0.000  exponential: F1=0.000
-  bond_1m_30y_compare_e20          cosine: F1=0.000  arctan: F1=0.000  arccosh: F1=0.000  exponential: F1=0.000
+  US1M   exp AUC = 0.439   F1: cosine=0.198  arctan=0.129  arccosh=0.026  exponential=0.241   (bond_1m_30y_compare_e20)
+  US10Y  exp AUC = 0.377   F1: cosine=0.000  arctan=0.000  arccosh=0.024  exponential=0.000   (bond_3m_1y_5y_10y_20y_compare_e20_daily)
+  US30Y  exp AUC = 0.338   F1: cosine=0.000  arctan=0.000  arccosh=0.000  exponential=0.000   (bond_1m_30y_compare_e20)
+  second run of the same program (bond_1m_30y_compare_e20_daily), US30Y F1: cosine=0.000  arctan=0.000  arccosh=0.000  exponential=0.000
+
+==============================================================================
+Table 7  DM test exponential vs cosine (0/1 loss, two-sided p) and F1-best mapping
+==============================================================================
+Index Crash                DM winner          p  F1-best
+U30   COVID-19             cosine         0.026  arctan
+U30   Russia-Ukraine       exponential    0.550  exponential
+U30   Chinese real-estate  exponential    0.003  exponential
+U500  COVID-19             cosine         0.129  arccosh
+U500  Russia-Ukraine       cosine        <0.001  cosine
+U500  Chinese real-estate  exponential   <0.001  exponential
+DAX   COVID-19             cosine         0.565  cosine
+DAX   Russia-Ukraine       exponential    0.129  exponential
+DAX   Chinese real-estate  cosine         0.002  cosine
+
+==============================================================================
+Table 8  F1 of standalone GAF-f-AnoGAN, four mappings
+==============================================================================
+Index Crash                     cosine      arctan     arccosh exponential
+U30   COVID-19                   0.330       0.415       0.060       0.167
+U30   Russia-Ukraine             0.532       0.406       0.522       0.563
+U30   Chinese real-estate        0.314       0.226       0.455       0.489
+U500  COVID-19                   0.031       0.000       0.066       0.029
+U500  Russia-Ukraine             0.348       0.214       0.094       0.241
+U500  Chinese real-estate        0.346       0.264       0.174       0.562
+DAX   COVID-19                   0.263       0.184       0.047       0.138
+DAX   Russia-Ukraine             0.043       0.041       0.082       0.200
+DAX   Chinese real-estate        0.232       0.156       0.102       0.176
+
+==============================================================================
+Table 9  USOIL hybrid TadGAN-GAF-f-AnoGAN: crash AUC, squared loss (printed as Brier loss), one-sided DM p
+==============================================================================
+  cosine      AUC(crash) = 0.117   (T=863, crash windows=10)
+  arctan      AUC(crash) = 0.194   (T=863, crash windows=10)
+  arccosh     AUC(crash) = 0.203   (T=863, crash windows=10)
+  exponential AUC(crash) = 0.964   (T=863, crash windows=10)
+  T=863
+  y_counts: {0: 853, 1: 10}
+  mean Brier loss per mapping:
+    cosine: 0.3419
+    arctan: 0.3401
+    arccosh: 0.3399
+    exponential: 0.3225
+  
+  Exp vs others (d = L_other - L_exp, positive => exp better):
+    cosine vs exponential: mean_d=0.0194, DM=1.6234, p_two=0.1045, p_one_exp_better=0.0523
+    arctan vs exponential: mean_d=0.0176, DM=1.7425, p_two=0.0814, p_one_exp_better=0.0407
+    arccosh vs exponential: mean_d=0.0174, DM=1.6042, p_two=0.1087, p_one_exp_better=0.0543
 
 ==============================================================================
 Table 10  Lead-time consistency over the crisis cells (saved lead_time_economic_summary.csv)
